@@ -7,7 +7,22 @@ import { cx } from '@/components/ui/primitives';
 import { LocaleSwitcher, type LocaleSwitcherLabels } from './LocaleSwitcher';
 import { localeHref, type Locale } from '@/i18n/routing';
 
-const navHrefs = ['/game', '/how-to-play', '/#universe', '/support'] as const;
+/**
+ * The header menu.
+ *
+ * Confidentialité sits here rather than only in the footer because for
+ * this product it is a selling point, not fine print: the game keeps no
+ * account, shows no advertising and tracks nothing, and a visitor
+ * deciding whether to install it for a child should not have to hunt
+ * for that.
+ */
+const navHrefs = [
+  '/game',
+  '/how-to-play',
+  '/#universe',
+  '/support',
+  '/privacy',
+] as const;
 
 /**
  * Every string the header renders, resolved on the server.
@@ -105,14 +120,14 @@ export function Header({
         </Link>
 
         <nav
-          className="hidden items-center gap-1 lg:flex"
+          className="hidden items-center gap-1 xl:flex"
           aria-label={labels.menu}
         >
           {navHrefs.map((target, index) => (
             <Link
               key={target}
               href={href(target)}
-              className="rounded-lg px-3 py-2 text-sm text-text-secondary transition-colors hover:text-text-primary"
+              className="whitespace-nowrap rounded-lg px-3 py-2 text-sm text-text-secondary transition-colors hover:text-text-primary"
             >
               {labels.nav[index]}
             </Link>
@@ -132,7 +147,7 @@ export function Header({
             aria-expanded={menuOpen}
             aria-controls="mobile-nav"
             aria-label={menuOpen ? labels.closeMenu : labels.openMenu}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-gold/25 text-text-primary transition-colors hover:border-gold/50 lg:hidden"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-gold/25 text-text-primary transition-colors hover:border-gold/50 xl:hidden"
           >
             <svg
               viewBox="0 0 24 24"
@@ -165,7 +180,7 @@ export function Header({
       {menuOpen && (
         <div
           id="mobile-nav"
-          className="border-t border-gold/10 bg-surface-base/97 backdrop-blur-lg lg:hidden"
+          className="border-t border-gold/10 bg-surface-base/97 backdrop-blur-lg xl:hidden"
         >
           <nav
             className="container-page flex flex-col py-4"

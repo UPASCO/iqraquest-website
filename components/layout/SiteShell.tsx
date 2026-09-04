@@ -36,7 +36,13 @@ export async function SiteShell({
     comingSoon: t('comingSoon'),
     contact: tNav('contact'),
     // Same order as `navHrefs` in Header.
-    nav: [tNav('game'), tNav('howToPlay'), tNav('universe'), tNav('support')],
+    nav: [
+      tNav('game'),
+      tNav('howToPlay'),
+      tNav('universe'),
+      tNav('support'),
+      tNav('privacy'),
+    ],
     localeSwitcher: {
       chooseLanguage: t('chooseLanguage'),
       language: t('language'),
