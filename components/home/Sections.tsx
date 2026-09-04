@@ -128,16 +128,16 @@ export function Gameplay() {
               <picture>
                 <source
                   type="image/avif"
-                  srcSet="/assets/board-cross-sm.avif 800w, /assets/board-cross.avif 1600w"
+                  srcSet="/assets/board-in-play-sm.avif 800w, /assets/board-in-play.avif 1600w"
                   sizes="(min-width: 1024px) 46vw, 92vw"
                 />
                 <source
                   type="image/webp"
-                  srcSet="/assets/board-cross-sm.webp 800w, /assets/board-cross.webp 1600w"
+                  srcSet="/assets/board-in-play-sm.webp 800w, /assets/board-in-play.webp 1600w"
                   sizes="(min-width: 1024px) 46vw, 92vw"
                 />
                 <img
-                  src="/assets/board-cross-sm.webp"
+                  src="/assets/board-in-play-sm.webp"
                   alt={t('boardAlt')}
                   width={1600}
                   height={1600}

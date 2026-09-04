@@ -95,6 +95,8 @@ async function checkHostFiles() {
     ['robots.txt', 'crawler directives'],
     ['manifest.webmanifest', 'home-screen icon and theme'],
     ['assets/og-card.jpg', 'the social share image'],
+    ['assets/board-in-play.avif', 'the board shown mid-race'],
+    ['assets/board-in-play-sm.avif', 'its phone-sized encoding'],
   ];
 
   for (const [file, why] of required) {

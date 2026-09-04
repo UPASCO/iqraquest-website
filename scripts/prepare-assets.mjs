@@ -20,6 +20,7 @@ import { constants } from 'node:fs';
 import path from 'node:path';
 import process from 'node:process';
 import sharp from 'sharp';
+import { composeBoardInPlay } from './compose-board.mjs';
 
 const APP_DIR =
   process.env.IQRAQUEST_APP_DIR ?? path.resolve('../upasco/iqraquest');
@@ -254,6 +255,23 @@ async function main() {
     const written = await emit(source, job.name, job);
     produced.push(...written);
     console.log(`  ${job.name} <- ${job.from}`);
+  }
+
+  // The board as it looks mid-race: the same plate, with the game's own
+  // horse tokens on their squares and the bonus medallions inlaid. The
+  // bare plate is a beautiful empty table; this shows the game.
+  const plate = src('assets/board/cross_board.webp');
+  const tokens = src('assets/board/horses/horse_emerald.webp');
+  if ((await exists(plate)) && (await exists(tokens))) {
+    await composeBoardInPlay(APP_DIR, path.join(OUT, 'board-in-play'), 1600);
+    await composeBoardInPlay(APP_DIR, path.join(OUT, 'board-in-play-sm'), 800);
+    produced.push(
+      path.join(OUT, 'board-in-play.webp'),
+      path.join(OUT, 'board-in-play.avif'),
+      path.join(OUT, 'board-in-play-sm.webp'),
+      path.join(OUT, 'board-in-play-sm.avif'),
+    );
+    console.log('  board-in-play (+sm) <- cross_board + horse tokens');
   }
 
   // The brand mark: the three horses cropped out of the icon artwork,
