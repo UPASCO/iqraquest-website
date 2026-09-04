@@ -330,3 +330,81 @@ la zone**, but that resets the web records too — re-apply §2 afterwards.
 **The 404 page is in French for a visitor on `/en/…`.** Expected. A
 static host serves one `404.html`, and it is the French one. Every
 *existing* page is fully localised; only the unknown-URL page is not.
+
+---
+
+## 10. Go-live checklist
+
+Tick these in order. Anything unticked is a reason not to announce the
+site.
+
+### Repository
+
+- [ ] Repository visibility resolved — **public**, or private with
+      GitHub Pro (§2, step 1)
+- [ ] `main` is the default branch and carries the site
+- [ ] `LICENSE` present and all-rights-reserved
+- [ ] `README.md` and `DEPLOYMENT.md` present
+- [ ] No secret anywhere in the history — `.env*` gitignored except
+      `.env.example`, which holds names and no values
+- [ ] Latest commit pushed
+
+### CI/CD
+
+- [ ] **Settings → Pages → Source** = *GitHub Actions*
+- [ ] The **Deploy to GitHub Pages** workflow has run green on `main`
+- [ ] `ci.yml` runs on pull requests
+- [ ] Dependabot is enabled (`.github/dependabot.yml`)
+
+### DNS at OVHcloud
+
+- [ ] `@` A → the four `185.199.10x.153` addresses (old `213.186.33.5`
+      removed)
+- [ ] `www` A record **deleted**
+- [ ] `www` CNAME → `upasco.github.io.`
+- [ ] `@` TXT `"1|www.iqraquest.org"` deleted
+- [ ] `www` TXT `"3|welcome"` deleted
+- [ ] **MX ×3 untouched** — `mx1/mx2/mx3.mail.ovh.net.`
+- [ ] **SPF untouched** — `v=spf1 include:mx.ovh.com -all`
+- [ ] **DKIM untouched** if present
+- [ ] **DMARC untouched** if present
+- [ ] A test message to `support@iqraquest.org` still arrives
+
+### Domain and TLS
+
+- [ ] **Settings → Pages → Custom domain** = `iqraquest.org`, saved and
+      verified
+- [ ] **Enforce HTTPS** ticked
+- [ ] `https://iqraquest.org` returns 200
+- [ ] `http://iqraquest.org` → 301 → `https://iqraquest.org`
+- [ ] `http://www.iqraquest.org` → `https://iqraquest.org`
+- [ ] `https://www.iqraquest.org` → `https://iqraquest.org`
+- [ ] The certificate is valid and covers both names
+
+### The site itself
+
+- [ ] All nine pages load in all twelve languages
+- [ ] The language switcher reaches every locale
+- [ ] Arabic and Urdu render right-to-left
+- [ ] The 404 page renders and is branded
+- [ ] `https://iqraquest.org/sitemap.xml` lists 108 URLs with hreflang
+- [ ] `https://iqraquest.org/robots.txt` points at the sitemap
+- [ ] The favicon and the home-screen icon are the IqraQuest mark
+- [ ] Pasting the URL into WhatsApp or Slack unfurls the Open Graph card
+- [ ] No horizontal scroll on a 390 px viewport
+- [ ] The contact form validates and opens a pre-filled mail draft
+- [ ] Keyboard: the skip link is the first tab stop and focus is visible
+      throughout
+
+### Store readiness
+
+- [ ] App Store badge shows **Bientôt disponible** and is not a link
+- [ ] Google Play badge shows **Bientôt disponible** and is not a link
+- [ ] `NEXT_PUBLIC_APP_AVAILABLE_*` are `false`
+- [ ] The launch procedure in §5 has been read once, before launch day
+
+### Search
+
+- [ ] `iqraquest.org` added to Google Search Console (domain property,
+      verified with a TXT record — additive, touches nothing else)
+- [ ] The sitemap submitted there
