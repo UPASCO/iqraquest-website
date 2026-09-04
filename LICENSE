@@ -1,0 +1,34 @@
+IqraQuest — Website
+Copyright (c) 2026 IqraQuest. All rights reserved.
+
+PROPRIETARY. THIS IS NOT OPEN SOURCE SOFTWARE.
+
+This repository, and everything in it, is proprietary. Publishing it in
+a public repository does not place it in the public domain, does not
+grant a licence, and does not make it free to reuse. In particular, no
+permission is granted to copy, modify, merge, publish, distribute,
+sublicense or sell any part of:
+
+  - the source code of this website;
+  - its design, layout, component library and visual system;
+  - the artwork, illustrations, horses, board, textures and icons,
+    which are derived from the IqraQuest application's own original
+    assets;
+  - the editorial copy in every language;
+  - the IqraQuest name, logo and brand identity.
+
+You may view this repository and read its code.
+
+Nothing in this notice restricts a right that applicable law grants
+regardless of the rights holder's permission — short quotation, press
+reporting, parody, private study and the other statutory exceptions
+remain available on their own terms.
+
+Third-party components are governed by their own licences. The
+dependencies declared in package.json remain under the licences their
+authors chose; this notice does not extend to them. The Noto Sans,
+Noto Naskh Arabic and Spectral typefaces are used under the SIL Open
+Font License 1.1.
+
+For permission to use any part of this work, or to report an
+infringement, write to support@iqraquest.org.
