@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "localeName": "Nederlands",
+    "siteTitle": "IqraQuest — De wedloop om kennis begint hier.",
+    "siteDescription": "IqraQuest is een bordspel voor het hele gezin: trek een kaart, geef antwoord, breng je paarden naar de finish. 900 vragen met bron over de islamitische cultuur, van 7 tot 99 jaar. Binnenkort in de App Store en op Google Play.",
+    "ogAlt": "IqraQuest — drie Arabische paarden in galop boven het speelbord."
+  },
+  "common": {
+    "skipToContent": "Naar de hoofdinhoud",
+    "brandBaseline": "De wedloop om kennis.",
+    "comingSoon": "Binnenkort beschikbaar",
+    "comingSoonShort": "Binnenkort",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Download in de App Store",
+    "getItOnGooglePlay": "Ontdek het op Google Play",
+    "storeNotYetAvailable": "De app is nog niet verschenen. Deze knop wordt actief op de dag van de lancering.",
+    "language": "Taal",
+    "chooseLanguage": "Taal kiezen",
+    "menu": "Menu",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "backHome": "Terug naar de startpagina",
+    "readMore": "Meer weten",
+    "email": "E-mail",
+    "onThisPage": "Op deze pagina",
+    "lastUpdated": "Laatst bijgewerkt",
+    "legalPrevails": "Dit document is vertaald uit het Frans. Bij verschillen tussen de taalversies prevaleert de Franse versie."
+  },
+  "nav": {
+    "game": "Het spel",
+    "howToPlay": "Zo speel je",
+    "universe": "De wereld",
+    "about": "Over ons",
+    "support": "Support",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Gebruiksvoorwaarden",
+    "intellectualProperty": "Intellectuele eigendom"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Bordspel voor het gezin",
+      "title": "IqraQuest",
+      "baseline": "De wedloop om kennis begint hier.",
+      "lede": "Geef antwoord. Kom vooruit. Daag je tegenstanders uit. Breng je paard naar de winst.",
+      "ctaPrimary": "Ontdek het spel",
+      "ctaSecondary": "Zo speel je",
+      "availability": "Binnenkort in de App Store en op Google Play",
+      "artAlt": "Drie Arabische paarden in galop voor het kruisvormige bord van IqraQuest, onder een gouden halvemaan.",
+      "stats": {
+        "questions": "vragen met bron",
+        "languages": "talen",
+        "players": "spelers op één apparaat",
+        "ages": "jaar"
+      }
+    },
+    "pitch": {
+      "title": "Het paardenspel, gespeeld met wat je weet",
+      "body": "Een kruisvormig bord van 52 vakjes, vier stallen, vier paarden per stal — en geen enkele dobbelsteen. Als je aan de beurt bent, trek je een kaart. De waarde, van 1 tot en met 6, geeft aan hoeveel vakjes je vooruit gaat: die telt alleen als je de vraag erbij goed beantwoordt.",
+      "highlight": "Hier vervangt geluk nooit het antwoord."
+    },
+    "howToPlay": {
+      "eyebrow": "In vier handelingen",
+      "title": "Zo speel je",
+      "lede": "Geen dobbelsteen, geen menu, geen bevestigingsknop. Eén beurt bestaat uit vier handelingen.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Antwoord",
+          "body": "Je trekt een kaart. Ze noemt haar waarde voordat ze haar vraag opent, op jouw niveau: makkelijk, gemiddeld of expert."
+        },
+        {
+          "number": "2",
+          "title": "Kom vooruit",
+          "body": "Een goed antwoord is precies het aangekondigde aantal vakjes waard. Je tikt een paard aan, zijn gouden vakje licht op, je zet het daar neer."
+        },
+        {
+          "number": "3",
+          "title": "Geniet van het parcours",
+          "body": "Bonusvakjes, sluiproutes, tegenstanders slaan: het parcours kan je race versnellen. Alles is op het bord te zien voordat je begint."
+        },
+        {
+          "number": "4",
+          "title": "Bereik je doel",
+          "body": "Breng je paarden tot het einde. De eerste die aankomt in een snelle partij, de vier paarden van je stal binnen in een klassieke partij."
+        }
+      ],
+      "cta": "Bekijk de regels in detail"
+    },
+    "gameplay": {
+      "eyebrow": "Het spel",
+      "title": "Een echt bord, geen vragenlijst",
+      "lede": "Elk scherm van IqraQuest is samengesteld als een speelstuk: het bord is geschilderd, de paarden zijn gebeeldhouwd, en de vraag opent midden in de partij, niet in de plaats ervan.",
+      "features": [
+        {
+          "title": "Een met de hand geschilderd bord",
+          "body": "52 vakjes in een kruis, vier landschapspanelen, een dubbele gouden lijn en een achtpuntige ster in elke hoek."
+        },
+        {
+          "title": "Vier stallen, vier symbolen",
+          "body": "Émeraude, Saphir, Grenat, Safran. Elk team draagt een kleur en een symbool — nooit de kleur alleen, zodat het voor iedereen leesbaar blijft."
+        },
+        {
+          "title": "Het gebaar is de zet",
+          "body": "Geen afstandskiezer, geen bevestiging. Je schuift het paard naar zijn vakje: neerzetten is zetten."
+        },
+        {
+          "title": "Wat een rit oplevert",
+          "body": "Een bonusvakje dat je op het exacte aantal bereikt, levert +5, +10 of +20 op. Een tegenstander slaan levert er 20 op. Niets gaat ooit voorbij de finish."
+        },
+        {
+          "title": "De vaart van het weten",
+          "body": "Goede antwoorden op rij worden beloond: een schild bij drie, de Grand Galop bij vijf, een meesterschapsbadge bij tien."
+        },
+        {
+          "title": "De Uitdaging van de dag",
+          "body": "Vijf vragen per dag, offline, met een score om te delen. Genoeg om terug te komen zonder erbij na te denken."
+        }
+      ],
+      "boardAlt": "Het kruisvormige bord van IqraQuest: 52 vakjes, vier landschapspanelen en vier gekleurde stallen.",
+      "cta": "Alles over het spel"
+    },
+    "universe": {
+      "eyebrow": "De wereld",
+      "title": "Een avontuur geleid door kennis",
+      "lede": "IqraQuest is geïnspireerd op de landschappen en het bouwkundig erfgoed van het historische Arabië, in een artistieke interpretatie die voor het spel is gemaakt.",
+      "body": "Oases, rotsformaties, palmentuinen, karavaanroutes, gestileerde architectuur: de wereld van IqraQuest vertelt zichzelf door haar plekken. Je reist erdoorheen, je houdt halt, je komt aan — en het is kennis die je vooruit brengt.",
+      "respect": {
+        "title": "Wat het spel nooit afbeeldt",
+        "body": "Uit respect beeldt IqraQuest Allah, de profeten en de metgezellen niet af als personages, en verzint het geen enkel heilig tafereel. Religieuze elementen dienen nooit als louter decor: heilige plaatsen komen voor als herkenningspunten op het bord, nooit als iets om te bezitten of te veroveren."
+      },
+      "cards": [
+        {
+          "title": "De oase bij de finish",
+          "body": "De bestemming van het parcours: water, palmen, laag licht. Dit is het beeld dat het spel toont wanneer een paard aankomt."
+        },
+        {
+          "title": "De woestijn en haar reliëf",
+          "body": "Van okerkleurige vlakten tot bergen in de schaduw: elke streek geeft het parcours zijn kleur en zijn ritme."
+        },
+        {
+          "title": "De Arabische paarden",
+          "body": "Vier vachten, vier dekkleden, vier banieren. Dit zijn de speelstukken, en dit is wat je ziet rennen."
+        }
+      ],
+      "oasisAlt": "De finishoase van IqraQuest: watervallen, palmen en een opgetuigd paard voor lichte natuurstenen architectuur.",
+      "courseAlt": "Zicht op het parcours van IqraQuest dat tussen de palmen door slingert, met de paarden van de vier stallen."
+    },
+    "questions": {
+      "eyebrow": "De inhoud",
+      "title": "Vragen die met zorg zijn gekozen",
+      "lede": "900 vragen, één voor één geschreven en nagelezen volgens een eenvoudige regel: bij de minste twijfel gaat de vraag eruit.",
+      "body": "IqraQuest steunt op gevestigde bronnen — een vers uit de Koran, of een hadith uit Ṣaḥīḥ al-Bukhārī of Ṣaḥīḥ Muslim. Elke vraag toont haar exacte bron en een korte uitleg na het antwoord. Onderwerpen die binnen een kennisspel geen helder en onomstreden antwoord toelaten, blijven bewust buiten beschouwing.",
+      "note": "De enkele breed gedragen beschrijvende feiten die naar geen afzonderlijk werk verwijzen, worden als zodanig aangeduid, in plaats van aan een verzonnen bron te worden gekoppeld.",
+      "stats": [
+        {
+          "value": "900",
+          "label": "vragen in de vragenbank"
+        },
+        {
+          "value": "3",
+          "label": "niveaus: makkelijk, gemiddeld, expert"
+        },
+        {
+          "value": "5",
+          "label": "categorieën"
+        },
+        {
+          "value": "12",
+          "label": "talen"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Profeten",
+          "count": "250 vragen"
+        },
+        {
+          "name": "Sīra",
+          "count": "250 vragen"
+        },
+        {
+          "name": "Koran",
+          "count": "150 vragen"
+        },
+        {
+          "name": "Geloof",
+          "count": "150 vragen"
+        },
+        {
+          "name": "Deugden",
+          "count": "100 vragen"
+        }
+      ]
+    },
+    "family": {
+      "eyebrow": "Voor het hele gezin",
+      "title": "Een kind van zeven en een volwassene spelen echt samen",
+      "lede": "Elke speler kiest voor de partij zijn eigen vragenniveau. Het bord blijft voor iedereen hetzelfde.",
+      "points": [
+        {
+          "title": "Leren zonder het gevoel te studeren",
+          "body": "De vraag komt midden in een race. Je beantwoordt haar om vooruit te komen, niet voor een cijfer."
+        },
+        {
+          "title": "Je familie en je vrienden uitdagen",
+          "body": "Twee tot vier spelers op één apparaat, of solo tegen één tot drie tegenstanders."
+        },
+        {
+          "title": "Kennis ontdekken of opfrissen",
+          "body": "Bij elk antwoord horen de bron en een korte uitleg. Je leert ook als je het mis hebt."
+        }
+      ],
+      "privacy": {
+        "title": "Geen account. Geen reclame. Geen tracking.",
+        "body": "IqraQuest werkt volledig offline. Je hoeft geen account aan te maken en er gaat geen enkel gegeven ergens heen: alles blijft op het apparaat. Een optionele eenmalige aankoop ontgrendelt de volledige vragenbank — nooit een abonnement.",
+        "link": "Lees het privacybeleid"
+      }
+    },
+    "comingSoon": {
+      "title": "IqraQuest komt eraan.",
+      "subtitle": "Maak je paard klaar. De wedloop om kennis gaat beginnen.",
+      "body": "De app wordt voorbereid voor de App Store en Google Play. De knoppen hieronder worden actief op de dag van publicatie.",
+      "contactPrompt": "Een vraag, een persverzoek of een samenwerking?",
+      "contactLink": "Schrijf ons"
+    }
+  },
+  "gamePage": {
+    "eyebrow": "Het spel",
+    "title": "IqraQuest, in detail",
+    "metaDescription": "Kruisbord van 52 vakjes, vier stallen, geen dobbelsteen: de kaart geeft de afstand, de vraag beslist of je vooruit komt. Alles over IqraQuest.",
+    "lede": "Het paardenspel, opnieuw bedacht voor het hele gezin rond de islamitische cultuur. Dit is wat er werkelijk in zit.",
+    "sections": {
+      "board": {
+        "title": "Het bord",
+        "body": "Een kruis van 52 vakjes, vier stallen, een midden. De vier hoekpanelen dragen elk een landschap, onder één en dezelfde gouden lijn. Elk bonusvakje herken je aan zijn vorm en zijn getal, nooit aan zijn kleur alleen: een ronde munt voor +5, een achthoek voor +10, een achtpuntige ster voor de zeldzame +20."
+      },
+      "deck": {
+        "title": "De stapel, in plaats van de dobbelsteen",
+        "body": "Elke waarde van 1 tot en met 6 komt even vaak voor: de stapel is eerlijk, niemand kan zijn geluk ‘kiezen’. Met een 6 komt een paard de stal uit en speel je opnieuw, net als in het oorspronkelijke spel. De kaart noemt haar waarde voordat ze haar vraag opent, zodat je weet wat er op het spel staat."
+      },
+      "modes": {
+        "title": "Speelmodi",
+        "body": "Solo tegen één tot drie tegenstanders, met drie moeilijkheidsgraden; of Familie, twee tot vier spelers op één apparaat, elk met zijn eigen vragenniveau. Snelle partij: het eerste paard dat aankomt, wint. Klassieke partij: breng de vier paarden van je stal binnen."
+      },
+      "courses": {
+        "title": "Drie parcours",
+        "body": "Van het rustigste tot het meest bewogen. Beschutte oases, kennisvakjes, bonusuitdagingen, sluiproutes, duels: hoe elk parcours is samengesteld, zie je voordat je de partij start. Onderweg wordt niets geloot."
+      },
+      "progress": {
+        "title": "Voortgang",
+        "body": "Gespeelde partijen, nauwkeurigheid, beheersing per categorie, dagelijkse reeks. En na elke overwinning een racetabel die je als één afbeelding kunt delen."
+      },
+      "premium": {
+        "title": "Gratis en Premium",
+        "body": "De gratis versie biedt 50 vragen en een race van 50 getrokken kaarten. De eenmalige aankoop Premium ontgrendelt de volledige vragenbank en de races tot aan de finish. Eén betaling, geen abonnement, en alles blijft offline werken."
+      },
+      "accessibility": {
+        "title": "Toegankelijkheid",
+        "body": "Geen enkel team is alleen aan zijn kleur te herkennen: elk draagt ook een symbool — ster, kompas, lantaarn, boek. Niet-essentiële animaties gaan uit met de systeeminstelling ‘Beweging verminderen’, en de toegankelijkheidslabels zijn in alle twaalf talen vertaald."
+      },
+      "languages": {
+        "title": "Twaalf talen",
+        "body": "De interface en de vragenbank bestaan in het Frans, Engels, Arabisch, Duits, Spaans, Indonesisch, Italiaans, Maleis, Nederlands, Portugees, Turks en Urdu."
+      }
+    },
+    "cta": "Bekijk hoe je speelt"
+  },
+  "howToPlayPage": {
+    "eyebrow": "Zo speel je",
+    "title": "Een beurt, van begin tot eind",
+    "metaDescription": "De regels van IqraQuest op een rij: trekken, antwoorden, je paard kiezen en neerzetten. Stal uit, exact aantal, paarden slaan, bonusvakjes en reeksen.",
+    "lede": "IqraQuest leer je in een paar minuten. Dit is het precieze verloop van een beurt.",
+    "turn": {
+      "title": "De beurt",
+      "steps": [
+        {
+          "title": "Trek een kaart",
+          "body": "De kaart draait om en zegt wat ze waard is: ‘Kaart van 5 galopsprongen’. Je weet wat een goed antwoord oplevert nog voor je de vraag leest."
+        },
+        {
+          "title": "Beantwoord de vraag",
+          "body": "Vier mogelijke antwoorden, op jouw niveau. Na je keuze toont het spel het juiste antwoord, een korte uitleg en de exacte bron."
+        },
+        {
+          "title": "Kies het paard",
+          "body": "De paarden die vooruit kunnen, lichten op. Tik er een aan: zijn doelvakje licht op, met de tussenliggende vakjes in stippellijn."
+        },
+        {
+          "title": "Zet het neer",
+          "body": "Schuif het paard naar zijn gouden vakje. Neerzetten is zetten — er valt niets te bevestigen."
+        }
+      ]
+    },
+    "rules": {
+      "title": "De regels die tellen",
+      "items": [
+        {
+          "title": "De stal uit",
+          "body": "Er is een kaart met waarde 6 nodig om een paard de stal uit te krijgen. Met een 6 speel je ook opnieuw."
+        },
+        {
+          "title": "Het exacte aantal",
+          "body": "Een paard gaat nooit voorbij de finish. Komt het net tekort, dan wacht het op de juiste kaart — en het spel zegt je welke."
+        },
+        {
+          "title": "Tegenstanders slaan",
+          "body": "Een paard dat zijn rit eindigt op een tegenstander, stuurt die terug naar zijn stal. Slaan levert 20 extra vakjes op."
+        },
+        {
+          "title": "De bonusvakjes",
+          "body": "Bereik je een bonusvakje op het exacte aantal, dan levert het zijn waarde op: +5, +10 of +20. Deze vakjes betalen één keer per beurt."
+        },
+        {
+          "title": "De vaart van het weten",
+          "body": "Drie goede antwoorden op rij geven een schild; vijf de Grand Galop; tien een meesterschapsbadge."
+        },
+        {
+          "title": "Winnen",
+          "body": "In een snelle partij wint het eerste paard dat aankomt. In een klassieke partij moet je de vier paarden van je stal binnenbrengen."
+        }
+      ]
+    },
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "question": "Moet je de islam kennen om te spelen?",
+        "answer": "Nee. Het makkelijke niveau is gemaakt voor een kind van zeven dat het ontdekt, en bij elk antwoord horen een korte uitleg en de bron: je leert al spelend, ook als je het mis hebt."
+      },
+      {
+        "question": "Kun je met meerdere mensen op één telefoon spelen?",
+        "answer": "Ja. In de modus Familie spelen twee tot vier spelers op één apparaat, elk met zijn eigen vragenniveau."
+      },
+      {
+        "question": "Is er een internetverbinding nodig?",
+        "answer": "Nee. IqraQuest werkt na de installatie volledig offline. Alleen de aankoop loopt via de App Store of Google Play."
+      },
+      {
+        "question": "Zit er reclame of een abonnement in?",
+        "answer": "Geen van beide. Het spel bevat geen reclame en biedt geen abonnement aan. Een optionele eenmalige aankoop ontgrendelt de volledige vragenbank."
+      },
+      {
+        "question": "Waar komen de vragen vandaan?",
+        "answer": "Uit de Koran of uit de verzamelingen Ṣaḥīḥ al-Bukhārī en Ṣaḥīḥ Muslim. Elke vraag toont haar exacte bron, en onderwerpen die binnen een spel geen helder antwoord toelaten, vallen af."
+      },
+      {
+        "question": "Wanneer komt de app uit?",
+        "answer": "De publicatie in de App Store en op Google Play wordt voorbereid. De downloadknoppen op deze site worden actief op de dag van de lancering."
+      }
+    ]
+  },
+  "aboutPage": {
+    "eyebrow": "Over IqraQuest",
+    "title": "Waarom IqraQuest bestaat",
+    "metaDescription": "Waarom IqraQuest bestaat: een bordspel voor het gezin waarin de vraag je vooruit brengt, 900 vragen met bron en respectregels van meet af aan.",
+    "lede": "Een bordspel dat gezinnen op tafel kunnen leggen, en waaraan een kind en een grootouder samen kunnen spelen zonder dat een van beiden zich verveelt.",
+    "sections": [
+      {
+        "title": "Het idee aan het begin",
+        "body": "Kennisspellen over de islamitische cultuur bestaan, maar ze nemen bijna altijd de vorm van een vragenlijst aan: je antwoordt, je telt de punten, je begint opnieuw. IqraQuest begint aan de andere kant — eerst een bordspel dat je wilt spelen, en waarin de vraag de motor van de verplaatsing is in plaats van het doel."
+      },
+      {
+        "title": "De keuze voor het paardenspel",
+        "body": "Iedereen kent het formaat, over meerdere generaties heen, en je speelt het rond een tafel. Alleen de dobbelsteen moest eruit: de afstand is voortaan de waarde van een kaart, en die waarde telt alleen als de vraag erbij een antwoord vindt."
+      },
+      {
+        "title": "De discipline van de inhoud",
+        "body": "De bank van 900 vragen volgt een bronbeleid dat vóór de eerste vraag is opgeschreven: Koran, Ṣaḥīḥ al-Bukhārī, Ṣaḥīḥ Muslim, en bij de minste twijfel gaat de vraag eruit. Elke ingang noemt haar exacte bron, en het geheel is vraag voor vraag te controleren."
+      },
+      {
+        "title": "Respect als ontwerpeis",
+        "body": "Sommige dingen zijn in een spel niet af te beelden, en het programma van eisen zegt dat met zoveel woorden: geen afbeelding van Allah, van de profeten of van de engelen; geen heilige plaats die tot speelobject wordt gemaakt; geen religieus element dat tot ornament wordt gereduceerd. Deze regels hebben de artistieke richting evenzeer gevormd als de inhoud."
+      },
+      {
+        "title": "Wat het spel niet doet",
+        "body": "Geen account, geen server, geen reclame, geen tracking, geen abonnement, geen mechaniek van het casinotype. Deze afwezigheden zijn productbeslissingen, geen ontbrekende functies."
+      }
+    ],
+    "publisherTitle": "Uitgever",
+    "publisherBody": "IqraQuest is een onafhankelijk project. De officiële site van het spel is {domain}."
+  },
+  "supportPage": {
+    "eyebrow": "Support",
+    "title": "IqraQuest-support",
+    "metaDescription": "Officiële support van IqraQuest: voortgang, Premium-aankoop, een vraag melden, beschikbaarheid in de App Store en op Google Play.",
+    "lede": "Een vraag over het spel, een technisch probleem, een opmerking over een vraag uit het spel: hier kunt u terecht.",
+    "contactTitle": "Schrijf ons",
+    "contactBody": "De meest directe weg is e-mail. Beschrijf uw apparaat, de versie van het spel en wat u hebt gezien — daarmee kunnen wij u echt verder helpen.",
+    "emailLabel": "Supportadres",
+    "formLink": "Of gebruik het contactformulier",
+    "faqTitle": "Voordat u schrijft",
+    "faq": [
+      {
+        "question": "Ik ben mijn voortgang kwijt na het wisselen van telefoon.",
+        "answer": "IqraQuest bewaart alles lokaal, op het apparaat, en heeft geen enkele back-up online. Voortgang gaat dus niet mee naar een ander apparaat. Dat is de directe keerzijde van het ontbreken van een account en een server."
+      },
+      {
+        "question": "Ik heb Premium gekocht en de inhoud is vergrendeld.",
+        "answer": "Gebruik de optie om aankopen te herstellen in de instellingen van het spel. De aankoop hangt aan uw App Store- of Google Play-account, niet aan een IqraQuest-account — hij wordt hersteld op elk apparaat dat hetzelfde winkelaccount gebruikt."
+      },
+      {
+        "question": "Ik denk dat er een fout in een vraag zit.",
+        "answer": "Schrijf ons met de tekst van de vraag en, als het kan, de getoonde bron. Meldingen over inhoud krijgen voorrang: een vraag waarvan de bron niet standhoudt, wordt gecorrigeerd of verwijderd."
+      },
+      {
+        "question": "De app is niet beschikbaar in mijn winkel.",
+        "answer": "IqraQuest is nog niet verschenen. De downloadknoppen op deze site worden actief op de dag van de lancering in de App Store en op Google Play."
+      }
+    ],
+    "legalTitle": "Documenten",
+    "legalBody": "Het privacybeleid, de gebruiksvoorwaarden en de informatie over intellectuele eigendom vindt u in de voettekst van deze site."
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Schrijf ons",
+    "metaDescription": "Neem contact op met het team van IqraQuest: support, pers, samenwerking, intellectuele eigendom of het melden van een probleem.",
+    "lede": "Kies het onderwerp van uw bericht: zo kunnen wij sneller antwoorden.",
+    "form": {
+      "subjectLabel": "Onderwerp",
+      "subjectPlaceholder": "Kies een onderwerp",
+      "subjects": {
+        "support": "Support",
+        "press": "Pers",
+        "partnership": "Samenwerking",
+        "ip": "Intellectuele eigendom",
+        "bug": "Een probleem melden",
+        "other": "Anders"
+      },
+      "nameLabel": "Naam",
+      "namePlaceholder": "Uw naam",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "u@voorbeeld.nl",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Beschrijf uw vraag.",
+      "submit": "Bericht versturen",
+      "submitting": "Versturen…",
+      "openMail": "Openen in uw e-mailprogramma",
+      "consent": "Door dit bericht te versturen, gaat u ermee akkoord dat uw naam, uw e-mailadres en uw bericht uitsluitend worden gebruikt om u te antwoorden.",
+      "errors": {
+        "subject": "Kies een onderwerp.",
+        "name": "Vul een naam in.",
+        "email": "Vul een geldig e-mailadres in.",
+        "messageShort": "Uw bericht moet minstens 20 tekens bevatten.",
+        "messageLong": "Uw bericht mag niet langer zijn dan 4000 tekens.",
+        "failed": "Het versturen is mislukt. Probeer het opnieuw, of schrijf rechtstreeks naar {email}."
+      },
+      "successTitle": "Bericht verstuurd",
+      "successBody": "Bedankt. Wij komen bij u terug op het opgegeven adres.",
+      "mailFallbackTitle": "Versturen per e-mail",
+      "mailFallbackBody": "Dit formulier zet een e-mail klaar in uw e-mailprogramma, gericht aan {email}. Er wordt niets verstuurd zolang u het in uw mailprogramma niet zelf verzendt."
+    },
+    "directTitle": "Rechtstreeks per e-mail",
+    "directBody": "U kunt ook rechtstreeks schrijven naar {email}."
+  },
+  "privacyPage": {
+    "eyebrow": "Privacy",
+    "title": "Privacybeleid",
+    "metaDescription": "IqraQuest verzamelt geen persoonsgegevens: geen account, geen server, geen reclame, geen tracking. Alles blijft op uw apparaat.",
+    "updated": "4 september 2026",
+    "summaryTitle": "Samengevat",
+    "summaryBody": "Noch deze site, noch de app IqraQuest verzamelt persoonsgegevens. Er bestaat geen gebruikersaccount, geen server, geen reclame en geen tracking.",
+    "sections": [
+      {
+        "title": "Deze website",
+        "body": "De site {domain} is een statische site. Ze plaatst geen enkele cookie, gebruikt geen enkel hulpmiddel voor bezoekersanalyse en laadt geen enkel script van derden. Er wordt geen toestemmingsbanner getoond, omdat geen enkele verwerking uw toestemming vereist. Zoals bij elke site op internet kan de hostingpartij die haar uitlevert technische logboeken bewaren (IP-adres, datum, opgevraagde bron) om redenen van veiligheid en werking; die logboeken vallen onder de hostingpartij en worden door IqraQuest niet gebruikt of geraadpleegd om profielen op te stellen."
+      },
+      {
+        "title": "Het contactformulier",
+        "body": "Als u het contactformulier gebruikt, dienen de gegevens die u invult — naam, e-mailadres, onderwerp en bericht — uitsluitend om uw vraag te behandelen en u te antwoorden. Ze worden niet doorverkocht, niet voor reclamedoeleinden gebruikt en niet aan een derde doorgegeven buiten wat strikt noodzakelijk is om het bericht af te leveren. U kunt om verwijdering ervan vragen door te schrijven naar {email}."
+      },
+      {
+        "title": "De app",
+        "body": "IqraQuest maakt geen account aan en vereist er geen, gebruikt geen server, toont geen reclame, bevat geen enkele SDK voor reclame of analyse en gebruikt geen enkele identificatietechniek op basis van een digitale vingerafdruk. De app werkt na de installatie volledig offline, met uitzondering van de aankoop, die door de App Store of Google Play wordt afgehandeld."
+      },
+      {
+        "title": "Wat er wordt opgeslagen, en waar",
+        "body": "Al het volgende wordt uitsluitend op uw apparaat opgeslagen: de voornamen die voor een partij zijn ingevuld, uw voortgang (gespeelde partijen, nauwkeurigheid, statistieken per categorie, dagelijkse reeks), uw lopende partij, uw instellingen (taal, nachtmodus, minder animaties, geluid) en het feit dat u IqraQuest Premium hebt gekocht. Als u de app verwijdert, verdwijnen al deze gegevens. Er bestaat geen back-up online en er valt bij ons niets te wissen, aangezien wij er nooit een kopie van hebben gehad."
+      },
+      {
+        "title": "Aankopen",
+        "body": "De eenmalige aankoop Premium wordt volledig afgehandeld door de App Store van Apple of door Google Play. IqraQuest ziet uw betaalgegevens nooit: ze worden door Apple of Google beheerd volgens hun eigen beleid. De app verneemt alleen of de aankoop is geslaagd, om de inhoud lokaal te ontgrendelen."
+      },
+      {
+        "title": "Kinderen",
+        "body": "IqraQuest is gemaakt om zowel door kinderen als door volwassenen te worden gebruikt. Omdat er van geen enkele gebruiker persoonsgegevens worden verzameld, worden ze evenmin bij kinderen verzameld. Elke handeling die de app verlaat — een externe link, een aankoop — is beveiligd met een ouderlijk slot."
+      },
+      {
+        "title": "Meldingen",
+        "body": "Als u de optionele herinneringen van de Uitdaging van de dag inschakelt, worden die volledig op uw apparaat ingepland met lokale meldingen. Er worden geen meldingsgegevens naar een server verstuurd."
+      },
+      {
+        "title": "Uw rechten",
+        "body": "De Algemene verordening gegevensbescherming geeft u recht op inzage, rectificatie, wissing en bezwaar. In de praktijk worden er over u geen persoonsgegevens bewaard, behalve de inhoud van een bericht dat u ons uit eigen beweging zou hebben gestuurd. Voor elk verzoek kunt u schrijven naar {email}."
+      },
+      {
+        "title": "Wijzigingen",
+        "body": "Bij een wijziging wordt de bijgewerkte versie op deze pagina gepubliceerd en wordt de datum hierboven aangepast."
+      }
+    ]
+  },
+  "termsPage": {
+    "eyebrow": "Voorwaarden",
+    "title": "Gebruiksvoorwaarden",
+    "metaDescription": "Gebruiksvoorwaarden van de officiële site iqraquest.org: doel, aanvaardbaar gebruik, beschikbaarheid, externe links, aansprakelijkheid en recht.",
+    "updated": "4 september 2026",
+    "intro": "Deze voorwaarden gelden voor het gebruik van de site {domain}. Het gebruik van de app IqraQuest valt daarnaast onder de voorwaarden van de winkel — App Store of Google Play — waar de app is gedownload.",
+    "sections": [
+      {
+        "title": "Doel van de site",
+        "body": "De site presenteert het spel IqraQuest, zijn regels, zijn wereld en zijn officiële documenten. U kunt er niet online spelen, er geen account aanmaken en er geen aankoop doen."
+      },
+      {
+        "title": "Aanvaardbaar gebruik",
+        "body": "U mag de pagina's van deze site raadplegen, citeren en delen. U mag er niet geheel of gedeeltelijk uit putten om er een databank of een concurrerende dienst mee samen te stellen, u mag de werking ervan niet proberen te verstoren, en u mag de site niet gebruiken op een manier die een band, een samenwerking of een steun zou doen vermoeden die niet bestaat."
+      },
+      {
+        "title": "Beschikbaarheid",
+        "body": "De site wordt geleverd in de staat waarin hij zich bevindt, zonder garantie van ononderbroken beschikbaarheid. Hij kan op elk moment worden gewijzigd, opgeschort of stopgezet, onder meer voor onderhoud."
+      },
+      {
+        "title": "Externe links",
+        "body": "De site kan verwijzen naar externe bronnen, in het bijzonder naar de App Store en Google Play. Die bronnen vallen onder hun eigen uitgevers en hun eigen voorwaarden; hun inhoud bindt IqraQuest niet."
+      },
+      {
+        "title": "Informatie over het spel",
+        "body": "De hier gepubliceerde beschrijvingen van het spel komen overeen met de versie in voorbereiding en kunnen vóór de publicatie in de winkels nog veranderen. Ze vormen geen contractuele verbintenis over de exacte inhoud van een toekomstige versie."
+      },
+      {
+        "title": "Intellectuele eigendom",
+        "body": "De originele elementen van het spel en van de site zijn beschermd. De toepasselijke voorwaarden staan uitgewerkt op de pagina Intellectuele eigendom."
+      },
+      {
+        "title": "Aansprakelijkheid",
+        "body": "Binnen de grenzen van het toepasselijke recht kan de uitgever niet aansprakelijk worden gesteld voor indirecte schade die voortvloeit uit het gebruik van de site. Geen enkele bepaling van deze voorwaarden heeft tot gevolg dat een aansprakelijkheid wordt uitgesloten die wettelijk niet kan worden uitgesloten, of dat de rechten die de wet aan consumenten toekent, worden beperkt."
+      },
+      {
+        "title": "Toepasselijk recht",
+        "body": "Op deze voorwaarden is het Franse recht van toepassing. Bij gebrek aan een minnelijke oplossing zijn de rechtbanken bevoegd die door de gewone rechtsregels worden aangewezen. Handelt u als consument, dan blijven de beschermende regels van uw land van verblijf in de Europese Unie van toepassing."
+      },
+      {
+        "title": "Contact",
+        "body": "Voor elke vraag over deze voorwaarden kunt u schrijven naar {email}."
+      }
+    ]
+  },
+  "ipPage": {
+    "eyebrow": "Intellectuele eigendom",
+    "title": "Intellectuele eigendom",
+    "metaDescription": "Intellectuele eigendom van IqraQuest: wat beschermd is, wat niet, het gebruik van het merk en hoe u een toestemming aanvraagt.",
+    "updated": "4 september 2026",
+    "lede": "Deze pagina verduidelijkt wat beschermd is, wat niet, en bij wie u terecht kunt voor een toestemming.",
+    "ownershipTitle": "Rechthebbende",
+    "ownershipBody": "Tenzij anders vermeld zijn de originele elementen van IqraQuest eigendom van de uitgever van het spel. Ze zijn vanaf hun ontstaan door het auteursrecht beschermd, zonder enige depotformaliteit, in de landen die partij zijn bij de Berner Conventie.",
+    "protectedTitle": "Betrokken originele elementen",
+    "protectedIntro": "Het gaat met name om het volgende, voor zover het om originele creaties gaat:",
+    "protectedItems": [
+      "de naam IqraQuest als onderscheidend teken van het spel",
+      "het logo en het pictogram van de app",
+      "de huisstijl en de visuele identiteit",
+      "de originele illustraties",
+      "de paarden en hun dekkleden, in hun originele vormgeving",
+      "het speelbord en zijn grafische elementen",
+      "de interfaces en hun originele compositie",
+      "alle grafische assets en geluidsassets",
+      "de originele animaties",
+      "de originele teksten en redactionele inhoud",
+      "de originele formulering van de vragen, hun uitleg en hun ordening",
+      "de elementen waaruit deze website is opgebouwd",
+      "het marketingmateriaal en het promotionele beeldmateriaal"
+    ],
+    "usageTitle": "Wat niet is toegestaan",
+    "usageBody": "Elke niet-toegestane reproductie, weergave, aanpassing, vertaling, opvraging, verspreiding of exploitatie van het geheel of een deel van de originele elementen van IqraQuest is verboden, onder voorbehoud van de uitzonderingen waarin de toepasselijke wetgeving voorziet — met name het korte citaat, het persoverzicht, de parodie en het privégebruik.",
+    "extractionTitle": "Vragenbank",
+    "extractionBody": "Het systematisch opvragen of hergebruiken van een in kwalitatief of kwantitatief opzicht substantieel deel van de inhoud van de vragenbank is verboden. De aangehaalde feiten, verzen en hadiths behoren uiteraard tot het gemeengoed: wat beschermd is, is de originele formulering van de vragen, de keuze en de ordening van de ingangen, de voor het spel geschreven uitleg en de structuur van de bank.",
+    "trademarkTitle": "Merk",
+    "trademarkBody": "IqraQuest wordt als merk gebruikt om het spel en zijn afgeleide producten aan te duiden. Het symbool ™ wijst op dat gebruik. Op deze pagina wordt geen enkele aanspraak op registratie gemaakt: het symbool ® wordt niet gebruikt en zal dat pas worden bij een daadwerkelijke registratie, en alleen voor de betrokken gebieden en klassen. De registratie van een domeinnaam verleent op zichzelf geen enkel merkrecht.",
+    "limitsTitle": "Wat deze bescherming niet dekt",
+    "limitsIntro": "Uit eerlijkheid, en omdat een overdreven aanspraak de werkelijke bescherming schaadt:",
+    "limitsItems": [
+      "Het algemene principe van een bordspel dat vragen aan een verplaatsing koppelt, is niet toe te eigenen. Ideeën en spelmechanieken als zodanig zijn niet door het auteursrecht beschermd.",
+      "Het paardenspel behoort tot het gemeenschappelijke spelerfgoed. Wat origineel is aan IqraQuest, is de uitwerking: het bord, de illustraties, de teksten, de interface en de redactionele inhoud.",
+      "De aangehaalde religieuze inhoud — verzen uit de Koran, hadiths — is van niemand. Alleen de formulering en de selectie die voor het spel zijn gemaakt, vallen eronder.",
+      "Het auteursrecht verbiedt een derde niet om een ander kennisspel over de islamitische cultuur te maken. Het verbiedt wel om de originele uitwerkingen van IqraQuest over te nemen."
+    ],
+    "provenanceTitle": "Traceerbaarheid",
+    "provenanceBody": "Het beeldmateriaal op deze site komt uit de bronbestanden van het spel, waarvan de ontstaansgeschiedenis in versiebeheer en met tijdstempels is vastgelegd. De pagina's dragen een rechtenvermelding en metagegevens over de auteur, en de site wordt gepubliceerd onder het officiële domein {domain}. Deze elementen vormen aanwijzingen van anterioriteit; ze vervangen geen bewijs dat voor een rechter is opgebouwd.",
+    "permissionTitle": "Toestemming vragen",
+    "permissionBody": "De pers mag het officiële beeldmateriaal en fragmenten uit het spel gebruiken om erover te berichten, met vermelding van IqraQuest. Voor elk ander gebruik — samenwerking, bewerking, afgeleid product, commerciële verspreiding — schrijft u naar {email} met vermelding van het beoogde gebruik.",
+    "reportTitle": "Een inbreuk melden",
+    "reportBody": "Als u een niet-toegestane overname van elementen van IqraQuest vaststelt, schrijf dan naar {email} met het betreffende adres en een beschrijving van wat er is overgenomen."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Dit spoor leidt nergens heen.",
+    "body": "De pagina die je zoekt bestaat niet, of heeft een ander adres gekregen. Ga terug naar de startpagina en hervat de race.",
+    "cta": "Terug naar de startpagina",
+    "secondary": "Bekijk het spel"
+  },
+  "footer": {
+    "tagline": "De wedloop om kennis.",
+    "sectionGame": "Het spel",
+    "sectionSupport": "Hulp",
+    "sectionLegal": "Juridisch",
+    "copyright": "© {year} IqraQuest. Alle rechten voorbehouden.",
+    "trademarkNote": "IqraQuest{mark} en het logo van IqraQuest worden als merk gebruikt.",
+    "storeNote": "App Store is een merk van Apple Inc. Google Play is een merk van Google LLC.",
+    "socialTitle": "Sociale media"
+  }
+}

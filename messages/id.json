@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "localeName": "Bahasa Indonesia",
+    "siteTitle": "IqraQuest — Pacuan meraih ilmu dimulai di sini.",
+    "siteDescription": "IqraQuest adalah permainan papan keluarga: tarik kartu, jawab, bawa kuda Anda sampai garis akhir. 900 pertanyaan bersumber jelas tentang khazanah Islam, untuk usia 7 sampai 99 tahun. Segera hadir di App Store dan Google Play.",
+    "ogAlt": "IqraQuest — tiga kuda Arab berlari kencang di atas papan permainan."
+  },
+  "common": {
+    "skipToContent": "Langsung ke konten utama",
+    "brandBaseline": "Berpacu meraih ilmu.",
+    "comingSoon": "Segera hadir",
+    "comingSoonShort": "Segera",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Unduh di App Store",
+    "getItOnGooglePlay": "Dapatkan di Google Play",
+    "storeNotYetAvailable": "Aplikasi ini belum dirilis. Tombol ini akan aktif pada hari peluncuran.",
+    "language": "Bahasa",
+    "chooseLanguage": "Pilih bahasa",
+    "menu": "Menu",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "backHome": "Kembali ke beranda",
+    "readMore": "Selengkapnya",
+    "email": "Email",
+    "onThisPage": "Di halaman ini",
+    "lastUpdated": "Terakhir diperbarui",
+    "legalPrevails": "Dokumen ini diterjemahkan dari bahasa Prancis. Jika terjadi perbedaan antarversi bahasa, versi bahasa Prancis yang berlaku."
+  },
+  "nav": {
+    "game": "Permainan",
+    "howToPlay": "Cara bermain",
+    "universe": "Dunia",
+    "about": "Tentang",
+    "support": "Dukungan",
+    "contact": "Kontak",
+    "privacy": "Privasi",
+    "terms": "Ketentuan penggunaan",
+    "intellectualProperty": "Kekayaan intelektual"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Permainan papan keluarga",
+      "title": "IqraQuest",
+      "baseline": "Pacuan meraih ilmu dimulai di sini.",
+      "lede": "Jawab. Maju. Tantang lawan Anda. Bawa kuda Anda menuju kemenangan.",
+      "ctaPrimary": "Kenali permainannya",
+      "ctaSecondary": "Cara bermain",
+      "availability": "Segera hadir di App Store dan Google Play",
+      "artAlt": "Tiga kuda Arab berlari kencang di depan papan palang IqraQuest, di bawah bulan sabit keemasan.",
+      "stats": {
+        "questions": "pertanyaan bersumber jelas",
+        "languages": "bahasa",
+        "players": "pemain di satu perangkat",
+        "ages": "tahun"
+      }
+    },
+    "pitch": {
+      "title": "Permainan pacuan kuda klasik, dimainkan dengan apa yang Anda tahu",
+      "body": "Papan berbentuk palang berisi 52 petak, empat kandang, masing-masing empat kuda — dan tanpa satu pun dadu. Pada giliran Anda, Anda menarik sebuah kartu. Nilainya, dari 1 sampai 6, menunjukkan berapa petak yang ditempuh: nilai itu hanya berlaku jika Anda menjawab benar pertanyaan yang menyertainya.",
+      "highlight": "Di sini, keberuntungan tidak pernah menggantikan jawaban."
+    },
+    "howToPlay": {
+      "eyebrow": "Dalam empat gerakan",
+      "title": "Cara bermainnya",
+      "lede": "Tanpa dadu, tanpa menu, tanpa tombol konfirmasi. Satu giliran cukup empat gerakan.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Jawab",
+          "body": "Anda menarik kartu. Kartu itu menyebutkan nilainya sebelum membuka pertanyaannya, sesuai tingkat Anda: mudah, menengah, atau ahli."
+        },
+        {
+          "number": "2",
+          "title": "Maju",
+          "body": "Jawaban benar bernilai persis sebanyak petak yang disebutkan. Anda sentuh seekor kuda, petak emasnya menyala, lalu Anda letakkan kuda itu di sana."
+        },
+        {
+          "number": "3",
+          "title": "Nikmati lintasannya",
+          "body": "Petak bonus, jalan pintas, tangkapan: lintasan bisa mempercepat pacuan Anda. Semuanya terlihat di papan sebelum permainan dimulai."
+        },
+        {
+          "number": "4",
+          "title": "Capai tujuanmu",
+          "body": "Bawa kuda-kuda Anda sampai garis akhir. Dalam permainan cepat, yang pertama tiba menang; dalam permainan klasik, keempat kuda satu kandang harus pulang."
+        }
+      ],
+      "cta": "Lihat aturan lengkapnya"
+    },
+    "gameplay": {
+      "eyebrow": "Permainan",
+      "title": "Papan sungguhan, bukan sekadar kuis",
+      "lede": "Setiap layar IqraQuest disusun seperti bagian dari sebuah permainan: papannya dilukis, kudanya dipahat, dan pertanyaannya terbuka di tengah permainan, bukan menggantikan permainan itu sendiri.",
+      "features": [
+        {
+          "title": "Papan yang dilukis dengan tangan",
+          "body": "52 petak berbentuk palang, empat panel pemandangan, garis emas ganda, dan bintang bersudut delapan di setiap sudut."
+        },
+        {
+          "title": "Empat kandang, empat lambang",
+          "body": "Émeraude, Saphir, Grenat, Safran. Setiap tim membawa satu warna dan satu lambang — tidak pernah warna saja, agar tetap terbaca oleh semua orang."
+        },
+        {
+          "title": "Gerakan itulah langkahnya",
+          "body": "Tidak ada pemilih jarak, tidak ada konfirmasi. Anda geser kuda ke petaknya: meletakkan berarti melangkah."
+        },
+        {
+          "title": "Hasil sebuah pacuan",
+          "body": "Petak bonus yang dicapai dengan hitungan pas bernilai +5, +10, atau +20. Satu tangkapan bernilai 20. Tidak ada yang pernah melewati garis akhir."
+        },
+        {
+          "title": "Laju pengetahuan",
+          "body": "Jawaban benar berturut-turut ada ganjarannya: perisai pada tiga, Grand Galop — derap agung — pada lima, lencana penguasaan pada sepuluh."
+        },
+        {
+          "title": "Tantangan Harian",
+          "body": "Lima pertanyaan setiap hari, tanpa koneksi, dengan skor yang bisa dibagikan. Alasan untuk kembali tanpa perlu dipikir."
+        }
+      ],
+      "boardAlt": "Papan palang IqraQuest: 52 petak, empat panel pemandangan, dan empat kandang berwarna.",
+      "cta": "Pelajari seluruh permainannya"
+    },
+    "universe": {
+      "eyebrow": "Dunia",
+      "title": "Petualangan yang dipandu ilmu",
+      "lede": "IqraQuest terinspirasi bentang alam dan warisan arsitektur Arabia masa lampau, dalam tafsir artistik yang dirancang untuk permainan.",
+      "body": "Oasis, perbukitan, kebun kurma, jalur kafilah, arsitektur bergaya: dunia IqraQuest bercerita lewat tempat-tempatnya. Kita berkelana di sana, berhenti sejenak, lalu tiba — dan ilmulah yang membuat kita melaju.",
+      "respect": {
+        "title": "Yang tidak pernah digambarkan permainan ini",
+        "body": "Demi rasa hormat, IqraQuest tidak menggambarkan Allah, para nabi, maupun para sahabat sebagai tokoh, dan tidak mereka-reka adegan suci apa pun. Unsur keagamaan tidak pernah dijadikan sekadar hiasan: tempat suci hadir sebagai penanda di papan, bukan sebagai benda yang dimiliki atau ditangkap."
+      },
+      "cards": [
+        {
+          "title": "Oasis di garis akhir",
+          "body": "Tujuan akhir lintasan: air, pohon kurma, cahaya rendah. Inilah gambar yang ditampilkan permainan saat seekor kuda tiba."
+        },
+        {
+          "title": "Gurun dan perbukitannya",
+          "body": "Dari hamparan oker sampai pegunungan berbayang, setiap wilayah memberi lintasan warna dan iramanya sendiri."
+        },
+        {
+          "title": "Kuda-kuda Arab",
+          "body": "Empat warna bulu, empat kain hias, empat panji. Inilah bidak permainannya, dan merekalah yang kita saksikan berlari."
+        }
+      ],
+      "oasisAlt": "Oasis garis akhir IqraQuest: air terjun, pohon kurma, dan seekor kuda berpelana di depan bangunan batu berwarna terang.",
+      "courseAlt": "Pemandangan lintasan IqraQuest yang berkelok di antara pohon kurma, dengan kuda-kuda dari empat kandang."
+    },
+    "questions": {
+      "eyebrow": "Isi permainan",
+      "title": "Pertanyaan yang dipilih dengan cermat",
+      "lede": "900 pertanyaan, ditulis dan diperiksa satu per satu dengan satu aturan sederhana: begitu ada keraguan, pertanyaan itu disingkirkan.",
+      "body": "IqraQuest bersandar pada rujukan yang mapan — sebuah ayat Al-Quran, atau sebuah hadis dari Sahih al-Bukhari atau Sahih Muslim. Setiap pertanyaan menampilkan sumbernya secara persis dan penjelasan singkat setelah jawabannya. Topik yang tidak memungkinkan jawaban yang jelas dan tidak diperselisihkan dalam kerangka permainan pengetahuan sengaja ditinggalkan.",
+      "note": "Beberapa fakta deskriptif yang sudah mapan secara luas dan tidak merujuk pada satu kitab tertentu ditandai sebagaimana adanya, alih-alih dikaitkan dengan rujukan yang dikarang.",
+      "stats": [
+        {
+          "value": "900",
+          "label": "pertanyaan dalam bank soal"
+        },
+        {
+          "value": "3",
+          "label": "tingkat: mudah, menengah, ahli"
+        },
+        {
+          "value": "5",
+          "label": "kategori"
+        },
+        {
+          "value": "12",
+          "label": "bahasa"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Nabi",
+          "count": "250 pertanyaan"
+        },
+        {
+          "name": "Sirah",
+          "count": "250 pertanyaan"
+        },
+        {
+          "name": "Al-Quran",
+          "count": "150 pertanyaan"
+        },
+        {
+          "name": "Iman",
+          "count": "150 pertanyaan"
+        },
+        {
+          "name": "Akhlak",
+          "count": "100 pertanyaan"
+        }
+      ]
+    },
+    "family": {
+      "eyebrow": "Untuk seluruh keluarga",
+      "title": "Anak tujuh tahun dan orang dewasa benar-benar bermain bersama",
+      "lede": "Setiap pemain memilih tingkat pertanyaannya sendiri sebelum permainan dimulai. Papannya tetap sama untuk semua orang.",
+      "points": [
+        {
+          "title": "Menambah ilmu tanpa terasa sedang belajar",
+          "body": "Pertanyaan datang di tengah pacuan. Kita menjawab untuk maju, bukan untuk dinilai."
+        },
+        {
+          "title": "Menantang keluarga dan teman",
+          "body": "Dua sampai empat pemain di satu perangkat, atau bermain sendiri melawan satu sampai tiga lawan."
+        },
+        {
+          "title": "Menemukan atau mengulang apa yang sudah diketahui",
+          "body": "Setiap jawaban disertai sumber dan penjelasan singkat. Kita tetap belajar meski salah menjawab."
+        }
+      ],
+      "privacy": {
+        "title": "Tanpa akun. Tanpa iklan. Tanpa pelacakan.",
+        "body": "IqraQuest berjalan sepenuhnya tanpa koneksi internet. Tidak ada akun yang perlu dibuat, tidak ada data yang dikirim ke mana pun: semuanya tetap di perangkat. Satu pembelian opsional sekali bayar membuka seluruh bank soal — tidak pernah ada langganan.",
+        "link": "Baca kebijakan privasi"
+      }
+    },
+    "comingSoon": {
+      "title": "IqraQuest segera hadir.",
+      "subtitle": "Siapkan kuda Anda. Pacuan meraih ilmu akan dimulai.",
+      "body": "Aplikasi sedang disiapkan untuk App Store dan Google Play. Tombol di bawah akan aktif pada hari perilisan.",
+      "contactPrompt": "Ada pertanyaan, permintaan media, atau tawaran kerja sama?",
+      "contactLink": "Kirim pesan kepada kami"
+    }
+  },
+  "gamePage": {
+    "eyebrow": "Permainan",
+    "title": "IqraQuest, selengkapnya",
+    "metaDescription": "Papan palang 52 petak, empat kandang, tanpa dadu: kartu menentukan jarak, jawaban menentukan langkah. Semua isi IqraQuest.",
+    "lede": "Permainan pacuan kuda klasik, digubah ulang seputar khazanah Islam untuk seluruh keluarga. Inilah isinya yang sebenarnya.",
+    "sections": {
+      "board": {
+        "title": "Papan permainan",
+        "body": "Palang berisi 52 petak, empat kandang, satu pusat. Keempat panel sudut masing-masing memuat satu pemandangan, di bawah satu garis emas yang sama. Setiap petak bonus dikenali dari bentuk dan angkanya, tidak pernah dari warnanya saja: keping bulat untuk +5, segi delapan untuk +10, bintang bersudut delapan untuk +20 yang langka."
+      },
+      "deck": {
+        "title": "Tumpukan kartu, pengganti dadu",
+        "body": "Setiap nilai dari 1 sampai 6 keluar sesering nilai lainnya: tumpukan kartu itu adil, tidak ada yang bisa “memilih” keberuntungannya. Angka 6 mengeluarkan seekor kuda dari kandang dan memberi giliran tambahan, seperti pada permainan aslinya. Kartu menyebutkan nilainya sebelum membuka pertanyaannya, agar Anda tahu apa yang dipertaruhkan."
+      },
+      "modes": {
+        "title": "Mode permainan",
+        "body": "Solo melawan satu sampai tiga lawan, dengan tiga tingkat kesulitan; atau Keluarga, dua sampai empat pemain di satu perangkat, masing-masing dengan tingkat pertanyaannya sendiri. Permainan cepat: kuda pertama yang tiba menang. Permainan klasik: bawa pulang keempat kuda dari kandang Anda."
+      },
+      "courses": {
+        "title": "Tiga lintasan",
+        "body": "Dari yang paling tenang sampai yang paling ramai. Oasis tempat berteduh, petak ilmu, tantangan bonus, jalan pintas, duel: susunan setiap lintasan terlihat sebelum permainan dimulai. Tidak ada yang diundi di tengah jalan."
+      },
+      "progress": {
+        "title": "Perkembangan",
+        "body": "Permainan yang sudah dimainkan, ketepatan, penguasaan per kategori, rentetan harian. Dan di akhir setiap kemenangan, tabel hasil pacuan yang bisa Anda bagikan sebagai gambar."
+      },
+      "premium": {
+        "title": "Gratis dan Premium",
+        "body": "Versi gratis menyediakan 50 pertanyaan dan satu pacuan sepanjang 50 kartu. Pembelian sekali bayar Premium membuka seluruh bank soal dan pacuan sampai garis akhir. Satu kali bayar, tanpa langganan, dan semuanya tetap berjalan tanpa koneksi."
+      },
+      "accessibility": {
+        "title": "Aksesibilitas",
+        "body": "Tidak ada tim yang dikenali dari warna saja: masing-masing juga membawa lambang — bintang, kompas, lentera, kitab. Animasi yang tidak penting berhenti dengan pengaturan sistem “Kurangi Gerakan”, dan label aksesibilitas diterjemahkan ke dua belas bahasa."
+      },
+      "languages": {
+        "title": "Dua belas bahasa",
+        "body": "Antarmuka dan bank soal tersedia dalam bahasa Prancis, Inggris, Arab, Jerman, Spanyol, Indonesia, Italia, Melayu, Belanda, Portugis, Turki, dan Urdu."
+      }
+    },
+    "cta": "Lihat cara bermainnya"
+  },
+  "howToPlayPage": {
+    "eyebrow": "Cara bermain",
+    "title": "Satu giliran, dari awal sampai akhir",
+    "metaDescription": "Aturan IqraQuest secara gamblang: tarik kartu, jawab, pilih kuda, letakkan. Keluar kandang, hitungan pas, tangkapan, petak bonus, laju pengetahuan.",
+    "lede": "IqraQuest bisa dipelajari dalam beberapa menit. Inilah jalannya satu giliran secara persis.",
+    "turn": {
+      "title": "Satu giliran",
+      "steps": [
+        {
+          "title": "Tarik satu kartu",
+          "body": "Kartu dibalik dan menyebutkan nilainya: “Kartu 5 derap”. Anda tahu nilai sebuah jawaban benar bahkan sebelum membaca pertanyaannya."
+        },
+        {
+          "title": "Jawab pertanyaannya",
+          "body": "Empat pilihan jawaban, sesuai tingkat Anda. Setelah Anda memilih, permainan menampilkan jawaban yang benar, penjelasan singkat, dan sumbernya secara persis."
+        },
+        {
+          "title": "Pilih kudanya",
+          "body": "Kuda yang bisa melangkah akan menyala. Sentuh salah satunya: petak tujuannya ikut menyala, dengan petak-petak antara ditandai garis putus-putus."
+        },
+        {
+          "title": "Letakkan kudanya",
+          "body": "Geser kuda sampai ke petak emasnya. Meletakkan berarti melangkah — tidak ada yang perlu dikonfirmasi."
+        }
+      ]
+    },
+    "rules": {
+      "title": "Aturan yang menentukan",
+      "items": [
+        {
+          "title": "Keluar dari kandang",
+          "body": "Kuda hanya bisa keluar dengan kartu bernilai 6. Angka 6 juga memberi giliran tambahan."
+        },
+        {
+          "title": "Hitungan pas",
+          "body": "Kuda tidak pernah melewati garis akhir. Jika hitungannya belum pas, kuda menunggu kartu yang tepat — dan permainan memberi tahu kartu mana itu."
+        },
+        {
+          "title": "Tangkapan",
+          "body": "Kuda yang mengakhiri langkahnya di atas kuda lawan mengirim lawan itu kembali ke kandangnya. Tangkapan memberi 20 petak tambahan."
+        },
+        {
+          "title": "Petak bonus",
+          "body": "Dicapai dengan hitungan pas, sebuah petak bonus memberikan nilainya: +5, +10, atau +20. Petak ini hanya membayar sekali per giliran."
+        },
+        {
+          "title": "Laju pengetahuan",
+          "body": "Tiga jawaban benar berturut-turut memberi perisai; lima, Grand Galop; sepuluh, lencana penguasaan."
+        },
+        {
+          "title": "Menang",
+          "body": "Dalam permainan cepat, kuda pertama yang tiba menang. Dalam permainan klasik, keempat kuda dari kandang sendiri harus dibawa pulang."
+        }
+      ]
+    },
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "faq": [
+      {
+        "question": "Apakah perlu memahami Islam untuk bisa bermain?",
+        "answer": "Tidak. Tingkat mudah dirancang untuk anak tujuh tahun yang baru mengenal, dan setiap jawaban disertai penjelasan singkat beserta sumbernya: kita belajar sambil bermain, termasuk ketika salah menjawab."
+      },
+      {
+        "question": "Bisakah beberapa orang bermain di satu ponsel?",
+        "answer": "Bisa. Mode Keluarga memungkinkan dua sampai empat pemain di satu perangkat, masing-masing dengan tingkat pertanyaannya sendiri."
+      },
+      {
+        "question": "Apakah perlu koneksi internet?",
+        "answer": "Tidak. IqraQuest berjalan sepenuhnya tanpa koneksi setelah dipasang. Hanya proses pembelian yang melalui App Store atau Google Play."
+      },
+      {
+        "question": "Apakah ada iklan atau langganan?",
+        "answer": "Keduanya tidak ada. Permainan ini tidak memuat iklan dan tidak menawarkan langganan. Satu pembelian opsional sekali bayar membuka seluruh bank soal."
+      },
+      {
+        "question": "Dari mana pertanyaannya berasal?",
+        "answer": "Dari Al-Quran atau dari kitab Sahih al-Bukhari dan Sahih Muslim. Setiap pertanyaan menampilkan rujukannya secara persis, dan topik yang tidak memungkinkan jawaban yang jelas dalam kerangka permainan disingkirkan."
+      },
+      {
+        "question": "Kapan aplikasinya rilis?",
+        "answer": "Perilisan di App Store dan Google Play sedang disiapkan. Tombol unduh di situs ini akan aktif pada hari peluncuran."
+      }
+    ]
+  },
+  "aboutPage": {
+    "eyebrow": "Tentang",
+    "title": "Mengapa IqraQuest ada",
+    "metaDescription": "Mengapa IqraQuest ada: permainan papan keluarga tempat pertanyaan membuat pemain melaju, 900 pertanyaan bersumber jelas, dan aturan hormat sejak awal.",
+    "lede": "Sebuah permainan papan yang bisa digelar keluarga di atas meja, dan bisa dimainkan bersama oleh seorang anak dan kakeknya tanpa ada yang bosan.",
+    "sections": [
+      {
+        "title": "Gagasan awal",
+        "body": "Permainan pengetahuan tentang khazanah Islam sudah ada, tetapi hampir selalu berbentuk kuis: menjawab, menghitung poin, lalu mengulang. IqraQuest berangkat dari ujung yang lain — pertama-tama sebuah permainan papan yang memang ingin dimainkan, dan di dalamnya pertanyaan menjadi penggerak langkah, bukan tujuan akhirnya."
+      },
+      {
+        "title": "Mengapa permainan pacuan kuda",
+        "body": "Formatnya dikenal semua orang, lintas beberapa generasi, dan dimainkan mengelilingi satu meja. Yang perlu dilakukan hanyalah membuang dadunya: jarak kini adalah nilai sebuah kartu, dan nilai itu hanya berlaku jika pertanyaan yang menyertainya menemukan jawabannya."
+      },
+      {
+        "title": "Disiplin dalam isi",
+        "body": "Bank berisi 900 pertanyaan mengikuti kebijakan sumber yang ditulis sebelum pertanyaan pertama dibuat: Al-Quran, Sahih al-Bukhari, Sahih Muslim, dan begitu ada keraguan, pertanyaan itu disingkirkan. Setiap entri mencantumkan rujukannya secara persis, dan keseluruhannya dapat diperiksa pertanyaan demi pertanyaan."
+      },
+      {
+        "title": "Rasa hormat sebagai batasan perancangan",
+        "body": "Ada hal-hal yang tidak dapat digambarkan dalam sebuah permainan, dan dokumen rancangannya menyatakan itu secara tegas: tidak ada penggambaran Allah, para nabi, atau malaikat; tidak ada tempat suci yang diubah menjadi objek permainan; tidak ada unsur keagamaan yang diperlakukan sebagai ornamen belaka. Aturan-aturan ini membentuk arah artistiknya sama kuatnya dengan isinya."
+      },
+      {
+        "title": "Yang tidak dilakukan permainan ini",
+        "body": "Tanpa akun, tanpa server, tanpa iklan, tanpa pelacakan, tanpa langganan, tanpa mekanisme ala kasino. Ketiadaan itu adalah keputusan produk, bukan fitur yang belum sempat dibuat."
+      }
+    ],
+    "publisherTitle": "Penerbit",
+    "publisherBody": "IqraQuest adalah proyek independen. Situs resmi permainan ini adalah {domain}."
+  },
+  "supportPage": {
+    "eyebrow": "Dukungan",
+    "title": "Dukungan IqraQuest",
+    "metaDescription": "Dukungan resmi IqraQuest: perkembangan permainan, pembelian Premium, melaporkan sebuah pertanyaan, ketersediaan di App Store dan Google Play.",
+    "lede": "Ada pertanyaan tentang permainan, kendala teknis, atau catatan tentang salah satu pertanyaan di dalamnya: inilah tempat menulis kepada kami.",
+    "contactTitle": "Kirim pesan",
+    "contactBody": "Cara paling langsung adalah lewat email. Sebutkan perangkat Anda, versi permainannya, dan apa yang Anda amati — itulah yang memungkinkan kami menjawab dengan berguna.",
+    "emailLabel": "Alamat dukungan",
+    "formLink": "Atau gunakan formulir kontak",
+    "faqTitle": "Sebelum menulis",
+    "faq": [
+      {
+        "question": "Perkembangan saya hilang setelah berganti ponsel.",
+        "answer": "IqraQuest menyimpan semuanya secara lokal di perangkat, dan tidak memiliki pencadangan daring. Karena itu, perkembangan tidak ikut berpindah saat berganti perangkat. Inilah konsekuensi langsung dari tidak adanya akun dan server."
+      },
+      {
+        "question": "Saya sudah membeli Premium, tetapi kontennya terkunci.",
+        "answer": "Gunakan opsi pemulihan pembelian di pengaturan permainan. Pembelian terhubung ke akun App Store atau Google Play Anda, bukan ke akun IqraQuest — pembelian dapat dipulihkan di perangkat mana pun yang memakai akun toko yang sama."
+      },
+      {
+        "question": "Saya rasa ada kekeliruan pada sebuah pertanyaan.",
+        "answer": "Tulislah kepada kami dengan menyebutkan bunyi pertanyaannya dan, jika memungkinkan, sumber yang ditampilkan. Laporan tentang isi ditangani lebih dahulu: pertanyaan yang sumbernya tidak kuat akan diperbaiki atau ditarik."
+      },
+      {
+        "question": "Aplikasinya tidak tersedia di toko saya.",
+        "answer": "IqraQuest belum dirilis. Tombol unduh di situs ini akan aktif pada hari peluncuran di App Store dan Google Play."
+      }
+    ],
+    "legalTitle": "Dokumen",
+    "legalBody": "Kebijakan privasi, ketentuan penggunaan, dan informasi kekayaan intelektual dapat diakses dari bagian bawah halaman situs ini."
+  },
+  "contactPage": {
+    "eyebrow": "Kontak",
+    "title": "Kirim pesan kepada kami",
+    "metaDescription": "Hubungi tim IqraQuest: dukungan, media, kerja sama, kekayaan intelektual, atau laporan tentang sebuah kendala.",
+    "lede": "Pilih perihal pesan Anda: itu membuat kami bisa menjawab lebih cepat.",
+    "form": {
+      "subjectLabel": "Perihal",
+      "subjectPlaceholder": "Pilih sebuah perihal",
+      "subjects": {
+        "support": "Dukungan",
+        "press": "Media",
+        "partnership": "Kerja sama",
+        "ip": "Kekayaan intelektual",
+        "bug": "Laporkan kendala",
+        "other": "Lainnya"
+      },
+      "nameLabel": "Nama",
+      "namePlaceholder": "Nama Anda",
+      "emailLabel": "Email",
+      "emailPlaceholder": "anda@contoh.com",
+      "messageLabel": "Pesan",
+      "messagePlaceholder": "Jelaskan permintaan Anda.",
+      "submit": "Kirim pesan",
+      "submitting": "Mengirim…",
+      "openMail": "Buka di aplikasi email Anda",
+      "consent": "Dengan mengirim pesan ini, Anda setuju bahwa nama, alamat email, dan pesan Anda hanya digunakan untuk menjawab Anda.",
+      "errors": {
+        "subject": "Pilih sebuah perihal.",
+        "name": "Cantumkan nama.",
+        "email": "Cantumkan alamat email yang valid.",
+        "messageShort": "Pesan Anda harus terdiri dari minimal 20 karakter.",
+        "messageLong": "Pesan Anda tidak boleh melebihi 4000 karakter.",
+        "failed": "Pengiriman gagal. Coba lagi, atau tulis langsung ke {email}."
+      },
+      "successTitle": "Pesan terkirim",
+      "successBody": "Terima kasih. Kami akan menghubungi Anda kembali di alamat yang dicantumkan.",
+      "mailFallbackTitle": "Pengiriman lewat email",
+      "mailFallbackBody": "Formulir ini menyiapkan sebuah email di aplikasi email Anda, ke alamat {email}. Tidak ada yang terkirim selama Anda belum mengirimkannya dari aplikasi email Anda."
+    },
+    "directTitle": "Lewat email langsung",
+    "directBody": "Anda juga bisa menulis langsung ke {email}."
+  },
+  "privacyPage": {
+    "eyebrow": "Privasi",
+    "title": "Kebijakan privasi",
+    "metaDescription": "IqraQuest tidak mengumpulkan data pribadi: tanpa akun, tanpa server, tanpa iklan, tanpa pelacakan. Semuanya tetap di perangkat Anda.",
+    "updated": "4 September 2026",
+    "summaryTitle": "Ringkasnya",
+    "summaryBody": "Baik situs ini maupun aplikasi IqraQuest tidak mengumpulkan data pribadi. Tidak ada akun pengguna, tidak ada server, tidak ada iklan, dan tidak ada pelacakan.",
+    "sections": [
+      {
+        "title": "Situs web ini",
+        "body": "Situs {domain} adalah situs statis. Situs ini tidak menaruh cookie apa pun, tidak menggunakan alat analisis pengunjung, dan tidak memuat skrip pihak ketiga. Tidak ada spanduk persetujuan yang ditampilkan karena tidak ada pemrosesan yang memerlukan persetujuan Anda. Seperti semua situs yang dapat diakses di internet, penyedia hosting yang melayaninya dapat menyimpan log teknis (alamat IP, tanggal, sumber daya yang diminta) untuk alasan keamanan dan operasional; log tersebut berada di tangan penyedia hosting dan tidak diolah maupun dibaca oleh IqraQuest untuk tujuan pembuatan profil."
+      },
+      {
+        "title": "Formulir kontak",
+        "body": "Jika Anda menggunakan formulir kontak, informasi yang Anda isikan — nama, alamat email, perihal, dan pesan — hanya digunakan untuk menangani permintaan Anda dan menjawabnya. Informasi itu tidak dijual kembali, tidak digunakan untuk tujuan periklanan, dan tidak diteruskan kepada pihak ketiga di luar apa yang benar-benar diperlukan untuk menyampaikan pesan tersebut. Anda dapat meminta penghapusannya dengan menulis ke {email}."
+      },
+      {
+        "title": "Aplikasi",
+        "body": "IqraQuest tidak membuat maupun mensyaratkan akun, tidak mengoperasikan server, tidak menampilkan iklan, tidak menyertakan SDK periklanan atau analisis, dan tidak menggunakan teknik identifikasi lewat sidik jari perangkat. Aplikasi berjalan sepenuhnya tanpa koneksi setelah dipasang, kecuali proses pembelian yang dikelola oleh App Store atau Google Play."
+      },
+      {
+        "title": "Apa yang disimpan, dan di mana",
+        "body": "Semua hal berikut hanya disimpan di perangkat Anda: nama depan yang diisikan untuk sebuah permainan, perkembangan Anda (permainan yang sudah dimainkan, ketepatan, statistik per kategori, rentetan harian), permainan yang sedang berjalan, pengaturan Anda (bahasa, mode malam, pengurangan animasi, suara), dan fakta bahwa Anda telah membeli IqraQuest Premium. Mencopot aplikasi akan menghapus seluruh data tersebut. Tidak ada pencadangan daring dan tidak ada yang perlu dihapus dari pihak kami, karena kami tidak pernah memiliki salinannya."
+      },
+      {
+        "title": "Pembelian",
+        "body": "Pembelian sekali bayar Premium sepenuhnya diproses oleh App Store milik Apple atau oleh Google Play. IqraQuest tidak pernah melihat informasi pembayaran Anda: informasi itu dikelola oleh Apple atau Google menurut kebijakan mereka sendiri. Aplikasi hanya mengetahui apakah pembelian berhasil, agar dapat membuka konten secara lokal."
+      },
+      {
+        "title": "Anak-anak",
+        "body": "IqraQuest dirancang agar dapat digunakan oleh anak-anak maupun orang dewasa. Karena tidak ada data pribadi yang dikumpulkan, siapa pun penggunanya, maka tidak ada pula data yang dikumpulkan dari anak-anak. Setiap tindakan yang keluar dari aplikasi — tautan eksternal, pembelian — dilindungi oleh gerbang verifikasi orang tua."
+      },
+      {
+        "title": "Notifikasi",
+        "body": "Jika Anda mengaktifkan pengingat opsional untuk Tantangan Harian, pengingat itu dijadwalkan sepenuhnya di perangkat Anda melalui notifikasi lokal. Tidak ada data notifikasi yang dikirim ke server."
+      },
+      {
+        "title": "Hak Anda",
+        "body": "Peraturan Umum Perlindungan Data memberi Anda hak akses, perbaikan, penghapusan, dan keberatan. Dalam praktiknya, tidak ada data pribadi tentang Anda yang disimpan, kecuali isi pesan yang Anda kirimkan sendiri kepada kami secara sukarela. Untuk permintaan apa pun, tulislah ke {email}."
+      },
+      {
+        "title": "Perubahan",
+        "body": "Jika ada perubahan, versi yang diperbarui diterbitkan di halaman ini dan tanggal di atas dimutakhirkan."
+      }
+    ]
+  },
+  "termsPage": {
+    "eyebrow": "Ketentuan",
+    "title": "Ketentuan penggunaan",
+    "metaDescription": "Ketentuan penggunaan situs resmi iqraquest.org: tujuan, penggunaan yang wajar, ketersediaan, tautan eksternal, tanggung jawab, hukum yang berlaku.",
+    "updated": "4 September 2026",
+    "intro": "Ketentuan ini mengatur penggunaan situs {domain}. Selain itu, penggunaan aplikasi IqraQuest juga tunduk pada ketentuan toko — App Store atau Google Play — tempat aplikasi itu diunduh.",
+    "sections": [
+      {
+        "title": "Tujuan situs",
+        "body": "Situs ini memperkenalkan permainan IqraQuest, aturannya, dunianya, dan dokumen resminya. Situs ini tidak memungkinkan bermain daring, membuat akun, maupun melakukan pembelian."
+      },
+      {
+        "title": "Penggunaan yang wajar",
+        "body": "Anda boleh membaca, mengutip, dan membagikan halaman-halaman situs ini. Anda tidak boleh mengambil sebagian atau seluruh isinya untuk menyusun sebuah basis data atau layanan pesaing, mencoba mengganggu jalannya situs, atau menggunakannya dengan cara yang menimbulkan kesan adanya afiliasi, kemitraan, atau dukungan yang sebenarnya tidak ada."
+      },
+      {
+        "title": "Ketersediaan",
+        "body": "Situs disediakan apa adanya, tanpa jaminan ketersediaan yang terus-menerus. Situs dapat diubah, dihentikan sementara, atau dihentikan kapan saja, termasuk untuk keperluan pemeliharaan."
+      },
+      {
+        "title": "Tautan eksternal",
+        "body": "Situs ini dapat mengarahkan ke sumber daya eksternal, khususnya ke App Store dan Google Play. Sumber daya tersebut berada di bawah penerbitnya masing-masing dan ketentuannya sendiri; isinya tidak mengikat IqraQuest."
+      },
+      {
+        "title": "Informasi tentang permainan",
+        "body": "Deskripsi permainan yang diterbitkan di sini sesuai dengan versi yang sedang disiapkan dan dapat berubah sebelum diterbitkan di toko aplikasi. Deskripsi tersebut bukan merupakan komitmen kontraktual atas isi persis sebuah versi mendatang."
+      },
+      {
+        "title": "Kekayaan intelektual",
+        "body": "Unsur-unsur asli permainan dan situs ini dilindungi. Ketentuan yang berlaku dijabarkan di halaman Kekayaan intelektual."
+      },
+      {
+        "title": "Tanggung jawab",
+        "body": "Sejauh diizinkan oleh hukum yang berlaku, penerbit tidak dapat dimintai tanggung jawab atas kerugian tidak langsung yang timbul dari penggunaan situs ini. Tidak ada ketentuan di sini yang berakibat mengesampingkan tanggung jawab yang secara hukum tidak dapat dikesampingkan, atau membatasi hak-hak yang diberikan undang-undang kepada konsumen."
+      },
+      {
+        "title": "Hukum yang berlaku",
+        "body": "Ketentuan ini diatur oleh hukum Prancis. Jika penyelesaian secara damai tidak tercapai, pengadilan yang berwenang adalah pengadilan yang ditunjuk oleh kaidah hukum umum. Jika Anda bertindak sebagai konsumen, kaidah perlindungan di negara tempat tinggal Anda di Uni Eropa tetap berlaku."
+      },
+      {
+        "title": "Kontak",
+        "body": "Untuk pertanyaan apa pun terkait ketentuan ini, tulislah ke {email}."
+      }
+    ]
+  },
+  "ipPage": {
+    "eyebrow": "Kekayaan intelektual",
+    "title": "Kekayaan intelektual",
+    "metaDescription": "Kekayaan intelektual IqraQuest: apa yang dilindungi, apa yang tidak, penggunaan merek, dan cara meminta izin.",
+    "updated": "4 September 2026",
+    "lede": "Halaman ini menjelaskan apa yang dilindungi, apa yang tidak, dan kepada siapa harus meminta izin.",
+    "ownershipTitle": "Kepemilikan",
+    "ownershipBody": "Kecuali dinyatakan lain, unsur-unsur asli IqraQuest adalah milik penerbit permainan. Unsur-unsur itu dilindungi hak cipta sejak diciptakan, tanpa formalitas pendaftaran, di negara-negara peserta Konvensi Bern.",
+    "protectedTitle": "Unsur asli yang tercakup",
+    "protectedIntro": "Yang tercakup antara lain, sepanjang merupakan ciptaan asli:",
+    "protectedItems": [
+      "nama IqraQuest sebagai tanda pembeda permainan",
+      "logo dan ikon aplikasi",
+      "pedoman grafis dan identitas visual",
+      "ilustrasi asli",
+      "kuda-kuda dan kain hiasnya, dalam gambar aslinya",
+      "papan permainan dan unsur-unsur grafisnya",
+      "antarmuka dan komposisi aslinya",
+      "seluruh aset grafis dan suara",
+      "animasi asli",
+      "teks dan konten editorial asli",
+      "rumusan asli pertanyaan, penjelasannya, dan penyusunannya",
+      "unsur-unsur yang membentuk situs web ini",
+      "materi pemasaran dan visual promosi"
+    ],
+    "usageTitle": "Yang tidak diizinkan",
+    "usageBody": "Setiap penggandaan, penyajian, adaptasi, penerjemahan, pengambilan, penyebaran, atau pemanfaatan tanpa izin atas sebagian maupun seluruh unsur asli IqraQuest dilarang, dengan tunduk pada pengecualian yang diatur peraturan yang berlaku — khususnya kutipan singkat, tinjauan pers, parodi, dan penggunaan pribadi.",
+    "extractionTitle": "Bank soal",
+    "extractionBody": "Pengambilan atau penggunaan ulang secara sistematis, yang substansial secara kualitatif maupun kuantitatif, atas isi bank soal dilarang. Fakta, ayat, dan hadis yang dikutip tentu saja merupakan milik bersama: yang dilindungi adalah rumusan asli pertanyaan, pemilihan dan penyusunan entrinya, penjelasan yang ditulis untuk permainan, serta struktur bank soal.",
+    "trademarkTitle": "Merek",
+    "trademarkBody": "IqraQuest digunakan sebagai merek untuk menandai permainan ini dan produk turunannya. Simbol ™ menunjukkan penggunaan tersebut. Tidak ada klaim pendaftaran yang dibuat di halaman ini: simbol ® tidak digunakan dan baru akan digunakan jika pendaftaran benar-benar dilakukan, serta hanya untuk wilayah dan kelas yang bersangkutan. Pendaftaran sebuah nama domain dengan sendirinya tidak memberikan hak merek apa pun.",
+    "limitsTitle": "Yang tidak dicakup perlindungan ini",
+    "limitsIntro": "Demi kejujuran, dan karena klaim yang berlebihan justru merugikan perlindungan yang sesungguhnya:",
+    "limitsItems": [
+      "Prinsip umum sebuah permainan papan yang memadukan pertanyaan dengan perpindahan bidak tidak dapat dimiliki siapa pun. Gagasan dan mekanika permainan, sebagai gagasan dan mekanika, tidak dilindungi hak cipta.",
+      "Permainan pacuan kuda termasuk warisan permainan milik bersama. Yang asli pada IqraQuest adalah perwujudannya: papannya, ilustrasinya, teksnya, antarmukanya, dan konten editorialnya.",
+      "Isi keagamaan yang dikutip — ayat Al-Quran, hadis — bukan milik siapa pun. Yang tercakup hanyalah rumusan dan pemilihan yang dibuat untuk permainan ini.",
+      "Hak cipta tidak melarang pihak lain membuat permainan pengetahuan lain tentang khazanah Islam. Yang dilarang adalah mengambil perwujudan asli IqraQuest."
+    ],
+    "provenanceTitle": "Keterlacakan",
+    "provenanceBody": "Visual di situs ini berasal dari berkas sumber permainan, yang riwayat pembuatannya terekam dalam kendali versi dan bertanda waktu. Halaman-halamannya memuat pernyataan hak dan metadata pencipta, dan situs ini diterbitkan di bawah domain resmi {domain}. Unsur-unsur ini merupakan petunjuk penciptaan lebih dahulu; semuanya tidak menggantikan bukti yang disusun di hadapan pengadilan.",
+    "permissionTitle": "Meminta izin",
+    "permissionBody": "Media boleh menggunakan visual resmi dan cuplikan permainan untuk memberitakannya, dengan menyebut IqraQuest. Untuk penggunaan lain — kemitraan, adaptasi, produk turunan, penyebaran komersial — tulislah ke {email} dengan menjelaskan penggunaan yang dimaksud.",
+    "reportTitle": "Melaporkan pelanggaran",
+    "reportBody": "Jika Anda menemukan penggunaan unsur IqraQuest tanpa izin, tulislah ke {email} disertai alamat yang bersangkutan dan penjelasan tentang apa yang diambil."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Jalur ini tidak menuju ke mana-mana.",
+    "body": "Halaman yang Anda cari tidak ada, atau alamatnya sudah berubah. Kembalilah ke beranda dan lanjutkan pacuannya.",
+    "cta": "Kembali ke beranda",
+    "secondary": "Lihat permainannya"
+  },
+  "footer": {
+    "tagline": "Berpacu meraih ilmu.",
+    "sectionGame": "Permainan",
+    "sectionSupport": "Bantuan",
+    "sectionLegal": "Legal",
+    "copyright": "© {year} IqraQuest. Hak cipta dilindungi undang-undang.",
+    "trademarkNote": "IqraQuest{mark} dan logo IqraQuest digunakan sebagai merek.",
+    "storeNote": "App Store adalah merek dagang Apple Inc. Google Play adalah merek dagang Google LLC.",
+    "socialTitle": "Media sosial"
+  }
+}

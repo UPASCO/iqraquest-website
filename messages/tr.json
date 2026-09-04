@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "localeName": "Türkçe",
+    "siteTitle": "IqraQuest — Bilgi yarışı burada başlıyor.",
+    "siteDescription": "IqraQuest bir aile masa oyunu: kart çekin, cevaplayın, atlarınızı bitişe götürün. İslam kültürü üzerine kaynaklı 900 soru, 7-99 yaş. Yakında App Store ve Google Play'de.",
+    "ogAlt": "IqraQuest — oyun tahtasının üzerinde dörtnala koşan üç Arap atı."
+  },
+  "common": {
+    "skipToContent": "Ana içeriğe geç",
+    "brandBaseline": "Bilgi yarışı.",
+    "comingSoon": "Yakında çıkıyor",
+    "comingSoonShort": "Yakında",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "App Store'dan indirin",
+    "getItOnGooglePlay": "Google Play'den edinin",
+    "storeNotYetAvailable": "Uygulama henüz yayımlanmadı. Bu düğme lansman günü etkinleşecek.",
+    "language": "Dil",
+    "chooseLanguage": "Dil seçin",
+    "menu": "Menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "backHome": "Ana sayfaya dön",
+    "readMore": "Daha fazla bilgi",
+    "email": "E-posta",
+    "onThisPage": "Bu sayfada",
+    "lastUpdated": "Son güncelleme",
+    "legalPrevails": "Bu belge Fransızcadan çevrilmiştir. Dil sürümleri arasında farklılık olması hâlinde Fransızca sürüm esas alınır."
+  },
+  "nav": {
+    "game": "Oyun",
+    "howToPlay": "Nasıl oynanır",
+    "universe": "Evren",
+    "about": "Hakkında",
+    "support": "Destek",
+    "contact": "İletişim",
+    "privacy": "Gizlilik",
+    "terms": "Kullanım koşulları",
+    "intellectualProperty": "Fikri mülkiyet"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Aile masa oyunu",
+      "title": "IqraQuest",
+      "baseline": "Bilgi yarışı burada başlıyor.",
+      "lede": "Cevaplayın. İlerleyin. Rakiplerinize meydan okuyun. Atınızı zafere taşıyın.",
+      "ctaPrimary": "Oyunu keşfedin",
+      "ctaSecondary": "Nasıl oynanır",
+      "availability": "Yakında App Store ve Google Play'de",
+      "artAlt": "IqraQuest'in artı biçimli tahtasının önünde dörtnala koşan üç Arap atı, altın rengi bir hilalin altında.",
+      "stats": {
+        "questions": "kaynaklı soru",
+        "languages": "dil",
+        "players": "aynı cihazda oyuncu",
+        "ages": "yaş"
+      }
+    },
+    "pitch": {
+      "title": "Klasik at yarışı oyunu, bildiklerinizle oynanıyor",
+      "body": "Artı biçiminde 52 kareli bir tahta, dört ahır, her ahırda dört at — ve tek bir zar bile yok. Sıra sizdeyken bir kart çekersiniz. Kartın 1 ile 6 arasındaki değeri, kaç kare ilerleyeceğinizi söyler: bu değer, yalnızca kartın sorusunu doğru cevaplarsanız sayılır.",
+      "highlight": "Burada şans, doğru cevabın yerini asla tutmaz."
+    },
+    "howToPlay": {
+      "eyebrow": "Dört hareketle",
+      "title": "Oyun böyle oynanır",
+      "lede": "Zar yok, menü yok, onay düğmesi yok. Bir tur dört hareketle biter.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Cevapla",
+          "body": "Bir kart çekersiniz. Kart, sorusunu açmadan önce değerini duyurur; soru sizin seviyenizde gelir: kolay, orta ya da uzman."
+        },
+        {
+          "number": "2",
+          "title": "İlerle",
+          "body": "Doğru cevap, duyurulan kare sayısının tamamını kazandırır. Bir ata dokunursunuz, gideceği altın kare yanar, atı oraya bırakırsınız."
+        },
+        {
+          "number": "3",
+          "title": "Parkurdan yararlan",
+          "body": "Bonus kareler, kestirmeler, yakalamalar: parkur yarışınızı hızlandırabilir. Her şey, daha yola çıkmadan tahtada görünür."
+        },
+        {
+          "number": "4",
+          "title": "Hedefine ulaş",
+          "body": "Atlarınızı sonuna kadar götürün. Hızlı oyunda bitişe ilk varan kazanır; klasik oyunda ahırındaki dört atı da getiren."
+        }
+      ],
+      "cta": "Kuralları ayrıntılı görün"
+    },
+    "gameplay": {
+      "eyebrow": "Oyun",
+      "title": "Gerçek bir oyun tahtası, bir soru listesi değil",
+      "lede": "IqraQuest'in her ekranı bir oyun parçası gibi kuruldu: tahta boyandı, atlar oyuldu, soru ise oyunun yerine geçmek yerine oyunun ortasında açılıyor.",
+      "features": [
+        {
+          "title": "Elle boyanmış bir tahta",
+          "body": "Artı biçiminde 52 kare, dört manzara paneli, çift altın çizgi ve her köşede sekiz köşeli bir yıldız."
+        },
+        {
+          "title": "Dört ahır, dört simge",
+          "body": "Émeraude, Saphir, Grenat, Safran. Her takımın bir rengi ve bir simgesi var — herkesin okuyabilmesi için asla yalnızca renk değil."
+        },
+        {
+          "title": "Hareketin kendisi hamledir",
+          "body": "Mesafe seçici yok, onaylama yok. Atı karesine sürüklersiniz: bırakmak, ilerlemektir."
+        },
+        {
+          "title": "Bir dörtnalın getirisi",
+          "body": "Tam sayıyla ulaşılan bir bonus kare +5, +10 ya da +20 kazandırır. Bir yakalama 20 eder. Hiçbir şey bitişi aşmaz."
+        },
+        {
+          "title": "Bilginin ivmesi",
+          "body": "Arka arkaya gelen doğru cevaplar ödüllendirilir: üç doğruda bir kalkan, beş doğruda Grand Galop (büyük dörtnal), on doğruda bir ustalık rozeti."
+        },
+        {
+          "title": "Günün Meydan Okuması",
+          "body": "Günde beş soru, çevrimdışı, paylaşılabilir bir skorla. Farkına varmadan geri dönmenize yeter."
+        }
+      ],
+      "boardAlt": "IqraQuest'in artı biçimli tahtası: 52 kare, dört manzara paneli ve dört renkli ahır.",
+      "cta": "Oyunla ilgili her şey"
+    },
+    "universe": {
+      "eyebrow": "Evren",
+      "title": "Bilginin yönlendirdiği bir yolculuk",
+      "lede": "IqraQuest, tarihî Arabistan'ın manzaralarından ve mimari mirasından esinlenir; oyun için tasarlanmış sanatsal bir yorumla.",
+      "body": "Vahalar, tepeler, hurmalıklar, kervan yolları, üsluplaştırılmış mimari: IqraQuest'in dünyası kendini yerleriyle anlatır. Yol alınır, durulur, varılır — ve ilerleten şey bilgidir.",
+      "respect": {
+        "title": "Oyunun asla göstermedikleri",
+        "body": "IqraQuest, saygı gereği ne Allah'ı, ne peygamberleri, ne de sahabeyi karakter olarak tasvir eder; hiçbir kutsal sahne de uydurmaz. Dinî unsurlar hiçbir zaman süs olarak kullanılmaz: kutsal mekânlar tahtada yalnızca birer işaret noktası olarak yer alır, sahip olunacak ya da ele geçirilecek nesneler olarak değil."
+      },
+      "cards": [
+        {
+          "title": "Varış vahası",
+          "body": "Parkurun varış noktası: su, hurma ağaçları, alçalan ışık. Bir at bitişe ulaştığında oyunun gösterdiği görüntü budur."
+        },
+        {
+          "title": "Çöl ve yükseltileri",
+          "body": "Toprak rengi düzlüklerden gölgeli dağlara kadar, her bölge parkura kendi rengini ve ritmini verir."
+        },
+        {
+          "title": "Arap atları",
+          "body": "Dört don, dört koşum, dört sancak. Bunlar oyunun taşlarıdır ve koşarken izlenen de onlardır."
+        }
+      ],
+      "oasisAlt": "IqraQuest'in varış vahası: çağlayanlar, hurma ağaçları ve açık renk taş mimarinin önünde koşumlu bir at.",
+      "courseAlt": "IqraQuest parkurunun hurma ağaçları arasında kıvrılan görünümü, dört ahırın atlarıyla."
+    },
+    "questions": {
+      "eyebrow": "İçerik",
+      "title": "Özenle seçilmiş sorular",
+      "lede": "900 soru, tek tek yazıldı ve basit bir kurala göre gözden geçirildi: en küçük şüphede soru elenir.",
+      "body": "IqraQuest yerleşik kaynaklara dayanır — Kur'an'dan bir ayet ya da Sahih-i Buhari veya Sahih-i Müslim'den bir hadis. Her soru, tam kaynağını ve cevaptan sonra kısa bir açıklamayı gösterir. Bir bilgi oyunu çerçevesinde açık ve tartışmasız bir cevaba imkân vermeyen konular bilerek dışarıda bırakıldı.",
+      "note": "Tek bir esere dayanmayan, yaygın biçimde kabul görmüş birkaç betimleyici bilgi, uydurma bir kaynağa bağlanmak yerine bu şekilde işaretlenir.",
+      "stats": [
+        {
+          "value": "900",
+          "label": "soruluk banka"
+        },
+        {
+          "value": "3",
+          "label": "seviye: kolay, orta, uzman"
+        },
+        {
+          "value": "5",
+          "label": "kategori"
+        },
+        {
+          "value": "12",
+          "label": "dil"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Peygamberler",
+          "count": "250 soru"
+        },
+        {
+          "name": "Siyer",
+          "count": "250 soru"
+        },
+        {
+          "name": "Kur'an",
+          "count": "150 soru"
+        },
+        {
+          "name": "İman",
+          "count": "150 soru"
+        },
+        {
+          "name": "Erdemler",
+          "count": "100 soru"
+        }
+      ]
+    },
+    "family": {
+      "eyebrow": "Tüm aile için",
+      "title": "Yedi yaşındaki bir çocukla bir yetişkin gerçekten birlikte oynar",
+      "lede": "Her oyuncu, oyun başlamadan kendi soru seviyesini seçer. Tahta ise herkes için aynı kalır.",
+      "points": [
+        {
+          "title": "Ders çalışıyormuş gibi hissetmeden öğrenmek",
+          "body": "Soru, bir yarışın ortasında gelir. Ona not almak için değil, ilerlemek için cevap verilir."
+        },
+        {
+          "title": "Aileye ve arkadaşlara meydan okumak",
+          "body": "Aynı cihazda iki ile dört oyuncu ya da bir ile üç rakibe karşı tek başına."
+        },
+        {
+          "title": "Bilgileri keşfetmek ya da tazelemek",
+          "body": "Her cevabın yanında kaynağı ve kısa bir açıklama gelir. İnsan yanılırken bile öğrenir."
+        }
+      ],
+      "privacy": {
+        "title": "Hesap yok. Reklam yok. Takip yok.",
+        "body": "IqraQuest tamamen çevrimdışı çalışır. Oluşturulacak hesap yok, hiçbir yere gönderilen veri yok: her şey cihazda kalır. İsteğe bağlı tek seferlik bir satın alma, bankanın tamamını açar — asla abonelik değil.",
+        "link": "Gizlilik politikasını okuyun"
+      }
+    },
+    "comingSoon": {
+      "title": "IqraQuest yakında geliyor.",
+      "subtitle": "Atınızı hazırlayın. Bilgi yarışı başlamak üzere.",
+      "body": "Uygulama, App Store ve Google Play için hazırlanıyor. Aşağıdaki düğmeler yayın gününde etkinleşecek.",
+      "contactPrompt": "Bir sorunuz, basın talebiniz ya da iş birliği öneriniz mi var?",
+      "contactLink": "Bize yazın"
+    }
+  },
+  "gamePage": {
+    "eyebrow": "Oyun",
+    "title": "IqraQuest, ayrıntılarıyla",
+    "metaDescription": "52 kareli artı biçimli tahta, dört ahır, zar yok: çekilen kart mesafeyi söyler, soru ilerleyip ilerlemediğinizi belirler. IqraQuest'in içinde ne varsa.",
+    "lede": "Klasik at yarışı oyunu, İslam kültürü çevresinde tüm aile için yeniden yorumlandı. İşte içinde gerçekten olanlar.",
+    "sections": {
+      "board": {
+        "title": "Oyun tahtası",
+        "body": "Artı biçiminde 52 kare, dört ahır, bir merkez. Dört köşe panelinin her biri bir manzara taşır, hepsi tek ve aynı altın çizginin altında. Her bonus kare, yalnızca rengiyle değil, biçimi ve sayısıyla tanınır: +5 için yuvarlak bir pul, +10 için sekizgen, ender görülen +20 için sekiz köşeli bir yıldız."
+      },
+      "deck": {
+        "title": "Zarın yerine deste",
+        "body": "1'den 6'ya kadar her değer diğerleri kadar sık çıkar: deste adildir, kimse şansını “seçemez”. 6, bir atı ahırdan çıkarır ve yeniden oynatır, tıpkı özgün oyundaki gibi. Kart, sorusunu açmadan önce değerini duyurur; böylece neyin söz konusu olduğunu bilirsiniz."
+      },
+      "modes": {
+        "title": "Oyun modları",
+        "body": "Üç zorluk seviyesiyle bir ile üç rakibe karşı Tek Kişilik; ya da aynı cihazda iki ile dört oyuncunun, her biri kendi soru seviyesiyle oynadığı Aile modu. Hızlı oyun: bitişe ilk ulaşan at kazanır. Klasik oyun: ahırınızdaki dört atı da getirin."
+      },
+      "courses": {
+        "title": "Üç parkur",
+        "body": "En sakininden en hareketlisine. Korunaklı vahalar, bilgi kareleri, bonus meydan okumalar, kestirmeler, düellolar: her parkurun bileşimi oyun başlamadan görülebilir. Yol boyunca hiçbir şey kurayla belirlenmez."
+      },
+      "progress": {
+        "title": "İlerleme",
+        "body": "Oynanan oyunlar, isabet oranı, kategoriye göre ustalık, günlük seri. Ve her galibiyetin sonunda, tek bir görsel olarak paylaşabileceğiniz bir yarış tablosu."
+      },
+      "premium": {
+        "title": "Ücretsiz ve Premium",
+        "body": "Ücretsiz sürüm 50 soru ve 50 kart çekilen bir yarış sunar. Tek seferlik Premium satın alma, bankanın tamamını ve bitişe kadar süren yarışları açar. Tek bir ödeme, abonelik yok ve her şey çevrimdışı çalışmaya devam eder."
+      },
+      "accessibility": {
+        "title": "Erişilebilirlik",
+        "body": "Hiçbir takım yalnızca renkle tanımlanmaz: her birinin ayrıca bir simgesi vardır — yıldız, pusula, fener, kitap. Zorunlu olmayan animasyonlar, sistemin “Hareketi azalt” ayarıyla kapanır ve erişilebilirlik etiketleri on iki dilin tümüne çevrilmiştir."
+      },
+      "languages": {
+        "title": "On iki dil",
+        "body": "Arayüz ve soru bankası Fransızca, İngilizce, Arapça, Almanca, İspanyolca, Endonezce, İtalyanca, Malayca, Felemenkçe, Portekizce, Türkçe ve Urduca olarak mevcuttur."
+      }
+    },
+    "cta": "Nasıl oynandığını görün"
+  },
+  "howToPlayPage": {
+    "eyebrow": "Nasıl oynanır",
+    "title": "Baştan sona bir oyun turu",
+    "metaDescription": "IqraQuest kuralları açık açık: kart çek, cevapla, atını seç, bırak. Ahırdan çıkış, tam sayı, yakalamalar, bonus kareler ve bilginin ivmesi.",
+    "lede": "IqraQuest birkaç dakikada öğrenilir. İşte bir turun tam akışı.",
+    "turn": {
+      "title": "Tur",
+      "steps": [
+        {
+          "title": "Bir kart çekin",
+          "body": "Kart döner ve ne değerde olduğunu duyurur: “5 dörtnallık kart”. Soruyu okumadan önce, doğru bir cevabın ne kazandıracağını bilirsiniz."
+        },
+        {
+          "title": "Soruyu cevaplayın",
+          "body": "Kendi seviyenizde dört olası cevap. Seçiminizin ardından oyun doğru cevabı, kısa bir açıklamayı ve tam kaynağı gösterir."
+        },
+        {
+          "title": "Atı seçin",
+          "body": "İlerleyebilecek atlar yanar. Birine dokunun: varış karesi aydınlanır, aradaki kareler noktalı olarak belirir."
+        },
+        {
+          "title": "Atı bırakın",
+          "body": "Atı altın karesine kadar sürükleyin. Bırakmak, ilerlemektir — onaylanacak bir şey yoktur."
+        }
+      ]
+    },
+    "rules": {
+      "title": "Önemli kurallar",
+      "items": [
+        {
+          "title": "Ahırdan çıkmak",
+          "body": "Bir atı çıkarmak için 6 değerinde bir kart gerekir. 6 ayrıca yeniden oynama hakkı verir."
+        },
+        {
+          "title": "Tam sayı",
+          "body": "Bir at bitişi asla aşmaz. Sayı tam tutmuyorsa doğru kartı bekler — ve oyun size hangisi olduğunu söyler."
+        },
+        {
+          "title": "Yakalamalar",
+          "body": "Koşusunu bir rakibin üzerinde bitiren at, onu ahırına geri gönderir. Yakalama 20 kare ek kazandırır."
+        },
+        {
+          "title": "Bonus kareler",
+          "body": "Tam sayıyla ulaşıldığında bonus kare değerini verir: +5, +10 ya da +20. Bu kareler tur başına bir kez öder."
+        },
+        {
+          "title": "Bilginin ivmesi",
+          "body": "Arka arkaya üç doğru cevap bir kalkan verir; beş cevap Grand Galop'u; on cevap bir ustalık rozetini."
+        },
+        {
+          "title": "Kazanmak",
+          "body": "Hızlı oyunda bitişe ilk ulaşan at kazanır. Klasik oyunda ahırdaki dört atı da getirmek gerekir."
+        }
+      ]
+    },
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "question": "Oynamak için İslam'ı bilmek gerekir mi?",
+        "answer": "Hayır. Kolay seviye, konuyla yeni tanışan yedi yaşındaki bir çocuk için tasarlandı; her cevabın yanında kısa bir açıklama ve kaynağı gelir: oynarken öğrenilir, yanlış yapıldığında bile."
+      },
+      {
+        "question": "Tek bir telefonda birkaç kişi oynayabilir mi?",
+        "answer": "Evet. Aile modu, aynı cihazda iki ile dört oyuncuya izin verir; her oyuncu kendi soru seviyesiyle oynar."
+      },
+      {
+        "question": "İnternet bağlantısı gerekir mi?",
+        "answer": "Hayır. IqraQuest kurulumdan sonra tamamen çevrimdışı çalışır. Yalnızca satın alma adımı App Store ya da Google Play üzerinden geçer."
+      },
+      {
+        "question": "Reklam ya da abonelik var mı?",
+        "answer": "İkisi de yok. Oyunda hiç reklam yoktur ve hiçbir abonelik sunulmaz. İsteğe bağlı tek seferlik bir satın alma, soru bankasının tamamını açar."
+      },
+      {
+        "question": "Sorular nereden geliyor?",
+        "answer": "Kur'an'dan ya da Sahih-i Buhari ve Sahih-i Müslim derlemelerinden. Her soru tam kaynağını gösterir; bir oyun çerçevesinde açık bir cevaba imkân vermeyen konular elenir."
+      },
+      {
+        "question": "Uygulama ne zaman çıkıyor?",
+        "answer": "App Store ve Google Play'de yayın hazırlığı sürüyor. Bu sitedeki indirme düğmeleri lansman günü etkinleşecek."
+      }
+    ]
+  },
+  "aboutPage": {
+    "eyebrow": "Hakkında",
+    "title": "IqraQuest neden var",
+    "metaDescription": "IqraQuest neden var: sorunun ilerlettiği bir aile masa oyunu, 900 kaynaklı soru ve ilk satırdan önce konmuş saygı kuralları.",
+    "lede": "Ailelerin masaya koyabileceği, bir çocukla bir büyükanne ya da büyükbabanın biri sıkılmadan birlikte oynayabileceği bir masa oyunu.",
+    "sections": [
+      {
+        "title": "Başlangıç fikri",
+        "body": "İslam kültürü üzerine bilgi oyunları var, ama neredeyse hepsi bir soru-cevap testi biçimini alıyor: cevap verilir, puan sayılır, baştan başlanır. IqraQuest işe öbür uçtan başlıyor — önce oynamak istenecek bir masa oyunu; soru ise amacın kendisi değil, ilerlemenin motoru."
+      },
+      {
+        "title": "Klasik at yarışı oyununun seçilmesi",
+        "body": "Bu biçimi kuşaklar boyunca herkes tanıdı ve hep masa etrafında oynandı. Yapılması gereken tek şey zarı çıkarmaktı: mesafe artık bir kartın değeri ve bu değer, ancak kartın sorusu cevabını bulursa sayılıyor."
+      },
+      {
+        "title": "İçerik disiplini",
+        "body": "900 soruluk banka, ilk sorudan önce yazılmış bir kaynak politikasına uyar: Kur'an, Sahih-i Buhari, Sahih-i Müslim; en küçük şüphede soru elenir. Her kayıt tam kaynağını belirtir ve bütün, soru soru doğrulanabilir."
+      },
+      {
+        "title": "Tasarım kısıtı olarak saygı",
+        "body": "Bazı şeyler bir oyunda temsil edilemez ve şartname bunu açıkça söyler: Allah'ın, peygamberlerin ya da meleklerin hiçbir tasviri yok; oyun nesnesine dönüştürülmüş hiçbir kutsal mekân yok; süse indirgenmiş hiçbir dinî unsur yok. Bu kurallar, içeriği olduğu kadar sanat yönetimini de biçimlendirdi."
+      },
+      {
+        "title": "Oyunun yapmadıkları",
+        "body": "Hesap yok, sunucu yok, reklam yok, takip yok, abonelik yok, kumar tipi mekanik yok. Bu yokluklar eksik özellikler değil, ürün kararlarıdır."
+      }
+    ],
+    "publisherTitle": "Yayıncı",
+    "publisherBody": "IqraQuest bağımsız bir projedir. Oyunun resmî sitesi {domain}."
+  },
+  "supportPage": {
+    "eyebrow": "Destek",
+    "title": "IqraQuest desteği",
+    "metaDescription": "IqraQuest resmî desteği: ilerleme, Premium satın alma, bir soruyu bildirme, App Store ve Google Play'de çıkış durumu.",
+    "lede": "Oyunla ilgili bir soru, teknik bir sorun, oyundaki bir soruya dair bir görüş: yazılacak yer burası.",
+    "contactTitle": "Bize yazın",
+    "contactBody": "En doğrudan yol e-postadır. Cihazınızı, oyunun sürümünü ve gözlemlediğiniz şeyi anlatın — yararlı bir yanıt vermeyi sağlayan budur.",
+    "emailLabel": "Destek adresi",
+    "formLink": "Ya da iletişim formunu kullanın",
+    "faqTitle": "Yazmadan önce",
+    "faq": [
+      {
+        "question": "Telefon değiştirdikten sonra ilerlememi kaybettim.",
+        "answer": "IqraQuest her şeyi yerel olarak, cihazda kaydeder ve çevrimiçi hiçbir yedeği yoktur. Bu yüzden ilerleme, cihaz değişikliğinde taşınmaz. Bu, hesap ve sunucu bulunmamasının doğrudan bedelidir."
+      },
+      {
+        "question": "Premium satın aldım ama içerik kilitli.",
+        "answer": "Oyun ayarlarındaki satın alımları geri yükleme seçeneğini kullanın. Satın alma, bir IqraQuest hesabına değil, App Store ya da Google Play hesabınıza bağlıdır — aynı mağaza hesabını kullanan her cihazda geri yüklenir."
+      },
+      {
+        "question": "Bir soruda hata olduğunu düşünüyorum.",
+        "answer": "Soru metnini ve mümkünse görünen kaynağı belirterek bize yazın. İçerik bildirimleri öncelikli olarak ele alınır: kaynağı tutmayan bir soru düzeltilir ya da kaldırılır."
+      },
+      {
+        "question": "Uygulama benim mağazamda yok.",
+        "answer": "IqraQuest henüz yayımlanmadı. Bu sitedeki indirme düğmeleri, App Store ve Google Play'de lansman günü etkinleşecek."
+      }
+    ],
+    "legalTitle": "Belgeler",
+    "legalBody": "Gizlilik politikasına, kullanım koşullarına ve fikri mülkiyet bilgilerine bu sitenin alt bilgisinden ulaşabilirsiniz."
+  },
+  "contactPage": {
+    "eyebrow": "İletişim",
+    "title": "Bize yazın",
+    "metaDescription": "IqraQuest ekibine ulaşın: destek, basın, iş birliği, fikri mülkiyet ya da bir sorunun bildirilmesi.",
+    "lede": "Mesajınızın konusunu seçin: bu, size daha hızlı yanıt vermemizi sağlar.",
+    "form": {
+      "subjectLabel": "Konu",
+      "subjectPlaceholder": "Bir konu seçin",
+      "subjects": {
+        "support": "Destek",
+        "press": "Basın",
+        "partnership": "İş birliği",
+        "ip": "Fikri mülkiyet",
+        "bug": "Sorun bildir",
+        "other": "Diğer"
+      },
+      "nameLabel": "Ad",
+      "namePlaceholder": "Adınız",
+      "emailLabel": "E-posta",
+      "emailPlaceholder": "siz@ornek.com",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Talebinizi anlatın.",
+      "submit": "Mesajı gönder",
+      "submitting": "Gönderiliyor…",
+      "openMail": "E-posta uygulamanızda açın",
+      "consent": "Bu mesajı göndererek adınızın, e-posta adresinizin ve mesajınızın yalnızca size yanıt vermek için kullanılmasını kabul edersiniz.",
+      "errors": {
+        "subject": "Bir konu seçin.",
+        "name": "Bir ad girin.",
+        "email": "Geçerli bir e-posta adresi girin.",
+        "messageShort": "Mesajınız en az 20 karakter olmalıdır.",
+        "messageLong": "Mesajınız 4000 karakteri aşamaz.",
+        "failed": "Gönderim başarısız oldu. Yeniden deneyin ya da doğrudan {email} adresine yazın."
+      },
+      "successTitle": "Mesaj gönderildi",
+      "successBody": "Teşekkürler. Belirttiğiniz adrese döneceğiz.",
+      "mailFallbackTitle": "E-posta ile gönderim",
+      "mailFallbackBody": "Bu form, e-posta uygulamanızda {email} adresine bir mesaj hazırlar. Kendi posta uygulamanızda onaylamadığınız sürece hiçbir şey gönderilmez."
+    },
+    "directTitle": "Doğrudan e-posta ile",
+    "directBody": "Doğrudan {email} adresine de yazabilirsiniz."
+  },
+  "privacyPage": {
+    "eyebrow": "Gizlilik",
+    "title": "Gizlilik politikası",
+    "metaDescription": "IqraQuest hiçbir kişisel veri toplamaz: hesap yok, sunucu yok, reklam yok, takip yok. Her şey cihazınızda kalır.",
+    "updated": "4 Eylül 2026",
+    "summaryTitle": "Özetle",
+    "summaryBody": "Ne bu site ne de IqraQuest uygulaması kişisel veri toplar. Hiçbir kullanıcı hesabı, hiçbir sunucu, hiçbir reklam ve hiçbir takip yoktur.",
+    "sections": [
+      {
+        "title": "Bu web sitesi",
+        "body": "{domain} sitesi statik bir sitedir. Hiçbir çerez bırakmaz, hiçbir kitle ölçüm aracı kullanmaz ve hiçbir üçüncü taraf betiği yüklemez. Hiçbir işlem rızanızı gerektirmediği için hiçbir rıza bildirimi gösterilmez. İnternet üzerinden erişilebilen her site gibi, siteyi sunan barındırma sağlayıcısı güvenlik ve işleyiş nedenleriyle teknik günlükler (IP adresi, tarih, istenen kaynak) tutabilir; bu günlükler barındırma sağlayıcısına aittir ve IqraQuest tarafından profilleme amacıyla ne işlenir ne de görüntülenir."
+      },
+      {
+        "title": "İletişim formu",
+        "body": "İletişim formunu kullanırsanız, girdiğiniz bilgiler — ad, e-posta adresi, konu ve mesaj — yalnızca talebinizi işlemek ve size yanıt vermek için kullanılır. Bu bilgiler ne satılır, ne reklam amacıyla kullanılır, ne de mesajın iletilmesi için kesinlikle gerekli olanın dışında bir üçüncü tarafa aktarılır. Silinmelerini {email} adresine yazarak talep edebilirsiniz."
+      },
+      {
+        "title": "Uygulama",
+        "body": "IqraQuest ne hesap oluşturur ne de hesap ister, hiçbir sunucu işletmez, hiçbir reklam göstermez, hiçbir reklam veya analiz SDK'sı içermez ve hiçbir parmak izi tanımlama tekniği kullanmaz. Uygulama, App Store ya da Google Play tarafından yürütülen satın alma adımı dışında, kurulumdan sonra tamamen çevrimdışı çalışır."
+      },
+      {
+        "title": "Neyin, nerede saklandığı",
+        "body": "Şunların tamamı yalnızca cihazınızda saklanır: bir oyun için girilen adlar, ilerlemeniz (oynanan oyunlar, isabet oranı, kategoriye göre istatistikler, günlük seri), devam eden oyununuz, ayarlarınız (dil, gece modu, hareketi azaltma, ses) ve IqraQuest Premium'u satın almış olmanız. Uygulamayı kaldırmak bu verilerin tamamını siler. Çevrimiçi hiçbir yedek yoktur ve bizim tarafımızda silinecek hiçbir şey yoktur, çünkü hiçbir zaman bir kopyasına sahip olmadık."
+      },
+      {
+        "title": "Satın almalar",
+        "body": "Tek seferlik Premium satın alma tamamen Apple'ın App Store'u ya da Google Play tarafından yürütülür. IqraQuest ödeme bilgilerinizi asla görmez: bunlar kendi politikalarına göre Apple ya da Google tarafından yönetilir. Uygulama yalnızca satın almanın başarılı olup olmadığını öğrenir; bu da içeriği yerel olarak açmak içindir."
+      },
+      {
+        "title": "Çocuklar",
+        "body": "IqraQuest, çocukların da yetişkinlerin de kullanabileceği biçimde tasarlandı. Kullanıcı kim olursa olsun hiçbir kişisel veri toplanmadığı için, çocuklardan da ayrıca veri toplanmaz. Uygulamadan çıkan her işlem — dış bağlantı, satın alma — bir ebeveyn kapısıyla korunur."
+      },
+      {
+        "title": "Bildirimler",
+        "body": "Günün Meydan Okuması için isteğe bağlı hatırlatmaları açarsanız, bunlar yerel bildirimler aracılığıyla tamamen cihazınızda programlanır. Hiçbir bildirim verisi bir sunucuya gönderilmez."
+      },
+      {
+        "title": "Haklarınız",
+        "body": "Genel Veri Koruma Tüzüğü size erişim, düzeltme, silme ve itiraz hakları tanır. Pratikte, bize kendi isteğinizle gönderdiğiniz bir mesajın içeriği dışında, hakkınızda hiçbir kişisel veri tutulmaz. Her türlü talep için {email} adresine yazın."
+      },
+      {
+        "title": "Değişiklikler",
+        "body": "Bir değişiklik olması hâlinde güncellenmiş sürüm bu sayfada yayımlanır ve yukarıdaki tarih güncellenir."
+      }
+    ]
+  },
+  "termsPage": {
+    "eyebrow": "Koşullar",
+    "title": "Kullanım koşulları",
+    "metaDescription": "iqraquest.org resmî sitesinin kullanım koşulları: amaç, kabul edilebilir kullanım, kullanılabilirlik, dış bağlantılar, sorumluluk ve uygulanacak hukuk.",
+    "updated": "4 Eylül 2026",
+    "intro": "Bu koşullar {domain} sitesinin kullanımını düzenler. IqraQuest uygulamasının kullanımı ayrıca, uygulamanın indirildiği mağazanın — App Store ya da Google Play — koşullarına tabidir.",
+    "sections": [
+      {
+        "title": "Sitenin amacı",
+        "body": "Site, IqraQuest oyununu, kurallarını, evrenini ve resmî belgelerini tanıtır. Çevrimiçi oynamaya, hesap oluşturmaya ya da satın alma yapmaya imkân vermez."
+      },
+      {
+        "title": "Kabul edilebilir kullanım",
+        "body": "Bu sitenin sayfalarını görüntüleyebilir, alıntılayabilir ve paylaşabilirsiniz. Sayfaların tamamını ya da bir bölümünü bir veri tabanı veya rakip bir hizmet oluşturmak üzere çıkaramaz, sitenin işleyişini bozmaya çalışamaz ve siteyi, var olmayan bir bağlılık, ortaklık ya da destek izlenimi verecek biçimde kullanamazsınız."
+      },
+      {
+        "title": "Kullanılabilirlik",
+        "body": "Site olduğu gibi sunulur, kesintisiz kullanılabilirlik garantisi verilmez. Özellikle bakım amacıyla her an değiştirilebilir, askıya alınabilir ya da durdurulabilir."
+      },
+      {
+        "title": "Dış bağlantılar",
+        "body": "Site, özellikle App Store ve Google Play olmak üzere dış kaynaklara yönlendirebilir. Bu kaynaklar kendi yayıncılarına ve kendi koşullarına tabidir; içerikleri IqraQuest'i bağlamaz."
+      },
+      {
+        "title": "Oyunla ilgili bilgiler",
+        "body": "Burada yayımlanan oyun açıklamaları hazırlanmakta olan sürüme karşılık gelir ve mağazalarda yayımlanmadan önce değişebilir. Bunlar, gelecekteki bir sürümün tam içeriğine dair sözleşmesel bir taahhüt oluşturmaz."
+      },
+      {
+        "title": "Fikri mülkiyet",
+        "body": "Oyunun ve sitenin özgün unsurları korunmaktadır. Uygulanacak koşullar Fikri mülkiyet sayfasında ayrıntılı olarak açıklanmıştır."
+      },
+      {
+        "title": "Sorumluluk",
+        "body": "Uygulanacak hukukun izin verdiği ölçüde, yayıncı sitenin kullanımından doğan dolaylı zararlardan sorumlu tutulamaz. Bu koşulların hiçbir hükmü, hukuken bertaraf edilemeyecek bir sorumluluğu ortadan kaldırma ya da kanunun tüketicilere tanıdığı hakları sınırlama etkisi doğurmaz."
+      },
+      {
+        "title": "Uygulanacak hukuk",
+        "body": "Bu koşullar Fransız hukukuna tabidir. Dostane bir çözüme ulaşılamaması hâlinde yetkili mahkemeler, genel hukuk kurallarınca belirlenen mahkemelerdir. Tüketici sıfatıyla hareket ediyorsanız, Avrupa Birliği'ndeki ikamet ülkenizin koruyucu kuralları uygulanmaya devam eder."
+      },
+      {
+        "title": "İletişim",
+        "body": "Bu koşullarla ilgili her türlü soru için {email} adresine yazın."
+      }
+    ]
+  },
+  "ipPage": {
+    "eyebrow": "Fikri mülkiyet",
+    "title": "Fikri mülkiyet",
+    "metaDescription": "IqraQuest'in fikri mülkiyeti: neyin korunduğu, neyin korunmadığı, marka kullanımı ve izin nasıl istenir.",
+    "updated": "4 Eylül 2026",
+    "lede": "Bu sayfa neyin korunduğunu, neyin korunmadığını ve izin için kime başvurulacağını açıklar.",
+    "ownershipTitle": "Hak sahipliği",
+    "ownershipBody": "Aksi belirtilmedikçe, IqraQuest'in özgün unsurları oyunun yayıncısına aittir. Bu unsurlar, Bern Sözleşmesi'ne taraf ülkelerde, herhangi bir tescil işlemine gerek olmaksızın yaratıldıkları andan itibaren telif hakkıyla korunur.",
+    "protectedTitle": "İlgili özgün unsurlar",
+    "protectedIntro": "Özgün yaratımlar oluşturdukları ölçüde, özellikle şunlar kapsanır:",
+    "protectedItems": [
+      "oyunun ayırt edici işareti olarak IqraQuest adı",
+      "uygulamanın logosu ve simgesi",
+      "grafik ilkeler ve görsel kimlik",
+      "özgün illüstrasyonlar",
+      "atlar ve koşumları, özgün çizimleriyle",
+      "oyun tahtası ve grafik unsurları",
+      "arayüzler ve özgün düzenleri",
+      "grafik ve ses varlıklarının tamamı",
+      "özgün animasyonlar",
+      "özgün metinler ve editoryal içerikler",
+      "soruların özgün ifadesi, açıklamaları ve düzenlenişi",
+      "bu web sitesini oluşturan unsurlar",
+      "pazarlama materyalleri ve tanıtım görselleri"
+    ],
+    "usageTitle": "İzin verilmeyenler",
+    "usageBody": "IqraQuest'in özgün unsurlarının tamamının ya da bir bölümünün izinsiz çoğaltılması, temsil edilmesi, uyarlanması, çevrilmesi, çıkarılması, yayılması ya da işletilmesi yasaktır; uygulanacak mevzuatın öngördüğü istisnalar — özellikle kısa alıntı, basın derlemesi, parodi ve özel kullanım — saklıdır.",
+    "extractionTitle": "Soru bankası",
+    "extractionBody": "Soru bankası içeriğinin nitelik ya da nicelik bakımından önemli bir bölümünün sistematik olarak çıkarılması veya yeniden kullanılması yasaktır. Alıntılanan olgular, ayetler ve hadisler elbette ortak alana aittir: korunan şey, soruların özgün ifadesi, kayıtların seçimi ve düzenlenişi, oyun için yazılmış açıklamalar ve bankanın yapısıdır.",
+    "trademarkTitle": "Marka",
+    "trademarkBody": "IqraQuest, oyunu ve türev ürünlerini belirtmek üzere marka olarak kullanılır. ™ simgesi bu kullanımı gösterir. Bu sayfada hiçbir tescil iddiasında bulunulmaz: ® simgesi kullanılmamaktadır ve ancak fiilî bir tescil hâlinde, yalnızca ilgili ülkeler ve sınıflar için kullanılacaktır. Bir alan adının tescili, tek başına hiçbir marka hakkı vermez.",
+    "limitsTitle": "Bu korumanın kapsamadıkları",
+    "limitsIntro": "Dürüstlük gereği ve aşırı bir iddia gerçek korumaya zarar verdiği için:",
+    "limitsItems": [
+      "Soruları bir ilerlemeyle birleştiren masa oyunu ilkesi, genel olarak sahiplenilemez. Fikirler ve oyun mekanikleri, kendi başlarına telif hakkıyla korunmaz.",
+      "Klasik at yarışı oyunu ortak oyun mirasına aittir. IqraQuest'te özgün olan, onun gerçekleştirilişidir: tahtası, illüstrasyonları, metinleri, arayüzü ve editoryal içeriği.",
+      "Alıntılanan dinî içerik — Kur'an ayetleri, hadisler — kimseye ait değildir. Yalnızca oyun için yapılan ifade ve seçim kapsam içindedir.",
+      "Telif hakkı, bir başkasının İslam kültürü üzerine başka bir bilgi oyunu yaratmasını engellemez. Engellediği şey, IqraQuest'in özgün gerçekleştirimlerini olduğu gibi almaktır."
+    ],
+    "provenanceTitle": "İzlenebilirlik",
+    "provenanceBody": "Bu sitedeki görseller, oluşturulma geçmişi sürümlenmiş ve zaman damgalı olan oyun kaynak dosyalarından gelir. Sayfalar bir hak bildirimi ve yazar üst verileri taşır; site ise resmî {domain} alan adı altında yayımlanır. Bu unsurlar öncelik karineleri oluşturur; bir yargı makamı önünde oluşturulmuş bir delilin yerini tutmaz.",
+    "permissionTitle": "İzin istemek",
+    "permissionBody": "Basın, haber yapmak için resmî görselleri ve oyundan alıntıları IqraQuest'i belirterek kullanabilir. Diğer her kullanım için — ortaklık, uyarlama, türev ürün, ticari yayım — öngörülen kullanımı belirterek {email} adresine yazın.",
+    "reportTitle": "İhlal bildirmek",
+    "reportBody": "IqraQuest'e ait unsurların izinsiz alındığını fark ederseniz, ilgili adresi ve nelerin alındığının bir açıklamasını belirterek {email} adresine yazın."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Bu iz hiçbir yere çıkmıyor.",
+    "body": "Aradığınız sayfa yok ya da adresi değişti. Ana sayfaya dönün ve yarışa kaldığınız yerden devam edin.",
+    "cta": "Ana sayfaya dön",
+    "secondary": "Oyunu gör"
+  },
+  "footer": {
+    "tagline": "Bilgi yarışı.",
+    "sectionGame": "Oyun",
+    "sectionSupport": "Yardım",
+    "sectionLegal": "Yasal",
+    "copyright": "© {year} IqraQuest. Tüm hakları saklıdır.",
+    "trademarkNote": "IqraQuest{mark} ve IqraQuest logosu marka olarak kullanılmaktadır.",
+    "storeNote": "App Store, Apple Inc. şirketinin markasıdır. Google Play, Google LLC şirketinin markasıdır.",
+    "socialTitle": "Sosyal medya"
+  }
+}
