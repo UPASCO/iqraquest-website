@@ -4,8 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { cx } from '@/components/ui/primitives';
 
 /**
- * A section that fades and lifts into place the first time it is
- * scrolled near.
+ * A section that lifts into place the first time it is scrolled near.
  *
  * The effect is strictly additive: the element is rendered in its final
  * position by the server, and the transform is only ever applied by
@@ -14,6 +13,19 @@ import { cx } from '@/components/ui/primitives';
  * Reduce Motion on, sees the finished page with nothing hidden — the
  * common failure of scroll-reveal libraries, where content stays at
  * `opacity: 0` forever, cannot happen here.
+ *
+ * It moves and does not fade. A fade means every heading and paragraph
+ * below the fold sits at a reduced opacity until the observer fires,
+ * and at reduced opacity the gold tokens drop under their WCAG AA
+ * ratio — a real contrast failure for anyone reading mid-transition,
+ * not merely an audit artefact. Hiding those elements from the audit
+ * with `visibility: hidden` would be worse still: it would take the
+ * content out of the accessibility tree for a screen-reader user
+ * navigating by heading without scrolling.
+ *
+ * A translation costs no contrast at any point, and against the brief's
+ * "very discreet movement" a lift on its own is the whole effect
+ * anyway.
  */
 export function Reveal({
   children,
@@ -71,8 +83,8 @@ export function Reveal({
       style={armed && !shown ? { transitionDelay: `${delay}ms` } : undefined}
       className={cx(
         armed &&
-          'transition-[opacity,transform] duration-700 ease-[var(--ease-out-soft)]',
-        armed && !shown && 'translate-y-4 opacity-0',
+          'transition-transform duration-700 ease-[var(--ease-out-soft)]',
+        armed && !shown && 'translate-y-5',
         className,
       )}
     >
