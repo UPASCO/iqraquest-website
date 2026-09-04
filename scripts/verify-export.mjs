@@ -198,6 +198,54 @@ async function checkInternalLinks() {
   notes.push(`${seen.size} distinct internal links checked`);
 }
 
+/**
+ * Catches the failure mode where a message did not render.
+ *
+ * next-intl falls back to printing the message key when formatting
+ * throws — most often because a message carries an ICU placeholder the
+ * caller forgot to pass. The page still builds, still deploys, and
+ * quietly shows `ipPage.provenanceBody` to a visitor. Two shapes are
+ * checked: a bare dotted key in the body text, and an unsubstituted
+ * `{placeholder}` that reached the HTML.
+ */
+async function checkRenderedMessages() {
+  // Message namespaces, from messages/fr.json's top level.
+  const namespaces = Object.keys(
+    JSON.parse(await readFile(path.resolve('messages/fr.json'), 'utf8')),
+  );
+  const keyPattern = new RegExp(
+    `>\\s*(?:${namespaces.join('|')})\\.[A-Za-z0-9_.]+\\s*<`,
+    'g',
+  );
+
+  for (const locale of LOCALES) {
+    for (const route of ROUTES) {
+      const file = pageFile(locale, route);
+      if (!(await exists(file))) continue;
+      const html = await readFile(file, 'utf8');
+
+      // Strip the JSON-LD blocks: they legitimately contain dotted
+      // strings and braces.
+      const body = html.replace(
+        /<script type="application\/ld\+json"[\s\S]*?<\/script>/g,
+        '',
+      );
+
+      for (const match of body.matchAll(keyPattern)) {
+        fail(
+          `unrendered message key ${match[0].slice(1, -1).trim()} on ${pagePath(locale, route)}`,
+        );
+      }
+
+      for (const match of body.matchAll(/>[^<>{}]*\{(email|domain|year|mark)\}/g)) {
+        fail(
+          `unsubstituted {${match[1]}} placeholder on ${pagePath(locale, route)}`,
+        );
+      }
+    }
+  }
+}
+
 /** Warns when the LCP artwork has grown past what a phone should fetch. */
 async function checkAssetWeight() {
   const assetsDir = path.join(OUT, 'assets');
@@ -239,6 +287,7 @@ async function main() {
   await checkHomeMetadata();
   await checkRtl();
   await checkInternalLinks();
+  await checkRenderedMessages();
   await checkAssetWeight();
 
   for (const note of notes) console.log(`  ${note}`);

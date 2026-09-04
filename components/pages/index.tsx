@@ -435,10 +435,13 @@ export function IntellectualPropertyPage() {
   const protectedItems = t.raw('protectedItems') as string[];
   const limitsItems = t.raw('limitsItems') as string[];
 
-  const withEmail = (value: string) =>
-    value
-      .replace('{email}', siteConfig.supportEmail)
-      .replace('{domain}', siteConfig.domain);
+  // These messages carry ICU placeholders, so the values go to `t()`
+  // itself. Formatting them afterwards is too late: next-intl throws on
+  // a missing parameter and falls back to rendering the key.
+  const values = {
+    email: siteConfig.supportEmail,
+    domain: siteConfig.domain,
+  };
 
   return (
     <>
@@ -500,15 +503,15 @@ export function IntellectualPropertyPage() {
         </Reveal>
 
         <TextBlock title={t('provenanceTitle')}>
-          <p>{withEmail(t('provenanceBody'))}</p>
+          <p>{t('provenanceBody', values)}</p>
         </TextBlock>
 
         <TextBlock title={t('permissionTitle')}>
-          <p>{withEmail(t('permissionBody'))}</p>
+          <p>{t('permissionBody', values)}</p>
         </TextBlock>
 
         <TextBlock title={t('reportTitle')}>
-          <p>{withEmail(t('reportBody'))}</p>
+          <p>{t('reportBody', values)}</p>
         </TextBlock>
       </LegalBody>
     </>
