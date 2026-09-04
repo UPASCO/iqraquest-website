@@ -245,6 +245,22 @@
       );
   }
 
+  /*
+   * Hero parallax.
+   *
+   * A scroll-driven CSS animation: the key art drifts a little slower
+   * than the page, which gives the band depth without the scroll
+   * handler, the layout thrash or the library that a JavaScript
+   * parallax costs. Browsers without `animation-timeline` simply hold
+   * the artwork still, which is the correct fallback rather than a
+   * broken one, and the whole rule sits behind a reduced-motion guard.
+   *
+   * The slight scale keeps the drifted edges inside the frame.
+   */
+  .hero-parallax {
+    transform: scale(1.06);
+  }
+
   /* Warm light pooling from the top of a band, as the key art lights
      its horses. */
   .glow-warm {
@@ -253,6 +269,26 @@
       color-mix(in oklab, var(--color-gold) 13%, transparent),
       transparent 70%
     );
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll()) {
+    @keyframes hero-drift {
+      from {
+        transform: translate3d(0, 0, 0) scale(1.06);
+      }
+      to {
+        transform: translate3d(0, 7%, 0) scale(1.06);
+      }
+    }
+
+    .hero-parallax {
+      animation: hero-drift linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 100vh;
+      will-change: transform;
+    }
   }
 }
 

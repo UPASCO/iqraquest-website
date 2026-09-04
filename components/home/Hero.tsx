@@ -40,7 +40,7 @@ export function Hero() {
           height={2688}
           fetchPriority="high"
           decoding="async"
-          className="h-full w-full object-cover object-[center_22%] md:object-[center_32%]"
+          className="hero-parallax h-full w-full object-cover object-[center_22%] md:object-[center_32%]"
         />
       </picture>
 
