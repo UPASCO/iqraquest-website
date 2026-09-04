@@ -1,0 +1,50 @@
+# IqraQuest — Apache configuration.
+#
+# Only used when the exported site is served from Apache (an OVH web
+# hosting plan, for example). GitHub Pages ignores this file entirely,
+# so it is safe to ship in both directions.
+#
+# It restores what a static host cannot otherwise be told: the canonical
+# host, HTTPS, the security headers, and the 404 document.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS.
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://iqraquest.org/$1 [R=301,L]
+
+  # One canonical host: www redirects to the apex.
+  RewriteCond %{HTTP_HOST} ^www\.iqraquest\.org$ [NC]
+  RewriteRule ^(.*)$ https://iqraquest.org/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+  Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self' mailto:; frame-ancestors 'none'; img-src 'self' data:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; manifest-src 'self'; upgrade-insecure-requests"
+
+  # Fingerprinted build output and artwork never change under the same
+  # name, so they can be cached indefinitely.
+  <FilesMatch "\.(webp|avif|png|jpg|jpeg|svg|woff2|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# Serve the right type for the formats the site actually ships.
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType image/avif .avif
+  AddType font/woff2 .woff2
+  AddType application/manifest+json .webmanifest
+</IfModule>

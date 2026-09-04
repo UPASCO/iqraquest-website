@@ -1,0 +1,87 @@
+name: Deploy to GitHub Pages
+
+# Production is the `main` branch. Every push to it rebuilds the static
+# site and publishes it to https://iqraquest.org.
+#
+# The quality gates (lint, typecheck, tests) live in ci.yml and run on
+# pull requests. They run here too, before the deploy step, so a direct
+# push to main cannot publish a build that would have failed review.
+
+on:
+  push:
+    branches: [main]
+  # Lets a deploy be re-run from the Actions tab without a new commit —
+  # the rollback path documented in DEPLOYMENT.md.
+  workflow_dispatch:
+
+# Least privilege: read the repo, write a Pages deployment, and mint the
+# OIDC token Pages uses to verify the deployment came from this workflow.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time. `cancel-in-progress: false` means a queued
+# deploy waits rather than being dropped, so the last push always wins.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Build static site
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SUPPORT_EMAIL: ${{ vars.NEXT_PUBLIC_SUPPORT_EMAIL }}
+          NEXT_PUBLIC_APP_AVAILABLE_IOS: ${{ vars.NEXT_PUBLIC_APP_AVAILABLE_IOS }}
+          NEXT_PUBLIC_APPLE_APP_URL: ${{ vars.NEXT_PUBLIC_APPLE_APP_URL }}
+          NEXT_PUBLIC_APP_AVAILABLE_ANDROID: ${{ vars.NEXT_PUBLIC_APP_AVAILABLE_ANDROID }}
+          NEXT_PUBLIC_GOOGLE_PLAY_URL: ${{ vars.NEXT_PUBLIC_GOOGLE_PLAY_URL }}
+          NEXT_PUBLIC_CONTACT_ENDPOINT: ${{ vars.NEXT_PUBLIC_CONTACT_ENDPOINT }}
+          NEXT_PUBLIC_SOCIAL_TIKTOK: ${{ vars.NEXT_PUBLIC_SOCIAL_TIKTOK }}
+          NEXT_PUBLIC_SOCIAL_INSTAGRAM: ${{ vars.NEXT_PUBLIC_SOCIAL_INSTAGRAM }}
+          NEXT_PUBLIC_SOCIAL_YOUTUBE: ${{ vars.NEXT_PUBLIC_SOCIAL_YOUTUBE }}
+          NEXT_PUBLIC_SOCIAL_FACEBOOK: ${{ vars.NEXT_PUBLIC_SOCIAL_FACEBOOK }}
+          NEXT_PUBLIC_SOCIAL_X: ${{ vars.NEXT_PUBLIC_SOCIAL_X }}
+
+      - name: Verify the export
+        run: node scripts/verify-export.mjs
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: out
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

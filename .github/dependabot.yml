@@ -1,0 +1,30 @@
+version: 2
+updates:
+  # Application dependencies. Grouped so a routine week produces one
+  # pull request to review rather than a dozen.
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      next:
+        patterns: ["next", "next-intl", "eslint-config-next", "@next/*"]
+      react:
+        patterns: ["react", "react-dom", "@types/react", "@types/react-dom"]
+      tooling:
+        patterns: ["eslint*", "@eslint/*", "typescript", "@types/node", "prettier*"]
+      tailwind:
+        patterns: ["tailwindcss", "@tailwindcss/*"]
+    commit-message:
+      prefix: "chore(deps)"
+
+  # The Actions themselves. A pinned action that stops being maintained
+  # is a supply-chain risk in the deploy path.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "chore(ci)"

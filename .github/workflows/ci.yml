@@ -1,0 +1,63 @@
+name: CI
+
+# Quality gates for anything that is not yet production. A pull request
+# must be green here before it can be merged into `main`, which is the
+# branch that deploys.
+#
+# This deliberately does not duplicate the deploy: it proves the change
+# is sound, and deploy.yml publishes it.
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches-ignore: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Lint, typecheck, test, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Message catalogue parity (12 languages)
+        run: npm test
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Verify the export
+        run: node scripts/verify-export.mjs
+
+      - name: Route files are in sync with the generator
+        # The route tree is generated. If someone edits a route file by
+        # hand, regenerating produces a diff — which means the change
+        # would be lost the next time anyone runs the generator.
+        run: |
+          npm run routes
+          if ! git diff --quiet -- 'app/**'; then
+            echo "::error::Route files differ from scripts/gen-routes.mjs output."
+            echo "Edit components/pages/ or the PAGES table, then run 'npm run routes'."
+            git --no-pager diff --stat -- 'app/**'
+            exit 1
+          fi
