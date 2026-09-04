@@ -25,9 +25,17 @@ const APP_DIR =
   process.env.IQRAQUEST_APP_DIR ?? path.resolve('../upasco/iqraquest');
 const OUT = path.resolve('public/assets');
 
-/** Quality settings tuned so LCP artwork stays under ~180 kB. */
+/**
+ * Encoding settings.
+ *
+ * AVIF quality 48 is the default; the hero drops to 44. Both were
+ * chosen by inspecting a 1:1 crop of the horses' heads — the most
+ * detail-sensitive area in the whole set — against quality 58. The
+ * difference is invisible there and the hero loses 40% of its bytes,
+ * which is the single largest thing on the page and the LCP element.
+ */
 const WEBP = { quality: 82, effort: 6 };
-const AVIF = { quality: 58, effort: 6 };
+const AVIF_DEFAULT = 48;
 
 const src = (p) => path.join(APP_DIR, p);
 
@@ -44,7 +52,11 @@ async function exists(p) {
  * Writes a source image at a given width in WebP (and AVIF for the
  * large pieces, where the saving pays for the extra bytes in the repo).
  */
-async function emit(source, name, { width, avif = false, fit = 'inside' }) {
+async function emit(
+  source,
+  name,
+  { width, avif = false, fit = 'inside', avifQuality = AVIF_DEFAULT },
+) {
   const input = sharp(source).rotate();
   const resized = width
     ? input.resize({ width, fit, withoutEnlargement: true })
@@ -56,7 +68,10 @@ async function emit(source, name, { width, avif = false, fit = 'inside' }) {
 
   if (avif) {
     const avifPath = path.join(OUT, `${name}.avif`);
-    await resized.clone().avif(AVIF).toFile(avifPath);
+    await resized
+      .clone()
+      .avif({ quality: avifQuality, effort: 6 })
+      .toFile(avifPath);
     written.push(avifPath);
   }
   return written;
@@ -96,12 +111,14 @@ async function main() {
       name: 'hero-key-art',
       width: 1242,
       avif: true,
+      avifQuality: 44,
     },
     {
       from: 'assets/images/home_hero.webp',
       name: 'hero-key-art-sm',
       width: 720,
       avif: true,
+      avifQuality: 44,
     },
 
     // The app icon artwork — the brand mark and the desktop hero's

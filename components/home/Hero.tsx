@@ -24,17 +24,33 @@ export function Hero() {
         <source
           media="(min-width: 768px)"
           type="image/avif"
-          srcSet="/assets/brand-key-art.avif"
+          srcSet="/assets/brand-key-art-sm.avif 512w, /assets/brand-key-art.avif 1024w"
+          sizes="100vw"
         />
         <source
           media="(min-width: 768px)"
           type="image/webp"
-          srcSet="/assets/brand-key-art.webp"
+          srcSet="/assets/brand-key-art-sm.webp 512w, /assets/brand-key-art.webp 1024w"
+          sizes="100vw"
         />
-        <source type="image/avif" srcSet="/assets/hero-key-art.avif" />
-        <source type="image/webp" srcSet="/assets/hero-key-art.webp" />
+        {/*
+          The phone case is the one that matters: a 390px viewport at
+          DPR 2 needs 780 device pixels, and picking the 720px encoding
+          over the 1242px one halves the bytes of the LCP element. A
+          DPR 3 phone still gets the full-size file.
+        */}
+        <source
+          type="image/avif"
+          srcSet="/assets/hero-key-art-sm.avif 720w, /assets/hero-key-art.avif 1242w"
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          srcSet="/assets/hero-key-art-sm.webp 720w, /assets/hero-key-art.webp 1242w"
+          sizes="100vw"
+        />
         <img
-          src="/assets/hero-key-art.webp"
+          src="/assets/hero-key-art-sm.webp"
           alt={t('artAlt')}
           width={1242}
           height={2688}

@@ -126,8 +126,17 @@ async function checkHomeMetadata() {
       fail(`homepage hreflang block is missing ${locale} (${expected})`);
     }
   }
-  if (!html.includes('hreflang="x-default"')) {
+  // Next renders the React prop name, `hrefLang`. HTML attribute names
+  // are ASCII case-insensitive, so crawlers read it as `hreflang` — the
+  // check has to be too.
+  if (!/hreflang="x-default"/i.test(html)) {
     fail('homepage is missing the x-default hreflang');
+  }
+  const alternates = (html.match(/rel="alternate"/g) ?? []).length;
+  if (alternates !== LOCALES.length + 1) {
+    fail(
+      `homepage declares ${alternates} alternate links, expected ${LOCALES.length + 1} (one per locale plus x-default)`,
+    );
   }
 
   for (const needle of [

@@ -4,8 +4,8 @@ import { getMessages, getTranslations } from 'next-intl/server';
 import { CLIENT_NAMESPACES } from '@/i18n/client-namespaces';
 import { Header } from './Header';
 import { Footer } from './Footer';
-import { fontVariables } from '@/lib/fonts';
-import { textDirection, type Locale } from '@/i18n/routing';
+import { fontVariablesFor } from '@/lib/fonts';
+import { isRtl, textDirection, type Locale } from '@/i18n/routing';
 import '@/styles/globals.css';
 
 /**
@@ -37,11 +37,14 @@ export async function SiteShell({
     ]),
   );
 
+  // The Naskh face rides only on the two locales that set text in it.
+  const rtl = isRtl(locale);
+
   return (
     <html
       lang={locale}
       dir={textDirection(locale)}
-      className={fontVariables}
+      className={fontVariablesFor(rtl)}
       suppressHydrationWarning
     >
       {/* eslint-disable-next-line @next/next/no-head-element --
