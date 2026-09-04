@@ -94,7 +94,7 @@ async function checkHostFiles() {
     ['sitemap.xml', 'advertised in robots.txt'],
     ['robots.txt', 'crawler directives'],
     ['manifest.webmanifest', 'home-screen icon and theme'],
-    ['assets/og-card.png', 'the social share image'],
+    ['assets/og-card.jpg', 'the social share image'],
   ];
 
   for (const [file, why] of required) {
@@ -257,7 +257,7 @@ async function checkAssetWeight() {
   const budgets = [
     ['hero-key-art.avif', 260_000],
     ['hero-key-art.webp', 360_000],
-    ['og-card.png', 1_200_000],
+    ['og-card.jpg', 160_000],
   ];
 
   for (const [name, limit] of budgets) {

@@ -294,7 +294,7 @@ async function main() {
   // for the wordmark, which is drawn as SVG so the type stays crisp.
   if (await exists(iconSource)) {
     await composeOpenGraph(iconSource);
-    console.log('  og-card.png (1200x630) composed');
+    console.log('  og-card.jpg (1200x630) composed');
   }
 
   console.log(`\n${produced.length} files written to ${OUT}`);
@@ -354,8 +354,12 @@ async function composeOpenGraph(iconSource) {
       { input: art, left: W - 700, top: 0 },
       { input: overlay, left: 0, top: 0 },
     ])
-    .png({ compressionLevel: 9 })
-    .toFile(path.resolve('public/assets/og-card.png'));
+    // JPEG, not PNG: the card is mostly photographic artwork, and the
+    // PNG of the same image is nine times the size for no visible gain.
+    // Every scraper that unfurls a link handles JPEG, and a smaller file
+    // means the preview appears rather than timing out.
+    .jpeg({ quality: 88, progressive: true, mozjpeg: true })
+    .toFile(path.resolve('public/assets/og-card.jpg'));
 }
 
 main().catch((error) => {

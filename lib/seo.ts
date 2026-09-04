@@ -30,6 +30,14 @@ export const routes = [
 export type RoutePath = (typeof routes)[number]['path'];
 
 /**
+ * The social share card. Referenced by Open Graph, by the Twitter card
+ * and by the VideoGame schema, so it lives in one constant — changing
+ * it in two of the three places and not the third is exactly the bug
+ * this prevents.
+ */
+export const OG_IMAGE = '/assets/og-card.jpg';
+
+/**
  * Builds a site-absolute path for a locale.
  *
  * French is the default locale and is served un-prefixed, so the
@@ -88,7 +96,7 @@ export function buildMetadata({
   path,
   title,
   description,
-  ogImage = '/assets/og-card.png',
+  ogImage = OG_IMAGE,
   ogImageAlt,
   noIndex = false,
 }: PageMetaOptions): Metadata {
@@ -222,7 +230,7 @@ export function homeStructuredData(locale: Locale, description: string) {
     url: siteConfig.canonicalUrl,
     description,
     inLanguage: locales.map((l) => hreflangFor[l]),
-    image: `${siteConfig.canonicalUrl}/assets/og-card.png`,
+    image: `${siteConfig.canonicalUrl}${OG_IMAGE}`,
     applicationCategory: 'GameApplication',
     genre: ['Board game', 'Quiz', 'Family', 'Educational'],
     gamePlatform: ['iOS', 'Android'],
