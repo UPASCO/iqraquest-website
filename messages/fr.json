@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "localeName": "Français",
+    "siteTitle": "IqraQuest — La course au savoir commence ici.",
+    "siteDescription": "IqraQuest est un jeu de plateau familial : piochez une carte, répondez, menez vos chevaux jusqu'à l'arrivée. 900 questions sourcées sur la culture islamique, de 7 à 99 ans. Bientôt sur l'App Store et Google Play.",
+    "ogAlt": "IqraQuest — trois chevaux arabes au galop au-dessus du plateau de jeu."
+  },
+  "common": {
+    "skipToContent": "Aller au contenu principal",
+    "brandBaseline": "La course au savoir.",
+    "comingSoon": "Bientôt disponible",
+    "comingSoonShort": "Bientôt",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Télécharger dans l'App Store",
+    "getItOnGooglePlay": "Disponible sur Google Play",
+    "storeNotYetAvailable": "L'application n'est pas encore publiée. Ce bouton sera activé le jour du lancement.",
+    "language": "Langue",
+    "chooseLanguage": "Choisir la langue",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "backHome": "Retour à l'accueil",
+    "readMore": "En savoir plus",
+    "email": "E-mail",
+    "onThisPage": "Sur cette page",
+    "lastUpdated": "Dernière mise à jour",
+    "legalPrevails": "Ce document est traduit du français. En cas de divergence entre les versions linguistiques, la version française prévaut."
+  },
+  "nav": {
+    "game": "Le jeu",
+    "howToPlay": "Comment jouer",
+    "universe": "L'univers",
+    "about": "À propos",
+    "support": "Support",
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "terms": "Conditions d'utilisation",
+    "intellectualProperty": "Propriété intellectuelle"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Jeu de plateau familial",
+      "title": "IqraQuest",
+      "baseline": "La course au savoir commence ici.",
+      "lede": "Répondez. Progressez. Défiez vos adversaires. Menez votre cheval jusqu'à la victoire.",
+      "ctaPrimary": "Découvrir le jeu",
+      "ctaSecondary": "Comment jouer",
+      "availability": "Bientôt disponible sur l'App Store et Google Play",
+      "artAlt": "Trois chevaux arabes au galop devant le plateau en croix d'IqraQuest, sous un croissant de lune doré.",
+      "stats": {
+        "questions": "questions sourcées",
+        "languages": "langues",
+        "players": "joueurs sur un même appareil",
+        "ages": "ans"
+      }
+    },
+    "pitch": {
+      "title": "Le jeu des petits chevaux, joué avec ce que vous savez",
+      "body": "Un plateau en croix de 52 cases, quatre écuries, quatre chevaux chacune — et pas un seul dé. À votre tour, vous piochez une carte. Sa valeur, de 1 à 6, indique le nombre de cases à parcourir : elle ne compte que si vous répondez juste à la question qui l'accompagne.",
+      "highlight": "Ici, la chance ne remplace jamais la réponse."
+    },
+    "howToPlay": {
+      "eyebrow": "En quatre gestes",
+      "title": "Comment on joue",
+      "lede": "Aucun dé, aucun menu, aucun bouton de confirmation. Un tour tient en quatre gestes.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Réponds",
+          "body": "Vous piochez une carte. Elle annonce sa valeur avant d'ouvrir sa question, à votre niveau : facile, intermédiaire ou expert."
+        },
+        {
+          "number": "2",
+          "title": "Progresse",
+          "body": "Une bonne réponse vaut exactement le nombre de cases annoncé. Vous touchez un cheval, sa case dorée s'allume, vous l'y déposez."
+        },
+        {
+          "number": "3",
+          "title": "Profite du parcours",
+          "body": "Cases bonus, raccourcis, captures : le parcours peut accélérer votre course. Tout est visible sur le plateau avant de partir."
+        },
+        {
+          "number": "4",
+          "title": "Atteins ton objectif",
+          "body": "Menez vos chevaux jusqu'au bout. Le premier arrivé en partie rapide, les quatre écuries rentrées en partie classique."
+        }
+      ],
+      "cta": "Voir les règles en détail"
+    },
+    "gameplay": {
+      "eyebrow": "Le jeu",
+      "title": "Un vrai plateau, pas un questionnaire",
+      "lede": "Chaque écran d'IqraQuest a été composé comme une pièce de jeu : le plateau est peint, les chevaux sont sculptés, et la question s'ouvre au milieu de la partie plutôt qu'à sa place.",
+      "features": [
+        {
+          "title": "Un plateau peint à la main",
+          "body": "52 cases en croix, quatre panneaux de paysage, une double règle d'or et une étoile à huit branches à chaque angle."
+        },
+        {
+          "title": "Quatre écuries, quatre symboles",
+          "body": "Émeraude, Saphir, Grenat, Safran. Chaque équipe porte une couleur et un symbole — jamais la couleur seule, pour rester lisible par tous."
+        },
+        {
+          "title": "Le geste est le coup",
+          "body": "Pas de sélecteur de distance, pas de validation. Vous glissez le cheval sur sa case : le dépôt est le déplacement."
+        },
+        {
+          "title": "Ce que rapporte une chevauchée",
+          "body": "Une case bonus atteinte au compte exact vaut +5, +10 ou +20. Une capture en vaut 20. Rien ne dépasse jamais l'arrivée."
+        },
+        {
+          "title": "L'élan du savoir",
+          "body": "Les bonnes réponses d'affilée se récompensent : un bouclier à trois, le Grand Galop à cinq, un badge de maîtrise à dix."
+        },
+        {
+          "title": "Le Défi du jour",
+          "body": "Cinq questions par jour, hors connexion, avec un score à partager. De quoi revenir sans y penser."
+        }
+      ],
+      "boardAlt": "Le plateau en croix d'IqraQuest : 52 cases, quatre panneaux de paysage et quatre écuries colorées.",
+      "cta": "Tout savoir sur le jeu"
+    },
+    "universe": {
+      "eyebrow": "L'univers",
+      "title": "Une aventure guidée par la connaissance",
+      "lede": "IqraQuest s'inspire des paysages et du patrimoine architectural de l'Arabie historique, dans une interprétation artistique conçue pour le jeu.",
+      "body": "Oasis, reliefs, palmeraies, routes de caravane, architecture stylisée : le monde d'IqraQuest se raconte par ses lieux. On y voyage, on s'y arrête, on y arrive — et c'est le savoir qui fait avancer.",
+      "respect": {
+        "title": "Ce que le jeu ne représente jamais",
+        "body": "Par respect, IqraQuest ne représente ni Allah, ni les prophètes, ni les compagnons sous forme de personnages, et n'invente aucune scène sacrée. Les éléments religieux ne servent jamais de simple décor : les lieux saints figurent comme repères du plateau, jamais comme objets à posséder ou à capturer."
+      },
+      "cards": [
+        {
+          "title": "L'oasis d'arrivée",
+          "body": "La destination du parcours : eau, palmiers, lumière basse. C'est l'image que le jeu montre quand un cheval arrive."
+        },
+        {
+          "title": "Le désert et ses reliefs",
+          "body": "Des étendues ocre aux montagnes d'ombre, chaque région donne au parcours sa couleur et son rythme."
+        },
+        {
+          "title": "Les chevaux arabes",
+          "body": "Quatre robes, quatre caparaçons, quatre bannières. Ce sont les pièces du jeu, et ce sont elles qu'on regarde courir."
+        }
+      ],
+      "oasisAlt": "Oasis d'arrivée d'IqraQuest : cascades, palmiers et un cheval harnaché devant une architecture de pierre claire.",
+      "courseAlt": "Vue du parcours d'IqraQuest serpentant entre les palmiers, avec les chevaux des quatre écuries."
+    },
+    "questions": {
+      "eyebrow": "Le contenu",
+      "title": "Des questions sélectionnées avec soin",
+      "lede": "900 questions, écrites et relues une par une selon une règle simple : au moindre doute, la question est écartée.",
+      "body": "IqraQuest s'appuie sur des références établies — un verset du Coran, ou un hadith de Ṣaḥīḥ al-Bukhārī ou Ṣaḥīḥ Muslim. Chaque question affiche sa source exacte et une courte explication après la réponse. Les sujets qui ne permettent pas une réponse claire et non controversée dans le cadre d'un jeu de connaissance sont volontairement laissés de côté.",
+      "note": "Les quelques faits descriptifs largement établis qui ne renvoient à aucun ouvrage unique sont signalés comme tels, plutôt que rattachés à une référence inventée.",
+      "stats": [
+        {
+          "value": "900",
+          "label": "questions dans la banque"
+        },
+        {
+          "value": "3",
+          "label": "niveaux : facile, intermédiaire, expert"
+        },
+        {
+          "value": "5",
+          "label": "catégories"
+        },
+        {
+          "value": "12",
+          "label": "langues"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Prophètes",
+          "count": "250 questions"
+        },
+        {
+          "name": "Sīra",
+          "count": "250 questions"
+        },
+        {
+          "name": "Coran",
+          "count": "150 questions"
+        },
+        {
+          "name": "Foi",
+          "count": "150 questions"
+        },
+        {
+          "name": "Vertus",
+          "count": "100 questions"
+        }
+      ]
+    },
+    "family": {
+      "eyebrow": "Pour toute la famille",
+      "title": "Un enfant de sept ans et un adulte jouent vraiment ensemble",
+      "lede": "Chaque joueur choisit son propre niveau de questions avant la partie. Le plateau, lui, reste le même pour tout le monde.",
+      "points": [
+        {
+          "title": "Apprendre sans avoir l'impression d'étudier",
+          "body": "La question arrive au milieu d'une course. On y répond pour avancer, pas pour être noté."
+        },
+        {
+          "title": "Défier sa famille et ses amis",
+          "body": "De deux à quatre joueurs sur un même appareil, ou en solo contre un à trois adversaires."
+        },
+        {
+          "title": "Découvrir ou revoir ses connaissances",
+          "body": "Chaque réponse s'accompagne de sa source et d'une explication courte. On apprend même en se trompant."
+        }
+      ],
+      "privacy": {
+        "title": "Sans compte. Sans publicité. Sans traçage.",
+        "body": "IqraQuest fonctionne entièrement hors connexion. Aucun compte à créer, aucune donnée envoyée nulle part : tout reste sur l'appareil. Un achat unique optionnel débloque la banque complète — jamais d'abonnement.",
+        "link": "Lire la politique de confidentialité"
+      }
+    },
+    "comingSoon": {
+      "title": "IqraQuest arrive bientôt.",
+      "subtitle": "Préparez votre cheval. La course au savoir va commencer.",
+      "body": "L'application est en préparation pour l'App Store et Google Play. Les boutons ci-dessous s'activeront le jour de la publication.",
+      "contactPrompt": "Une question, une demande presse ou un partenariat ?",
+      "contactLink": "Écrivez-nous"
+    }
+  },
+  "gamePage": {
+    "eyebrow": "Le jeu",
+    "title": "IqraQuest, en détail",
+    "metaDescription": "Plateau en croix de 52 cases, quatre écuries, pas de dé : la carte piochée dit la distance, la question décide si vous avancez. Tout ce que contient IqraQuest.",
+    "lede": "Le jeu des petits chevaux, revisité pour toute la famille autour de la culture islamique. Voici ce qu'il contient réellement.",
+    "sections": {
+      "board": {
+        "title": "Le plateau",
+        "body": "Une croix de 52 cases, quatre écuries, un centre. Les quatre panneaux d'angle portent chacun un paysage, sous une seule et même règle d'or. Chaque case bonus est reconnaissable à sa forme et à son nombre, jamais à sa couleur seule : une pièce ronde pour +5, un octogone pour +10, une étoile à huit branches pour le rare +20."
+      },
+      "deck": {
+        "title": "La pioche, à la place du dé",
+        "body": "Chaque valeur de 1 à 6 sort aussi souvent que les autres : la pioche est équitable, personne ne peut « choisir » sa chance. Un 6 fait sortir un cheval de l'écurie et rejouer, comme au jeu d'origine. La carte annonce sa valeur avant d'ouvrir sa question, pour que vous sachiez ce qui est en jeu."
+      },
+      "modes": {
+        "title": "Modes de jeu",
+        "body": "Solo contre un à trois adversaires, avec trois niveaux de difficulté ; ou Famille, de deux à quatre joueurs sur un même appareil, chacun avec son propre niveau de questions. Partie rapide : le premier cheval arrivé l'emporte. Partie classique : ramenez les quatre chevaux de votre écurie."
+      },
+      "courses": {
+        "title": "Trois parcours",
+        "body": "Du plus paisible au plus mouvementé. Oasis abritées, cases savoir, défis bonus, raccourcis, duels : la composition de chaque parcours est visible avant de lancer la partie. Rien n'est tiré au sort en cours de route."
+      },
+      "progress": {
+        "title": "Progression",
+        "body": "Parties jouées, précision, maîtrise par catégorie, série quotidienne. Et à la fin de chaque victoire, un tableau de course que vous pouvez partager en une image."
+      },
+      "premium": {
+        "title": "Gratuit et Premium",
+        "body": "La version gratuite propose 50 questions et une course de 50 pioches. L'achat unique Premium débloque l'intégralité de la banque et les courses jusqu'à l'arrivée. Un seul paiement, aucun abonnement, et tout continue de fonctionner hors connexion."
+      },
+      "accessibility": {
+        "title": "Accessibilité",
+        "body": "Aucune équipe n'est identifiée par la couleur seule : chacune porte aussi un symbole — étoile, boussole, lanterne, livre. Les animations non essentielles se coupent avec le réglage « Réduire les animations » du système, et les libellés d'accessibilité sont traduits dans les douze langues."
+      },
+      "languages": {
+        "title": "Douze langues",
+        "body": "L'interface et la banque de questions existent en français, anglais, arabe, allemand, espagnol, indonésien, italien, malais, néerlandais, portugais, turc et ourdou."
+      }
+    },
+    "cta": "Voir comment on joue"
+  },
+  "howToPlayPage": {
+    "eyebrow": "Comment jouer",
+    "title": "Un tour de jeu, du début à la fin",
+    "metaDescription": "Les règles d'IqraQuest en clair : piocher, répondre, choisir son cheval, le déposer. Sortie d'écurie, compte exact, captures, cases bonus et élan du savoir.",
+    "lede": "IqraQuest se joue en quelques minutes d'apprentissage. Voici le déroulé exact d'un tour.",
+    "turn": {
+      "title": "Le tour",
+      "steps": [
+        {
+          "title": "Piochez une carte",
+          "body": "La carte se retourne et annonce ce qu'elle vaut : « Carte à 5 galops ». Vous savez ce que vaut une bonne réponse avant même de lire la question."
+        },
+        {
+          "title": "Répondez à la question",
+          "body": "Quatre réponses possibles, à votre niveau. Après votre choix, le jeu affiche la bonne réponse, une courte explication et la source exacte."
+        },
+        {
+          "title": "Choisissez le cheval",
+          "body": "Les chevaux qui peuvent avancer s'allument. Touchez-en un : sa case de destination s'éclaire, avec les cases intermédiaires en pointillés."
+        },
+        {
+          "title": "Déposez-le",
+          "body": "Glissez le cheval jusqu'à sa case dorée. Le dépôt est le déplacement — il n'y a rien à confirmer."
+        }
+      ]
+    },
+    "rules": {
+      "title": "Les règles qui comptent",
+      "items": [
+        {
+          "title": "Sortir de l'écurie",
+          "body": "Il faut une carte de valeur 6 pour faire sortir un cheval. Un 6 permet aussi de rejouer."
+        },
+        {
+          "title": "Le compte exact",
+          "body": "Un cheval ne dépasse jamais l'arrivée. S'il lui manque le compte juste, il attend la bonne carte — et le jeu vous dit laquelle."
+        },
+        {
+          "title": "Les captures",
+          "body": "Un cheval qui termine sa course sur un adversaire le renvoie à son écurie. La capture rapporte 20 cases supplémentaires."
+        },
+        {
+          "title": "Les cases bonus",
+          "body": "Atteinte au compte exact, une case bonus offre sa valeur : +5, +10 ou +20. Ces cases se paient une fois par tour."
+        },
+        {
+          "title": "L'élan du savoir",
+          "body": "Trois bonnes réponses d'affilée donnent un bouclier ; cinq, le Grand Galop ; dix, un badge de maîtrise."
+        },
+        {
+          "title": "Gagner",
+          "body": "En partie rapide, le premier cheval arrivé l'emporte. En partie classique, il faut ramener les quatre chevaux de son écurie."
+        }
+      ]
+    },
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "question": "Faut-il connaître l'islam pour jouer ?",
+        "answer": "Non. Le niveau facile est conçu pour un enfant de sept ans qui découvre, et chaque réponse s'accompagne d'une explication courte et de sa source : on apprend en jouant, y compris quand on se trompe."
+      },
+      {
+        "question": "Peut-on jouer à plusieurs sur un seul téléphone ?",
+        "answer": "Oui. Le mode Famille permet de deux à quatre joueurs sur un même appareil, chacun avec son propre niveau de questions."
+      },
+      {
+        "question": "Faut-il une connexion internet ?",
+        "answer": "Non. IqraQuest fonctionne entièrement hors connexion après l'installation. Seul le parcours d'achat passe par l'App Store ou Google Play."
+      },
+      {
+        "question": "Y a-t-il de la publicité ou un abonnement ?",
+        "answer": "Ni l'un ni l'autre. Le jeu ne contient aucune publicité et ne propose aucun abonnement. Un achat unique optionnel débloque la banque complète de questions."
+      },
+      {
+        "question": "D'où viennent les questions ?",
+        "answer": "Du Coran ou des recueils Ṣaḥīḥ al-Bukhārī et Ṣaḥīḥ Muslim. Chaque question affiche sa référence exacte, et les sujets qui ne permettent pas une réponse claire dans le cadre d'un jeu sont écartés."
+      },
+      {
+        "question": "Quand l'application sort-elle ?",
+        "answer": "La publication sur l'App Store et Google Play est en préparation. Les boutons de téléchargement de ce site s'activeront le jour du lancement."
+      }
+    ]
+  },
+  "aboutPage": {
+    "eyebrow": "À propos",
+    "title": "Pourquoi IqraQuest existe",
+    "metaDescription": "Pourquoi IqraQuest existe : un jeu de plateau familial où la question fait avancer, 900 questions sourcées et des règles de respect posées avant la première ligne.",
+    "lede": "Un jeu de plateau que des familles peuvent poser sur une table, et auquel un enfant et un grand-parent peuvent jouer ensemble sans que l'un s'ennuie.",
+    "sections": [
+      {
+        "title": "L'idée de départ",
+        "body": "Les jeux de connaissance sur la culture islamique existent, mais ils prennent presque toujours la forme d'un questionnaire : on répond, on compte les points, on recommence. IqraQuest part de l'autre bout — d'abord un jeu de plateau que l'on a envie de jouer, et dans lequel la question est le moteur du déplacement plutôt que la finalité."
+      },
+      {
+        "title": "Le choix du jeu des petits chevaux",
+        "body": "Le format est connu de tout le monde, sur plusieurs générations, et se joue autour d'une table. Il fallait seulement en retirer le dé : la distance est désormais la valeur d'une carte, et cette valeur ne compte que si la question qui l'accompagne trouve sa réponse."
+      },
+      {
+        "title": "La discipline du contenu",
+        "body": "La banque de 900 questions suit une politique de sources écrite avant la première question : Coran, Ṣaḥīḥ al-Bukhārī, Ṣaḥīḥ Muslim, et au moindre doute, la question est écartée. Chaque entrée cite sa référence exacte, et l'ensemble est vérifiable question par question."
+      },
+      {
+        "title": "Le respect comme contrainte de conception",
+        "body": "Certaines choses ne sont pas représentables dans un jeu, et le cahier des charges le dit explicitement : aucune représentation d'Allah, des prophètes ou des anges ; aucun lieu saint transformé en objet de jeu ; aucun élément religieux réduit à un ornement. Ces règles ont façonné la direction artistique autant que le contenu."
+      },
+      {
+        "title": "Ce que le jeu ne fait pas",
+        "body": "Pas de compte, pas de serveur, pas de publicité, pas de traçage, pas d'abonnement, pas de mécanique de type casino. Ces absences sont des décisions de produit, pas des fonctionnalités manquantes."
+      }
+    ],
+    "publisherTitle": "Éditeur",
+    "publisherBody": "IqraQuest est un projet indépendant. Le site officiel du jeu est {domain}."
+  },
+  "supportPage": {
+    "eyebrow": "Support",
+    "title": "Support IqraQuest",
+    "metaDescription": "Support officiel d'IqraQuest : progression, achat Premium, signalement d'une question, disponibilité sur l'App Store et Google Play.",
+    "lede": "Une question sur le jeu, un problème technique, une remarque sur une question du jeu : voici où écrire.",
+    "contactTitle": "Nous écrire",
+    "contactBody": "Le moyen le plus direct est l'e-mail. Décrivez votre appareil, la version du jeu et ce que vous avez observé — c'est ce qui permet de répondre utilement.",
+    "emailLabel": "Adresse de support",
+    "formLink": "Ou utiliser le formulaire de contact",
+    "faqTitle": "Avant d'écrire",
+    "faq": [
+      {
+        "question": "J'ai perdu ma progression après avoir changé de téléphone.",
+        "answer": "IqraQuest enregistre tout localement, sur l'appareil, et ne dispose d'aucune sauvegarde en ligne. Une progression ne suit donc pas un changement d'appareil. C'est la contrepartie directe de l'absence de compte et de serveur."
+      },
+      {
+        "question": "J'ai acheté Premium et le contenu est verrouillé.",
+        "answer": "Utilisez l'option de restauration des achats dans les réglages du jeu. L'achat est rattaché à votre compte App Store ou Google Play, pas à un compte IqraQuest — il se restaure sur tout appareil utilisant le même compte de magasin."
+      },
+      {
+        "question": "Je pense qu'une question comporte une erreur.",
+        "answer": "Écrivez-nous en indiquant l'énoncé et, si possible, la source affichée. Les signalements de contenu sont traités en priorité : une question dont la source ne tient pas est corrigée ou retirée."
+      },
+      {
+        "question": "L'application n'est pas disponible dans ma boutique.",
+        "answer": "IqraQuest n'est pas encore publié. Les boutons de téléchargement de ce site s'activeront le jour du lancement sur l'App Store et Google Play."
+      }
+    ],
+    "legalTitle": "Documents",
+    "legalBody": "La politique de confidentialité, les conditions d'utilisation et les informations de propriété intellectuelle sont accessibles depuis le pied de page de ce site."
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Nous écrire",
+    "metaDescription": "Contactez l'équipe IqraQuest : support, presse, partenariat, propriété intellectuelle ou signalement d'un problème.",
+    "lede": "Choisissez l'objet de votre message : cela nous permet d'y répondre plus vite.",
+    "form": {
+      "subjectLabel": "Objet",
+      "subjectPlaceholder": "Choisissez un objet",
+      "subjects": {
+        "support": "Support",
+        "press": "Presse",
+        "partnership": "Partenariat",
+        "ip": "Propriété intellectuelle",
+        "bug": "Signaler un problème",
+        "other": "Autre"
+      },
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez votre demande.",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi…",
+      "openMail": "Ouvrir dans votre messagerie",
+      "consent": "En envoyant ce message, vous acceptez que votre nom, votre adresse e-mail et votre message soient utilisés uniquement pour vous répondre.",
+      "errors": {
+        "subject": "Choisissez un objet.",
+        "name": "Indiquez un nom.",
+        "email": "Indiquez une adresse e-mail valide.",
+        "messageShort": "Votre message doit faire au moins 20 caractères.",
+        "messageLong": "Votre message ne peut pas dépasser 4000 caractères.",
+        "failed": "L'envoi a échoué. Réessayez, ou écrivez directement à {email}."
+      },
+      "successTitle": "Message envoyé",
+      "successBody": "Merci. Nous revenons vers vous à l'adresse indiquée.",
+      "mailFallbackTitle": "Envoi par e-mail",
+      "mailFallbackBody": "Ce formulaire prépare un e-mail dans votre messagerie, à l'adresse {email}. Rien n'est envoyé tant que vous ne validez pas dans votre application de courrier."
+    },
+    "directTitle": "Par e-mail direct",
+    "directBody": "Vous pouvez aussi écrire directement à {email}."
+  },
+  "privacyPage": {
+    "eyebrow": "Confidentialité",
+    "title": "Politique de confidentialité",
+    "metaDescription": "IqraQuest ne collecte aucune donnée personnelle : aucun compte, aucun serveur, aucune publicité, aucun traçage. Tout reste sur votre appareil.",
+    "updated": "4 septembre 2026",
+    "summaryTitle": "En résumé",
+    "summaryBody": "Ni ce site ni l'application IqraQuest ne collectent de données personnelles. Il n'existe aucun compte utilisateur, aucun serveur, aucune publicité et aucun traçage.",
+    "sections": [
+      {
+        "title": "Ce site web",
+        "body": "Le site {domain} est un site statique. Il ne dépose aucun cookie, n'utilise aucun outil d'analyse d'audience et ne charge aucun script tiers. Aucune bannière de consentement n'est affichée parce qu'aucun traitement ne nécessite votre consentement. Comme tout site accessible sur internet, l'hébergeur qui le sert peut conserver des journaux techniques (adresse IP, date, ressource demandée) pour des raisons de sécurité et de fonctionnement ; ces journaux relèvent de l'hébergeur et ne sont ni exploités ni consultés par IqraQuest à des fins de profilage."
+      },
+      {
+        "title": "Le formulaire de contact",
+        "body": "Si vous utilisez le formulaire de contact, les informations que vous saisissez — nom, adresse e-mail, objet et message — servent uniquement à traiter votre demande et à vous répondre. Elles ne sont ni revendues, ni utilisées à des fins publicitaires, ni transmises à un tiers en dehors de ce qui est strictement nécessaire à l'acheminement du message. Vous pouvez demander leur suppression en écrivant à {email}."
+      },
+      {
+        "title": "L'application",
+        "body": "IqraQuest ne crée ni n'exige de compte, n'exploite aucun serveur, n'affiche aucune publicité, n'intègre aucun SDK publicitaire ou d'analyse et n'utilise aucune technique d'identification par empreinte. L'application fonctionne entièrement hors connexion après l'installation, à l'exception du parcours d'achat géré par l'App Store ou Google Play."
+      },
+      {
+        "title": "Ce qui est stocké, et où",
+        "body": "Tout ce qui suit est stocké uniquement sur votre appareil : les prénoms saisis pour une partie, votre progression (parties jouées, précision, statistiques par catégorie, série quotidienne), votre partie en cours, vos réglages (langue, mode nuit, réduction des animations, son) et le fait que vous ayez acheté IqraQuest Premium. Désinstaller l'application supprime l'ensemble de ces données. Il n'existe aucune sauvegarde en ligne et rien à supprimer de notre côté, puisque nous n'en avons jamais eu de copie."
+      },
+      {
+        "title": "Achats",
+        "body": "L'achat unique Premium est intégralement traité par l'App Store d'Apple ou par Google Play. IqraQuest ne voit jamais vos informations de paiement : elles sont gérées par Apple ou Google selon leurs propres politiques. L'application apprend uniquement si l'achat a réussi, afin de débloquer le contenu localement."
+      },
+      {
+        "title": "Enfants",
+        "body": "IqraQuest est conçu pour être utilisable par des enfants comme par des adultes. Comme aucune donnée personnelle n'est collectée, quel que soit l'utilisateur, il n'en est pas davantage collecté auprès des enfants. Toute action qui quitte l'application — lien externe, achat — est protégée par une porte parentale."
+      },
+      {
+        "title": "Notifications",
+        "body": "Si vous activez les rappels optionnels du Défi du jour, ceux-ci sont programmés entièrement sur votre appareil au moyen de notifications locales. Aucune donnée de notification n'est envoyée à un serveur."
+      },
+      {
+        "title": "Vos droits",
+        "body": "Le règlement général sur la protection des données vous ouvre des droits d'accès, de rectification, d'effacement et d'opposition. En pratique, aucune donnée personnelle n'est détenue à votre sujet, hormis le contenu d'un message que vous nous auriez volontairement adressé. Pour toute demande, écrivez à {email}."
+      },
+      {
+        "title": "Modifications",
+        "body": "En cas de modification, la version mise à jour est publiée sur cette page et la date ci-dessus est actualisée."
+      }
+    ]
+  },
+  "termsPage": {
+    "eyebrow": "Conditions",
+    "title": "Conditions d'utilisation",
+    "metaDescription": "Conditions d'utilisation du site officiel iqraquest.org : objet, usage acceptable, disponibilité, liens externes, responsabilité et droit applicable.",
+    "updated": "4 septembre 2026",
+    "intro": "Ces conditions encadrent l'utilisation du site {domain}. L'utilisation de l'application IqraQuest est en outre régie par les conditions de la boutique — App Store ou Google Play — auprès de laquelle elle a été téléchargée.",
+    "sections": [
+      {
+        "title": "Objet du site",
+        "body": "Le site présente le jeu IqraQuest, ses règles, son univers et ses documents officiels. Il ne permet ni de jouer en ligne, ni de créer un compte, ni d'effectuer un achat."
+      },
+      {
+        "title": "Utilisation acceptable",
+        "body": "Vous pouvez consulter, citer et partager les pages de ce site. Vous ne pouvez pas en extraire tout ou partie pour en constituer une base de données ou un service concurrent, tenter d'en perturber le fonctionnement, ni l'utiliser d'une manière qui laisserait croire à une affiliation, un partenariat ou un soutien qui n'existe pas."
+      },
+      {
+        "title": "Disponibilité",
+        "body": "Le site est fourni en l'état, sans garantie de disponibilité continue. Il peut être modifié, suspendu ou interrompu à tout moment, notamment pour maintenance."
+      },
+      {
+        "title": "Liens externes",
+        "body": "Le site peut renvoyer vers des ressources externes, en particulier vers l'App Store et Google Play. Ces ressources relèvent de leurs propres éditeurs et de leurs propres conditions ; leur contenu n'engage pas IqraQuest."
+      },
+      {
+        "title": "Informations sur le jeu",
+        "body": "Les descriptions du jeu publiées ici correspondent à la version en préparation et peuvent évoluer avant la publication sur les boutiques. Elles ne constituent pas un engagement contractuel sur le contenu exact d'une future version."
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "body": "Les éléments originaux du jeu et du site sont protégés. Les conditions applicables sont détaillées sur la page Propriété intellectuelle."
+      },
+      {
+        "title": "Responsabilité",
+        "body": "Dans la limite permise par le droit applicable, la responsabilité de l'éditeur ne saurait être engagée pour un dommage indirect résultant de l'utilisation du site. Aucune stipulation de ces conditions n'a pour effet d'écarter une responsabilité qui ne peut légalement l'être, ni de restreindre les droits que la loi reconnaît aux consommateurs."
+      },
+      {
+        "title": "Droit applicable",
+        "body": "Ces conditions sont régies par le droit français. À défaut de résolution amiable, les tribunaux compétents sont ceux désignés par les règles de droit commun. Si vous agissez en qualité de consommateur, les règles protectrices de votre pays de résidence dans l'Union européenne restent applicables."
+      },
+      {
+        "title": "Contact",
+        "body": "Pour toute question relative à ces conditions, écrivez à {email}."
+      }
+    ]
+  },
+  "ipPage": {
+    "eyebrow": "Propriété intellectuelle",
+    "title": "Propriété intellectuelle",
+    "metaDescription": "Propriété intellectuelle d'IqraQuest : ce qui est protégé, ce qui ne l'est pas, l'usage de la marque et comment demander une autorisation.",
+    "updated": "4 septembre 2026",
+    "lede": "Cette page précise ce qui est protégé, ce qui ne l'est pas, et à qui s'adresser pour une autorisation.",
+    "ownershipTitle": "Titularité",
+    "ownershipBody": "Sauf indication contraire, les éléments originaux d'IqraQuest sont la propriété de l'éditeur du jeu. Ils sont protégés par le droit d'auteur dès leur création, sans formalité de dépôt, dans les pays parties à la Convention de Berne.",
+    "protectedTitle": "Éléments originaux concernés",
+    "protectedIntro": "Sont notamment concernés, dans la mesure où ils constituent des créations originales :",
+    "protectedItems": [
+      "le nom IqraQuest en tant que signe distinctif du jeu",
+      "le logo et l'icône de l'application",
+      "la charte graphique et l'identité visuelle",
+      "les illustrations originales",
+      "les chevaux et leurs caparaçons, dans leur dessin original",
+      "le plateau de jeu et ses éléments graphiques",
+      "les interfaces et leur composition originale",
+      "l'ensemble des assets graphiques et sonores",
+      "les animations originales",
+      "les textes et contenus éditoriaux originaux",
+      "la formulation originale des questions, leurs explications et leur agencement",
+      "les éléments composant ce site web",
+      "le matériel marketing et les visuels promotionnels"
+    ],
+    "usageTitle": "Ce qui n'est pas autorisé",
+    "usageBody": "Toute reproduction, représentation, adaptation, traduction, extraction, diffusion ou exploitation non autorisée de tout ou partie des éléments originaux d'IqraQuest est interdite, sous réserve des exceptions prévues par la législation applicable — notamment la courte citation, la revue de presse, la parodie et l'usage privé.",
+    "extractionTitle": "Banque de questions",
+    "extractionBody": "L'extraction ou la réutilisation systématique, qualitativement ou quantitativement substantielle, du contenu de la banque de questions est interdite. Les faits, versets et hadiths cités relèvent bien entendu du domaine commun : ce qui est protégé est la formulation originale des questions, le choix et l'agencement des entrées, les explications rédigées pour le jeu et la structure de la banque.",
+    "trademarkTitle": "Marque",
+    "trademarkBody": "IqraQuest est utilisé comme marque pour désigner le jeu et ses produits dérivés. Le symbole ™ signale cet usage. Aucune revendication d'enregistrement n'est faite sur cette page : le symbole ® n'est pas employé et ne le sera qu'en cas d'enregistrement effectif, et pour les seuls territoires et classes concernés. L'enregistrement d'un nom de domaine ne confère par lui-même aucun droit de marque.",
+    "limitsTitle": "Ce que cette protection ne couvre pas",
+    "limitsIntro": "Par honnêteté, et parce qu'une revendication excessive dessert la protection réelle :",
+    "limitsItems": [
+      "Le principe général d'un jeu de plateau associant des questions à un déplacement n'est pas appropriable. Les idées et les mécaniques de jeu, en tant que telles, ne sont pas protégées par le droit d'auteur.",
+      "Le jeu des petits chevaux appartient au patrimoine ludique commun. Ce qui est original dans IqraQuest, c'est sa réalisation : son plateau, ses illustrations, ses textes, son interface et son contenu éditorial.",
+      "Le contenu religieux cité — versets du Coran, hadiths — n'appartient à personne. Seules la formulation et la sélection réalisées pour le jeu sont concernées.",
+      "Le droit d'auteur n'interdit pas à un tiers de créer un autre jeu de connaissance sur la culture islamique. Il interdit de reprendre les réalisations originales d'IqraQuest."
+    ],
+    "provenanceTitle": "Traçabilité",
+    "provenanceBody": "Les visuels de ce site proviennent des fichiers sources du jeu, dont l'historique de création est versionné et horodaté. Les pages portent une mention de droits et des métadonnées d'auteur, et le site est publié sous le domaine officiel {domain}. Ces éléments constituent des indices d'antériorité ; ils ne remplacent pas une preuve constituée devant une juridiction.",
+    "permissionTitle": "Demander une autorisation",
+    "permissionBody": "La presse peut utiliser les visuels officiels et des extraits du jeu pour en rendre compte, en citant IqraQuest. Pour tout autre usage — partenariat, adaptation, produit dérivé, diffusion commerciale — écrivez à {email} en précisant l'usage envisagé.",
+    "reportTitle": "Signaler une atteinte",
+    "reportBody": "Si vous constatez une reprise non autorisée d'éléments d'IqraQuest, écrivez à {email} avec l'adresse concernée et une description de ce qui est repris."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Cette piste ne mène nulle part.",
+    "body": "La page que vous cherchez n'existe pas, ou a changé d'adresse. Revenez à l'accueil et reprenez la course.",
+    "cta": "Retour à l'accueil",
+    "secondary": "Voir le jeu"
+  },
+  "footer": {
+    "tagline": "La course au savoir.",
+    "sectionGame": "Le jeu",
+    "sectionSupport": "Aide",
+    "sectionLegal": "Légal",
+    "copyright": "© {year} IqraQuest. Tous droits réservés.",
+    "trademarkNote": "IqraQuest{mark} et le logo IqraQuest sont utilisés comme marques.",
+    "storeNote": "App Store est une marque d'Apple Inc. Google Play est une marque de Google LLC.",
+    "socialTitle": "Réseaux sociaux"
+  }
+}
