@@ -1,9 +1,7 @@
 'use client';
 
 import { useId, useState, type FormEvent } from 'react';
-import { useTranslations } from 'next-intl';
 import { Button, Card, cx } from '@/components/ui/primitives';
-import { siteConfig } from '@/config/site.config';
 
 /**
  * Contact form.
@@ -23,6 +21,45 @@ import { siteConfig } from '@/config/site.config';
  * is. It is a usability aid, not a security boundary — which is why the
  * form collects nothing sensitive and grants nothing.
  */
+
+/**
+ * Every string the form renders, resolved on the server. The form is
+ * interactive and must be a client component, but that is no reason to
+ * ship the message catalogue and an ICU formatter with it.
+ */
+export interface ContactFormLabels {
+  subjectLabel: string;
+  subjectPlaceholder: string;
+  subjects: Record<string, string>;
+  nameLabel: string;
+  namePlaceholder: string;
+  emailLabel: string;
+  emailPlaceholder: string;
+  messageLabel: string;
+  messagePlaceholder: string;
+  submit: string;
+  submitting: string;
+  openMail: string;
+  consent: string;
+  errors: {
+    subject: string;
+    name: string;
+    email: string;
+    messageShort: string;
+    messageLong: string;
+    /** Already formatted with the support address. */
+    failed: string;
+  };
+  successTitle: string;
+  successBody: string;
+  mailFallbackTitle: string;
+  /** Already formatted with the support address. */
+  mailFallbackBody: string;
+  /** The address the mailto: is composed for. */
+  supportEmail: string;
+  /** The product name used in the subject line. */
+  siteName: string;
+}
 
 const SUBJECTS = [
   'support',
@@ -49,8 +86,7 @@ const endpoint = process.env.NEXT_PUBLIC_CONTACT_ENDPOINT?.trim();
 
 type Errors = Partial<Record<'subject' | 'name' | 'email' | 'message', string>>;
 
-export function ContactForm() {
-  const t = useTranslations('contactPage.form');
+export function ContactForm({ labels }: { labels: ContactFormLabels }) {
   const ids = useId();
 
   const [subject, setSubject] = useState<Subject | ''>('');
@@ -67,12 +103,12 @@ export function ContactForm() {
 
   function validate(): Errors {
     const next: Errors = {};
-    if (!subject) next.subject = t('errors.subject');
-    if (name.trim().length < 2) next.name = t('errors.name');
-    if (!EMAIL_RE.test(email.trim())) next.email = t('errors.email');
+    if (!subject) next.subject = labels.errors.subject;
+    if (name.trim().length < 2) next.name = labels.errors.name;
+    if (!EMAIL_RE.test(email.trim())) next.email = labels.errors.email;
     const length = message.trim().length;
-    if (length < MESSAGE_MIN) next.message = t('errors.messageShort');
-    else if (length > MESSAGE_MAX) next.message = t('errors.messageLong');
+    if (length < MESSAGE_MIN) next.message = labels.errors.messageShort;
+    else if (length > MESSAGE_MAX) next.message = labels.errors.messageLong;
     return next;
   }
 
@@ -98,7 +134,7 @@ export function ContactForm() {
       return;
     }
 
-    const subjectLine = `[${t(`subjects.${subject}`)}] ${siteConfig.siteName} — ${name.trim()}`;
+    const subjectLine = `[${labels.subjects[subject]}] ${labels.siteName} — ${name.trim()}`;
 
     if (endpoint) {
       setStatus('sending');
@@ -129,7 +165,7 @@ export function ContactForm() {
     // client, pre-filled.
     const body = `${message.trim()}\n\n—\n${name.trim()}\n${email.trim()}`;
     window.location.href =
-      `mailto:${siteConfig.supportEmail}` +
+      `mailto:${labels.supportEmail}` +
       `?subject=${encodeURIComponent(subjectLine)}` +
       `&body=${encodeURIComponent(body)}`;
     setStatus('sent');
@@ -139,10 +175,10 @@ export function ContactForm() {
     return (
       <Card className="border-gold/30 p-8 text-center">
         <h2 className="font-display text-2xl text-text-primary">
-          {t('successTitle')}
+          {labels.successTitle}
         </h2>
         <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-text-secondary">
-          {t('successBody')}
+          {labels.successBody}
         </p>
       </Card>
     );
@@ -159,10 +195,10 @@ export function ContactForm() {
       {!endpoint && (
         <div className="mb-8 rounded-xl border border-gold/20 bg-surface-inset/60 p-4">
           <p className="text-sm font-semibold text-gold">
-            {t('mailFallbackTitle')}
+            {labels.mailFallbackTitle}
           </p>
           <p className="mt-2 text-sm leading-relaxed text-text-secondary">
-            {t('mailFallbackBody', { email: siteConfig.supportEmail })}
+            {labels.mailFallbackBody}
           </p>
         </div>
       )}
@@ -188,7 +224,7 @@ export function ContactForm() {
             htmlFor={field('subject')}
             className="mb-2 block text-sm font-medium text-text-primary"
           >
-            {t('subjectLabel')}
+            {labels.subjectLabel}
           </label>
           <select
             id={field('subject')}
@@ -198,10 +234,10 @@ export function ContactForm() {
             aria-describedby={errors.subject ? field('subject-error') : undefined}
             className={cx(inputClass, borderFor('subject'))}
           >
-            <option value="">{t('subjectPlaceholder')}</option>
+            <option value="">{labels.subjectPlaceholder}</option>
             {SUBJECTS.map((value) => (
               <option key={value} value={value}>
-                {t(`subjects.${value}`)}
+                {labels.subjects[value]}
               </option>
             ))}
           </select>
@@ -218,7 +254,7 @@ export function ContactForm() {
               htmlFor={field('name')}
               className="mb-2 block text-sm font-medium text-text-primary"
             >
-              {t('nameLabel')}
+              {labels.nameLabel}
             </label>
             <input
               id={field('name')}
@@ -227,7 +263,7 @@ export function ContactForm() {
               maxLength={120}
               value={name}
               onChange={(event) => setName(event.target.value)}
-              placeholder={t('namePlaceholder')}
+              placeholder={labels.namePlaceholder}
               aria-invalid={Boolean(errors.name)}
               aria-describedby={errors.name ? field('name-error') : undefined}
               className={cx(inputClass, borderFor('name'))}
@@ -244,7 +280,7 @@ export function ContactForm() {
               htmlFor={field('email')}
               className="mb-2 block text-sm font-medium text-text-primary"
             >
-              {t('emailLabel')}
+              {labels.emailLabel}
             </label>
             <input
               id={field('email')}
@@ -254,7 +290,7 @@ export function ContactForm() {
               maxLength={200}
               value={email}
               onChange={(event) => setEmail(event.target.value)}
-              placeholder={t('emailPlaceholder')}
+              placeholder={labels.emailPlaceholder}
               aria-invalid={Boolean(errors.email)}
               aria-describedby={errors.email ? field('email-error') : undefined}
               className={cx(inputClass, borderFor('email'))}
@@ -272,7 +308,7 @@ export function ContactForm() {
             htmlFor={field('message')}
             className="mb-2 block text-sm font-medium text-text-primary"
           >
-            {t('messageLabel')}
+            {labels.messageLabel}
           </label>
           <textarea
             id={field('message')}
@@ -280,7 +316,7 @@ export function ContactForm() {
             maxLength={MESSAGE_MAX}
             value={message}
             onChange={(event) => setMessage(event.target.value)}
-            placeholder={t('messagePlaceholder')}
+            placeholder={labels.messagePlaceholder}
             aria-invalid={Boolean(errors.message)}
             aria-describedby={errors.message ? field('message-error') : undefined}
             className={cx(inputClass, borderFor('message'), 'resize-y')}
@@ -293,21 +329,21 @@ export function ContactForm() {
         </div>
 
         <p className="text-xs leading-relaxed text-text-muted">
-          {t('consent')}
+          {labels.consent}
         </p>
 
         {status === 'failed' && (
           <p role="alert" className="text-sm text-error">
-            {t('errors.failed', { email: siteConfig.supportEmail })}
+            {labels.errors.failed}
           </p>
         )}
 
         <Button type="submit" disabled={status === 'sending'}>
           {status === 'sending'
-            ? t('submitting')
+            ? labels.submitting
             : endpoint
-              ? t('submit')
-              : t('openMail')}
+              ? labels.submit
+              : labels.openMail}
         </Button>
       </form>
     </Card>

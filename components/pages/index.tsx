@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
 import { Reveal } from '@/components/Reveal';
 import { Hero } from '@/components/home/Hero';
 import {
@@ -13,8 +12,9 @@ import {
   Universe,
 } from '@/components/home/Sections';
 import { StoreBadges } from '@/components/StoreBadges';
-import { ContactForm } from '@/components/ContactForm';
+import { ContactForm, type ContactFormLabels } from '@/components/ContactForm';
 import {
+  Link,
   ButtonLink,
   Card,
   Eyebrow,
@@ -317,6 +317,48 @@ export function SupportPage() {
 
 export function ContactPage() {
   const t = useTranslations('contactPage');
+  const tf = useTranslations('contactPage.form');
+
+  // The form is a client component; its strings are resolved here and
+  // passed as plain props, so no catalogue or ICU formatter is shipped.
+  const formLabels: ContactFormLabels = {
+    subjectLabel: tf('subjectLabel'),
+    subjectPlaceholder: tf('subjectPlaceholder'),
+    subjects: {
+      support: tf('subjects.support'),
+      press: tf('subjects.press'),
+      partnership: tf('subjects.partnership'),
+      ip: tf('subjects.ip'),
+      bug: tf('subjects.bug'),
+      other: tf('subjects.other'),
+    },
+    nameLabel: tf('nameLabel'),
+    namePlaceholder: tf('namePlaceholder'),
+    emailLabel: tf('emailLabel'),
+    emailPlaceholder: tf('emailPlaceholder'),
+    messageLabel: tf('messageLabel'),
+    messagePlaceholder: tf('messagePlaceholder'),
+    submit: tf('submit'),
+    submitting: tf('submitting'),
+    openMail: tf('openMail'),
+    consent: tf('consent'),
+    errors: {
+      subject: tf('errors.subject'),
+      name: tf('errors.name'),
+      email: tf('errors.email'),
+      messageShort: tf('errors.messageShort'),
+      messageLong: tf('errors.messageLong'),
+      failed: tf('errors.failed', { email: siteConfig.supportEmail }),
+    },
+    successTitle: tf('successTitle'),
+    successBody: tf('successBody'),
+    mailFallbackTitle: tf('mailFallbackTitle'),
+    mailFallbackBody: tf('mailFallbackBody', {
+      email: siteConfig.supportEmail,
+    }),
+    supportEmail: siteConfig.supportEmail,
+    siteName: siteConfig.siteName,
+  };
 
   return (
     <>
@@ -324,7 +366,7 @@ export function ContactPage() {
 
       <Section className="py-16 sm:py-20">
         <div className="container-prose">
-          <ContactForm />
+          <ContactForm labels={formLabels} />
 
           <div className="mt-12 rounded-2xl border border-gold/15 bg-surface-raised/50 p-6">
             <h2 className="font-display text-lg text-text-primary">

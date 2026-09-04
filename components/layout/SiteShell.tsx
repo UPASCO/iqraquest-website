@@ -1,8 +1,6 @@
 import type { ReactNode } from 'react';
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
-import { CLIENT_NAMESPACES } from '@/i18n/client-namespaces';
-import { Header } from './Header';
+import { getTranslations } from 'next-intl/server';
+import { Header, type HeaderLabels } from './Header';
 import { Footer } from './Footer';
 import { fontVariablesFor } from '@/lib/fonts';
 import { isRtl, textDirection, type Locale } from '@/i18n/routing';
@@ -22,20 +20,28 @@ export async function SiteShell({
   locale: Locale;
   children: ReactNode;
 }) {
-  const allMessages = await getMessages({ locale });
   const t = await getTranslations({ locale, namespace: 'common' });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
 
-  // Only the namespaces a client component actually reads cross the
-  // boundary. Handing over the whole catalogue would put 33 kB of JSON
-  // into the payload of all 108 pages to serve the 3 kB the header, the
-  // language switcher and the contact form need. Everything else is
-  // rendered on the server, where the full catalogue already lives.
-  const clientMessages = Object.fromEntries(
-    CLIENT_NAMESPACES.filter((ns) => ns in allMessages).map((ns) => [
-      ns,
-      allMessages[ns],
-    ]),
-  );
+  // The header is interactive, so it is a client component — but its
+  // strings are resolved here and handed over as plain props. Nothing
+  // about translation crosses the boundary: no catalogue, no ICU
+  // formatter, no provider.
+  const headerLabels: HeaderLabels = {
+    backHome: t('backHome'),
+    brandBaseline: t('brandBaseline'),
+    menu: t('menu'),
+    openMenu: t('openMenu'),
+    closeMenu: t('closeMenu'),
+    comingSoon: t('comingSoon'),
+    contact: tNav('contact'),
+    // Same order as `navHrefs` in Header.
+    nav: [tNav('game'), tNav('howToPlay'), tNav('universe'), tNav('support')],
+    localeSwitcher: {
+      chooseLanguage: t('chooseLanguage'),
+      language: t('language'),
+    },
+  };
 
   // The Naskh face rides only on the two locales that set text in it.
   const rtl = isRtl(locale);
@@ -86,22 +92,20 @@ export async function SiteShell({
         <meta name="color-scheme" content="dark" />
       </head>
       <body className="min-h-dvh bg-surface-base antialiased">
-        <NextIntlClientProvider locale={locale} messages={clientMessages}>
-          <a
-            href="#main"
-            className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-gold focus:px-5 focus:py-3 focus:font-semibold focus:text-[#20160a]"
-          >
-            {t('skipToContent')}
-          </a>
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-gold focus:px-5 focus:py-3 focus:font-semibold focus:text-[#20160a]"
+        >
+          {t('skipToContent')}
+        </a>
 
-          <Header locale={locale} />
+        <Header locale={locale} labels={headerLabels} />
 
-          <main id="main" tabIndex={-1} className="pt-[var(--header-h)]">
-            {children}
-          </main>
+        <main id="main" tabIndex={-1} className="pt-[var(--header-h)]">
+          {children}
+        </main>
 
-          <Footer />
-        </NextIntlClientProvider>
+        <Footer />
       </body>
     </html>
   );

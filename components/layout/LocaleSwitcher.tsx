@@ -1,15 +1,20 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { usePathname } from '@/i18n/navigation';
+import { usePathname } from 'next/navigation';
 import { cx } from '@/components/ui/primitives';
 import {
   defaultLocale,
+  localeHref,
   localeNames,
   locales,
   type Locale,
 } from '@/i18n/routing';
+
+export interface LocaleSwitcherLabels {
+  chooseLanguage: string;
+  language: string;
+}
 
 /**
  * Language menu.
@@ -20,8 +25,13 @@ import {
  * the choice bookmarkable and shareable, and means a crawler can walk
  * the whole language graph from any page.
  */
-export function LocaleSwitcher({ locale }: { locale: Locale }) {
-  const t = useTranslations('common');
+export function LocaleSwitcher({
+  locale,
+  labels,
+}: {
+  locale: Locale;
+  labels: LocaleSwitcherLabels;
+}) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -53,14 +63,21 @@ export function LocaleSwitcher({ locale }: { locale: Locale }) {
   }, [open]);
 
   /**
-   * `usePathname` from next-intl returns the path without the locale
-   * prefix, so the target is built by re-prefixing it. French is the
-   * default locale and carries no prefix.
+   * The equivalent URL of the current page in another language.
+   *
+   * `usePathname` here is Next's own, so it returns the real path
+   * including any locale prefix. Stripping the current locale leaves the
+   * route, which `localeHref` then re-prefixes for the target. Using
+   * next-intl's navigation instead would need its React context, and
+   * mounting that context is exactly what keeps the message catalogue
+   * and the ICU formatter out of the browser.
    */
   const hrefFor = (target: Locale) => {
-    const clean = pathname === '/' ? '' : pathname.replace(/\/+$/, '');
-    const prefix = target === defaultLocale ? '' : `/${target}`;
-    return `${prefix}${clean}/`.replace(/\/{2,}/g, '/');
+    let route = pathname || '/';
+    if (locale !== defaultLocale && route.startsWith(`/${locale}`)) {
+      route = route.slice(locale.length + 1) || '/';
+    }
+    return localeHref(target, route);
   };
 
   return (
@@ -71,7 +88,7 @@ export function LocaleSwitcher({ locale }: { locale: Locale }) {
         onClick={() => setOpen((value) => !value)}
         aria-expanded={open}
         aria-haspopup="true"
-        aria-label={t('chooseLanguage')}
+        aria-label={labels.chooseLanguage}
         className="inline-flex h-11 items-center gap-1.5 rounded-lg border border-gold/25 px-3 text-sm text-text-secondary transition-colors hover:border-gold/50 hover:text-text-primary"
       >
         <svg
@@ -95,7 +112,7 @@ export function LocaleSwitcher({ locale }: { locale: Locale }) {
         <div
           className="absolute end-0 top-[calc(100%+0.5rem)] z-50 max-h-[70vh] w-56 overflow-y-auto overscroll-contain rounded-xl border border-gold/20 bg-surface-raised/98 p-1.5 shadow-2xl backdrop-blur-lg"
           role="menu"
-          aria-label={t('language')}
+          aria-label={labels.language}
         >
           {locales.map((candidate) => {
             const active = candidate === locale;

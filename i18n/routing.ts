@@ -102,3 +102,30 @@ export const routing = defineRouting({
   localePrefix: 'as-needed',
   localeDetection: false,
 });
+
+/**
+ * Builds a site-absolute href for a locale.
+ *
+ * A pure function of its arguments, so client components can prefix
+ * their own links without next-intl's navigation helpers — which need
+ * the locale from React context, and that context only exists under
+ * `NextIntlClientProvider`. The site deliberately does not mount one:
+ * every string is resolved on the server and handed over as props, so
+ * no message catalogue or ICU formatter reaches the browser.
+ *
+ * French is the default locale and is served un-prefixed. Paths keep a
+ * trailing slash to match the static files the host serves; an anchor
+ * or a query string is appended after it.
+ */
+export function localeHref(locale: Locale, href: string): string {
+  const prefix = locale === defaultLocale ? '' : `/${locale}`;
+
+  const hashAt = href.search(/[#?]/);
+  const pathPart = hashAt === -1 ? href : href.slice(0, hashAt);
+  const suffix = hashAt === -1 ? '' : href.slice(hashAt);
+
+  const clean = pathPart.replace(/^\/+|\/+$/g, '');
+  const base = clean === '' ? `${prefix}/` : `${prefix}/${clean}/`;
+
+  return `${base}${suffix}`;
+}

@@ -1,9 +1,40 @@
 import type { ComponentPropsWithoutRef, ElementType, ReactNode } from 'react';
-import { Link } from '@/i18n/navigation';
+import NextLink from 'next/link';
+import { useLocale } from 'next-intl';
+import { localeHref, type Locale } from '@/i18n/routing';
 
 /** Joins class names, dropping falsy entries. */
 export function cx(...parts: (string | false | null | undefined)[]): string {
   return parts.filter(Boolean).join(' ');
+}
+
+/* -------------------------------------------------------------------------
+ * Link
+ *
+ * next-intl ships its own locale-aware Link, but it is a client
+ * component that reads the locale from React context — which would
+ * require mounting `NextIntlClientProvider`, and that is precisely what
+ * keeps the message catalogue and the ICU formatter out of the browser.
+ *
+ * This resolves the locale on the server instead (every page that
+ * renders a link is a server component) and hands `next/link` a plain,
+ * already-prefixed href.
+ * ---------------------------------------------------------------------- */
+
+export function Link({
+  href,
+  children,
+  ...rest
+}: {
+  href: string;
+  children: ReactNode;
+} & Omit<ComponentPropsWithoutRef<typeof NextLink>, 'href' | 'children'>) {
+  const locale = useLocale() as Locale;
+  return (
+    <NextLink href={localeHref(locale, href)} {...rest}>
+      {children}
+    </NextLink>
+  );
 }
 
 /* -------------------------------------------------------------------------

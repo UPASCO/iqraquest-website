@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
 import { Reveal } from '@/components/Reveal';
 import { StoreBadges } from '@/components/StoreBadges';
 import {
+  Link,
   ButtonLink,
   Card,
   Eyebrow,

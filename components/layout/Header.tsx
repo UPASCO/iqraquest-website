@@ -2,23 +2,44 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import Link from 'next/link';
 import { cx } from '@/components/ui/primitives';
-import { LocaleSwitcher } from './LocaleSwitcher';
-import type { Locale } from '@/i18n/routing';
+import { LocaleSwitcher, type LocaleSwitcherLabels } from './LocaleSwitcher';
+import { localeHref, type Locale } from '@/i18n/routing';
 
-const navItems = [
-  { href: '/game', key: 'game' },
-  { href: '/how-to-play', key: 'howToPlay' },
-  { href: '/#universe', key: 'universe' },
-  { href: '/support', key: 'support' },
-] as const;
+const navHrefs = ['/game', '/how-to-play', '/#universe', '/support'] as const;
 
-export function Header({ locale }: { locale: Locale }) {
-  const t = useTranslations();
+/**
+ * Every string the header renders, resolved on the server.
+ *
+ * The header is interactive — a scroll state and a mobile sheet — so it
+ * has to be a client component, but that is no reason to send the
+ * message catalogue and an ICU formatter to the browser with it.
+ */
+export interface HeaderLabels {
+  backHome: string;
+  brandBaseline: string;
+  menu: string;
+  openMenu: string;
+  closeMenu: string;
+  comingSoon: string;
+  contact: string;
+  /** In the same order as `navHrefs`. */
+  nav: readonly string[];
+  localeSwitcher: LocaleSwitcherLabels;
+}
+
+export function Header({
+  locale,
+  labels,
+}: {
+  locale: Locale;
+  labels: HeaderLabels;
+}) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const href = (path: string) => localeHref(locale, path);
 
   // The bar only gains its ground and border once the page has moved,
   // so the hero starts edge to edge.
@@ -61,9 +82,9 @@ export function Header({ locale }: { locale: Locale }) {
     >
       <div className="container-page flex h-[var(--header-h)] items-center justify-between gap-4">
         <Link
-          href="/"
+          href={href("/")}
           className="group flex items-center gap-3"
-          aria-label={t('common.backHome')}
+          aria-label={labels.backHome}
         >
           <Image
             src="/assets/brand-mark-192.webp"
@@ -78,31 +99,31 @@ export function Header({ locale }: { locale: Locale }) {
               IqraQuest
             </span>
             <span className="mt-0.5 hidden text-[0.6rem] uppercase tracking-[0.2em] text-text-muted sm:block">
-              {t('common.brandBaseline')}
+              {labels.brandBaseline}
             </span>
           </span>
         </Link>
 
         <nav
           className="hidden items-center gap-1 lg:flex"
-          aria-label={t('common.menu')}
+          aria-label={labels.menu}
         >
-          {navItems.map((item) => (
+          {navHrefs.map((target, index) => (
             <Link
-              key={item.key}
-              href={item.href}
+              key={target}
+              href={href(target)}
               className="rounded-lg px-3 py-2 text-sm text-text-secondary transition-colors hover:text-text-primary"
             >
-              {t(`nav.${item.key}`)}
+              {labels.nav[index]}
             </Link>
           ))}
         </nav>
 
         <div className="flex items-center gap-2">
-          <LocaleSwitcher locale={locale} />
+          <LocaleSwitcher locale={locale} labels={labels.localeSwitcher} />
 
           <span className="hidden rounded-full border border-gold/35 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-gold sm:inline-block">
-            {t('common.comingSoon')}
+            {labels.comingSoon}
           </span>
 
           <button
@@ -110,7 +131,7 @@ export function Header({ locale }: { locale: Locale }) {
             onClick={() => setMenuOpen((open) => !open)}
             aria-expanded={menuOpen}
             aria-controls="mobile-nav"
-            aria-label={menuOpen ? t('common.closeMenu') : t('common.openMenu')}
+            aria-label={menuOpen ? labels.closeMenu : labels.openMenu}
             className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-gold/25 text-text-primary transition-colors hover:border-gold/50 lg:hidden"
           >
             <svg
@@ -148,27 +169,27 @@ export function Header({ locale }: { locale: Locale }) {
         >
           <nav
             className="container-page flex flex-col py-4"
-            aria-label={t('common.menu')}
+            aria-label={labels.menu}
           >
-            {navItems.map((item) => (
+            {navHrefs.map((target, index) => (
               <Link
-                key={item.key}
-                href={item.href}
+                key={target}
+                href={href(target)}
                 onClick={closeMenu}
                 className="flex min-h-12 items-center border-b border-gold/8 text-base text-text-secondary transition-colors hover:text-text-primary"
               >
-                {t(`nav.${item.key}`)}
+                {labels.nav[index]}
               </Link>
             ))}
             <Link
-              href="/contact"
+              href={href("/contact")}
               onClick={closeMenu}
               className="flex min-h-12 items-center text-base text-text-secondary transition-colors hover:text-text-primary"
             >
-              {t('nav.contact')}
+              {labels.contact}
             </Link>
             <span className="mt-4 inline-flex w-fit rounded-full border border-gold/35 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-gold">
-              {t('common.comingSoon')}
+              {labels.comingSoon}
             </span>
           </nav>
         </div>
