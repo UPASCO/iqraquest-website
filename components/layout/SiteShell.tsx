@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
+import { CLIENT_NAMESPACES } from '@/i18n/client-namespaces';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { fontVariables } from '@/lib/fonts';
@@ -21,8 +22,20 @@ export async function SiteShell({
   locale: Locale;
   children: ReactNode;
 }) {
-  const messages = await getMessages({ locale });
+  const allMessages = await getMessages({ locale });
   const t = await getTranslations({ locale, namespace: 'common' });
+
+  // Only the namespaces a client component actually reads cross the
+  // boundary. Handing over the whole catalogue would put 33 kB of JSON
+  // into the payload of all 108 pages to serve the 3 kB the header, the
+  // language switcher and the contact form need. Everything else is
+  // rendered on the server, where the full catalogue already lives.
+  const clientMessages = Object.fromEntries(
+    CLIENT_NAMESPACES.filter((ns) => ns in allMessages).map((ns) => [
+      ns,
+      allMessages[ns],
+    ]),
+  );
 
   return (
     <html
@@ -70,7 +83,7 @@ export async function SiteShell({
         <meta name="color-scheme" content="dark" />
       </head>
       <body className="min-h-dvh bg-surface-base antialiased">
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <a
             href="#main"
             className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-gold focus:px-5 focus:py-3 focus:font-semibold focus:text-[#20160a]"
