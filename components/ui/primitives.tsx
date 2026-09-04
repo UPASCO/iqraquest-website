@@ -282,7 +282,16 @@ export function Stat({
 }) {
   return (
     <div className={cx('text-center sm:text-start', className)}>
-      <div className="font-display text-3xl leading-none text-gold sm:text-4xl">
+      {/*
+        Numbers and numeric ranges are left-to-right units. Without an
+        isolate, the bidi algorithm reorders "7-99" to "99-7" inside an
+        Arabic or Urdu paragraph, because the dash is a neutral
+        character taking the surrounding direction.
+      */}
+      <div
+        dir="ltr"
+        className="font-display text-3xl leading-none text-gold sm:text-4xl rtl:text-end"
+      >
         {value}
       </div>
       <div className="mt-2 text-sm leading-snug text-text-muted">{label}</div>

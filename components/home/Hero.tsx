@@ -52,7 +52,7 @@ export function Hero() {
       />
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 hidden md:block md:bg-[linear-gradient(90deg,rgba(6,31,24,0.88)_0%,rgba(6,31,24,0.62)_38%,transparent_72%)]"
+        className="absolute inset-0 -z-10 hidden md:block md:bg-[linear-gradient(90deg,rgba(6,31,24,0.88)_0%,rgba(6,31,24,0.62)_38%,transparent_72%)] md:rtl:bg-[linear-gradient(270deg,rgba(6,31,24,0.88)_0%,rgba(6,31,24,0.62)_38%,transparent_72%)]"
       />
       <div
         aria-hidden
