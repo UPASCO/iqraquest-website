@@ -6,7 +6,7 @@
  * The site must show the real product, so every image here is the
  * game's own asset — re-encoded for the web, never redrawn. The script
  * is idempotent and the outputs are committed, so a normal build (and
- * Vercel) never needs the application repository. Re-run it only when
+ * CI) never needs the application repository. Re-run it only when
  * the app's artwork changes:
  *
  *   IQRAQUEST_APP_DIR=/path/to/IqraQuest npm run assets

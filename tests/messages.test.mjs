@@ -88,12 +88,16 @@ for (const locale of locales) {
     const strings = leafStrings(await load(locale));
     const broken = [];
 
+    // Checked in both directions. A dropped placeholder renders literal
+    // braces to a visitor; an ADDED one is worse — next-intl throws on
+    // the missing parameter and falls back to printing the message key.
     for (const [key, source] of referenceStrings) {
       const expected = placeholders(source);
-      if (expected.length === 0) continue;
       const actual = placeholders(strings.get(key) ?? '');
       if (JSON.stringify(expected) !== JSON.stringify(actual)) {
-        broken.push(`${key}: expected {${expected}}, got {${actual}}`);
+        broken.push(
+          `${key}: French has [${expected}], ${locale} has [${actual}]`,
+        );
       }
     }
     assert.deepEqual(broken, [], `${locale}: placeholder drift`);
