@@ -10,6 +10,7 @@
     "brandBaseline": "Berpacu meraih ilmu.",
     "comingSoon": "Segera hadir",
     "comingSoonShort": "Segera",
+    "ctaHeader": "Kenali permainannya",
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "downloadOnAppStore": "Unduh di App Store",
@@ -29,6 +30,7 @@
   },
   "nav": {
     "game": "Permainan",
+    "knowledge": "Ilmu",
     "howToPlay": "Cara bermain",
     "universe": "Dunia",
     "about": "Tentang",
@@ -59,6 +61,15 @@
       "title": "Permainan pacuan kuda klasik, dimainkan dengan apa yang Anda tahu",
       "body": "Papan berbentuk palang berisi 52 petak, empat kandang, masing-masing empat kuda — dan tanpa satu pun dadu. Pada giliran Anda, Anda menarik sebuah kartu. Nilainya, dari 1 sampai 6, menunjukkan berapa petak yang ditempuh: nilai itu hanya berlaku jika Anda menjawab benar pertanyaan yang menyertainya.",
       "highlight": "Di sini, keberuntungan tidak pernah menggantikan jawaban."
+    },
+    "brand": {
+      "eyebrow": "Namanya",
+      "word": "Iqra",
+      "wordAlt": "Iqra, “Bacalah”, ditulis dalam aksara Arab",
+      "meaning": "“Bacalah”",
+      "title": "Kata pertama",
+      "lede": "Iqra — “Bacalah” — membuka surah Al-Alaq, yang menurut riwayat merupakan ayat pertama yang diturunkan.",
+      "body": "IqraQuest mengambil namanya dari perintah itu. Membaca, belajar, mencari: di sini ilmu adalah penggerak permainan, bukan hiasannya. Setiap derap diraih dengan sebuah jawaban, dan setiap jawaban membuka sebuah sumber dan penjelasan. Pacuan hanyalah alasannya; ilmulah perjalanannya."
     },
     "howToPlay": {
       "eyebrow": "Dalam empat gerakan",
@@ -147,52 +158,86 @@
       "oasisAlt": "Oasis garis akhir IqraQuest: air terjun, pohon kurma, dan seekor kuda berpelana di depan bangunan batu berwarna terang.",
       "courseAlt": "Pemandangan lintasan IqraQuest yang berkelok di antara pohon kurma, dengan kuda-kuda dari empat kandang."
     },
-    "questions": {
-      "eyebrow": "Isi permainan",
-      "title": "Pertanyaan yang dipilih dengan cermat",
-      "lede": "900 pertanyaan, ditulis dan diperiksa satu per satu dengan satu aturan sederhana: begitu ada keraguan, pertanyaan itu disingkirkan.",
-      "body": "IqraQuest bersandar pada rujukan yang mapan — sebuah ayat Al-Quran, atau sebuah hadis dari Sahih al-Bukhari atau Sahih Muslim. Setiap pertanyaan menampilkan sumbernya secara persis dan penjelasan singkat setelah jawabannya. Topik yang tidak memungkinkan jawaban yang jelas dan tidak diperselisihkan dalam kerangka permainan pengetahuan sengaja ditinggalkan.",
-      "note": "Beberapa fakta deskriptif yang sudah mapan secara luas dan tidak merujuk pada satu kitab tertentu ditandai sebagaimana adanya, alih-alih dikaitkan dengan rujukan yang dikarang.",
-      "stats": [
+    "knowledge": {
+      "eyebrow": "Perjalanan",
+      "title": "Perjalanan menjelajahi ilmu keislaman",
+      "lede": "Lima wilayah, tiga tingkat, 900 pertanyaan. Masing-masing menyebut sumbernya dan dijelaskan dalam satu kalimat.",
+      "realmsTitle": "Lima wilayah",
+      "realms": [
         {
-          "value": "900",
-          "label": "pertanyaan dalam bank soal"
+          "key": "prophets",
+          "name": "Para Nabi",
+          "count": "250 pertanyaan",
+          "body": "Kisah, ujian, dan tanda-tanda para nabi yang disebut dalam Al-Quran."
         },
         {
-          "value": "3",
-          "label": "tingkat: mudah, menengah, ahli"
+          "key": "sira",
+          "name": "Sirah",
+          "count": "250 pertanyaan",
+          "body": "Kehidupan Nabi ﷺ dan para sahabatnya, peristiwa demi peristiwa."
         },
         {
-          "value": "5",
-          "label": "kategori"
+          "key": "quran",
+          "name": "Al-Quran",
+          "count": "150 pertanyaan",
+          "body": "Surah-surah, namanya, ayat-ayatnya, dan apa yang diajarkannya."
         },
         {
-          "value": "12",
-          "label": "bahasa"
+          "key": "faith",
+          "name": "Iman",
+          "count": "150 pertanyaan",
+          "body": "Rukun, para malaikat, kitab-kitab yang diturunkan, Hari Akhir."
+        },
+        {
+          "key": "virtues",
+          "name": "Akhlak",
+          "count": "100 pertanyaan",
+          "body": "Yang diajarkan Nabi ﷺ tentang perilaku yang baik dan tutur kata yang baik."
         }
       ],
-      "categories": [
+      "samplesTitle": "Tiga pertanyaan, persis seperti tampil di dalam permainan",
+      "samplesLede": "Diambil dari bank soal. Sentuh sebuah jawaban: Anda akan melihat apa yang dilihat pemain — jawaban yang benar, penjelasan, dan sumbernya secara persis.",
+      "levels": {
+        "easy": "Mudah",
+        "medium": "Menengah",
+        "hard": "Ahli"
+      },
+      "categories": {
+        "prophets": "Nabi",
+        "sira": "Sirah",
+        "quran": "Al-Quran",
+        "faith": "Iman",
+        "virtues": "Akhlak"
+      },
+      "card": {
+        "answerHint": "Pilih sebuah jawaban",
+        "correct": "Jawaban benar",
+        "incorrect": "Bukan yang itu",
+        "neverBack": "Di dalam permainan, jawaban salah tidak pernah membuat Anda mundur.",
+        "sourceLabel": "Sumber"
+      },
+      "sourcingTitle": "Dari mana pertanyaannya berasal",
+      "sourcingBody": "Dari Al-Quran, atau dari sebuah hadis yang diriwayatkan dalam Sahih al-Bukhari atau Sahih Muslim. Beberapa fakta deskriptif yang sudah mapan secara luas dan tidak merujuk pada satu kitab tertentu — sebuah nama, sebuah angka, sebuah amalan yang disepakati — ditandai sebagaimana adanya, alih-alih dikaitkan dengan rujukan yang dikarang. Begitu ada keraguan, pertanyaan itu disingkirkan.",
+      "progressionTitle": "Kemajuan, bukan nilai",
+      "progressionLede": "Jawaban benar berturut-turut membuka laju pengetahuan. Bonus ini hanya bisa diraih dengan ilmu.",
+      "progression": [
         {
-          "name": "Nabi",
-          "count": "250 pertanyaan"
+          "step": "3",
+          "title": "Perisai",
+          "body": "Tiga jawaban benar berturut-turut: kuda Anda terlindung dari tangkapan."
         },
         {
-          "name": "Sirah",
-          "count": "250 pertanyaan"
+          "step": "5",
+          "title": "Grand Galop",
+          "body": "Lima berturut-turut: +2 derap sebagai cadangan, dipakai dengan sendirinya saat jumlahnya cukup untuk mencapai garis akhir."
         },
         {
-          "name": "Al-Quran",
-          "count": "150 pertanyaan"
-        },
-        {
-          "name": "Iman",
-          "count": "150 pertanyaan"
-        },
-        {
-          "name": "Akhlak",
-          "count": "100 pertanyaan"
+          "step": "10",
+          "title": "Lencana penguasaan",
+          "body": "Sepuluh berturut-turut: lencana yang menandakan Anda memang tahu."
         }
-      ]
+      ],
+      "cta": "Jelajahi ilmunya"
     },
     "family": {
       "eyebrow": "Untuk seluruh keluarga",
@@ -210,6 +255,34 @@
         {
           "title": "Menemukan atau mengulang apa yang sudah diketahui",
           "body": "Setiap jawaban disertai sumber dan penjelasan singkat. Kita tetap belajar meski salah menjawab."
+        }
+      ],
+      "stablesTitle": "Empat kandang, empat lambang",
+      "stablesLede": "Setiap tim membawa satu warna dan satu lambang — tidak pernah warna saja, agar tetap terbaca oleh semua orang.",
+      "stables": [
+        {
+          "key": "emerald",
+          "name": "Émeraude",
+          "symbol": "Bintang",
+          "coat": "Bulu kelabu"
+        },
+        {
+          "key": "saphir",
+          "name": "Saphir",
+          "symbol": "Kompas",
+          "coat": "Bulu cokelat"
+        },
+        {
+          "key": "grenat",
+          "name": "Grenat",
+          "symbol": "Lentera",
+          "coat": "Bulu cokelat kemerahan"
+        },
+        {
+          "key": "safran",
+          "name": "Safran",
+          "symbol": "Kitab",
+          "coat": "Bulu hitam"
         }
       ],
       "privacy": {
@@ -265,6 +338,65 @@
         "body": "Antarmuka dan bank soal tersedia dalam bahasa Prancis, Inggris, Arab, Jerman, Spanyol, Indonesia, Italia, Melayu, Belanda, Portugis, Turki, dan Urdu."
       }
     },
+    "cta": "Lihat cara bermainnya"
+  },
+  "knowledgePage": {
+    "eyebrow": "Ilmu",
+    "title": "Perjalanan menuntut ilmu",
+    "metaDescription": "Lima wilayah ilmu keislaman dalam 900 pertanyaan bersumber jelas: nabi, sirah, Al-Quran, iman, akhlak. Tiga tingkat, tantangan harian, dua belas bahasa.",
+    "lede": "IqraQuest menjelajahi lima wilayah ilmu keislaman dalam 900 pertanyaan, masing-masing dengan sumber dan penjelasannya. Inilah yang diajarkan permainan ini, dan bagaimana caranya.",
+    "levelsTitle": "Tiga tingkat, dipilih masing-masing pemain",
+    "levelsLede": "Sebelum permainan dimulai, setiap pemain memilih tingkatnya sendiri. Anak dan orang dewasa bermain di papan yang sama, dengan pertanyaan yang pas untuk masing-masing.",
+    "levels": [
+      {
+        "name": "Mudah",
+        "body": "Untuk anak tujuh tahun yang baru mengenal: nama-nama, rukun, kisah-kisah besar."
+      },
+      {
+        "name": "Menengah",
+        "body": "Untuk yang sudah tahu dasarnya dan ingin menghubungkannya: sebuah ayat, seorang sahabat, sebuah peristiwa dalam Sirah."
+      },
+      {
+        "name": "Ahli",
+        "body": "Untuk yang ingin dibuat terkejut: detail sebuah surah, rujukan yang persis, hadis yang kurang dikenal."
+      },
+      {
+        "name": "Campuran",
+        "body": "Setiap kartu menarik tingkatnya sendiri. Irama permainan berubah pada setiap tarikan kartu."
+      }
+    ],
+    "neverBackTitle": "Tidak pernah mundur",
+    "neverBackBody": "Jawaban salah membiarkan kuda tetap di tempatnya. Tidak ada yang diambil, tidak ada yang dinilai. Kita membaca jawaban yang benar, sumbernya, penjelasannya — lalu menarik kartu lagi. Begitulah cara belajar sambil bermain, termasuk ketika salah menjawab.",
+    "specialsTitle": "Petak yang mengajarkan",
+    "specialsLede": "Bergantung pada lintasan yang dipilih, beberapa petak melakukan sesuatu — petak yang sama di keempat bagian lintasan, semuanya terlihat sebelum bermain.",
+    "specials": [
+      {
+        "name": "Oasis",
+        "body": "Melindungi dari tangkapan."
+      },
+      {
+        "name": "Ilmu",
+        "body": "Memberi satu poin ilmu."
+      },
+      {
+        "name": "Tantangan",
+        "body": "Pertanyaan yang lebih sulit, untuk +2 derap."
+      },
+      {
+        "name": "Jalan Pintas",
+        "body": "Pertanyaan sulit, untuk memotong jalan ke depan."
+      },
+      {
+        "name": "Hikmah",
+        "body": "Menawarkan sebuah fakta untuk disimpan."
+      }
+    ],
+    "samplesTitle": "Lima pertanyaan, satu untuk setiap wilayah",
+    "samplesLede": "Persis seperti tampil di dalam permainan. Sentuh sebuah jawaban.",
+    "dailyTitle": "Tantangan Harian",
+    "dailyBody": "Lima pertanyaan setiap hari, gratis, tanpa koneksi, dengan skor yang bisa dibagikan. Rentetan harian yang membuat ingin kembali — tanpa notifikasi yang dipaksakan, tanpa akun.",
+    "languagesTitle": "Dua belas bahasa, satu bank soal",
+    "languagesBody": "Fakta, rujukan, dan jawabannya ada satu kali saja; hanya rumusannya yang diterjemahkan. Pertanyaan yang diajukan dalam bahasa Urdu mengutip sumber yang sama dengan dalam bahasa Prancis.",
     "cta": "Lihat cara bermainnya"
   },
   "howToPlayPage": {

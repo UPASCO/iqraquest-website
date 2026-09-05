@@ -10,6 +10,7 @@
     "brandBaseline": "De wedloop om kennis.",
     "comingSoon": "Binnenkort beschikbaar",
     "comingSoonShort": "Binnenkort",
+    "ctaHeader": "Ontdek het spel",
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "downloadOnAppStore": "Download in de App Store",
@@ -29,6 +30,7 @@
   },
   "nav": {
     "game": "Het spel",
+    "knowledge": "Kennis",
     "howToPlay": "Zo speel je",
     "universe": "De wereld",
     "about": "Over ons",
@@ -59,6 +61,15 @@
       "title": "Het paardenspel, gespeeld met wat je weet",
       "body": "Een kruisvormig bord van 52 vakjes, vier stallen, vier paarden per stal — en geen enkele dobbelsteen. Als je aan de beurt bent, trek je een kaart. De waarde, van 1 tot en met 6, geeft aan hoeveel vakjes je vooruit gaat: die telt alleen als je de vraag erbij goed beantwoordt.",
       "highlight": "Hier vervangt geluk nooit het antwoord."
+    },
+    "brand": {
+      "eyebrow": "De naam",
+      "word": "Iqra",
+      "wordAlt": "Iqra, ‘Lees’, geschreven in het Arabisch",
+      "meaning": "‘Lees’",
+      "title": "Het eerste woord",
+      "lede": "Iqra — ‘Lees’ — opent soera Al-ʿAlaq, volgens de overlevering het eerste geopenbaarde vers.",
+      "body": "IqraQuest ontleent zijn naam aan die opdracht. Lezen, leren, zoeken: hier is kennis de motor van het spel, niet het decor. Elke galopsprong wordt verdiend met een antwoord, en elk antwoord opent een bron en een uitleg. De race is het voorwendsel; de kennis is de reis."
     },
     "howToPlay": {
       "eyebrow": "In vier handelingen",
@@ -147,52 +158,86 @@
       "oasisAlt": "De finishoase van IqraQuest: watervallen, palmen en een opgetuigd paard voor lichte natuurstenen architectuur.",
       "courseAlt": "Zicht op het parcours van IqraQuest dat tussen de palmen door slingert, met de paarden van de vier stallen."
     },
-    "questions": {
-      "eyebrow": "De inhoud",
-      "title": "Vragen die met zorg zijn gekozen",
-      "lede": "900 vragen, één voor één geschreven en nagelezen volgens een eenvoudige regel: bij de minste twijfel gaat de vraag eruit.",
-      "body": "IqraQuest steunt op gevestigde bronnen — een vers uit de Koran, of een hadith uit Ṣaḥīḥ al-Bukhārī of Ṣaḥīḥ Muslim. Elke vraag toont haar exacte bron en een korte uitleg na het antwoord. Onderwerpen die binnen een kennisspel geen helder en onomstreden antwoord toelaten, blijven bewust buiten beschouwing.",
-      "note": "De enkele breed gedragen beschrijvende feiten die naar geen afzonderlijk werk verwijzen, worden als zodanig aangeduid, in plaats van aan een verzonnen bron te worden gekoppeld.",
-      "stats": [
+    "knowledge": {
+      "eyebrow": "De zoektocht",
+      "title": "Een zoektocht door islamitische kennis",
+      "lede": "Vijf gebieden, drie niveaus, 900 vragen. Elke vraag noemt haar bron en wordt in één zin uitgelegd.",
+      "realmsTitle": "Vijf gebieden",
+      "realms": [
         {
-          "value": "900",
-          "label": "vragen in de vragenbank"
+          "key": "prophets",
+          "name": "De Profeten",
+          "count": "250 vragen",
+          "body": "De verhalen, de beproevingen en de tekenen van de profeten die in de Koran worden genoemd."
         },
         {
-          "value": "3",
-          "label": "niveaus: makkelijk, gemiddeld, expert"
+          "key": "sira",
+          "name": "De Sīra",
+          "count": "250 vragen",
+          "body": "Het leven van de Profeet ﷺ en zijn metgezellen, gebeurtenis na gebeurtenis."
         },
         {
-          "value": "5",
-          "label": "categorieën"
+          "key": "quran",
+          "name": "De Koran",
+          "count": "150 vragen",
+          "body": "De soera’s, hun namen, hun verzen en wat ze leren."
         },
         {
-          "value": "12",
-          "label": "talen"
+          "key": "faith",
+          "name": "Het Geloof",
+          "count": "150 vragen",
+          "body": "De zuilen, de engelen, de geopenbaarde Boeken, de Laatste Dag."
+        },
+        {
+          "key": "virtues",
+          "name": "De Deugden",
+          "count": "100 vragen",
+          "body": "Wat de Profeet ﷺ heeft geleerd over goed gedrag en het goede woord."
         }
       ],
-      "categories": [
+      "samplesTitle": "Drie vragen, zoals ze in het spel verschijnen",
+      "samplesLede": "Rechtstreeks uit de vragenbank. Tik een antwoord aan: je ziet wat de speler ziet — het juiste antwoord, een uitleg en de exacte bron.",
+      "levels": {
+        "easy": "Makkelijk",
+        "medium": "Gemiddeld",
+        "hard": "Expert"
+      },
+      "categories": {
+        "prophets": "Profeten",
+        "sira": "Sīra",
+        "quran": "Koran",
+        "faith": "Geloof",
+        "virtues": "Deugden"
+      },
+      "card": {
+        "answerHint": "Kies een antwoord",
+        "correct": "Goed antwoord",
+        "incorrect": "Dat was het niet",
+        "neverBack": "In het spel ga je door een fout antwoord nooit achteruit.",
+        "sourceLabel": "Bron"
+      },
+      "sourcingTitle": "Waar de vragen vandaan komen",
+      "sourcingBody": "Uit de Koran, of uit een hadith die is overgeleverd in Ṣaḥīḥ al-Bukhārī of Ṣaḥīḥ Muslim. De enkele breed gedragen beschrijvende feiten die naar geen afzonderlijk werk verwijzen — een naam, een getal, een unanieme praktijk — worden als zodanig aangeduid, in plaats van aan een verzonnen bron te worden gekoppeld. Bij de minste twijfel gaat de vraag eruit.",
+      "progressionTitle": "Vooruitgang, geen cijfer",
+      "progressionLede": "Goede antwoorden op rij brengen de vaart van het weten op gang. Deze bonussen zijn alleen met kennis te verdienen.",
+      "progression": [
         {
-          "name": "Profeten",
-          "count": "250 vragen"
+          "step": "3",
+          "title": "Het schild",
+          "body": "Drie goede antwoorden op rij: je paard kan niet worden geslagen."
         },
         {
-          "name": "Sīra",
-          "count": "250 vragen"
+          "step": "5",
+          "title": "De Grand Galop",
+          "body": "Vijf op rij: +2 galopsprongen in reserve, vanzelf ingezet zodra ze volstaan om de finish te halen."
         },
         {
-          "name": "Koran",
-          "count": "150 vragen"
-        },
-        {
-          "name": "Geloof",
-          "count": "150 vragen"
-        },
-        {
-          "name": "Deugden",
-          "count": "100 vragen"
+          "step": "10",
+          "title": "De meesterschapsbadge",
+          "body": "Tien op rij: de badge die zegt dat je het weet."
         }
-      ]
+      ],
+      "cta": "Verken de kennis"
     },
     "family": {
       "eyebrow": "Voor het hele gezin",
@@ -210,6 +255,34 @@
         {
           "title": "Kennis ontdekken of opfrissen",
           "body": "Bij elk antwoord horen de bron en een korte uitleg. Je leert ook als je het mis hebt."
+        }
+      ],
+      "stablesTitle": "Vier stallen, vier symbolen",
+      "stablesLede": "Elk team draagt een kleur en een symbool — nooit de kleur alleen, zodat het voor iedereen leesbaar blijft.",
+      "stables": [
+        {
+          "key": "emerald",
+          "name": "Émeraude",
+          "symbol": "De ster",
+          "coat": "Grijze vacht"
+        },
+        {
+          "key": "saphir",
+          "name": "Saphir",
+          "symbol": "Het kompas",
+          "coat": "Bruine vacht"
+        },
+        {
+          "key": "grenat",
+          "name": "Grenat",
+          "symbol": "De lantaarn",
+          "coat": "Voskleurige vacht"
+        },
+        {
+          "key": "safran",
+          "name": "Safran",
+          "symbol": "Het boek",
+          "coat": "Zwarte vacht"
         }
       ],
       "privacy": {
@@ -265,6 +338,65 @@
         "body": "De interface en de vragenbank bestaan in het Frans, Engels, Arabisch, Duits, Spaans, Indonesisch, Italiaans, Maleis, Nederlands, Portugees, Turks en Urdu."
       }
     },
+    "cta": "Bekijk hoe je speelt"
+  },
+  "knowledgePage": {
+    "eyebrow": "Kennis",
+    "title": "De zoektocht naar kennis",
+    "metaDescription": "Vijf gebieden van islamitische kennis in 900 vragen met bron: profeten, sīra, Koran, geloof, deugden. Drie niveaus, dagelijkse uitdaging, twaalf talen.",
+    "lede": "IqraQuest doorkruist vijf gebieden van de islamitische kennis in 900 vragen, elk met bron en uitleg. Dit is wat het spel leert, en hoe het dat doet.",
+    "levelsTitle": "Drie niveaus, ieder kiest het zijne",
+    "levelsLede": "Voor de partij kiest elke speler zijn eigen niveau. Een kind en een volwassene spelen op hetzelfde bord, met vragen op hun maat.",
+    "levels": [
+      {
+        "name": "Makkelijk",
+        "body": "Voor een kind van zeven dat het ontdekt: de namen, de zuilen, de grote verhalen."
+      },
+      {
+        "name": "Gemiddeld",
+        "body": "Voor wie de basis kent en verbanden wil leggen: een vers, een metgezel, een gebeurtenis uit de Sīra."
+      },
+      {
+        "name": "Expert",
+        "body": "Voor wie verrast wil worden: het detail van een soera, een precieze verwijzing, een minder bekende hadith."
+      },
+      {
+        "name": "Gemengd",
+        "body": "Elke kaart trekt haar eigen niveau. De partij wisselt van ritme bij elke kaart die je trekt."
+      }
+    ],
+    "neverBackTitle": "Je gaat nooit achteruit",
+    "neverBackBody": "Een fout antwoord laat het paard staan waar het staat. Er wordt niets afgenomen, niets genoteerd. Je leest het juiste antwoord, de bron, de uitleg — en je trekt opnieuw. Zo leer je al spelend, ook als je het mis hebt.",
+    "specialsTitle": "Vakjes die iets leren",
+    "specialsLede": "Afhankelijk van het gekozen parcours doen sommige vakjes iets — dezelfde in elk van de vier kwarten, allemaal zichtbaar voordat je speelt.",
+    "specials": [
+      {
+        "name": "De Oase",
+        "body": "Beschermt tegen slaan."
+      },
+      {
+        "name": "De Kennis",
+        "body": "Geeft een kennispunt."
+      },
+      {
+        "name": "De Uitdaging",
+        "body": "Een moeilijkere vraag, voor +2 galopsprongen."
+      },
+      {
+        "name": "De Sluiproute",
+        "body": "Een moeilijke vraag, om een stuk af te snijden."
+      },
+      {
+        "name": "De Wijsheid",
+        "body": "Geeft een weetje om te bewaren."
+      }
+    ],
+    "samplesTitle": "Vijf vragen, één per gebied",
+    "samplesLede": "Zoals ze in het spel verschijnen. Tik een antwoord aan.",
+    "dailyTitle": "De Uitdaging van de dag",
+    "dailyBody": "Vijf vragen per dag, gratis, offline, met een score om te delen. Een dagelijkse reeks die zin geeft om terug te komen — zonder opgedrongen meldingen, zonder account.",
+    "languagesTitle": "Twaalf talen, één vragenbank",
+    "languagesBody": "De feiten, de bronverwijzingen en de antwoorden bestaan één keer; alleen de formulering wordt vertaald. Een vraag in het Urdu noemt dezelfde bron als in het Frans.",
     "cta": "Bekijk hoe je speelt"
   },
   "howToPlayPage": {

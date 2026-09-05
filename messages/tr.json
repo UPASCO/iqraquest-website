@@ -10,6 +10,7 @@
     "brandBaseline": "Bilgi yarışı.",
     "comingSoon": "Yakında çıkıyor",
     "comingSoonShort": "Yakında",
+    "ctaHeader": "Oyunu keşfedin",
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "downloadOnAppStore": "App Store'dan indirin",
@@ -29,6 +30,7 @@
   },
   "nav": {
     "game": "Oyun",
+    "knowledge": "Bilgi",
     "howToPlay": "Nasıl oynanır",
     "universe": "Evren",
     "about": "Hakkında",
@@ -59,6 +61,15 @@
       "title": "Klasik at yarışı oyunu, bildiklerinizle oynanıyor",
       "body": "Artı biçiminde 52 kareli bir tahta, dört ahır, her ahırda dört at — ve tek bir zar bile yok. Sıra sizdeyken bir kart çekersiniz. Kartın 1 ile 6 arasındaki değeri, kaç kare ilerleyeceğinizi söyler: bu değer, yalnızca kartın sorusunu doğru cevaplarsanız sayılır.",
       "highlight": "Burada şans, doğru cevabın yerini asla tutmaz."
+    },
+    "brand": {
+      "eyebrow": "İsim",
+      "word": "Iqra",
+      "wordAlt": "Iqra, “Oku”, Arap harfleriyle yazılmış",
+      "meaning": "“Oku”",
+      "title": "İlk kelime",
+      "lede": "Iqra — “Oku” — Alak suresini açar; rivayete göre bu, vahyedilen ilk ayettir.",
+      "body": "IqraQuest adını bu emirden alır. Okumak, öğrenmek, aramak: burada bilgi oyunun süsü değil, motorudur. Her dörtnal bir cevapla kazanılır ve her cevap bir kaynağa ve bir açıklamaya açılır. Yarış bahane; bilgi ise yolculuğun kendisi."
     },
     "howToPlay": {
       "eyebrow": "Dört hareketle",
@@ -147,52 +158,86 @@
       "oasisAlt": "IqraQuest'in varış vahası: çağlayanlar, hurma ağaçları ve açık renk taş mimarinin önünde koşumlu bir at.",
       "courseAlt": "IqraQuest parkurunun hurma ağaçları arasında kıvrılan görünümü, dört ahırın atlarıyla."
     },
-    "questions": {
-      "eyebrow": "İçerik",
-      "title": "Özenle seçilmiş sorular",
-      "lede": "900 soru, tek tek yazıldı ve basit bir kurala göre gözden geçirildi: en küçük şüphede soru elenir.",
-      "body": "IqraQuest yerleşik kaynaklara dayanır — Kur'an'dan bir ayet ya da Sahih-i Buhari veya Sahih-i Müslim'den bir hadis. Her soru, tam kaynağını ve cevaptan sonra kısa bir açıklamayı gösterir. Bir bilgi oyunu çerçevesinde açık ve tartışmasız bir cevaba imkân vermeyen konular bilerek dışarıda bırakıldı.",
-      "note": "Tek bir esere dayanmayan, yaygın biçimde kabul görmüş birkaç betimleyici bilgi, uydurma bir kaynağa bağlanmak yerine bu şekilde işaretlenir.",
-      "stats": [
+    "knowledge": {
+      "eyebrow": "Arayış",
+      "title": "İslami bilgi içinde bir arayış",
+      "lede": "Beş diyar, üç seviye, 900 soru. Her biri kaynağını gösterir ve tek cümlede açıklanır.",
+      "realmsTitle": "Beş diyar",
+      "realms": [
         {
-          "value": "900",
-          "label": "soruluk banka"
+          "key": "prophets",
+          "name": "Peygamberler",
+          "count": "250 soru",
+          "body": "Kur'an'da anılan peygamberlerin kıssaları, imtihanları ve mucizeleri."
         },
         {
-          "value": "3",
-          "label": "seviye: kolay, orta, uzman"
+          "key": "sira",
+          "name": "Siyer",
+          "count": "250 soru",
+          "body": "Peygamber'in ﷺ ve ashabının hayatı, olay olay."
         },
         {
-          "value": "5",
-          "label": "kategori"
+          "key": "quran",
+          "name": "Kur'an",
+          "count": "150 soru",
+          "body": "Sureler, adları, ayetleri ve öğrettikleri."
         },
         {
-          "value": "12",
-          "label": "dil"
+          "key": "faith",
+          "name": "İman",
+          "count": "150 soru",
+          "body": "İslam'ın şartları, melekler, indirilen Kitaplar, Ahiret Günü."
+        },
+        {
+          "key": "virtues",
+          "name": "Erdemler",
+          "count": "100 soru",
+          "body": "Peygamber'in ﷺ güzel ahlak ve güzel söz üzerine öğrettikleri."
         }
       ],
-      "categories": [
+      "samplesTitle": "Üç soru, oyunda göründükleri hâliyle",
+      "samplesLede": "Bankadan alındı. Bir cevaba dokunun: oyuncunun gördüğünü görürsünüz — doğru cevap, bir açıklama ve tam kaynak.",
+      "levels": {
+        "easy": "Kolay",
+        "medium": "Orta",
+        "hard": "Uzman"
+      },
+      "categories": {
+        "prophets": "Peygamberler",
+        "sira": "Siyer",
+        "quran": "Kur'an",
+        "faith": "İman",
+        "virtues": "Erdemler"
+      },
+      "card": {
+        "answerHint": "Bir cevap seçin",
+        "correct": "Doğru cevap",
+        "incorrect": "Bu değildi",
+        "neverBack": "Oyunda yanlış cevap asla geri götürmez.",
+        "sourceLabel": "Kaynak"
+      },
+      "sourcingTitle": "Sorular nereden geliyor",
+      "sourcingBody": "Kur'an'dan ya da Sahih-i Buhari veya Sahih-i Müslim'de rivayet edilen bir hadisten. Tek bir esere dayanmayan, yaygın biçimde kabul görmüş birkaç betimleyici bilgi — bir ad, bir sayı, üzerinde ittifak edilen bir uygulama — uydurma bir kaynağa bağlanmak yerine bu şekilde işaretlenir. En küçük şüphede soru elenir.",
+      "progressionTitle": "Bir ilerleme, bir not değil",
+      "progressionLede": "Arka arkaya doğru cevaplar bilginin ivmesini açar. Bu bonuslar yalnızca bilgiyle kazanılır.",
+      "progression": [
         {
-          "name": "Peygamberler",
-          "count": "250 soru"
+          "step": "3",
+          "title": "Kalkan",
+          "body": "Arka arkaya üç doğru cevap: atınız yakalanmaya karşı korunur."
         },
         {
-          "name": "Siyer",
-          "count": "250 soru"
+          "step": "5",
+          "title": "Grand Galop",
+          "body": "Arka arkaya beş: rezervde +2 dörtnal; bitişi geçmeye yettiklerinde kendiliğinden harcanır."
         },
         {
-          "name": "Kur'an",
-          "count": "150 soru"
-        },
-        {
-          "name": "İman",
-          "count": "150 soru"
-        },
-        {
-          "name": "Erdemler",
-          "count": "100 soru"
+          "step": "10",
+          "title": "Ustalık rozeti",
+          "body": "Arka arkaya on: bildiğinizi söyleyen rozet."
         }
-      ]
+      ],
+      "cta": "Bilgiyi keşfedin"
     },
     "family": {
       "eyebrow": "Tüm aile için",
@@ -210,6 +255,34 @@
         {
           "title": "Bilgileri keşfetmek ya da tazelemek",
           "body": "Her cevabın yanında kaynağı ve kısa bir açıklama gelir. İnsan yanılırken bile öğrenir."
+        }
+      ],
+      "stablesTitle": "Dört ahır, dört simge",
+      "stablesLede": "Her takımın bir rengi ve bir simgesi var — herkesin okuyabilmesi için asla yalnızca renk değil.",
+      "stables": [
+        {
+          "key": "emerald",
+          "name": "Émeraude",
+          "symbol": "Yıldız",
+          "coat": "Kır don"
+        },
+        {
+          "key": "saphir",
+          "name": "Saphir",
+          "symbol": "Pusula",
+          "coat": "Doru don"
+        },
+        {
+          "key": "grenat",
+          "name": "Grenat",
+          "symbol": "Fener",
+          "coat": "Al don"
+        },
+        {
+          "key": "safran",
+          "name": "Safran",
+          "symbol": "Kitap",
+          "coat": "Yağız don"
         }
       ],
       "privacy": {
@@ -265,6 +338,65 @@
         "body": "Arayüz ve soru bankası Fransızca, İngilizce, Arapça, Almanca, İspanyolca, Endonezce, İtalyanca, Malayca, Felemenkçe, Portekizce, Türkçe ve Urduca olarak mevcuttur."
       }
     },
+    "cta": "Nasıl oynandığını görün"
+  },
+  "knowledgePage": {
+    "eyebrow": "Bilgi",
+    "title": "Bilgi arayışı",
+    "metaDescription": "Kaynaklı 900 soruda İslami bilginin beş diyarı: peygamberler, siyer, Kur'an, iman, erdemler. Üç seviye, günlük meydan okuma, on iki dil.",
+    "lede": "IqraQuest, İslami bilginin beş diyarını 900 soruyla dolaşır; her sorunun kaynağı ve açıklaması vardır. İşte oyunun öğrettikleri ve bunu nasıl yaptığı.",
+    "levelsTitle": "Üç seviye, herkes kendininkini seçer",
+    "levelsLede": "Oyundan önce her oyuncu kendi seviyesini seçer. Bir çocukla bir yetişkin aynı tahtada, kendi ölçülerinde sorularla oynar.",
+    "levels": [
+      {
+        "name": "Kolay",
+        "body": "Konuyla yeni tanışan yedi yaşındaki bir çocuk için: adlar, şartlar, büyük kıssalar."
+      },
+      {
+        "name": "Orta",
+        "body": "Temelleri bilen ve bunları birbirine bağlamak isteyenler için: bir ayet, bir sahabi, siyerden bir olay."
+      },
+      {
+        "name": "Uzman",
+        "body": "Şaşırmak isteyenler için: bir surenin ayrıntısı, kesin bir kaynak, az bilinen bir hadis."
+      },
+      {
+        "name": "Karışık",
+        "body": "Her kart kendi seviyesini çeker. Oyun her kart çekilişinde ritim değiştirir."
+      }
+    ],
+    "neverBackTitle": "Asla geri gidilmez",
+    "neverBackBody": "Yanlış cevap atı olduğu yerde bırakır. Hiçbir şey geri alınmaz, hiçbir şey not edilmez. Doğru cevap, kaynak ve açıklama okunur — ve yeni bir kart çekilir. Oynarken böyle öğrenilir, yanılırken bile.",
+    "specialsTitle": "Öğreten kareler",
+    "specialsLede": "Seçilen parkura göre bazı kareler bir şey yapar — dört çeyreğinde de aynıları, hepsi oynamadan önce görünür.",
+    "specials": [
+      {
+        "name": "Vaha",
+        "body": "Yakalanmaya karşı korur."
+      },
+      {
+        "name": "Bilgi",
+        "body": "Bir bilgi puanı verir."
+      },
+      {
+        "name": "Meydan Okuma",
+        "body": "Daha zor bir soru, +2 dörtnal için."
+      },
+      {
+        "name": "Kestirme",
+        "body": "Zor bir soru, öne geçmek için."
+      },
+      {
+        "name": "Hikmet",
+        "body": "Saklanacak bir bilgi sunar."
+      }
+    ],
+    "samplesTitle": "Beş soru, her diyardan bir tane",
+    "samplesLede": "Oyunda göründükleri hâliyle. Bir cevaba dokunun.",
+    "dailyTitle": "Günün Meydan Okuması",
+    "dailyBody": "Günde beş soru, ücretsiz, çevrimdışı, paylaşılabilir bir skorla. Geri dönmeyi isteten günlük bir seri — dayatılan bildirim yok, hesap yok.",
+    "languagesTitle": "On iki dil, tek bir banka",
+    "languagesBody": "Olgular, kaynaklar ve cevaplar bir kez var olur; yalnızca ifade çevrilir. Urduca sorulan bir soru, Fransızcadakiyle aynı kaynağı gösterir.",
     "cta": "Nasıl oynandığını görün"
   },
   "howToPlayPage": {

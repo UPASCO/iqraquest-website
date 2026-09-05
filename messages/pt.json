@@ -10,6 +10,7 @@
     "brandBaseline": "A corrida ao saber.",
     "comingSoon": "Brevemente disponível",
     "comingSoonShort": "Brevemente",
+    "ctaHeader": "Descobrir o jogo",
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "downloadOnAppStore": "Transferir na App Store",
@@ -29,6 +30,7 @@
   },
   "nav": {
     "game": "O jogo",
+    "knowledge": "O saber",
     "howToPlay": "Como se joga",
     "universe": "O universo",
     "about": "Sobre",
@@ -59,6 +61,15 @@
       "title": "O jogo dos cavalinhos, jogado com aquilo que sabe",
       "body": "Um tabuleiro em cruz de 52 casas, quatro cavalariças, quatro cavalos cada uma — e nem um único dado. Na sua vez, tira uma carta. O valor dela, de 1 a 6, indica quantas casas há a percorrer: só conta se responder certo à pergunta que a acompanha.",
       "highlight": "Aqui, a sorte nunca substitui a resposta."
+    },
+    "brand": {
+      "eyebrow": "O nome",
+      "word": "Iqra",
+      "wordAlt": "Iqra, «Lê», escrito em árabe",
+      "meaning": "«Lê»",
+      "title": "A primeira palavra",
+      "lede": "Iqra — «Lê» — abre a surata Al-ʿAlaq, que a tradição relata como o primeiro versículo revelado.",
+      "body": "O IqraQuest deve o seu nome a este imperativo. Ler, aprender, procurar: aqui o conhecimento é o motor do jogo, não o seu cenário. Cada galope ganha-se com uma resposta, e cada resposta abre para uma fonte e uma explicação. A corrida é o pretexto; o saber é a viagem."
     },
     "howToPlay": {
       "eyebrow": "Em quatro gestos",
@@ -147,52 +158,86 @@
       "oasisAlt": "Oásis de chegada do IqraQuest: cascatas, palmeiras e um cavalo arreado diante de uma arquitetura de pedra clara.",
       "courseAlt": "Vista do percurso do IqraQuest a serpentear entre as palmeiras, com os cavalos das quatro cavalariças."
     },
-    "questions": {
-      "eyebrow": "O conteúdo",
-      "title": "Perguntas escolhidas com cuidado",
-      "lede": "900 perguntas, escritas e revistas uma a uma segundo uma regra simples: à menor dúvida, a pergunta é posta de lado.",
-      "body": "O IqraQuest apoia-se em referências estabelecidas — um versículo do Alcorão, ou um hadith de Ṣaḥīḥ al-Bukhārī ou Ṣaḥīḥ Muslim. Cada pergunta mostra a sua fonte exata e uma explicação curta depois da resposta. Os temas que não permitem uma resposta clara e não controversa no âmbito de um jogo de conhecimento ficam deliberadamente de fora.",
-      "note": "Os poucos factos descritivos amplamente estabelecidos que não remetem para nenhuma obra única são assinalados como tal, em vez de serem ligados a uma referência inventada.",
-      "stats": [
+    "knowledge": {
+      "eyebrow": "A busca",
+      "title": "Uma busca pelo saber islâmico",
+      "lede": "Cinco territórios, três níveis, 900 perguntas. Cada uma cita a sua fonte e explica-se numa frase.",
+      "realmsTitle": "Cinco territórios",
+      "realms": [
         {
-          "value": "900",
-          "label": "perguntas no banco"
+          "key": "prophets",
+          "name": "Os Profetas",
+          "count": "250 perguntas",
+          "body": "Os relatos, as provações e os sinais dos profetas citados no Alcorão."
         },
         {
-          "value": "3",
-          "label": "níveis: fácil, intermédio, perito"
+          "key": "sira",
+          "name": "A Sīra",
+          "count": "250 perguntas",
+          "body": "A vida do Profeta ﷺ e dos seus companheiros, acontecimento a acontecimento."
         },
         {
-          "value": "5",
-          "label": "categorias"
+          "key": "quran",
+          "name": "O Alcorão",
+          "count": "150 perguntas",
+          "body": "As suratas, os seus nomes, os seus versículos e o que eles ensinam."
         },
         {
-          "value": "12",
-          "label": "idiomas"
+          "key": "faith",
+          "name": "A Fé",
+          "count": "150 perguntas",
+          "body": "Os pilares, os anjos, os Livros revelados, o Último Dia."
+        },
+        {
+          "key": "virtues",
+          "name": "As Virtudes",
+          "count": "100 perguntas",
+          "body": "O que o Profeta ﷺ ensinou sobre o bom comportamento e a boa palavra."
         }
       ],
-      "categories": [
+      "samplesTitle": "Três perguntas, tal como aparecem no jogo",
+      "samplesLede": "Tiradas do banco. Toque numa resposta: verá o que o jogador vê — a resposta certa, uma explicação e a fonte exata.",
+      "levels": {
+        "easy": "Fácil",
+        "medium": "Intermédio",
+        "hard": "Perito"
+      },
+      "categories": {
+        "prophets": "Profetas",
+        "sira": "Sīra",
+        "quran": "Alcorão",
+        "faith": "Fé",
+        "virtues": "Virtudes"
+      },
+      "card": {
+        "answerHint": "Escolha uma resposta",
+        "correct": "Resposta certa",
+        "incorrect": "Não era essa",
+        "neverBack": "No jogo, uma resposta errada nunca faz recuar.",
+        "sourceLabel": "Fonte"
+      },
+      "sourcingTitle": "De onde vêm as perguntas",
+      "sourcingBody": "Do Alcorão, ou de um hadith relatado em Ṣaḥīḥ al-Bukhārī ou Ṣaḥīḥ Muslim. Os poucos factos descritivos amplamente estabelecidos que não remetem para nenhuma obra única — um nome, um número, uma prática unânime — são assinalados como tal, em vez de serem ligados a uma referência inventada. À menor dúvida, a pergunta é posta de lado.",
+      "progressionTitle": "Uma progressão, não uma nota",
+      "progressionLede": "As respostas certas seguidas abrem o ímpeto do saber. Estes bónus só se obtêm pelo conhecimento.",
+      "progression": [
         {
-          "name": "Profetas",
-          "count": "250 perguntas"
+          "step": "3",
+          "title": "O escudo",
+          "body": "Três respostas certas seguidas: o seu cavalo fica protegido de uma captura."
         },
         {
-          "name": "Sīra",
-          "count": "250 perguntas"
+          "step": "5",
+          "title": "O Grand Galop",
+          "body": "Cinco seguidas: +2 galopes em reserva, gastos automaticamente quando bastam para chegar à meta."
         },
         {
-          "name": "Alcorão",
-          "count": "150 perguntas"
-        },
-        {
-          "name": "Fé",
-          "count": "150 perguntas"
-        },
-        {
-          "name": "Virtudes",
-          "count": "100 perguntas"
+          "step": "10",
+          "title": "O distintivo de mestria",
+          "body": "Dez seguidas: o distintivo que diz que sabe."
         }
-      ]
+      ],
+      "cta": "Explorar o saber"
     },
     "family": {
       "eyebrow": "Para toda a família",
@@ -210,6 +255,34 @@
         {
           "title": "Descobrir ou rever conhecimentos",
           "body": "Cada resposta vem acompanhada da sua fonte e de uma explicação curta. Aprende-se mesmo quando se erra."
+        }
+      ],
+      "stablesTitle": "Quatro cavalariças, quatro símbolos",
+      "stablesLede": "Cada equipa tem uma cor e um símbolo — nunca só a cor, para continuar legível para todos.",
+      "stables": [
+        {
+          "key": "emerald",
+          "name": "Émeraude",
+          "symbol": "A estrela",
+          "coat": "Pelagem cinzenta"
+        },
+        {
+          "key": "saphir",
+          "name": "Saphir",
+          "symbol": "A bússola",
+          "coat": "Pelagem baia"
+        },
+        {
+          "key": "grenat",
+          "name": "Grenat",
+          "symbol": "A lanterna",
+          "coat": "Pelagem alazã"
+        },
+        {
+          "key": "safran",
+          "name": "Safran",
+          "symbol": "O livro",
+          "coat": "Pelagem preta"
         }
       ],
       "privacy": {
@@ -265,6 +338,65 @@
         "body": "A interface e o banco de perguntas existem em francês, inglês, árabe, alemão, espanhol, indonésio, italiano, malaio, neerlandês, português, turco e urdu."
       }
     },
+    "cta": "Ver como se joga"
+  },
+  "knowledgePage": {
+    "eyebrow": "O saber",
+    "title": "A busca do conhecimento",
+    "metaDescription": "Cinco territórios do saber islâmico em 900 perguntas com fontes: profetas, sīra, Alcorão, fé, virtudes. Três níveis, um desafio diário, doze idiomas.",
+    "lede": "O IqraQuest percorre cinco territórios do saber islâmico em 900 perguntas, cada uma com a sua fonte e a sua explicação. Eis o que o jogo ensina, e como o faz.",
+    "levelsTitle": "Três níveis, à escolha de cada um",
+    "levelsLede": "Antes da partida, cada jogador escolhe o seu. Uma criança e um adulto jogam no mesmo tabuleiro, com perguntas à medida de cada um.",
+    "levels": [
+      {
+        "name": "Fácil",
+        "body": "Para uma criança de sete anos que está a descobrir: os nomes, os pilares, os grandes relatos."
+      },
+      {
+        "name": "Intermédio",
+        "body": "Para quem conhece as bases e quer ligá-las: um versículo, um companheiro, um acontecimento da Sīra."
+      },
+      {
+        "name": "Perito",
+        "body": "Para quem quer ser surpreendido: o pormenor de uma surata, uma referência precisa, um hadith menos conhecido."
+      },
+      {
+        "name": "Misto",
+        "body": "Cada carta sorteia o seu próprio nível. A partida muda de ritmo de carta para carta."
+      }
+    ],
+    "neverBackTitle": "Nunca se recua",
+    "neverBackBody": "Uma resposta errada deixa o cavalo onde está. Nada é retirado, nada é avaliado. Lê-se a resposta certa, a fonte, a explicação — e tira-se outra carta. É assim que se aprende enquanto se joga, inclusive quando se erra.",
+    "specialsTitle": "Casas que ensinam",
+    "specialsLede": "Consoante o percurso escolhido, algumas casas fazem alguma coisa — as mesmas nos seus quatro quadrantes, todas visíveis antes de jogar.",
+    "specials": [
+      {
+        "name": "O Oásis",
+        "body": "Protege das capturas."
+      },
+      {
+        "name": "O Conhecimento",
+        "body": "Dá um ponto de saber."
+      },
+      {
+        "name": "O Desafio",
+        "body": "Uma pergunta mais difícil, por +2 galopes."
+      },
+      {
+        "name": "O Atalho",
+        "body": "Uma pergunta difícil, para passar à frente."
+      },
+      {
+        "name": "A Sabedoria",
+        "body": "Oferece um facto para guardar."
+      }
+    ],
+    "samplesTitle": "Cinco perguntas, uma por território",
+    "samplesLede": "Tal como aparecem no jogo. Toque numa resposta.",
+    "dailyTitle": "O Desafio do dia",
+    "dailyBody": "Cinco perguntas por dia, gratuitas, sem ligação à internet, com uma pontuação para partilhar. Uma série diária que dá vontade de voltar — sem notificações impostas, sem conta.",
+    "languagesTitle": "Doze idiomas, um único banco",
+    "languagesBody": "Os factos, as referências e as respostas existem uma só vez; só a formulação é traduzida. Uma pergunta feita em urdu cita a mesma fonte que em francês.",
     "cta": "Ver como se joga"
   },
   "howToPlayPage": {
