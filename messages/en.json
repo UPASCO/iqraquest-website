@@ -10,6 +10,7 @@
     "brandBaseline": "The race for knowledge.",
     "comingSoon": "Coming soon",
     "comingSoonShort": "Soon",
+    "ctaHeader": "Discover the game",
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "downloadOnAppStore": "Download on the App Store",
@@ -29,6 +30,7 @@
   },
   "nav": {
     "game": "The game",
+    "knowledge": "Knowledge",
     "howToPlay": "How to play",
     "universe": "The world",
     "about": "About",
@@ -59,6 +61,15 @@
       "title": "The horse-race board game, played with what you know",
       "body": "A cross-shaped board of 52 squares, four stables, four horses each — and not a single die. On your turn, you draw a card. Its value, from 1 to 6, is the number of squares to travel: it only counts if you answer the question that comes with it correctly.",
       "highlight": "Here, luck never stands in for the answer."
+    },
+    "brand": {
+      "eyebrow": "The name",
+      "word": "Iqra",
+      "wordAlt": "Iqra, “Read”, written in Arabic",
+      "meaning": "“Read”",
+      "title": "The first word",
+      "lede": "Iqra — “Read” — opens Sūrat al-ʿAlaq, which tradition reports as the first verse revealed.",
+      "body": "IqraQuest takes its name from that imperative. Read, learn, seek: here knowledge is the engine of the game, not its scenery. Every gallop is earned with an answer, and every answer opens onto a source and an explanation. The race is the pretext; knowledge is the journey."
     },
     "howToPlay": {
       "eyebrow": "In four moves",
@@ -147,52 +158,86 @@
       "oasisAlt": "IqraQuest finishing oasis: waterfalls, palm trees and a harnessed horse in front of pale stone architecture.",
       "courseAlt": "View of the IqraQuest course winding between the palm trees, with the horses of all four stables."
     },
-    "questions": {
-      "eyebrow": "The content",
-      "title": "Questions chosen with care",
-      "lede": "900 questions, written and checked one by one against a simple rule: at the slightest doubt, the question is dropped.",
-      "body": "IqraQuest rests on established references — a verse of the Qur’an, or a hadith from Ṣaḥīḥ al-Bukhārī or Ṣaḥīḥ Muslim. Every question shows its exact source and a short explanation after the answer. Subjects that do not allow a clear, uncontroversial answer within a knowledge game are deliberately left aside.",
-      "note": "The few widely established descriptive facts that point to no single work are marked as such, rather than tied to an invented reference.",
-      "stats": [
+    "knowledge": {
+      "eyebrow": "The quest",
+      "title": "A quest through Islamic knowledge",
+      "lede": "Five realms, three levels, 900 questions. Each one cites its source and explains itself in a sentence.",
+      "realmsTitle": "Five realms",
+      "realms": [
         {
-          "value": "900",
-          "label": "questions in the bank"
+          "key": "prophets",
+          "name": "The Prophets",
+          "count": "250 questions",
+          "body": "The stories, the trials and the signs of the prophets named in the Qur’an."
         },
         {
-          "value": "3",
-          "label": "levels: easy, intermediate, expert"
+          "key": "sira",
+          "name": "The Sīra",
+          "count": "250 questions",
+          "body": "The life of the Prophet ﷺ and of his companions, event by event."
         },
         {
-          "value": "5",
-          "label": "categories"
+          "key": "quran",
+          "name": "The Qur’an",
+          "count": "150 questions",
+          "body": "The sūras, their names, their verses and what they teach."
         },
         {
-          "value": "12",
-          "label": "languages"
+          "key": "faith",
+          "name": "Faith",
+          "count": "150 questions",
+          "body": "The pillars, the angels, the revealed Books, the Last Day."
+        },
+        {
+          "key": "virtues",
+          "name": "Virtues",
+          "count": "100 questions",
+          "body": "What the Prophet ﷺ taught about good conduct and good speech."
         }
       ],
-      "categories": [
+      "samplesTitle": "Three questions, as they appear in the game",
+      "samplesLede": "Taken from the bank. Tap an answer: you will see what the player sees — the right answer, an explanation, and the exact source.",
+      "levels": {
+        "easy": "Easy",
+        "medium": "Intermediate",
+        "hard": "Expert"
+      },
+      "categories": {
+        "prophets": "Prophets",
+        "sira": "Sīra",
+        "quran": "Qur’an",
+        "faith": "Faith",
+        "virtues": "Virtues"
+      },
+      "card": {
+        "answerHint": "Choose an answer",
+        "correct": "Right answer",
+        "incorrect": "Not that one",
+        "neverBack": "In the game, a wrong answer never moves you back.",
+        "sourceLabel": "Source"
+      },
+      "sourcingTitle": "Where the questions come from",
+      "sourcingBody": "From the Qur’an, or from a hadith reported in Ṣaḥīḥ al-Bukhārī or Ṣaḥīḥ Muslim. The few widely established descriptive facts that point to no single work — a name, a number, a unanimous practice — are marked as such rather than tied to an invented reference. At the slightest doubt, the question is dropped.",
+      "progressionTitle": "Progress, not a mark",
+      "progressionLede": "Right answers in a row open the knowledge streak. These bonuses can only be earned through knowledge.",
+      "progression": [
         {
-          "name": "Prophets",
-          "count": "250 questions"
+          "step": "3",
+          "title": "The shield",
+          "body": "Three right answers in a row: your horse is protected from capture."
         },
         {
-          "name": "Sīra",
-          "count": "250 questions"
+          "step": "5",
+          "title": "The Grand Galop",
+          "body": "Five in a row: +2 gallops in reserve, spent automatically when they are enough to cross the finish."
         },
         {
-          "name": "Qur’an",
-          "count": "150 questions"
-        },
-        {
-          "name": "Faith",
-          "count": "150 questions"
-        },
-        {
-          "name": "Virtues",
-          "count": "100 questions"
+          "step": "10",
+          "title": "The mastery badge",
+          "body": "Ten in a row: the badge that says you know."
         }
-      ]
+      ],
+      "cta": "Explore the knowledge quest"
     },
     "family": {
       "eyebrow": "For the whole family",
@@ -210,6 +255,34 @@
         {
           "title": "Discover, or revisit what you know",
           "body": "Every answer comes with its source and a short explanation. You learn even when you get it wrong."
+        }
+      ],
+      "stablesTitle": "Four stables, four symbols",
+      "stablesLede": "Each team carries a colour and a symbol — never colour alone, so the board stays readable for everyone.",
+      "stables": [
+        {
+          "key": "emerald",
+          "name": "Émeraude",
+          "symbol": "The star",
+          "coat": "Grey coat"
+        },
+        {
+          "key": "saphir",
+          "name": "Saphir",
+          "symbol": "The compass",
+          "coat": "Bay coat"
+        },
+        {
+          "key": "grenat",
+          "name": "Grenat",
+          "symbol": "The lantern",
+          "coat": "Chestnut coat"
+        },
+        {
+          "key": "safran",
+          "name": "Safran",
+          "symbol": "The book",
+          "coat": "Black coat"
         }
       ],
       "privacy": {
@@ -265,6 +338,65 @@
         "body": "The interface and the question bank exist in French, English, Arabic, German, Spanish, Indonesian, Italian, Malay, Dutch, Portuguese, Turkish and Urdu."
       }
     },
+    "cta": "See how you play"
+  },
+  "knowledgePage": {
+    "eyebrow": "Knowledge",
+    "title": "The quest for knowledge",
+    "metaDescription": "Five realms of Islamic knowledge in 900 sourced questions: prophets, sīra, Qur’an, faith, virtues. Three levels, a daily challenge, twelve languages.",
+    "lede": "IqraQuest travels five realms of Islamic knowledge in 900 questions, each with its source and its explanation. Here is what the game teaches, and how it does it.",
+    "levelsTitle": "Three levels, chosen by each player",
+    "levelsLede": "Before the game, each player chooses their own. A child and an adult play on the same board, each with questions to match.",
+    "levels": [
+      {
+        "name": "Easy",
+        "body": "For a seven-year-old discovering all of this: the names, the pillars, the great stories."
+      },
+      {
+        "name": "Intermediate",
+        "body": "For those who know the basics and want to connect them: a verse, a companion, an event from the Sīra."
+      },
+      {
+        "name": "Expert",
+        "body": "For those who want to be surprised: the detail of a sūra, a precise reference, a lesser-known hadith."
+      },
+      {
+        "name": "Mixed",
+        "body": "Each card draws its own level. The game changes pace with every draw."
+      }
+    ],
+    "neverBackTitle": "You never move back",
+    "neverBackBody": "A wrong answer leaves the horse where it is. Nothing is taken away, nothing is marked. You read the right answer, the source, the explanation — and you draw again. That is how you learn as you play, including when you get it wrong.",
+    "specialsTitle": "Squares that teach",
+    "specialsLede": "Depending on the course you choose, some squares do something — the same ones in each of its four quarters, all visible before you play.",
+    "specials": [
+      {
+        "name": "Oasis",
+        "body": "Protects from capture."
+      },
+      {
+        "name": "Knowledge",
+        "body": "Gives a knowledge point."
+      },
+      {
+        "name": "Challenge",
+        "body": "A harder question, for +2 gallops."
+      },
+      {
+        "name": "Shortcut",
+        "body": "A hard question, to cut ahead."
+      },
+      {
+        "name": "Wisdom",
+        "body": "Offers a fact to keep."
+      }
+    ],
+    "samplesTitle": "Five questions, one per realm",
+    "samplesLede": "As they appear in the game. Tap an answer.",
+    "dailyTitle": "The Daily Challenge",
+    "dailyBody": "Five free questions a day, offline, with a score to share. A daily streak that makes you want to come back — no forced notifications, no account.",
+    "languagesTitle": "Twelve languages, one bank",
+    "languagesBody": "The facts, the references and the answers exist once; only the wording is translated. A question asked in Urdu cites the same source as in French.",
     "cta": "See how you play"
   },
   "howToPlayPage": {
