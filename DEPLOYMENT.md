@@ -383,11 +383,11 @@ site.
 
 ### The site itself
 
-- [ ] All nine pages load in all twelve languages
+- [ ] All ten pages load in all twelve languages
 - [ ] The language switcher reaches every locale
 - [ ] Arabic and Urdu render right-to-left
 - [ ] The 404 page renders and is branded
-- [ ] `https://iqraquest.org/sitemap.xml` lists 108 URLs with hreflang
+- [ ] `https://iqraquest.org/sitemap.xml` lists 120 URLs with hreflang
 - [ ] `https://iqraquest.org/robots.txt` points at the sitemap
 - [ ] The favicon and the home-screen icon are the IqraQuest mark
 - [ ] Pasting the URL into WhatsApp or Slack unfurls the Open Graph card

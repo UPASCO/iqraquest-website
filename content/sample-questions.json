@@ -1,0 +1,762 @@
+{
+  "prophets_001": {
+    "category": "prophets",
+    "difficulty": "easy",
+    "sourceWork": "Quran",
+    "sourceReference": "11:37-38",
+    "locales": {
+      "fr": {
+        "question": "Quel prophète a construit l'arche sur l'ordre d'Allah ?",
+        "answers": [
+          "Nûh",
+          "Ibrâhîm",
+          "Mûsâ",
+          "Yûsuf"
+        ],
+        "correct": 0,
+        "explanation": "Allah ordonna à Nûh de construire l'arche pour sauver les croyants du déluge.",
+        "source": "Coran — Sourate Hûd, 11:37-38"
+      },
+      "en": {
+        "question": "Which prophet built the ark by Allah's command?",
+        "answers": [
+          "Nuh (Noah)",
+          "Ibrahim (Abraham)",
+          "Musa (Moses)",
+          "Yusuf (Joseph)"
+        ],
+        "correct": 0,
+        "explanation": "Allah commanded Nuh to build the ark to save the believers from the flood.",
+        "source": "Quran — Surah Hud, 11:37-38"
+      },
+      "ar": {
+        "question": "أي نبي بنى السفينة بأمر الله؟",
+        "answers": [
+          "نوح",
+          "إبراهيم",
+          "موسى",
+          "يوسف"
+        ],
+        "correct": 0,
+        "explanation": "أمر الله نوحًا ببناء السفينة لينجو المؤمنون من الطوفان.",
+        "source": "القرآن — سورة هود، 11:37-38"
+      },
+      "de": {
+        "question": "Welcher Prophet baute auf Allahs Befehl die Arche?",
+        "answers": [
+          "Nuh (Noah)",
+          "Ibrahim (Abraham)",
+          "Musa (Mose)",
+          "Yusuf (Josef)"
+        ],
+        "correct": 0,
+        "explanation": "Allah befahl Nuh, die Arche zu bauen, um die Gläubigen vor der Flut zu retten.",
+        "source": "Koran 11:37-38"
+      },
+      "es": {
+        "question": "¿Qué profeta construyó el arca por orden de Allah?",
+        "answers": [
+          "Nuh (Noé)",
+          "Ibrahim (Abraham)",
+          "Musa (Moisés)",
+          "Yusuf (José)"
+        ],
+        "correct": 0,
+        "explanation": "Allah ordenó a Nuh construir el arca para salvar a los creyentes del diluvio.",
+        "source": "Corán 11:37-38"
+      },
+      "id": {
+        "question": "Nabi siapakah yang membangun bahtera atas perintah Allah?",
+        "answers": [
+          "Nuh",
+          "Ibrahim",
+          "Musa",
+          "Yusuf"
+        ],
+        "correct": 0,
+        "explanation": "Allah memerintahkan Nuh membangun bahtera untuk menyelamatkan orang-orang beriman dari banjir besar.",
+        "source": "Al-Qur'an 11:37-38"
+      },
+      "it": {
+        "question": "Quale profeta costruì l'arca per ordine di Allah?",
+        "answers": [
+          "Nuh (Noè)",
+          "Ibrahim (Abramo)",
+          "Musa (Mosè)",
+          "Yusuf (Giuseppe)"
+        ],
+        "correct": 0,
+        "explanation": "Allah ordinò a Nuh di costruire l'arca per salvare i credenti dal diluvio.",
+        "source": "Corano 11:37-38"
+      },
+      "ms": {
+        "question": "Nabi manakah yang membina bahtera atas perintah Allah?",
+        "answers": [
+          "Nuh",
+          "Ibrahim",
+          "Musa",
+          "Yusuf"
+        ],
+        "correct": 0,
+        "explanation": "Allah memerintahkan Nuh membina bahtera untuk menyelamatkan orang beriman daripada banjir besar.",
+        "source": "Al-Quran 11:37-38"
+      },
+      "nl": {
+        "question": "Welke profeet bouwde de ark in opdracht van Allah?",
+        "answers": [
+          "Nuh (Noach)",
+          "Ibrahim (Abraham)",
+          "Musa (Mozes)",
+          "Yusuf (Jozef)"
+        ],
+        "correct": 0,
+        "explanation": "Allah gebood Nuh de ark te bouwen om de gelovigen van de zondvloed te redden.",
+        "source": "Koran 11:37-38"
+      },
+      "pt": {
+        "question": "Que profeta construiu a arca por ordem de Allah?",
+        "answers": [
+          "Nuh (Noé)",
+          "Ibrahim (Abraão)",
+          "Musa (Moisés)",
+          "Yusuf (José)"
+        ],
+        "correct": 0,
+        "explanation": "Allah ordenou a Nuh que construísse a arca para salvar os crentes do dilúvio.",
+        "source": "Alcorão 11:37-38"
+      },
+      "tr": {
+        "question": "Hangi peygamber Allah'ın emriyle gemiyi inşa etti?",
+        "answers": [
+          "Nuh",
+          "İbrahim",
+          "Musa",
+          "Yusuf"
+        ],
+        "correct": 0,
+        "explanation": "Allah, müminleri tufandan kurtarmak için Nuh'a gemiyi inşa etmesini emretti.",
+        "source": "Kur'an 11:37-38"
+      },
+      "ur": {
+        "question": "کس نبی نے اللہ کے حکم سے کشتی بنائی؟",
+        "answers": [
+          "نوح علیہ السلام",
+          "ابراہیم علیہ السلام",
+          "موسیٰ علیہ السلام",
+          "یوسف علیہ السلام"
+        ],
+        "correct": 0,
+        "explanation": "اللہ نے نوح علیہ السلام کو حکم دیا کہ ایمان والوں کو طوفان سے بچانے کے لیے کشتی بنائیں۔",
+        "source": "قرآن 11:37-38"
+      }
+    }
+  },
+  "sira_091": {
+    "category": "sira",
+    "difficulty": "medium",
+    "sourceWork": "Sahih al-Bukhari",
+    "sourceReference": "6038",
+    "locales": {
+      "fr": {
+        "question": "Quel jeune compagnon servit le Prophète ﷺ pendant dix ans sans jamais entendre un reproche ?",
+        "answers": [
+          "Anas ibn Mâlik",
+          "Usâma ibn Zayd",
+          "Ibn 'Abbâs",
+          "Zayd ibn Thâbit"
+        ],
+        "correct": 0,
+        "explanation": "Anas dit : « J'ai servi le Prophète ﷺ dix ans ; jamais il ne m'a dit “ouf”, ni “pourquoi as-tu fait cela ?” »",
+        "source": "Sahîh al-Bukhârî, 6038"
+      },
+      "en": {
+        "question": "Which young companion served the Prophet ﷺ for ten years without ever hearing a reproach?",
+        "answers": [
+          "Anas ibn Malik",
+          "Usama ibn Zayd",
+          "Ibn 'Abbas",
+          "Zayd ibn Thabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas said: \"I served the Prophet ﷺ for ten years; he never said 'uff' to me, nor 'why did you do that?'\"",
+        "source": "Sahih al-Bukhari, 6038"
+      },
+      "ar": {
+        "question": "أي صحابي صغير خدم النبي ﷺ عشر سنين فلم يسمع منه عتابًا قط؟",
+        "answers": [
+          "أنس بن مالك",
+          "أسامة بن زيد",
+          "ابن عباس",
+          "زيد بن ثابت"
+        ],
+        "correct": 0,
+        "explanation": "قال أنس: «خدمت النبي ﷺ عشر سنين، فما قال لي أفٍّ قط، ولا لِمَ صنعت».",
+        "source": "صحيح البخاري، 6038"
+      },
+      "de": {
+        "question": "Welcher junge Gefährte diente dem Propheten ﷺ zehn Jahre lang, ohne je einen Tadel zu hören?",
+        "answers": [
+          "Anas ibn Malik",
+          "Usama ibn Zayd",
+          "Ibn Abbas",
+          "Zayd ibn Thabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas sagte: „Ich diente dem Propheten ﷺ zehn Jahre; nie sagte er ‚uff‘ zu mir, noch ‚warum hast du das getan?‘“",
+        "source": "Sahih al-Buchari, 6038"
+      },
+      "es": {
+        "question": "¿Qué joven compañero sirvió al Profeta ﷺ durante diez años sin oír jamás un reproche?",
+        "answers": [
+          "Anas ibn Malik",
+          "Usama ibn Zayd",
+          "Ibn Abbas",
+          "Zayd ibn Zabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas dijo: «Serví al Profeta ﷺ diez años; nunca me dijo “uf”, ni “¿por qué hiciste eso?”».",
+        "source": "Sahih al-Bujari, 6038"
+      },
+      "id": {
+        "question": "Sahabat muda manakah yang melayani Nabi ﷺ selama sepuluh tahun tanpa pernah mendengar teguran?",
+        "answers": [
+          "Anas bin Malik",
+          "Usamah bin Zaid",
+          "Ibnu Abbas",
+          "Zaid bin Tsabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas berkata: «Aku melayani Nabi ﷺ sepuluh tahun; beliau tidak pernah berkata ‘ah’ kepadaku, atau ‘mengapa kau lakukan itu?’»",
+        "source": "Shahih al-Bukhari, 6038"
+      },
+      "it": {
+        "question": "Quale giovane compagno servì il Profeta ﷺ per dieci anni senza mai sentire un rimprovero?",
+        "answers": [
+          "Anas ibn Malik",
+          "Usama ibn Zayd",
+          "Ibn 'Abbas",
+          "Zayd ibn Thabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas disse: «Ho servito il Profeta ﷺ per dieci anni; non mi ha mai detto 'uff', né 'perché l'hai fatto?'»",
+        "source": "Sahih al-Bukhari, 6038"
+      },
+      "ms": {
+        "question": "Sahabat muda manakah yang berkhidmat kepada Nabi ﷺ selama sepuluh tahun tanpa pernah mendengar teguran?",
+        "answers": [
+          "Anas bin Malik",
+          "Usamah bin Zaid",
+          "Ibnu Abbas",
+          "Zaid bin Thabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas berkata: «Aku berkhidmat kepada Nabi ﷺ selama sepuluh tahun; baginda tidak pernah berkata 'ah' kepadaku, mahupun 'mengapa engkau lakukan itu?'»",
+        "source": "Sahih al-Bukhari, 6038"
+      },
+      "nl": {
+        "question": "Welke jonge metgezel diende de Profeet ﷺ tien jaar zonder ooit een verwijt te horen?",
+        "answers": [
+          "Anas ibn Malik",
+          "Usama ibn Zayd",
+          "Ibn 'Abbas",
+          "Zayd ibn Thabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas zei: «Ik heb de Profeet ﷺ tien jaar gediend; hij zei nooit 'uff' tegen mij, noch 'waarom heb je dat gedaan?'»",
+        "source": "Sahih al-Boechari, 6038"
+      },
+      "pt": {
+        "question": "Que jovem companheiro serviu o Profeta ﷺ durante dez anos sem nunca ouvir uma repreensão?",
+        "answers": [
+          "Anas ibn Malik",
+          "Usama ibn Zayd",
+          "Ibn Abbas",
+          "Zayd ibn Thabit"
+        ],
+        "correct": 0,
+        "explanation": "Anas disse: «Servi o Profeta ﷺ dez anos; nunca me disse “uf”, nem “porque fizeste isso?”».",
+        "source": "Sahih al-Bukhari, 6038"
+      },
+      "tr": {
+        "question": "Hangi genç sahabi on yıl boyunca tek bir azar işitmeden Peygamber ﷺ'e hizmet etti?",
+        "answers": [
+          "Enes bin Malik",
+          "Üsame bin Zeyd",
+          "İbn Abbas",
+          "Zeyd bin Sabit"
+        ],
+        "correct": 0,
+        "explanation": "Enes dedi ki: «Peygamber ﷺ'e on yıl hizmet ettim; bana bir kez bile ‘öf’ demedi, ‘bunu neden yaptın’ demedi.»",
+        "source": "Sahih-i Buhari, 6038"
+      },
+      "ur": {
+        "question": "کس نوجوان صحابی نے دس سال نبی ﷺ کی خدمت کی اور کبھی ڈانٹ نہ سنی؟",
+        "answers": [
+          "انس بن مالک رضی اللہ عنہ",
+          "اسامہ بن زید رضی اللہ عنہ",
+          "ابن عباس رضی اللہ عنہ",
+          "زید بن ثابت رضی اللہ عنہ"
+        ],
+        "correct": 0,
+        "explanation": "انس رضی اللہ عنہ نے کہا: «میں نے دس سال نبی ﷺ کی خدمت کی؛ آپ نے کبھی مجھے 'اف' نہ کہا، نہ 'یہ کیوں کیا؟'»",
+        "source": "صحیح بخاری, 6038"
+      }
+    }
+  },
+  "quran_006": {
+    "category": "quran",
+    "difficulty": "hard",
+    "sourceWork": "Quran",
+    "sourceReference": "19:1-16",
+    "locales": {
+      "fr": {
+        "question": "Quel est le nom de la 19ᵉ sourate, nommée d'après la mère d'Îsâ ?",
+        "answers": [
+          "Maryam",
+          "Yûsuf",
+          "Al-Kahf",
+          "Tâ-Hâ"
+        ],
+        "correct": 0,
+        "explanation": "La 19ᵉ sourate du Coran porte le nom de Maryam, mère du prophète Îsâ.",
+        "source": "Coran — Sourate Maryam, 19:1-16"
+      },
+      "en": {
+        "question": "What is the name of the 19th surah, named after the mother of Isa?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahf",
+          "Ta-Ha"
+        ],
+        "correct": 0,
+        "explanation": "The Quran's 19th surah is named Maryam, after the mother of the prophet Isa.",
+        "source": "Quran — Surah Maryam, 19:1-16"
+      },
+      "ar": {
+        "question": "ما اسم السورة التاسعة عشرة، المسمّاة باسم أم عيسى؟",
+        "answers": [
+          "مريم",
+          "يوسف",
+          "الكهف",
+          "طه"
+        ],
+        "correct": 0,
+        "explanation": "السورة التاسعة عشرة في القرآن سُمّيت مريم، أم النبي عيسى.",
+        "source": "القرآن — سورة مريم، 19:1-16"
+      },
+      "de": {
+        "question": "Wie heißt die 19. Sure, benannt nach der Mutter Isas?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahf",
+          "Ta-Ha"
+        ],
+        "correct": 0,
+        "explanation": "Die 19. Sure des Korans heißt Maryam, nach der Mutter des Propheten Isa.",
+        "source": "Koran 19:1-16"
+      },
+      "es": {
+        "question": "¿Cómo se llama la sura 19, que lleva el nombre de la madre de Isa?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahf",
+          "Ta-Ha"
+        ],
+        "correct": 0,
+        "explanation": "La sura 19 del Corán se llama Maryam, por la madre del profeta Isa.",
+        "source": "Corán 19:1-16"
+      },
+      "id": {
+        "question": "Apa nama surah ke-19, yang dinamai menurut ibu Nabi Isa?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahfi",
+          "Thaha"
+        ],
+        "correct": 0,
+        "explanation": "Surah ke-19 Al-Qur'an bernama Maryam, menurut nama ibu Nabi Isa.",
+        "source": "Al-Qur'an 19:1-16"
+      },
+      "it": {
+        "question": "Qual è il nome della 19ª sura, che porta il nome della madre di Isa?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahf",
+          "Ta-Ha"
+        ],
+        "correct": 0,
+        "explanation": "La 19ª sura del Corano si chiama Maryam, dal nome della madre del profeta Isa.",
+        "source": "Corano 19:1-16"
+      },
+      "ms": {
+        "question": "Apakah nama surah ke-19, yang dinamakan sempena ibu Nabi Isa?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahfi",
+          "Taha"
+        ],
+        "correct": 0,
+        "explanation": "Surah ke-19 al-Quran dinamakan Maryam, sempena ibu Nabi Isa.",
+        "source": "Al-Quran 19:1-16"
+      },
+      "nl": {
+        "question": "Wat is de naam van de 19e soera, genoemd naar de moeder van Isa?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahf",
+          "Ta-Ha"
+        ],
+        "correct": 0,
+        "explanation": "De 19e soera van de Koran heet Maryam, naar de moeder van de profeet Isa.",
+        "source": "Koran 19:1-16"
+      },
+      "pt": {
+        "question": "Como se chama a surata 19, com o nome da mãe de Isa?",
+        "answers": [
+          "Maryam",
+          "Yusuf",
+          "Al-Kahf",
+          "Ta-Ha"
+        ],
+        "correct": 0,
+        "explanation": "A surata 19 do Alcorão chama-se Maryam, pela mãe do profeta Isa.",
+        "source": "Alcorão 19:1-16"
+      },
+      "tr": {
+        "question": "İsa'nın annesinin adını taşıyan 19. surenin adı nedir?",
+        "answers": [
+          "Meryem",
+          "Yusuf",
+          "Kehf",
+          "Tâhâ"
+        ],
+        "correct": 0,
+        "explanation": "Kur'an'ın 19. suresi, İsa peygamberin annesinin adıyla Meryem'dir.",
+        "source": "Kur'an 19:1-16"
+      },
+      "ur": {
+        "question": "19ویں سورت کا نام کیا ہے، جو عیسیٰ علیہ السلام کی والدہ کے نام پر ہے؟",
+        "answers": [
+          "مریم",
+          "یوسف",
+          "الکہف",
+          "طٰہٰ"
+        ],
+        "correct": 0,
+        "explanation": "قرآن کی 19ویں سورت کا نام مریم ہے، نبی عیسیٰ علیہ السلام کی والدہ کے نام پر۔",
+        "source": "قرآن 19:1-16"
+      }
+    }
+  },
+  "faith_010": {
+    "category": "faith",
+    "difficulty": "medium",
+    "sourceWork": "Quran",
+    "sourceReference": "82:10-11",
+    "locales": {
+      "fr": {
+        "question": "Selon le Coran, que font les « nobles scribes » (kirâman kâtibîn) ?",
+        "answers": [
+          "Ils inscrivent les actes des humains",
+          "Ils portent le trône",
+          "Ils gardent le Paradis",
+          "Ils apportent la pluie"
+        ],
+        "correct": 0,
+        "explanation": "« Il y a sur vous des gardiens, de nobles scribes » — des anges inscrivent chaque acte.",
+        "source": "Coran — Sourate Al-Infitâr, 82:10-11"
+      },
+      "en": {
+        "question": "According to the Quran, what do the 'noble scribes' (kiraman katibin) do?",
+        "answers": [
+          "They record people's deeds",
+          "They carry the Throne",
+          "They guard Paradise",
+          "They bring the rain"
+        ],
+        "correct": 0,
+        "explanation": "'Over you are guardians, noble scribes' — angels record every deed.",
+        "source": "Quran — Surah Al-Infitar, 82:10-11"
+      },
+      "ar": {
+        "question": "بحسب القرآن، ماذا يفعل «الكرام الكاتبون»؟",
+        "answers": [
+          "يكتبون أعمال الناس",
+          "يحملون العرش",
+          "يحرسون الجنة",
+          "ينزلون المطر"
+        ],
+        "correct": 0,
+        "explanation": "«وإن عليكم لحافظين كرامًا كاتبين» — ملائكة يكتبون كل عمل.",
+        "source": "القرآن — سورة الانفطار، 82:10-11"
+      },
+      "de": {
+        "question": "Was tun laut Koran die „edlen Schreiber“ (Kiraman Katibin)?",
+        "answers": [
+          "Sie zeichnen die Taten der Menschen auf",
+          "Sie tragen den Thron",
+          "Sie bewachen das Paradies",
+          "Sie bringen den Regen"
+        ],
+        "correct": 0,
+        "explanation": "„Über euch sind Hüter, edle Schreiber“: Engel zeichnen jede Tat auf.",
+        "source": "Koran 82:10-11"
+      },
+      "es": {
+        "question": "Según el Corán, ¿qué hacen los «nobles escribas» (kiraman katibin)?",
+        "answers": [
+          "Registran las obras de las personas",
+          "Cargan el Trono",
+          "Guardan el Paraíso",
+          "Traen la lluvia"
+        ],
+        "correct": 0,
+        "explanation": "«Sobre vosotros hay guardianes, nobles escribas»: los ángeles registran cada obra.",
+        "source": "Corán 82:10-11"
+      },
+      "id": {
+        "question": "Menurut Al-Qur'an, apa yang dilakukan «para pencatat yang mulia» (kiraman katibin)?",
+        "answers": [
+          "Mencatat amal perbuatan manusia",
+          "Memikul Arasy",
+          "Menjaga surga",
+          "Menurunkan hujan"
+        ],
+        "correct": 0,
+        "explanation": "«Padahal sesungguhnya bagi kamu ada malaikat-malaikat yang mengawasi, yang mulia dan mencatat»: para malaikat mencatat setiap amal.",
+        "source": "Al-Qur'an 82:10-11"
+      },
+      "it": {
+        "question": "Secondo il Corano, che cosa fanno i «nobili scribi» (kiraman katibin)?",
+        "answers": [
+          "Registrano le azioni delle persone",
+          "Portano il Trono",
+          "Custodiscono il Paradiso",
+          "Portano la pioggia"
+        ],
+        "correct": 0,
+        "explanation": "«Su di voi vi sono custodi, nobili scribi»: gli angeli registrano ogni azione.",
+        "source": "Corano 82:10-11"
+      },
+      "ms": {
+        "question": "Menurut al-Quran, apakah yang dilakukan «para pencatat yang mulia» (kiraman katibin)?",
+        "answers": [
+          "Mencatat amalan manusia",
+          "Memikul Arasy",
+          "Menjaga syurga",
+          "Menurunkan hujan"
+        ],
+        "correct": 0,
+        "explanation": "«Padahal sesungguhnya ada malaikat-malaikat yang mengawasi kamu, yang mulia dan mencatat»: para malaikat mencatat setiap amalan.",
+        "source": "Al-Quran 82:10-11"
+      },
+      "nl": {
+        "question": "Wat doen volgens de Koran de «edele schrijvers» (kiraman katibin)?",
+        "answers": [
+          "Zij noteren de daden van de mensen",
+          "Zij dragen de Troon",
+          "Zij bewaken het Paradijs",
+          "Zij brengen de regen"
+        ],
+        "correct": 0,
+        "explanation": "«Over jullie zijn bewakers, edele schrijvers»: engelen noteren elke daad.",
+        "source": "Koran 82:10-11"
+      },
+      "pt": {
+        "question": "Segundo o Alcorão, o que fazem os «nobres escribas» (kiraman katibin)?",
+        "answers": [
+          "Registam as ações das pessoas",
+          "Carregam o Trono",
+          "Guardam o Paraíso",
+          "Trazem a chuva"
+        ],
+        "correct": 0,
+        "explanation": "«Sobre vós há guardiães, nobres escribas»: os anjos registam cada ação.",
+        "source": "Alcorão 82:10-11"
+      },
+      "tr": {
+        "question": "Kur'an'a göre «değerli yazıcılar» (kirâmen kâtibîn) ne yapar?",
+        "answers": [
+          "İnsanların amellerini kaydederler",
+          "Arşı taşırlar",
+          "Cenneti beklerler",
+          "Yağmur getirirler"
+        ],
+        "correct": 0,
+        "explanation": "«Üzerinizde koruyucular, değerli yazıcılar var»: melekler her ameli kaydeder.",
+        "source": "Kur'an 82:10-11"
+      },
+      "ur": {
+        "question": "قرآن کے مطابق «معزز لکھنے والے» (کراماً کاتبین) کیا کرتے ہیں؟",
+        "answers": [
+          "لوگوں کے اعمال لکھتے ہیں",
+          "عرش اٹھاتے ہیں",
+          "جنت کی حفاظت کرتے ہیں",
+          "بارش لاتے ہیں"
+        ],
+        "correct": 0,
+        "explanation": "«تم پر نگہبان ہیں، معزز لکھنے والے»: فرشتے ہر عمل لکھتے ہیں۔",
+        "source": "قرآن 82:10-11"
+      }
+    }
+  },
+  "virtues_001": {
+    "category": "virtues",
+    "difficulty": "easy",
+    "sourceWork": "Sahih al-Bukhari",
+    "sourceReference": "6018",
+    "locales": {
+      "fr": {
+        "question": "Selon un hadith rapporté par l'imam Al-Bukhârî, que doit faire celui qui croit en Allah et au Jour Dernier avec ses paroles ?",
+        "answers": [
+          "Dire du bien ou se taire",
+          "Parler fort",
+          "Ne jamais parler",
+          "Répéter les rumeurs"
+        ],
+        "correct": 0,
+        "explanation": "Le Prophète ﷺ a dit : « Que celui qui croit en Allah et au Jour Dernier dise du bien ou se taise. »",
+        "source": "Sahîh al-Bukhârî, n°6018"
+      },
+      "en": {
+        "question": "According to a hadith reported by Imam al-Bukhari, what should someone who believes in Allah and the Last Day do with their speech?",
+        "answers": [
+          "Speak good or remain silent",
+          "Speak loudly",
+          "Never speak",
+          "Repeat rumors"
+        ],
+        "correct": 0,
+        "explanation": "The Prophet ﷺ said: 'Whoever believes in Allah and the Last Day should speak good or remain silent.'",
+        "source": "Sahih al-Bukhari, no. 6018"
+      },
+      "ar": {
+        "question": "بحسب حديث رواه الإمام البخاري، ماذا ينبغي أن يفعل من يؤمن بالله واليوم الآخر بكلامه؟",
+        "answers": [
+          "يقول خيرًا أو يصمت",
+          "يتكلم بصوت عالٍ",
+          "لا يتكلم أبدًا",
+          "يردد الشائعات"
+        ],
+        "correct": 0,
+        "explanation": "قال النبي ﷺ: «من كان يؤمن بالله واليوم الآخر فليقل خيرًا أو ليصمت.»",
+        "source": "صحيح البخاري، رقم 6018"
+      },
+      "de": {
+        "question": "Was soll laut einem von Imam al-Buchari überlieferten Hadith jemand, der an Allah und den Jüngsten Tag glaubt, mit seinen Worten tun?",
+        "answers": [
+          "Gutes sagen oder schweigen",
+          "Laut sprechen",
+          "Nie sprechen",
+          "Gerüchte weitergeben"
+        ],
+        "correct": 0,
+        "explanation": "Der Prophet ﷺ sagte: „Wer an Allah und den Jüngsten Tag glaubt, soll Gutes sagen oder schweigen.“",
+        "source": "Sahih al-Buchari, 6018"
+      },
+      "es": {
+        "question": "Según un hadiz narrado por el imam al-Bujari, ¿qué debe hacer con sus palabras quien cree en Allah y en el Último Día?",
+        "answers": [
+          "Decir el bien o callar",
+          "Hablar alto",
+          "No hablar nunca",
+          "Repetir rumores"
+        ],
+        "correct": 0,
+        "explanation": "El Profeta ﷺ dijo: «Quien crea en Allah y en el Último Día, que diga el bien o que calle».",
+        "source": "Sahih al-Bujari, 6018"
+      },
+      "id": {
+        "question": "Menurut hadis yang diriwayatkan Imam al-Bukhari, apa yang harus dilakukan orang yang beriman kepada Allah dan hari Akhir dengan ucapannya?",
+        "answers": [
+          "Berkata baik atau diam",
+          "Berbicara keras",
+          "Tidak pernah berbicara",
+          "Mengulang gosip"
+        ],
+        "correct": 0,
+        "explanation": "Nabi ﷺ bersabda: «Barang siapa beriman kepada Allah dan hari Akhir, hendaklah ia berkata baik atau diam.»",
+        "source": "Shahih al-Bukhari, 6018"
+      },
+      "it": {
+        "question": "Secondo un hadith riportato dall'imam al-Bukhari, che cosa deve fare con le sue parole chi crede in Allah e nell'Ultimo Giorno?",
+        "answers": [
+          "Dire il bene o tacere",
+          "Parlare a voce alta",
+          "Non parlare mai",
+          "Ripetere le dicerie"
+        ],
+        "correct": 0,
+        "explanation": "Il Profeta ﷺ disse: «Chi crede in Allah e nell'Ultimo Giorno dica il bene o taccia.»",
+        "source": "Sahih al-Bukhari, 6018"
+      },
+      "ms": {
+        "question": "Menurut hadis yang diriwayatkan Imam al-Bukhari, apakah yang perlu dilakukan orang yang beriman kepada Allah dan hari Akhirat dengan percakapannya?",
+        "answers": [
+          "Berkata baik atau diam",
+          "Bercakap dengan kuat",
+          "Tidak pernah bercakap",
+          "Mengulang khabar angin"
+        ],
+        "correct": 0,
+        "explanation": "Nabi ﷺ bersabda: «Sesiapa yang beriman kepada Allah dan hari Akhirat, hendaklah dia berkata baik atau diam.»",
+        "source": "Sahih al-Bukhari, 6018"
+      },
+      "nl": {
+        "question": "Wat moet volgens een hadith overgeleverd door imam al-Bukhari iemand die in Allah en de Laatste Dag gelooft met zijn spreken doen?",
+        "answers": [
+          "Het goede zeggen of zwijgen",
+          "Luid spreken",
+          "Nooit spreken",
+          "Geruchten herhalen"
+        ],
+        "correct": 0,
+        "explanation": "De Profeet ﷺ zei: «Wie in Allah en de Laatste Dag gelooft, laat hij het goede zeggen of zwijgen.»",
+        "source": "Sahih al-Boechari, 6018"
+      },
+      "pt": {
+        "question": "Segundo um hadith narrado pelo imã al-Bukhari, o que deve fazer com as suas palavras quem crê em Allah e no Último Dia?",
+        "answers": [
+          "Dizer o bem ou calar-se",
+          "Falar alto",
+          "Nunca falar",
+          "Repetir boatos"
+        ],
+        "correct": 0,
+        "explanation": "O Profeta ﷺ disse: «Quem crê em Allah e no Último Dia, que diga o bem ou que se cale».",
+        "source": "Sahih al-Bukhari, 6018"
+      },
+      "tr": {
+        "question": "İmam Buhârî'nin rivayet ettiği bir hadise göre Allah'a ve ahiret gününe inanan kişi sözleriyle ne yapmalıdır?",
+        "answers": [
+          "Ya hayır söylemeli ya susmalı",
+          "Yüksek sesle konuşmalı",
+          "Hiç konuşmamalı",
+          "Söylentileri tekrarlamalı"
+        ],
+        "correct": 0,
+        "explanation": "Peygamber ﷺ dedi ki: «Allah'a ve ahiret gününe inanan ya hayır söylesin ya sussun.»",
+        "source": "Sahih-i Buhari, 6018"
+      },
+      "ur": {
+        "question": "امام بخاری کی روایت کردہ حدیث کے مطابق اللہ اور آخرت کے دن پر ایمان رکھنے والے کو اپنی بات کے ساتھ کیا کرنا چاہیے؟",
+        "answers": [
+          "اچھی بات کہے یا خاموش رہے",
+          "اونچی آواز میں بولے",
+          "کبھی نہ بولے",
+          "افواہیں دہرائے"
+        ],
+        "correct": 0,
+        "explanation": "نبی ﷺ نے فرمایا: «جو اللہ اور آخرت کے دن پر ایمان رکھتا ہے وہ اچھی بات کہے یا خاموش رہے۔»",
+        "source": "صحیح بخاری, 6018"
+      }
+    }
+  }
+}

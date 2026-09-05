@@ -179,39 +179,19 @@ export function Universe() {
   return (
     <Section id="universe" labelledBy="universe-title">
       <div className="container-page">
-        <Reveal className="max-w-2xl">
-          <Eyebrow>{t('eyebrow')}</Eyebrow>
-          <SectionTitle id="universe-title">{t('title')}</SectionTitle>
-          <Lede>{t('lede')}</Lede>
-        </Reveal>
-
-        <Reveal className="mt-12" delay={60}>
-          <figure className="overflow-hidden rounded-2xl border border-gold/20">
-            <picture>
-              <source
-                type="image/avif"
-                srcSet="/assets/world-oasis-arrival.avif"
-              />
-              <img
-                src="/assets/world-oasis-arrival.webp"
-                alt={t('oasisAlt')}
-                width={1244}
-                height={1060}
-                loading="lazy"
-                decoding="async"
-                className="aspect-[16/9] w-full object-cover object-center"
-              />
-            </picture>
-          </figure>
-        </Reveal>
-
-        <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_1fr]">
+        {/* Text and the oasis side by side. The oasis painting is 622px
+            wide in the app — its native size on a phone's results
+            screen — so it is shown at that size in a column rather than
+            stretched across the page and blurred. */}
+        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
           <Reveal>
-            <p className="text-base leading-relaxed text-text-secondary">
+            <Eyebrow>{t('eyebrow')}</Eyebrow>
+            <SectionTitle id="universe-title">{t('title')}</SectionTitle>
+            <Lede>{t('lede')}</Lede>
+            <p className="mt-6 max-w-prose text-base leading-relaxed text-text-secondary">
               {t('body')}
             </p>
-
-            <div className="mt-8 rounded-2xl border border-gold/20 bg-surface-raised/50 p-6">
+            <div className="mt-8 max-w-prose rounded-2xl border border-gold/20 bg-surface-raised/50 p-6">
               <h3 className="font-display text-lg text-gold">
                 {t('respect.title')}
               </h3>
@@ -221,33 +201,61 @@ export function Universe() {
             </div>
           </Reveal>
 
-          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
-            {cards.map((card, index) => (
-              <Reveal as="li" key={card.title} delay={index * 70}>
-                <Card interactive className="h-full">
-                  <h3 className="font-display text-lg text-text-primary">
-                    {card.title}
-                  </h3>
-                  <p className="mt-2.5 text-sm leading-relaxed text-text-secondary">
-                    {card.body}
-                  </p>
-                </Card>
-              </Reveal>
-            ))}
-          </ul>
+          <Reveal delay={80}>
+            <figure className="relative mx-auto max-w-[622px]">
+              <div
+                aria-hidden
+                className="absolute inset-0 rounded-[2rem] bg-[radial-gradient(60%_60%_at_50%_50%,rgba(200,155,69,0.22),transparent_72%)] blur-2xl"
+              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcSet="/assets/world-oasis-arrival.avif"
+                />
+                <img
+                  src="/assets/world-oasis-arrival.webp"
+                  alt={t('oasisAlt')}
+                  width={622}
+                  height={530}
+                  loading="lazy"
+                  decoding="async"
+                  className="relative w-full rounded-2xl border border-gold/25 shadow-[0_40px_80px_-40px_rgba(0,0,0,0.95)]"
+                />
+              </picture>
+            </figure>
+          </Reveal>
         </div>
 
+        <ul className="mt-14 grid gap-5 md:grid-cols-3">
+          {cards.map((card, index) => (
+            <Reveal as="li" key={card.title} delay={index * 70}>
+              <Card interactive className="h-full">
+                <h3 className="font-display text-lg text-text-primary">
+                  {card.title}
+                </h3>
+                <p className="mt-2.5 text-sm leading-relaxed text-text-secondary">
+                  {card.body}
+                </p>
+              </Card>
+            </Reveal>
+          ))}
+        </ul>
+
+        {/* The course, 1296px native: wide enough for the page measure. */}
         <Reveal className="mt-12" delay={60}>
           <figure className="overflow-hidden rounded-2xl border border-gold/15">
-            <img
-              src="/assets/world-course.webp"
-              alt={t('courseAlt')}
-              width={1296}
-              height={706}
-              loading="lazy"
-              decoding="async"
-              className="w-full"
-            />
+            <picture>
+              <source type="image/avif" srcSet="/assets/world-course.avif" />
+              <img
+                src="/assets/world-course.webp"
+                alt={t('courseAlt')}
+                width={1296}
+                height={706}
+                loading="lazy"
+                decoding="async"
+                className="w-full"
+              />
+            </picture>
           </figure>
         </Reveal>
       </div>
@@ -312,6 +320,12 @@ export function Questions() {
 export function Family() {
   const t = useTranslations('home.family');
   const points = t.raw('points') as { title: string; body: string }[];
+  const stables = t.raw('stables') as {
+    key: 'emerald' | 'saphir' | 'grenat' | 'safran';
+    name: string;
+    symbol: string;
+    coat: string;
+  }[];
 
   return (
     <Section labelledBy="family-title">
@@ -337,28 +351,31 @@ export function Family() {
           ))}
         </ul>
 
-        {/* The four stables, shown with their own horses. Each team is a
-            colour AND a symbol in the app; here the horse itself is the
-            second signal, so the row never relies on colour alone. */}
-        <Reveal className="mt-12">
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
-            {['emerald', 'saphir', 'grenat', 'safran'].map((team) => (
-              <img
-                key={team}
-                src={`/assets/horse-${team}.webp`}
-                alt=""
-                aria-hidden
-                width={166}
-                height={196}
-                loading="lazy"
-                decoding="async"
-                className="h-24 w-auto opacity-90 sm:h-32"
-              />
-            ))}
-          </div>
+        {/* The four stables. In the app a player is never identified by
+            colour alone — every team is a colour AND a symbol AND a coat.
+            The cards say all three, with the actual piece on top. */}
+        <Reveal className="mt-20">
+          <h3 className="font-display text-xl text-text-primary sm:text-2xl">
+            {t('stablesTitle')}
+          </h3>
+          <p className="mt-3 max-w-2xl text-base text-text-secondary">
+            {t('stablesLede')}
+          </p>
         </Reveal>
+        <ul className="mt-8 grid grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-6">
+          {stables.map((stable, index) => (
+            <Reveal as="li" key={stable.key} delay={index * 60}>
+              <StableCard
+                team={stable.key}
+                name={stable.name}
+                symbol={stable.symbol}
+                coat={stable.coat}
+              />
+            </Reveal>
+          ))}
+        </ul>
 
-        <Reveal className="mt-14" delay={60}>
+        <Reveal className="mt-16" delay={60}>
           <Card className="mx-auto max-w-3xl border-gold/25 p-8 text-center">
             <h3 className="font-display text-2xl text-text-primary">
               {t('privacy.title')}
@@ -376,6 +393,94 @@ export function Family() {
         </Reveal>
       </div>
     </Section>
+  );
+}
+
+const STABLE_COLOUR = {
+  emerald: 'var(--color-team-emeraude)',
+  saphir: 'var(--color-team-saphir)',
+  grenat: 'var(--color-team-grenat)',
+  safran: 'var(--color-team-safran)',
+} as const;
+
+/** The team symbol, drawn: star, compass, lantern, book. */
+function StableSymbol({ team }: { team: keyof typeof STABLE_COLOUR }) {
+  const common = {
+    viewBox: '0 0 24 24',
+    className: 'h-5 w-5',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.6,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+    'aria-hidden': true,
+    focusable: 'false' as const,
+  };
+  switch (team) {
+    case 'emerald':
+      return (
+        <svg {...common}>
+          <path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" />
+        </svg>
+      );
+    case 'saphir':
+      return (
+        <svg {...common}>
+          <circle cx="12" cy="12" r="9" />
+          <path d="M15.5 8.5l-2 5-5 2 2-5z" />
+        </svg>
+      );
+    case 'grenat':
+      return (
+        <svg {...common}>
+          <path d="M9 4h6M8 7h8l1.5 9a3 3 0 0 1-3 3.5h-5A3 3 0 0 1 6.5 16zM12 10v5" />
+        </svg>
+      );
+    case 'safran':
+      return (
+        <svg {...common}>
+          <path d="M12 6c-2-1.6-5-2-9-1.5v13c4-.5 7-.1 9 1.5 2-1.6 5-2 9-1.5v-13C17 4 14 4.4 12 6zM12 6v13" />
+        </svg>
+      );
+  }
+}
+
+function StableCard({
+  team,
+  name,
+  symbol,
+  coat,
+}: {
+  team: keyof typeof STABLE_COLOUR;
+  name: string;
+  symbol: string;
+  coat: string;
+}) {
+  return (
+    <div
+      className="relative flex h-full flex-col items-center overflow-hidden rounded-2xl border border-gold/15 bg-surface-raised/60 p-5 text-center"
+      style={{ borderTopColor: STABLE_COLOUR[team], borderTopWidth: 3 }}
+    >
+      <img
+        src={`/assets/token-${team}.webp`}
+        alt=""
+        aria-hidden
+        width={160}
+        height={222}
+        loading="lazy"
+        decoding="async"
+        className="h-24 w-auto drop-shadow-[0_10px_18px_rgba(0,0,0,0.5)]"
+      />
+      <h4 className="mt-4 font-display text-lg text-text-primary">{name}</h4>
+      <p
+        className="mt-2 inline-flex items-center gap-1.5 text-xs text-text-secondary"
+        style={{ color: STABLE_COLOUR[team] }}
+      >
+        <StableSymbol team={team} />
+        <span className="text-text-secondary">{symbol}</span>
+      </p>
+      <p className="mt-1 text-xs text-text-muted">{coat}</p>
+    </div>
   );
 }
 

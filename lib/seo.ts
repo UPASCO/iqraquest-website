@@ -18,6 +18,7 @@ import {
 export const routes = [
   { path: '', priority: 1.0, changeFrequency: 'monthly' },
   { path: 'game', priority: 0.9, changeFrequency: 'monthly' },
+  { path: 'knowledge', priority: 0.9, changeFrequency: 'monthly' },
   { path: 'how-to-play', priority: 0.9, changeFrequency: 'monthly' },
   { path: 'about', priority: 0.7, changeFrequency: 'yearly' },
   { path: 'support', priority: 0.7, changeFrequency: 'monthly' },

@@ -1,6 +1,16 @@
 import { useTranslations } from 'next-intl';
 import { Reveal } from '@/components/Reveal';
 import { Hero } from '@/components/home/Hero';
+import { BrandStory, KnowledgeQuest } from '@/components/home/KnowledgeQuest';
+import { QuestionCard, type QuestionCardLabels } from '@/components/QuestionCard';
+import {
+  KNOWLEDGE_SAMPLE_IDS,
+  sampleQuestions,
+  type Category,
+  type Difficulty,
+} from '@/lib/sample-questions';
+import { useLocale } from 'next-intl';
+import type { Locale } from '@/i18n/routing';
 import {
   BrandStrip,
   ComingSoon,
@@ -8,7 +18,6 @@ import {
   Gameplay,
   HowToPlay,
   Pitch,
-  Questions,
   Universe,
 } from '@/components/home/Sections';
 import { StoreBadges } from '@/components/StoreBadges';
@@ -35,10 +44,11 @@ export function HomePage() {
     <>
       <Hero />
       <Pitch />
+      <BrandStory />
+      <KnowledgeQuest />
       <HowToPlay />
       <Gameplay />
       <Universe />
-      <Questions />
       <Family />
       <ComingSoon />
       <BrandStrip />
@@ -117,6 +127,202 @@ export function GamePage() {
           </div>
 
           <Reveal className="mt-14 text-center">
+            <ButtonLink href="/how-to-play">{t('cta')}</ButtonLink>
+          </Reveal>
+        </div>
+      </Section>
+
+      <ComingSoon />
+    </>
+  );
+}
+
+/* ================================================================== */
+/* The knowledge quest                                                */
+/* ================================================================== */
+
+const REALMS: Category[] = ['prophets', 'sira', 'quran', 'faith', 'virtues'];
+
+export function KnowledgePage() {
+  const t = useTranslations('knowledgePage');
+  const tk = useTranslations('home.knowledge');
+  const locale = useLocale() as Locale;
+
+  const levels = t.raw('levels') as { name: string; body: string }[];
+  const specials = t.raw('specials') as { name: string; body: string }[];
+  const realms = tk.raw('realms') as {
+    key: Category;
+    name: string;
+    count: string;
+    body: string;
+  }[];
+
+  const cardLabels: QuestionCardLabels = {
+    levels: {
+      easy: tk('levels.easy'),
+      medium: tk('levels.medium'),
+      hard: tk('levels.hard'),
+    } as Record<Difficulty, string>,
+    categories: Object.fromEntries(
+      REALMS.map((r) => [r, tk(`categories.${r}`)]),
+    ) as Record<Category, string>,
+    answerHint: tk('card.answerHint'),
+    correct: tk('card.correct'),
+    incorrect: tk('card.incorrect'),
+    neverBack: tk('card.neverBack'),
+    sourceLabel: tk('card.sourceLabel'),
+  };
+  const samples = sampleQuestions(locale, KNOWLEDGE_SAMPLE_IDS);
+
+  return (
+    <>
+      <PageHeader eyebrow={t('eyebrow')} title={t('title')} lede={t('lede')} />
+
+      <BrandStory />
+
+      {/* The five realms, with their counts. */}
+      <Section className="py-16 sm:py-20">
+        <div className="container-page">
+          <Reveal>
+            <SectionTitle className="text-2xl sm:text-3xl">
+              {tk('realmsTitle')}
+            </SectionTitle>
+          </Reveal>
+          <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+            {realms.map((realm, index) => (
+              <Reveal as="li" key={realm.key} delay={index * 60}>
+                <Card className="h-full">
+                  <p className="text-[0.68rem] uppercase tracking-[0.18em] text-text-muted">
+                    {String(index + 1).padStart(2, '0')}
+                  </p>
+                  <h2 className="mt-2 font-display text-lg text-text-primary">
+                    {realm.name}
+                  </h2>
+                  <p className="mt-1 text-xs font-semibold text-gold">{realm.count}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-text-secondary">
+                    {realm.body}
+                  </p>
+                </Card>
+              </Reveal>
+            ))}
+          </ul>
+        </div>
+      </Section>
+
+      {/* Levels, and the rule that nothing is ever taken away. */}
+      <Section tone="raised" className="py-16 sm:py-20">
+        <div className="container-page grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+          <Reveal>
+            <SectionTitle className="text-2xl sm:text-3xl">
+              {t('levelsTitle')}
+            </SectionTitle>
+            <Lede>{t('levelsLede')}</Lede>
+            <ul className="mt-8 grid gap-4 sm:grid-cols-2">
+              {levels.map((level) => (
+                <li
+                  key={level.name}
+                  className="rounded-2xl border border-gold/15 bg-surface-inset/50 p-5"
+                >
+                  <h3 className="font-display text-lg text-gold">{level.name}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+                    {level.body}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+          <Reveal delay={80}>
+            <Card className="h-full border-gold/25 p-7">
+              <StarOrnament className="mb-4" />
+              <h3 className="font-display text-2xl text-text-primary">
+                {t('neverBackTitle')}
+              </h3>
+              <p className="mt-4 text-base leading-relaxed text-text-secondary">
+                {t('neverBackBody')}
+              </p>
+            </Card>
+          </Reveal>
+        </div>
+      </Section>
+
+      {/* Five questions, one per realm. */}
+      <Section className="py-16 sm:py-20">
+        <div className="container-page">
+          <Reveal>
+            <SectionTitle className="text-2xl sm:text-3xl">
+              {t('samplesTitle')}
+            </SectionTitle>
+            <Lede>{t('samplesLede')}</Lede>
+          </Reveal>
+          <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            {samples.map((question, index) => (
+              <Reveal key={question.id} delay={(index % 3) * 70}>
+                <QuestionCard question={question} labels={cardLabels} className="h-full" />
+              </Reveal>
+            ))}
+          </div>
+          <Reveal className="mt-10">
+            <div className="rounded-2xl border border-gold/20 bg-surface-raised/50 p-7">
+              <h3 className="font-display text-xl text-text-primary">
+                {tk('sourcingTitle')}
+              </h3>
+              <p className="mt-3 max-w-3xl text-sm leading-relaxed text-text-secondary">
+                {tk('sourcingBody')}
+              </p>
+            </div>
+          </Reveal>
+        </div>
+      </Section>
+
+      {/* Squares that teach, the daily challenge, the languages. */}
+      <Section tone="raised" className="py-16 sm:py-20">
+        <div className="container-page">
+          <Reveal>
+            <SectionTitle className="text-2xl sm:text-3xl">
+              {t('specialsTitle')}
+            </SectionTitle>
+            <Lede>{t('specialsLede')}</Lede>
+          </Reveal>
+          <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {specials.map((special) => (
+              <li
+                key={special.name}
+                className="border-s-2 border-gold/35 ps-4"
+              >
+                <h3 className="font-display text-base text-text-primary">
+                  {special.name}
+                </h3>
+                <p className="mt-1 text-sm leading-relaxed text-text-secondary">
+                  {special.body}
+                </p>
+              </li>
+            ))}
+          </ul>
+
+          <div className="mt-14 grid gap-6 md:grid-cols-2">
+            <Reveal>
+              <Card className="h-full">
+                <h3 className="font-display text-xl text-text-primary">
+                  {t('dailyTitle')}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-text-secondary">
+                  {t('dailyBody')}
+                </p>
+              </Card>
+            </Reveal>
+            <Reveal delay={70}>
+              <Card className="h-full">
+                <h3 className="font-display text-xl text-text-primary">
+                  {t('languagesTitle')}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-text-secondary">
+                  {t('languagesBody')}
+                </p>
+              </Card>
+            </Reveal>
+          </div>
+
+          <Reveal className="mt-12 text-center">
             <ButtonLink href="/how-to-play">{t('cta')}</ButtonLink>
           </Reveal>
         </div>

@@ -193,6 +193,12 @@ async function main() {
     // ---- The four stables -------------------------------------------------
     ...['emerald', 'saphir', 'grenat', 'safran'].flatMap((team) => [
       {
+        // The knight token — the piece a player actually moves.
+        from: `assets/board/horses/horse_${team}.webp`,
+        name: `token-${team}`,
+        width: 160,
+      },
+      {
         from: `assets/board/pack/horse_${team}.webp`,
         name: `horse-${team}`,
         width: 332,

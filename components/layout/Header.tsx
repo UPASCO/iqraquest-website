@@ -18,6 +18,7 @@ import { localeHref, type Locale } from '@/i18n/routing';
  */
 const navHrefs = [
   '/game',
+  '/knowledge',
   '/how-to-play',
   '/#universe',
   '/support',
@@ -38,6 +39,8 @@ export interface HeaderLabels {
   openMenu: string;
   closeMenu: string;
   comingSoon: string;
+  /** The header's one call to action. */
+  cta: string;
   contact: string;
   /** In the same order as `navHrefs`. */
   nav: readonly string[];
@@ -137,9 +140,15 @@ export function Header({
         <div className="flex items-center gap-2">
           <LocaleSwitcher locale={locale} labels={labels.localeSwitcher} />
 
-          <span className="hidden rounded-full border border-gold/35 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-gold sm:inline-block">
-            {labels.comingSoon}
-          </span>
+          {/* The most valuable slot in the header used to hold a static
+              "coming soon" pill that went nowhere. A header CTA has to be
+              a link. */}
+          <Link
+            href={href('/game')}
+            className="hidden min-h-10 items-center rounded-xl bg-gold px-4 text-xs font-semibold uppercase tracking-[0.12em] text-[#20160a] shadow-[0_8px_24px_-12px_rgba(200,155,69,0.8)] transition-colors hover:bg-gold-bright sm:inline-flex"
+          >
+            {labels.cta}
+          </Link>
 
           <button
             type="button"
@@ -203,9 +212,18 @@ export function Header({
             >
               {labels.contact}
             </Link>
-            <span className="mt-4 inline-flex w-fit rounded-full border border-gold/35 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-gold">
-              {labels.comingSoon}
-            </span>
+            <div className="mt-5 flex flex-wrap items-center gap-3">
+              <Link
+                href={href('/game')}
+                onClick={closeMenu}
+                className="inline-flex min-h-12 items-center rounded-xl bg-gold px-5 text-sm font-semibold text-[#20160a] hover:bg-gold-bright"
+              >
+                {labels.cta}
+              </Link>
+              <span className="text-xs uppercase tracking-[0.14em] text-text-muted">
+                {labels.comingSoon}
+              </span>
+            </div>
           </nav>
         </div>
       )}

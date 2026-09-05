@@ -80,14 +80,16 @@ except `.env.example`.
 
 ```
 app/
-  (default)/        French, served un-prefixed:  /, /game, /privacy …
+  (default)/        French, served un-prefixed:  /, /game, /knowledge, /privacy …
   (intl)/[locale]/  The other 11 languages:      /en/game, /ar/privacy …
   not-found.tsx     404 (exported as out/404.html)
   sitemap.ts        Multilingual sitemap with hreflang alternates
   robots.ts         robots.txt
   manifest.ts       Web app manifest
 components/
-  home/             Homepage sections (hero, gameplay, universe …)
+  brand/IqraMark    The word اقرأ traced from the app's Naskh face, as SVG
+  home/             Homepage sections (hero, brand story, knowledge quest, gameplay …)
+  QuestionCard.tsx  A playable question, as the game shows one
   layout/           Header, Footer, LocaleSwitcher, SiteShell
   pages/            The real implementation of every page
   ui/primitives.tsx The design system: Section, Card, Button, Stat …
@@ -100,12 +102,17 @@ i18n/
 lib/
   seo.ts            Metadata, canonical, hreflang, JSON-LD builders
   fonts.ts          Self-hosted typefaces
+  sample-questions.ts  Real questions from the game's bank, all 12 languages
+content/
+  sample-questions.json  Extracted verbatim from the app's question files
 messages/
   fr.json           The master catalogue — every string starts here
   en.json, ar.json … 11 translations, structurally identical
 public/assets/      Web-optimised artwork derived from the app
 scripts/
   prepare-assets.mjs  App artwork → AVIF/WebP + icons + OG card
+  compose-board.mjs   The board mid-race: real tokens + drawn bonus medallions
+  trace-iqra-mark.py  اقرأ → SVG path, shaped with HarfBuzz
   gen-routes.mjs      Generates both route trees
   verify-export.mjs   Post-build check of the exported site
 styles/globals.css  Design tokens and base layer

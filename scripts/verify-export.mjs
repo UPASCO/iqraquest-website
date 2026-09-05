@@ -21,6 +21,7 @@ const CANONICAL = 'https://iqraquest.org';
 const ROUTES = [
   '',
   'game',
+  'knowledge',
   'how-to-play',
   'about',
   'support',

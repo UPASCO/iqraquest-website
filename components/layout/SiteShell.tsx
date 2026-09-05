@@ -34,10 +34,12 @@ export async function SiteShell({
     openMenu: t('openMenu'),
     closeMenu: t('closeMenu'),
     comingSoon: t('comingSoon'),
+    cta: t('ctaHeader'),
     contact: tNav('contact'),
     // Same order as `navHrefs` in Header.
     nav: [
       tNav('game'),
+      tNav('knowledge'),
       tNav('howToPlay'),
       tNav('universe'),
       tNav('support'),

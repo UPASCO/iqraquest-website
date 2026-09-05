@@ -35,6 +35,12 @@ const PAGES = [
     descKey: 'metaDescription',
   },
   {
+    path: 'knowledge',
+    component: 'KnowledgePage',
+    messages: 'knowledgePage',
+    descKey: 'metaDescription',
+  },
+  {
     path: 'how-to-play',
     component: 'HowToPlayPage',
     messages: 'howToPlayPage',
