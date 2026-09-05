@@ -350,7 +350,7 @@
     "levels": [
       {
         "name": "Kolay",
-        "body": "Konuyla yeni tanışan yedi yaşındaki bir çocuk için: adlar, şartlar, büyük kıssalar."
+        "body": "Konuyla yeni tanışan yedi yaşındaki bir çocuk için: adlar, İslam'ın şartları, büyük kıssalar."
       },
       {
         "name": "Orta",
@@ -366,7 +366,7 @@
       }
     ],
     "neverBackTitle": "Asla geri gidilmez",
-    "neverBackBody": "Yanlış cevap atı olduğu yerde bırakır. Hiçbir şey geri alınmaz, hiçbir şey not edilmez. Doğru cevap, kaynak ve açıklama okunur — ve yeni bir kart çekilir. Oynarken böyle öğrenilir, yanılırken bile.",
+    "neverBackBody": "Yanlış cevap atı olduğu yerde bırakır. Hiçbir şey geri alınmaz, hiçbir not verilmez. Doğru cevap, kaynak ve açıklama okunur — ve yeni bir kart çekilir. Oynarken böyle öğrenilir, yanılırken bile.",
     "specialsTitle": "Öğreten kareler",
     "specialsLede": "Seçilen parkura göre bazı kareler bir şey yapar — dört çeyreğinde de aynıları, hepsi oynamadan önce görünür.",
     "specials": [

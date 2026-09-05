@@ -180,7 +180,7 @@
           "key": "quran",
           "name": "De Koran",
           "count": "150 vragen",
-          "body": "De soera’s, hun namen, hun verzen en wat ze leren."
+          "body": "De soera's, hun namen, hun verzen en wat ze leren."
         },
         {
           "key": "faith",
@@ -224,7 +224,7 @@
         {
           "step": "3",
           "title": "Het schild",
-          "body": "Drie goede antwoorden op rij: je paard kan niet worden geslagen."
+          "body": "Drie goede antwoorden op rij: je paard is beschermd tegen slaan."
         },
         {
           "step": "5",
@@ -346,7 +346,7 @@
     "metaDescription": "Vijf gebieden van islamitische kennis in 900 vragen met bron: profeten, sīra, Koran, geloof, deugden. Drie niveaus, dagelijkse uitdaging, twaalf talen.",
     "lede": "IqraQuest doorkruist vijf gebieden van de islamitische kennis in 900 vragen, elk met bron en uitleg. Dit is wat het spel leert, en hoe het dat doet.",
     "levelsTitle": "Drie niveaus, ieder kiest het zijne",
-    "levelsLede": "Voor de partij kiest elke speler zijn eigen niveau. Een kind en een volwassene spelen op hetzelfde bord, met vragen op hun maat.",
+    "levelsLede": "Vóór de partij kiest elke speler zijn eigen niveau. Een kind en een volwassene spelen op hetzelfde bord, met vragen op hun maat.",
     "levels": [
       {
         "name": "Makkelijk",
