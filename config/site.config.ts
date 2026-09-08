@@ -122,7 +122,7 @@ export const siteConfig = {
    * subdomain. The classroom is bought and run there, never in the
    * mobile app: nothing in a store build links to a payment page.
    */
-  classroomConsoleUrl: 'https://ecole.iqraquest.org',
+  classroomConsoleUrl: 'https://school.iqraquest.org',
 
   /** Store-listing facts, kept in sync with the application repository. */
   app: {
