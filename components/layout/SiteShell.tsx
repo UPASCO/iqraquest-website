@@ -41,6 +41,7 @@ export async function SiteShell({
       tNav('game'),
       tNav('knowledge'),
       tNav('howToPlay'),
+      tNav('schools'),
       tNav('universe'),
       tNav('support'),
       tNav('privacy'),

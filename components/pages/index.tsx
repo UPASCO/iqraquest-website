@@ -442,6 +442,105 @@ export function AboutPage() {
 }
 
 /* ================================================================== */
+/* Schools                                                            */
+/* ================================================================== */
+
+/**
+ * The classroom mode, for the people who decide: a teacher with thirty
+ * minutes, or a head of school with a budget.
+ *
+ * Two things carry this page, and both are promises the product keeps
+ * rather than claims it makes — a lesson runs from one code, and a child
+ * is never an account. The licence comes third on purpose: a school that
+ * is not convinced by the first two will not be convinced by a price.
+ */
+export function SchoolsPage() {
+  const t = useTranslations('schoolsPage');
+  const steps = t.raw('steps') as { title: string; body: string }[];
+  const points = t.raw('privacyPoints') as string[];
+  const faq = t.raw('faq') as { question: string; answer: string }[];
+
+  return (
+    <>
+      <PageHeader eyebrow={t('eyebrow')} title={t('title')} lede={t('lede')} />
+
+      <Section className="py-16 sm:py-20">
+        <div className="container-page">
+          <SectionTitle>{t('stepsTitle')}</SectionTitle>
+          <ol className="mt-10 grid gap-6 lg:grid-cols-3">
+            {steps.map((step, index) => (
+              <li key={step.title}>
+                <Reveal delay={index * 80}>
+                  <Card className="h-full">
+                    {/* The numbering is information, not decoration: a
+                        session really does go in this order. */}
+                    <p className="font-display text-3xl text-gold">
+                      {index + 1}
+                    </p>
+                    <h3 className="mt-3 font-display text-xl text-text-primary">
+                      {step.title}
+                    </h3>
+                    <p className="mt-3 text-base leading-relaxed text-text-secondary">
+                      {step.body}
+                    </p>
+                  </Card>
+                </Reveal>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </Section>
+
+      <Section tone="raised" className="py-16 sm:py-20">
+        <div className="container-page grid gap-10 lg:grid-cols-[1fr_1fr]">
+          <Reveal>
+            <div>
+              <Eyebrow>{t('privacyTitle')}</Eyebrow>
+              <p className="mt-4 text-lg leading-relaxed text-text-secondary">
+                {t('privacyBody')}
+              </p>
+              <StarOrnament className="mt-8" />
+            </div>
+          </Reveal>
+          <Reveal delay={80}>
+            <ul className="space-y-4">
+              {points.map((point) => (
+                <li
+                  key={point}
+                  className="flex gap-3 text-base leading-relaxed text-text-secondary"
+                >
+                  <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+        </div>
+      </Section>
+
+      <Section className="py-16 sm:py-20">
+        <div className="container-prose text-center">
+          <SectionTitle>{t('licenceTitle')}</SectionTitle>
+          <Lede className="mt-4">{t('licenceBody')}</Lede>
+          <div className="mt-8 flex justify-center">
+            <ButtonLink href={siteConfig.classroomConsoleUrl} external>
+              {t('consoleCta')}
+            </ButtonLink>
+          </div>
+          <p className="mt-4 text-sm text-text-secondary">{t('consoleNote')}</p>
+        </div>
+      </Section>
+
+      <Section tone="raised" className="py-16 sm:py-20">
+        <div className="container-prose">
+          <FaqList entries={faq} title={t('faqTitle')} />
+        </div>
+      </Section>
+    </>
+  );
+}
+
+/* ================================================================== */
 /* Support                                                            */
 /* ================================================================== */
 

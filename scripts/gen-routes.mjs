@@ -48,6 +48,13 @@ const PAGES = [
     faqKey: 'faq',
   },
   {
+    path: 'schools',
+    component: 'SchoolsPage',
+    messages: 'schoolsPage',
+    descKey: 'metaDescription',
+    faqKey: 'faq',
+  },
+  {
     path: 'about',
     component: 'AboutPage',
     messages: 'aboutPage',

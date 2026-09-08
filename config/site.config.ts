@@ -117,10 +117,17 @@ export const siteConfig = {
   stores,
   socialLinks,
 
+  /**
+   * The teacher's console and the projected board, on their own
+   * subdomain. The classroom is bought and run there, never in the
+   * mobile app: nothing in a store build links to a payment page.
+   */
+  classroomConsoleUrl: 'https://school.iqraquest.org',
+
   /** Store-listing facts, kept in sync with the application repository. */
   app: {
     /** Total questions shipped in the release bank. */
-    questionCount: 900,
+    questionCount: 1100,
     /** Questions playable without the Premium unlock. */
     freeQuestionCount: 50,
     /** Languages the application ships. */

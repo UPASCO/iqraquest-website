@@ -38,7 +38,8 @@
     "contact": "Contacto",
     "privacy": "Privacidade",
     "terms": "Condições de utilização",
-    "intellectualProperty": "Propriedade intelectual"
+    "intellectualProperty": "Propriedade intelectual",
+    "schools": "Escolas"
   },
   "home": {
     "hero": {
@@ -482,6 +483,58 @@
       }
     ]
   },
+  "schoolsPage": {
+    "eyebrow": "Escolas e associações",
+    "title": "IqraQuest na sala de aula",
+    "metaDescription": "O modo Turma do IqraQuest: uma sessão projetada no quadro e alunos que respondem do seu dispositivo com um código, sem conta nem endereço de e-mail.",
+    "lede": "Uma pergunta no quadro, toda a turma a responder ao mesmo tempo e cavalos que avançam a cada resposta certa. Sem conta, sem e-mail e sem nada que fique depois da campainha.",
+    "stepsTitle": "Uma sessão, em três tempos",
+    "steps": [
+      {
+        "title": "O professor abre a sessão",
+        "body": "Na consola web: uma lição, um nível, a duração pretendida. No quadro aparece um código de seis caracteres, com um código QR ao lado."
+      },
+      {
+        "title": "Os alunos entram",
+        "body": "Digitalizam ou escrevem o código, indicam um primeiro nome, e é tudo. Sem conta, sem endereço, sem palavra-passe. Basta um telemóvel, um tablet ou o computador da sala."
+      },
+      {
+        "title": "A turma joga em conjunto",
+        "body": "Todos recebem a mesma carta no mesmo momento, cada um na sua língua, com as respostas por ordem diferente em cada ecrã. O professor revela quando decide: a fonte aparece e os cavalos avançam."
+      }
+    ],
+    "privacyTitle": "O que a turma não deixa para trás",
+    "privacyBody": "Um aluno nunca é uma conta. O que dá — um primeiro nome — dura o tempo da lição e vai com ela.",
+    "privacyPoints": [
+      "Sem conta, sem endereço de e-mail, sem identificador de dispositivo.",
+      "O quadro mostra quantos alunos responderam, nunca quem nem o quê.",
+      "Ao fechar a sessão, os nomes são apagados: fica apenas um resumo por pergunta.",
+      "Uma sessão esquecida apaga-se sozinha ao fim de dois dias."
+    ],
+    "licenceTitle": "A licença",
+    "licenceBody": "A licença compra-se e usa-se na web, a partir da consola do professor. Os alunos entram gratuitamente pela aplicação.",
+    "consoleCta": "Abrir a consola do professor",
+    "consoleNote": "A entrada é um link enviado para o endereço da escola: não há palavra-passe para memorizar.",
+    "faqTitle": "Perguntas das escolas",
+    "faq": [
+      {
+        "question": "É preciso instalar alguma coisa?",
+        "answer": "Para os alunos: a aplicação IqraQuest ou apenas um navegador — o mesmo ecrã funciona num Chromebook ou tablet da escola. Para o professor: nada, a consola é uma página web."
+      },
+      {
+        "question": "Quantos alunos por sessão?",
+        "answer": "Até sessenta na mesma sala. Uma licença Turma gere uma sala de cada vez; uma licença Escola gere tantas quantas a instituição tiver pago."
+      },
+      {
+        "question": "O que fica para a escola depois?",
+        "answer": "Um resumo por pergunta: quantos responderam e quantos acertaram. O suficiente para saber o que voltar a explicar, sem nunca nomear uma criança. A classificação individual só existe se o professor a tiver pedido para aquela sessão."
+      },
+      {
+        "question": "As perguntas têm fonte?",
+        "answer": "Cada carta mostra a sua fonte — um versículo, um hadith das duas coletâneas mais rigorosas ou um facto estabelecido da Sīra — e tudo o que é discutível fica de fora. É o mesmo banco do jogo em família."
+      }
+    ]
+  },
   "aboutPage": {
     "eyebrow": "Sobre",
     "title": "Porque existe o IqraQuest",
@@ -591,7 +644,7 @@
     "metaDescription": "O IqraQuest não recolhe dados pessoais: sem conta, sem servidor, sem publicidade, sem rastreio. Fica tudo no seu dispositivo.",
     "updated": "4 de setembro de 2026",
     "summaryTitle": "Em resumo",
-    "summaryBody": "Nem este site nem a aplicação IqraQuest recolhem dados pessoais. Não existe qualquer conta de utilizador, nenhum servidor, nenhuma publicidade e nenhum rastreio.",
+    "summaryBody": "O jogo em família não recolhe quaisquer dados pessoais: sem conta, sem servidor, sem publicidade, sem rastreio — tudo fica no dispositivo. O modo Turma, reservado às escolas, é a exceção e está descrito em detalhe mais abaixo: usa um servidor europeu e guarda o primeiro nome de um aluno durante a lição.",
     "sections": [
       {
         "title": "Este site",
@@ -604,6 +657,10 @@
       {
         "title": "A aplicação",
         "body": "O IqraQuest não cria nem exige qualquer conta, não opera nenhum servidor, não apresenta publicidade, não integra nenhum SDK publicitário ou de análise e não utiliza qualquer técnica de identificação por impressão digital do dispositivo. A aplicação funciona inteiramente sem ligação à internet depois da instalação, com exceção do processo de compra gerido pela App Store ou pelo Google Play."
+      },
+      {
+        "title": "O modo Turma (escolas)",
+        "body": "Este modo só existe quando uma escola abre uma sessão; não diz respeito nem ao jogo em família nem ao modo solitário. O aluno introduz um código e um primeiro nome: nada mais. Sem conta, sem endereço de e-mail, sem palavra-passe, sem identificador de dispositivo. O nome, a equipa e as respostas (certas ou erradas) são apagados ao fechar a sessão e, o mais tardar, ao fim de dois dias. O quadro projetado mostra quantos alunos responderam, nunca quem nem o quê. A escola guarda um resumo por pergunta que não nomeia ninguém; se o professor escolheu a classificação individual, os nomes nele contidos são removidos ao fim de 90 dias e o resumo é apagado aos 24 meses. O professor é identificado apenas pelo endereço de e-mail que comprou a licença, sem palavra-passe: a entrada é um link enviado para esse endereço. Os dados são alojados na União Europeia (Supabase, região da Irlanda); os pagamentos das licenças são tratados pela Stripe. O detalhe completo, tabela a tabela, está publicado no repositório do projeto."
       },
       {
         "title": "O que é guardado, e onde",

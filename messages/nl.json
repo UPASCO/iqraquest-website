@@ -38,7 +38,8 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Gebruiksvoorwaarden",
-    "intellectualProperty": "Intellectuele eigendom"
+    "intellectualProperty": "Intellectuele eigendom",
+    "schools": "Scholen"
   },
   "home": {
     "hero": {
@@ -482,6 +483,58 @@
       }
     ]
   },
+  "schoolsPage": {
+    "eyebrow": "Scholen en verenigingen",
+    "title": "IqraQuest in de klas",
+    "metaDescription": "De klasmodus van IqraQuest: een sessie op het bord, leerlingen antwoorden met een code vanaf hun eigen toestel — zonder account, zonder e-mailadres.",
+    "lede": "Eén vraag op het bord, de hele klas die tegelijk antwoordt, en paarden die bij elk goed antwoord vooruitgaan. Geen account, geen e-mail, en na de bel blijft er niets achter.",
+    "stepsTitle": "Een les, in drie stappen",
+    "steps": [
+      {
+        "title": "De leerkracht opent de sessie",
+        "body": "Vanuit de webconsole: een les, een niveau, de gewenste lengte. Op het bord verschijnt een code van zes tekens, met een QR-code ernaast."
+      },
+      {
+        "title": "De leerlingen komen erbij",
+        "body": "Ze scannen of typen de code, geven een voornaam op, en klaar. Geen account, geen adres, geen wachtwoord. Een telefoon, een tablet of de klascomputer volstaat."
+      },
+      {
+        "title": "De klas speelt samen",
+        "body": "Iedereen krijgt dezelfde kaart op hetzelfde moment, elk in de eigen taal, met de antwoorden in een andere volgorde op elk scherm. De leerkracht onthult wanneer die dat wil: de bron verschijnt en de paarden gaan vooruit."
+      }
+    ],
+    "privacyTitle": "Wat de klas niet achterlaat",
+    "privacyBody": "Een leerling is nooit een account. Wat die geeft — een voornaam — leeft zolang de les duurt en gaat ermee mee.",
+    "privacyPoints": [
+      "Geen account, geen e-mailadres, geen apparaat-identificatie.",
+      "Het bord toont hoeveel leerlingen geantwoord hebben — nooit wie, nooit wat.",
+      "Bij het sluiten worden de namen gewist: alleen een samenvatting per vraag blijft.",
+      "Een vergeten sessie wist zichzelf na twee dagen."
+    ],
+    "licenceTitle": "De licentie",
+    "licenceBody": "De licentie wordt op het web gekocht en gebruikt, vanuit de console van de leerkracht. Leerlingen doen gratis mee vanuit de app.",
+    "consoleCta": "Docentenconsole openen",
+    "consoleNote": "Aanmelden gaat via een link naar het adres van de school: er is geen wachtwoord om te onthouden.",
+    "faqTitle": "Vragen van scholen",
+    "faq": [
+      {
+        "question": "Moet er iets geïnstalleerd worden?",
+        "answer": "Voor leerlingen: de IqraQuest-app, of gewoon een browser — hetzelfde scherm werkt op een Chromebook of tablet van de school. Voor de leerkracht: niets, de console is een webpagina."
+      },
+      {
+        "question": "Hoeveel leerlingen per sessie?",
+        "answer": "Tot zestig in één lokaal. Een Klaslicentie draait één lokaal tegelijk; een Schoollicentie er zoveel als de school betaald heeft."
+      },
+      {
+        "question": "Wat houdt de school erna over?",
+        "answer": "Een samenvatting per vraag: hoeveel leerlingen antwoordden en hoeveel het goed hadden. Genoeg om te weten wat opnieuw uitgelegd moet worden, zonder ooit een kind te noemen. Een individueel klassement bestaat alleen als de leerkracht daarom vroeg voor die sessie."
+      },
+      {
+        "question": "Zijn de vragen onderbouwd?",
+        "answer": "Elke kaart toont haar bron — een vers, een hadith uit de twee strengste verzamelingen, of een vaststaand feit uit de Sīra — en wat betwist is, blijft eruit. Het is dezelfde verzameling als in het familiespel."
+      }
+    ]
+  },
   "aboutPage": {
     "eyebrow": "Over IqraQuest",
     "title": "Waarom IqraQuest bestaat",
@@ -591,7 +644,7 @@
     "metaDescription": "IqraQuest verzamelt geen persoonsgegevens: geen account, geen server, geen reclame, geen tracking. Alles blijft op uw apparaat.",
     "updated": "4 september 2026",
     "summaryTitle": "Samengevat",
-    "summaryBody": "Noch deze site, noch de app IqraQuest verzamelt persoonsgegevens. Er bestaat geen gebruikersaccount, geen server, geen reclame en geen tracking.",
+    "summaryBody": "Het familiespel verzamelt geen persoonsgegevens: geen account, geen server, geen advertenties, geen tracking — alles blijft op het toestel. De klasmodus, alleen gebruikt door scholen, is de uitzondering en wordt hieronder volledig beschreven: die gebruikt een Europese server en bewaart de voornaam van een leerling zolang de les duurt.",
     "sections": [
       {
         "title": "Deze website",
@@ -604,6 +657,10 @@
       {
         "title": "De app",
         "body": "IqraQuest maakt geen account aan en vereist er geen, gebruikt geen server, toont geen reclame, bevat geen enkele SDK voor reclame of analyse en gebruikt geen enkele identificatietechniek op basis van een digitale vingerafdruk. De app werkt na de installatie volledig offline, met uitzondering van de aankoop, die door de App Store of Google Play wordt afgehandeld."
+      },
+      {
+        "title": "De klasmodus (scholen)",
+        "body": "Deze modus bestaat alleen wanneer een school een sessie opent; hij raakt noch het familiespel noch het solospel. De leerling voert een code en een voornaam in: verder niets. Geen account, geen e-mailadres, geen wachtwoord, geen apparaat-identificatie. De voornaam, het team en de antwoorden (goed of fout) worden gewist bij het sluiten van de sessie, en uiterlijk na twee dagen. Het geprojecteerde bord toont hoeveel leerlingen geantwoord hebben — nooit wie, nooit wat. De school bewaart een samenvatting per vraag die niemand noemt; koos de leerkracht het individuele klassement, dan worden de voornamen daarin na 90 dagen verwijderd en wordt de samenvatting zelf na 24 maanden gewist. De leerkracht wordt uitsluitend herkend aan het e-mailadres waarmee de licentie is gekocht, zonder wachtwoord: aanmelden gaat via een link naar dat adres. De gegevens staan in de Europese Unie (Supabase, regio Ierland); licentiebetalingen verlopen via Stripe. Het volledige detail, tabel voor tabel, is gepubliceerd in de repository van het project."
       },
       {
         "title": "Wat er wordt opgeslagen, en waar",

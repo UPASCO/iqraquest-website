@@ -38,7 +38,8 @@
     "contact": "Contact",
     "privacy": "Confidentialité",
     "terms": "Conditions d'utilisation",
-    "intellectualProperty": "Propriété intellectuelle"
+    "intellectualProperty": "Propriété intellectuelle",
+    "schools": "Écoles"
   },
   "home": {
     "hero": {
@@ -482,6 +483,58 @@
       }
     ]
   },
+  "schoolsPage": {
+    "eyebrow": "Écoles et associations",
+    "title": "IqraQuest en classe",
+    "metaDescription": "Le mode Classe d'IqraQuest : une séance projetée au tableau, les élèves répondent depuis leur appareil avec un code, sans compte ni adresse e-mail.",
+    "lede": "Une question au tableau, toute la classe qui répond en même temps, et des chevaux qui avancent à chaque bonne réponse. Sans compte, sans e-mail, sans rien qui reste après la sonnerie.",
+    "stepsTitle": "Une séance, en trois temps",
+    "steps": [
+      {
+        "title": "L'enseignant ouvre la séance",
+        "body": "Depuis la console web : une leçon, un niveau, la longueur voulue. Un code à six caractères s'affiche au tableau, avec un QR code."
+      },
+      {
+        "title": "Les élèves rejoignent",
+        "body": "Ils scannent ou tapent le code, entrent un prénom, et c'est tout. Pas de compte, pas d'adresse, pas de mot de passe. Un téléphone, une tablette ou un ordinateur de la salle suffit."
+      },
+      {
+        "title": "La classe joue ensemble",
+        "body": "Tout le monde reçoit la même carte au même moment, chacun dans sa langue, les réponses dans un ordre différent sur chaque écran. L'enseignant montre la réponse quand il le décide : la source s'affiche, et les chevaux avancent."
+      }
+    ],
+    "privacyTitle": "Ce que la classe ne laisse pas derrière elle",
+    "privacyBody": "Un élève n'est jamais un compte. Ce qu'il donne — un prénom — vit le temps de la leçon et disparaît avec elle.",
+    "privacyPoints": [
+      "Aucun compte, aucune adresse e-mail, aucun identifiant d'appareil.",
+      "Le tableau montre combien d'élèves ont répondu, jamais qui ni quoi.",
+      "À la fermeture, les prénoms sont effacés : il ne reste qu'un bilan par question.",
+      "Une séance oubliée s'efface d'elle-même au bout de deux jours."
+    ],
+    "licenceTitle": "La licence",
+    "licenceBody": "La licence s'achète et s'utilise sur le web, depuis la console de l'enseignant. Les élèves, eux, rejoignent gratuitement depuis l'application.",
+    "consoleCta": "Ouvrir la console enseignant",
+    "consoleNote": "La connexion se fait par un lien envoyé à l'adresse de l'établissement : il n'y a aucun mot de passe à retenir.",
+    "faqTitle": "Questions d'école",
+    "faq": [
+      {
+        "question": "Faut-il installer quelque chose ?",
+        "answer": "Pour les élèves : l'application IqraQuest, ou simplement un navigateur — le même écran fonctionne sur un Chromebook ou une tablette d'école. Pour l'enseignant : rien, la console est une page web."
+      },
+      {
+        "question": "Combien d'élèves par séance ?",
+        "answer": "Jusqu'à soixante dans une même salle. Une licence Classe fait tourner une salle à la fois ; une licence École en fait tourner autant que l'établissement en a payé."
+      },
+      {
+        "question": "Que garde l'établissement après la séance ?",
+        "answer": "Un bilan par question : combien d'élèves ont répondu, combien ont eu juste. De quoi savoir ce qu'il faut ré-expliquer, sans jamais nommer un enfant. Le classement individuel n'existe que si l'enseignant l'a demandé pour cette séance."
+      },
+      {
+        "question": "Les questions sont-elles sourcées ?",
+        "answer": "Chaque carte affiche sa source — un verset, un hadith des deux recueils les plus rigoureux, ou un fait établi de la Sīra — et les points sujets à débat sont écartés. C'est la même banque que le jeu familial."
+      }
+    ]
+  },
   "aboutPage": {
     "eyebrow": "À propos",
     "title": "Pourquoi IqraQuest existe",
@@ -591,7 +644,7 @@
     "metaDescription": "IqraQuest ne collecte aucune donnée personnelle : aucun compte, aucun serveur, aucune publicité, aucun traçage. Tout reste sur votre appareil.",
     "updated": "4 septembre 2026",
     "summaryTitle": "En résumé",
-    "summaryBody": "Ni ce site ni l'application IqraQuest ne collectent de données personnelles. Il n'existe aucun compte utilisateur, aucun serveur, aucune publicité et aucun traçage.",
+    "summaryBody": "Le jeu en famille ne collecte aucune donnée personnelle : aucun compte, aucun serveur, aucune publicité, aucun traçage — tout reste sur l'appareil. Le mode Classe, réservé aux écoles, fait exception et il est décrit en détail plus bas : il utilise un serveur européen et conserve le prénom d'un élève le temps d'une leçon.",
     "sections": [
       {
         "title": "Ce site web",
@@ -604,6 +657,10 @@
       {
         "title": "L'application",
         "body": "IqraQuest ne crée ni n'exige de compte, n'exploite aucun serveur, n'affiche aucune publicité, n'intègre aucun SDK publicitaire ou d'analyse et n'utilise aucune technique d'identification par empreinte. L'application fonctionne entièrement hors connexion après l'installation, à l'exception du parcours d'achat géré par l'App Store ou Google Play."
+      },
+      {
+        "title": "Le mode Classe (écoles)",
+        "body": "Ce mode ne s'active que si un établissement ouvre une séance ; il ne concerne ni le jeu en famille ni le joueur solo. L'élève entre un code et un prénom : rien d'autre. Aucun compte, aucune adresse e-mail, aucun mot de passe, aucun identifiant d'appareil. Le prénom, l'équipe et les réponses (justes ou fausses) sont effacés à la fermeture de la séance, et au plus tard au bout de deux jours. Le tableau projeté affiche combien d'élèves ont répondu, jamais qui ni quoi. L'établissement conserve un bilan par question, qui ne nomme personne ; si l'enseignant a choisi le classement individuel, les prénoms qu'il contient sont retirés au bout de 90 jours et le bilan lui-même est effacé à 24 mois. L'enseignant, lui, est identifié par la seule adresse e-mail ayant acheté la licence, sans mot de passe : la connexion se fait par un lien envoyé à cette adresse. Les données sont hébergées dans l'Union européenne (Supabase, région Irlande) ; le paiement des licences est traité par Stripe. Le détail complet, table par table, est publié dans le dépôt du projet."
       },
       {
         "title": "Ce qui est stocké, et où",
