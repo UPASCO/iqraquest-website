@@ -38,7 +38,8 @@
     "contact": "Contatti",
     "privacy": "Privacy",
     "terms": "Condizioni d'uso",
-    "intellectualProperty": "Proprietà intellettuale"
+    "intellectualProperty": "Proprietà intellettuale",
+    "schools": "Scuole"
   },
   "home": {
     "hero": {
@@ -479,6 +480,58 @@
       {
         "question": "Quando esce l'applicazione?",
         "answer": "La pubblicazione su App Store e Google Play è in preparazione. I pulsanti di download di questo sito si attiveranno il giorno del lancio."
+      }
+    ]
+  },
+  "schoolsPage": {
+    "eyebrow": "Scuole e associazioni",
+    "title": "IqraQuest in classe",
+    "metaDescription": "La modalità Classe di IqraQuest: una sessione proiettata alla lavagna e alunni che rispondono dal proprio dispositivo con un codice, senza account né indirizzo e-mail.",
+    "lede": "Una domanda alla lavagna, tutta la classe che risponde insieme e cavalli che avanzano a ogni risposta esatta. Senza account, senza e-mail e senza nulla che resti dopo la campanella.",
+    "stepsTitle": "Una lezione, in tre momenti",
+    "steps": [
+      {
+        "title": "L'insegnante apre la sessione",
+        "body": "Dalla console web: una lezione, un livello, la durata voluta. Alla lavagna compare un codice di sei caratteri, con accanto un codice QR."
+      },
+      {
+        "title": "Gli alunni entrano",
+        "body": "Inquadrano o digitano il codice, scrivono un nome, e basta. Nessun account, nessun indirizzo, nessuna password. Bastano un telefono, un tablet o il computer dell'aula."
+      },
+      {
+        "title": "La classe gioca insieme",
+        "body": "Tutti ricevono la stessa carta nello stesso momento, ciascuno nella propria lingua, con le risposte in ordine diverso su ogni schermo. L'insegnante rivela quando lo decide: compare la fonte e i cavalli avanzano."
+      }
+    ],
+    "privacyTitle": "Ciò che la classe non lascia dietro di sé",
+    "privacyBody": "Un alunno non è mai un account. Ciò che dà — un nome — vive quanto la lezione e se ne va con lei.",
+    "privacyPoints": [
+      "Nessun account, nessun indirizzo e-mail, nessun identificatore del dispositivo.",
+      "La lavagna mostra quanti hanno risposto, mai chi né che cosa.",
+      "Alla chiusura i nomi vengono cancellati: resta solo un riepilogo per domanda.",
+      "Una sessione dimenticata si cancella da sola dopo due giorni."
+    ],
+    "licenceTitle": "La licenza",
+    "licenceBody": "La licenza si acquista e si usa sul web, dalla console dell'insegnante. Gli alunni entrano gratuitamente dall'applicazione.",
+    "consoleCta": "Apri la console dell'insegnante",
+    "consoleNote": "L'accesso è un link inviato all'indirizzo della scuola: non c'è alcuna password da ricordare.",
+    "faqTitle": "Domande delle scuole",
+    "faq": [
+      {
+        "question": "Bisogna installare qualcosa?",
+        "answer": "Per gli alunni: l'app IqraQuest, oppure semplicemente un browser — la stessa schermata funziona su un Chromebook o un tablet della scuola. Per l'insegnante: nulla, la console è una pagina web."
+      },
+      {
+        "question": "Quanti alunni per sessione?",
+        "answer": "Fino a sessanta nella stessa aula. Una licenza Classe gestisce un'aula alla volta; una licenza Scuola tante quante l'istituto ne ha pagate."
+      },
+      {
+        "question": "Che cosa resta alla scuola dopo?",
+        "answer": "Un riepilogo per domanda: quanti hanno risposto e quanti hanno indovinato. Quanto basta per sapere che cosa rispiegare, senza mai nominare un bambino. La classifica individuale esiste solo se l'insegnante l'ha chiesta per quella sessione."
+      },
+      {
+        "question": "Le domande sono documentate?",
+        "answer": "Ogni carta mostra la sua fonte — un versetto, un hadith delle due raccolte più rigorose o un fatto accertato della Sīra — e ciò che è discusso resta fuori. È lo stesso repertorio del gioco in famiglia."
       }
     ]
   },

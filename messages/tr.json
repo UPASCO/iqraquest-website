@@ -38,7 +38,8 @@
     "contact": "İletişim",
     "privacy": "Gizlilik",
     "terms": "Kullanım koşulları",
-    "intellectualProperty": "Fikri mülkiyet"
+    "intellectualProperty": "Fikri mülkiyet",
+    "schools": "Okullar"
   },
   "home": {
     "hero": {
@@ -479,6 +480,58 @@
       {
         "question": "Uygulama ne zaman çıkıyor?",
         "answer": "App Store ve Google Play'de yayın hazırlığı sürüyor. Bu sitedeki indirme düğmeleri lansman günü etkinleşecek."
+      }
+    ]
+  },
+  "schoolsPage": {
+    "eyebrow": "Okullar ve dernekler",
+    "title": "Sınıfta IqraQuest",
+    "metaDescription": "IqraQuest'in Sınıf modu: tahtaya yansıtılan bir oturum, öğrenciler bir kodla kendi cihazlarından yanıtlar — hesap yok, e-posta yok.",
+    "lede": "Tahtada bir soru, tüm sınıf aynı anda yanıtlıyor ve her doğru yanıtta ilerleyen atlar. Hesap yok, e-posta yok, zil çaldığında geriye hiçbir şey kalmıyor.",
+    "stepsTitle": "Bir ders, üç adımda",
+    "steps": [
+      {
+        "title": "Öğretmen oturumu açar",
+        "body": "Web konsolundan: bir ders, bir seviye, istenen uzunluk. Tahtada altı karakterlik bir kod belirir, yanında bir QR kod."
+      },
+      {
+        "title": "Öğrenciler katılır",
+        "body": "Kodu tarar ya da yazar, bir ad girer, hepsi bu. Hesap yok, adres yok, parola yok. Bir telefon, bir tablet ya da sınıfın bilgisayarı yeter."
+      },
+      {
+        "title": "Sınıf birlikte oynar",
+        "body": "Herkes aynı kartı aynı anda alır, her biri kendi dilinde, yanıtlar her ekranda farklı sırada. Öğretmen istediği anda cevabı gösterir: kaynak görünür ve atlar ilerler."
+      }
+    ],
+    "privacyTitle": "Dersin geride bırakmadıkları",
+    "privacyBody": "Bir öğrenci asla bir hesap değildir. Verdiği şey — bir ad — ders boyunca yaşar ve dersle birlikte gider.",
+    "privacyPoints": [
+      "Hesap yok, e-posta adresi yok, cihaz kimliği yok.",
+      "Tahta kaç öğrencinin yanıtladığını gösterir; kimin ve neyi asla.",
+      "Oturum kapanınca adlar silinir: yalnızca soru başına bir özet kalır.",
+      "Unutulmuş bir oturum iki gün sonra kendiliğinden silinir."
+    ],
+    "licenceTitle": "Lisans",
+    "licenceBody": "Lisans web üzerinden, öğretmen konsolundan alınır ve kullanılır. Öğrenciler uygulamadan ücretsiz katılır.",
+    "consoleCta": "Öğretmen konsolunu aç",
+    "consoleNote": "Giriş, okulun adresine gönderilen bir bağlantıdır: akılda tutulacak parola yoktur.",
+    "faqTitle": "Okulların sorduğu sorular",
+    "faq": [
+      {
+        "question": "Bir şey kurmak gerekir mi?",
+        "answer": "Öğrenciler için: IqraQuest uygulaması ya da yalnızca bir tarayıcı — aynı ekran okulun Chromebook'unda veya tabletinde çalışır. Öğretmen için: hiçbir şey, konsol bir web sayfasıdır."
+      },
+      {
+        "question": "Oturum başına kaç öğrenci?",
+        "answer": "Aynı sınıfta altmışa kadar. Sınıf lisansı aynı anda bir sınıf çalıştırır; Okul lisansı, okulun ödediği kadarını."
+      },
+      {
+        "question": "Okulda ne kalır?",
+        "answer": "Soru başına bir özet: kaç kişi yanıtladı, kaçı doğru bildi. Neyin yeniden anlatılacağını bilmeye yeter, hiçbir çocuğun adını anmadan. Bireysel sıralama yalnızca öğretmen o oturum için istediyse vardır."
+      },
+      {
+        "question": "Sorular kaynaklı mı?",
+        "answer": "Her kart kaynağını gösterir — bir ayet, en sağlam iki derlemeden bir hadis ya da Sîre'nin sabit bir olayı — tartışmalı olan dışarıda bırakılır. Aile oyunuyla aynı havuzdur."
       }
     ]
   },

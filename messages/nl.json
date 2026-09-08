@@ -38,7 +38,8 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Gebruiksvoorwaarden",
-    "intellectualProperty": "Intellectuele eigendom"
+    "intellectualProperty": "Intellectuele eigendom",
+    "schools": "Scholen"
   },
   "home": {
     "hero": {
@@ -479,6 +480,58 @@
       {
         "question": "Wanneer komt de app uit?",
         "answer": "De publicatie in de App Store en op Google Play wordt voorbereid. De downloadknoppen op deze site worden actief op de dag van de lancering."
+      }
+    ]
+  },
+  "schoolsPage": {
+    "eyebrow": "Scholen en verenigingen",
+    "title": "IqraQuest in de klas",
+    "metaDescription": "De klasmodus van IqraQuest: een sessie op het bord, leerlingen antwoorden met een code vanaf hun eigen toestel — zonder account, zonder e-mailadres.",
+    "lede": "Eén vraag op het bord, de hele klas die tegelijk antwoordt, en paarden die bij elk goed antwoord vooruitgaan. Geen account, geen e-mail, en na de bel blijft er niets achter.",
+    "stepsTitle": "Een les, in drie stappen",
+    "steps": [
+      {
+        "title": "De leerkracht opent de sessie",
+        "body": "Vanuit de webconsole: een les, een niveau, de gewenste lengte. Op het bord verschijnt een code van zes tekens, met een QR-code ernaast."
+      },
+      {
+        "title": "De leerlingen komen erbij",
+        "body": "Ze scannen of typen de code, geven een voornaam op, en klaar. Geen account, geen adres, geen wachtwoord. Een telefoon, een tablet of de klascomputer volstaat."
+      },
+      {
+        "title": "De klas speelt samen",
+        "body": "Iedereen krijgt dezelfde kaart op hetzelfde moment, elk in de eigen taal, met de antwoorden in een andere volgorde op elk scherm. De leerkracht onthult wanneer die dat wil: de bron verschijnt en de paarden gaan vooruit."
+      }
+    ],
+    "privacyTitle": "Wat de klas niet achterlaat",
+    "privacyBody": "Een leerling is nooit een account. Wat die geeft — een voornaam — leeft zolang de les duurt en gaat ermee mee.",
+    "privacyPoints": [
+      "Geen account, geen e-mailadres, geen apparaat-identificatie.",
+      "Het bord toont hoeveel leerlingen geantwoord hebben — nooit wie, nooit wat.",
+      "Bij het sluiten worden de namen gewist: alleen een samenvatting per vraag blijft.",
+      "Een vergeten sessie wist zichzelf na twee dagen."
+    ],
+    "licenceTitle": "De licentie",
+    "licenceBody": "De licentie wordt op het web gekocht en gebruikt, vanuit de console van de leerkracht. Leerlingen doen gratis mee vanuit de app.",
+    "consoleCta": "Docentenconsole openen",
+    "consoleNote": "Aanmelden gaat via een link naar het adres van de school: er is geen wachtwoord om te onthouden.",
+    "faqTitle": "Vragen van scholen",
+    "faq": [
+      {
+        "question": "Moet er iets geïnstalleerd worden?",
+        "answer": "Voor leerlingen: de IqraQuest-app, of gewoon een browser — hetzelfde scherm werkt op een Chromebook of tablet van de school. Voor de leerkracht: niets, de console is een webpagina."
+      },
+      {
+        "question": "Hoeveel leerlingen per sessie?",
+        "answer": "Tot zestig in één lokaal. Een Klaslicentie draait één lokaal tegelijk; een Schoollicentie er zoveel als de school betaald heeft."
+      },
+      {
+        "question": "Wat houdt de school erna over?",
+        "answer": "Een samenvatting per vraag: hoeveel leerlingen antwoordden en hoeveel het goed hadden. Genoeg om te weten wat opnieuw uitgelegd moet worden, zonder ooit een kind te noemen. Een individueel klassement bestaat alleen als de leerkracht daarom vroeg voor die sessie."
+      },
+      {
+        "question": "Zijn de vragen onderbouwd?",
+        "answer": "Elke kaart toont haar bron — een vers, een hadith uit de twee strengste verzamelingen, of een vaststaand feit uit de Sīra — en wat betwist is, blijft eruit. Het is dezelfde verzameling als in het familiespel."
       }
     ]
   },

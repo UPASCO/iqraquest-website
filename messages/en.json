@@ -38,7 +38,8 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms of use",
-    "intellectualProperty": "Intellectual property"
+    "intellectualProperty": "Intellectual property",
+    "schools": "Schools"
   },
   "home": {
     "hero": {
@@ -479,6 +480,58 @@
       {
         "question": "When does the app come out?",
         "answer": "Publication on the App Store and Google Play is being prepared. The download buttons on this site will be enabled on launch day."
+      }
+    ]
+  },
+  "schoolsPage": {
+    "eyebrow": "Schools and associations",
+    "title": "IqraQuest in the classroom",
+    "metaDescription": "IqraQuest's classroom mode: a session on the projector, pupils answering from their own device with a code — no account, no email address.",
+    "lede": "One question on the board, the whole class answering at once, and horses that move forward on every right answer. No account, no email, and nothing left behind when the bell rings.",
+    "stepsTitle": "A session, in three moments",
+    "steps": [
+      {
+        "title": "The teacher opens the session",
+        "body": "From the web console: a lesson, a level, the length you want. A six-character code appears on the board, with a QR code beside it."
+      },
+      {
+        "title": "The pupils join",
+        "body": "They scan or type the code, enter a first name, and that is all. No account, no address, no password. A phone, a tablet or a classroom computer will do."
+      },
+      {
+        "title": "The class plays together",
+        "body": "Everyone gets the same card at the same moment, each in their own language, with the answers in a different order on every screen. The teacher reveals when they decide to: the source appears, and the horses move."
+      }
+    ],
+    "privacyTitle": "What the class does not leave behind",
+    "privacyBody": "A pupil is never an account. What they give — a first name — lives as long as the lesson and goes with it.",
+    "privacyPoints": [
+      "No account, no email address, no device identifier.",
+      "The board shows how many pupils have answered — never who, never what.",
+      "When the session closes the names are erased: only a per-question summary remains.",
+      "A session left open erases itself after two days."
+    ],
+    "licenceTitle": "The licence",
+    "licenceBody": "The licence is bought and used on the web, from the teacher's console. Pupils join free of charge from the app.",
+    "consoleCta": "Open the teacher console",
+    "consoleNote": "Signing in is a link sent to the school's address: there is no password to remember.",
+    "faqTitle": "Questions schools ask",
+    "faq": [
+      {
+        "question": "Does anything need installing?",
+        "answer": "For pupils: the IqraQuest app, or simply a browser — the same screen works on a school Chromebook or tablet. For the teacher: nothing, the console is a web page."
+      },
+      {
+        "question": "How many pupils per session?",
+        "answer": "Up to sixty in one room. A Classroom licence runs one room at a time; a School licence runs as many as the school has paid for."
+      },
+      {
+        "question": "What does the school keep afterwards?",
+        "answer": "A per-question summary: how many pupils answered, how many were right. Enough to know what to go over again, without ever naming a child. An individual ranking exists only if the teacher asked for one for that session."
+      },
+      {
+        "question": "Are the questions sourced?",
+        "answer": "Every card shows its source — a verse, a hadith from the two most rigorous collections, or an established fact of the Sīra — and anything open to debate is left out. It is the same bank as the family game."
       }
     ]
   },

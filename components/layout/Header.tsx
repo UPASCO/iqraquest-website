@@ -20,6 +20,7 @@ const navHrefs = [
   '/game',
   '/knowledge',
   '/how-to-play',
+  '/schools',
   '/#universe',
   '/support',
   '/privacy',
