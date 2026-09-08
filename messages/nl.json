@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest verzamelt geen persoonsgegevens: geen account, geen server, geen reclame, geen tracking. Alles blijft op uw apparaat.",
     "updated": "4 september 2026",
     "summaryTitle": "Samengevat",
-    "summaryBody": "Noch deze site, noch de app IqraQuest verzamelt persoonsgegevens. Er bestaat geen gebruikersaccount, geen server, geen reclame en geen tracking.",
+    "summaryBody": "Het familiespel verzamelt geen persoonsgegevens: geen account, geen server, geen advertenties, geen tracking — alles blijft op het toestel. De klasmodus, alleen gebruikt door scholen, is de uitzondering en wordt hieronder volledig beschreven: die gebruikt een Europese server en bewaart de voornaam van een leerling zolang de les duurt.",
     "sections": [
       {
         "title": "Deze website",
@@ -657,6 +657,10 @@
       {
         "title": "De app",
         "body": "IqraQuest maakt geen account aan en vereist er geen, gebruikt geen server, toont geen reclame, bevat geen enkele SDK voor reclame of analyse en gebruikt geen enkele identificatietechniek op basis van een digitale vingerafdruk. De app werkt na de installatie volledig offline, met uitzondering van de aankoop, die door de App Store of Google Play wordt afgehandeld."
+      },
+      {
+        "title": "De klasmodus (scholen)",
+        "body": "Deze modus bestaat alleen wanneer een school een sessie opent; hij raakt noch het familiespel noch het solospel. De leerling voert een code en een voornaam in: verder niets. Geen account, geen e-mailadres, geen wachtwoord, geen apparaat-identificatie. De voornaam, het team en de antwoorden (goed of fout) worden gewist bij het sluiten van de sessie, en uiterlijk na twee dagen. Het geprojecteerde bord toont hoeveel leerlingen geantwoord hebben — nooit wie, nooit wat. De school bewaart een samenvatting per vraag die niemand noemt; koos de leerkracht het individuele klassement, dan worden de voornamen daarin na 90 dagen verwijderd en wordt de samenvatting zelf na 24 maanden gewist. De leerkracht wordt uitsluitend herkend aan het e-mailadres waarmee de licentie is gekocht, zonder wachtwoord: aanmelden gaat via een link naar dat adres. De gegevens staan in de Europese Unie (Supabase, regio Ierland); licentiebetalingen verlopen via Stripe. Het volledige detail, tabel voor tabel, is gepubliceerd in de repository van het project."
       },
       {
         "title": "Wat er wordt opgeslagen, en waar",

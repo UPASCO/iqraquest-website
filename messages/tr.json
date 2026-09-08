@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest hiçbir kişisel veri toplamaz: hesap yok, sunucu yok, reklam yok, takip yok. Her şey cihazınızda kalır.",
     "updated": "4 Eylül 2026",
     "summaryTitle": "Özetle",
-    "summaryBody": "Ne bu site ne de IqraQuest uygulaması kişisel veri toplar. Hiçbir kullanıcı hesabı, hiçbir sunucu, hiçbir reklam ve hiçbir takip yoktur.",
+    "summaryBody": "Aile oyunu hiçbir kişisel veri toplamaz: hesap yok, sunucu yok, reklam yok, izleme yok — her şey cihazda kalır. Yalnızca okulların kullandığı Sınıf modu bunun istisnasıdır ve aşağıda ayrıntılı olarak anlatılır: Avrupa'da bir sunucu kullanır ve bir öğrencinin adını ders boyunca saklar.",
     "sections": [
       {
         "title": "Bu web sitesi",
@@ -657,6 +657,10 @@
       {
         "title": "Uygulama",
         "body": "IqraQuest ne hesap oluşturur ne de hesap ister, hiçbir sunucu işletmez, hiçbir reklam göstermez, hiçbir reklam veya analiz SDK'sı içermez ve hiçbir parmak izi tanımlama tekniği kullanmaz. Uygulama, App Store ya da Google Play tarafından yürütülen satın alma adımı dışında, kurulumdan sonra tamamen çevrimdışı çalışır."
+      },
+      {
+        "title": "Sınıf modu (okullar)",
+        "body": "Bu mod yalnızca bir okul oturum açtığında vardır; ne aile oyununu ne de tek başına oynamayı ilgilendirir. Öğrenci bir kod ve bir ad girer: başka hiçbir şey. Hesap yok, e-posta adresi yok, parola yok, cihaz kimliği yok. Ad, takım ve yanıtlar (doğru ya da yanlış) oturum kapanınca, en geç iki gün içinde silinir. Yansıtılan tahta kaç öğrencinin yanıtladığını gösterir; kimin ve neyi asla. Okul, kimseyi adlandırmayan soru başına bir özet saklar; öğretmen bireysel sıralamayı seçtiyse, içindeki adlar 90 gün sonra kaldırılır ve özetin kendisi 24 ayda silinir. Öğretmen yalnızca lisansı satın alan e-posta adresiyle tanınır, parolasız: giriş, o adrese gönderilen bir bağlantıdır. Veriler Avrupa Birliği'nde barındırılır (Supabase, İrlanda bölgesi); lisans ödemelerini Stripe yürütür. Tablo tablo tüm ayrıntı, projenin deposunda yayımlanmıştır."
       },
       {
         "title": "Neyin, nerede saklandığı",

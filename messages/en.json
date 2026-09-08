@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest collects no personal data: no account, no server, no advertising, no tracking. Everything stays on your device.",
     "updated": "4 September 2026",
     "summaryTitle": "In short",
-    "summaryBody": "Neither this site nor the IqraQuest app collects personal data. There is no user account, no server, no advertising and no tracking.",
+    "summaryBody": "The family game collects no personal data: no account, no server, no advertising, no tracking — everything stays on the device. The classroom mode, used only by schools, is the exception and is described in full below: it uses a European server and keeps a pupil's first name for the length of a lesson.",
     "sections": [
       {
         "title": "This website",
@@ -657,6 +657,10 @@
       {
         "title": "The app",
         "body": "IqraQuest neither creates nor requires an account, runs no server, displays no advertising, includes no advertising or analytics SDK and uses no fingerprinting technique. The app works entirely offline once installed, apart from the purchase flow handled by the App Store or Google Play."
+      },
+      {
+        "title": "The classroom mode (schools)",
+        "body": "This mode exists only when a school opens a session; it concerns neither the family game nor solo play. A pupil enters a code and a first name: nothing else. No account, no email address, no password, no device identifier. The first name, the team and the answers (right or wrong) are erased when the session closes, and after two days at the latest. The projected board shows how many pupils have answered — never who, never what. The school keeps a per-question summary, which names nobody; if the teacher chose the individual ranking, the first names it holds are stripped after 90 days and the summary itself is deleted at 24 months. The teacher is identified by the single email address that bought the licence, with no password: signing in is a link sent to that address. The data is hosted in the European Union (Supabase, Ireland region); licence payments are handled by Stripe. The full detail, table by table, is published in the project's repository."
       },
       {
         "title": "What is stored, and where",

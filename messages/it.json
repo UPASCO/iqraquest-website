@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest non raccoglie alcun dato personale: nessun account, nessun server, nessuna pubblicità, nessun tracciamento. Tutto resta sul Suo dispositivo.",
     "updated": "4 settembre 2026",
     "summaryTitle": "In sintesi",
-    "summaryBody": "Né questo sito né l'applicazione IqraQuest raccolgono dati personali. Non esiste alcun account utente, alcun server, alcuna pubblicità e alcun tracciamento.",
+    "summaryBody": "Il gioco in famiglia non raccoglie alcun dato personale: nessun account, nessun server, nessuna pubblicità, nessun tracciamento — tutto resta sul dispositivo. La modalità Classe, riservata alle scuole, è l'eccezione ed è descritta in dettaglio più sotto: usa un server europeo e conserva il nome di un alunno per la durata di una lezione.",
     "sections": [
       {
         "title": "Questo sito web",
@@ -657,6 +657,10 @@
       {
         "title": "L'applicazione",
         "body": "IqraQuest non crea né richiede un account, non gestisce alcun server, non mostra alcuna pubblicità, non integra alcun SDK pubblicitario o di analisi e non utilizza alcuna tecnica di identificazione tramite impronta. L'applicazione funziona completamente senza connessione dopo l'installazione, ad eccezione del percorso d'acquisto gestito dall'App Store o da Google Play."
+      },
+      {
+        "title": "La modalità Classe (scuole)",
+        "body": "Questa modalità esiste solo quando una scuola apre una sessione; non riguarda né il gioco in famiglia né il gioco in solitaria. L'alunno inserisce un codice e un nome: nient'altro. Nessun account, nessun indirizzo e-mail, nessuna password, nessun identificatore del dispositivo. Il nome, la squadra e le risposte (esatte o sbagliate) vengono cancellati alla chiusura della sessione, e al più tardi dopo due giorni. La lavagna proiettata mostra quanti alunni hanno risposto, mai chi né che cosa. La scuola conserva un riepilogo per domanda che non nomina nessuno; se l'insegnante ha scelto la classifica individuale, i nomi che contiene vengono rimossi dopo 90 giorni e il riepilogo stesso è cancellato a 24 mesi. L'insegnante è identificato dal solo indirizzo e-mail che ha acquistato la licenza, senza password: l'accesso è un link inviato a quell'indirizzo. I dati sono ospitati nell'Unione europea (Supabase, regione Irlanda); i pagamenti delle licenze sono gestiti da Stripe. Il dettaglio completo, tabella per tabella, è pubblicato nel repository del progetto."
       },
       {
         "title": "Che cosa viene memorizzato, e dove",

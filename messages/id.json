@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest tidak mengumpulkan data pribadi: tanpa akun, tanpa server, tanpa iklan, tanpa pelacakan. Semuanya tetap di perangkat Anda.",
     "updated": "4 September 2026",
     "summaryTitle": "Ringkasnya",
-    "summaryBody": "Baik situs ini maupun aplikasi IqraQuest tidak mengumpulkan data pribadi. Tidak ada akun pengguna, tidak ada server, tidak ada iklan, dan tidak ada pelacakan.",
+    "summaryBody": "Permainan keluarga tidak mengumpulkan data pribadi apa pun: tanpa akun, tanpa server, tanpa iklan, tanpa pelacakan — semuanya tetap di perangkat. Mode Kelas, yang hanya dipakai sekolah, adalah pengecualian dan dijelaskan lengkap di bawah: ia memakai server Eropa dan menyimpan nama depan seorang murid selama satu pelajaran.",
     "sections": [
       {
         "title": "Situs web ini",
@@ -657,6 +657,10 @@
       {
         "title": "Aplikasi",
         "body": "IqraQuest tidak membuat maupun mensyaratkan akun, tidak mengoperasikan server, tidak menampilkan iklan, tidak menyertakan SDK periklanan atau analisis, dan tidak menggunakan teknik identifikasi lewat sidik jari perangkat. Aplikasi berjalan sepenuhnya tanpa koneksi setelah dipasang, kecuali proses pembelian yang dikelola oleh App Store atau Google Play."
+      },
+      {
+        "title": "Mode Kelas (sekolah)",
+        "body": "Mode ini hanya ada ketika sebuah sekolah membuka sesi; tidak menyangkut permainan keluarga maupun permainan sendiri. Murid memasukkan sebuah kode dan sebuah nama depan: tidak ada yang lain. Tanpa akun, tanpa alamat email, tanpa kata sandi, tanpa identitas perangkat. Nama, tim, dan jawaban (benar atau salah) dihapus saat sesi ditutup, dan paling lambat setelah dua hari. Papan yang ditayangkan menampilkan berapa murid yang sudah menjawab — bukan siapa, bukan apa. Sekolah menyimpan ringkasan per pertanyaan yang tidak menyebut nama siapa pun; bila guru memilih peringkat individu, nama-nama di dalamnya dihapus setelah 90 hari dan ringkasannya sendiri dihapus pada 24 bulan. Guru dikenali hanya lewat alamat email yang membeli lisensi, tanpa kata sandi: masuk cukup lewat tautan yang dikirim ke alamat itu. Data ditempatkan di Uni Eropa (Supabase, wilayah Irlandia); pembayaran lisensi ditangani Stripe. Rinciannya lengkap, tabel demi tabel, diterbitkan di repositori proyek."
       },
       {
         "title": "Apa yang disimpan, dan di mana",

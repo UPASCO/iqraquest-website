@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest tidak mengumpul sebarang data peribadi: tiada akaun, tiada pelayan, tiada iklan, tiada penjejakan. Semuanya kekal pada peranti anda.",
     "updated": "4 September 2026",
     "summaryTitle": "Ringkasnya",
-    "summaryBody": "Laman ini mahupun aplikasi IqraQuest tidak mengumpul data peribadi. Tiada akaun pengguna, tiada pelayan, tiada iklan dan tiada penjejakan.",
+    "summaryBody": "Permainan keluarga tidak mengumpul sebarang data peribadi: tiada akaun, tiada pelayan, tiada iklan, tiada penjejakan — semuanya kekal pada peranti. Mod Kelas, yang digunakan oleh sekolah sahaja, ialah pengecualiannya dan diterangkan sepenuhnya di bawah: ia menggunakan pelayan Eropah dan menyimpan nama seorang murid selama satu pelajaran.",
     "sections": [
       {
         "title": "Laman web ini",
@@ -657,6 +657,10 @@
       {
         "title": "Aplikasi",
         "body": "IqraQuest tidak mencipta mahupun menuntut akaun, tidak mengendalikan sebarang pelayan, tidak memaparkan sebarang iklan, tidak menyertakan sebarang SDK pengiklanan atau analitis dan tidak menggunakan sebarang teknik pengenalpastian melalui cap jari peranti. Aplikasi ini berfungsi sepenuhnya di luar talian selepas pemasangan, kecuali proses pembelian yang dikendalikan oleh App Store atau Google Play."
+      },
+      {
+        "title": "Mod Kelas (sekolah)",
+        "body": "Mod ini hanya wujud apabila sebuah sekolah membuka sesi; ia tidak melibatkan permainan keluarga mahupun permainan seorang diri. Murid memasukkan satu kod dan satu nama: tiada yang lain. Tiada akaun, tiada alamat e-mel, tiada kata laluan, tiada pengenalan peranti. Nama, pasukan dan jawapan (betul atau salah) dipadam apabila sesi ditutup, dan selewat-lewatnya selepas dua hari. Papan yang dipancarkan menunjukkan berapa ramai murid telah menjawab — bukan siapa, bukan apa. Sekolah menyimpan ringkasan bagi setiap soalan yang tidak menamakan sesiapa; jika guru memilih kedudukan individu, nama di dalamnya dibuang selepas 90 hari dan ringkasan itu sendiri dipadam pada 24 bulan. Guru dikenali hanya melalui alamat e-mel yang membeli lesen, tanpa kata laluan: log masuk ialah pautan yang dihantar ke alamat itu. Data dihoskan di Kesatuan Eropah (Supabase, wilayah Ireland); pembayaran lesen dikendalikan oleh Stripe. Butiran penuh, jadual demi jadual, diterbitkan dalam repositori projek."
       },
       {
         "title": "Apa yang disimpan, dan di mana",

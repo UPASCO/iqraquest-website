@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest ne collecte aucune donnée personnelle : aucun compte, aucun serveur, aucune publicité, aucun traçage. Tout reste sur votre appareil.",
     "updated": "4 septembre 2026",
     "summaryTitle": "En résumé",
-    "summaryBody": "Ni ce site ni l'application IqraQuest ne collectent de données personnelles. Il n'existe aucun compte utilisateur, aucun serveur, aucune publicité et aucun traçage.",
+    "summaryBody": "Le jeu en famille ne collecte aucune donnée personnelle : aucun compte, aucun serveur, aucune publicité, aucun traçage — tout reste sur l'appareil. Le mode Classe, réservé aux écoles, fait exception et il est décrit en détail plus bas : il utilise un serveur européen et conserve le prénom d'un élève le temps d'une leçon.",
     "sections": [
       {
         "title": "Ce site web",
@@ -657,6 +657,10 @@
       {
         "title": "L'application",
         "body": "IqraQuest ne crée ni n'exige de compte, n'exploite aucun serveur, n'affiche aucune publicité, n'intègre aucun SDK publicitaire ou d'analyse et n'utilise aucune technique d'identification par empreinte. L'application fonctionne entièrement hors connexion après l'installation, à l'exception du parcours d'achat géré par l'App Store ou Google Play."
+      },
+      {
+        "title": "Le mode Classe (écoles)",
+        "body": "Ce mode ne s'active que si un établissement ouvre une séance ; il ne concerne ni le jeu en famille ni le joueur solo. L'élève entre un code et un prénom : rien d'autre. Aucun compte, aucune adresse e-mail, aucun mot de passe, aucun identifiant d'appareil. Le prénom, l'équipe et les réponses (justes ou fausses) sont effacés à la fermeture de la séance, et au plus tard au bout de deux jours. Le tableau projeté affiche combien d'élèves ont répondu, jamais qui ni quoi. L'établissement conserve un bilan par question, qui ne nomme personne ; si l'enseignant a choisi le classement individuel, les prénoms qu'il contient sont retirés au bout de 90 jours et le bilan lui-même est effacé à 24 mois. L'enseignant, lui, est identifié par la seule adresse e-mail ayant acheté la licence, sans mot de passe : la connexion se fait par un lien envoyé à cette adresse. Les données sont hébergées dans l'Union européenne (Supabase, région Irlande) ; le paiement des licences est traité par Stripe. Le détail complet, table par table, est publié dans le dépôt du projet."
       },
       {
         "title": "Ce qui est stocké, et où",

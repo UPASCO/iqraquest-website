@@ -644,7 +644,7 @@
     "metaDescription": "IqraQuest erhebt keine personenbezogenen Daten: kein Konto, kein Server, keine Werbung, kein Tracking. Alles bleibt auf Ihrem Gerät.",
     "updated": "4. September 2026",
     "summaryTitle": "Kurz gefasst",
-    "summaryBody": "Weder diese Website noch die App IqraQuest erheben personenbezogene Daten. Es gibt kein Benutzerkonto, keinen Server, keine Werbung und kein Tracking.",
+    "summaryBody": "Das Familienspiel erhebt keine personenbezogenen Daten: kein Konto, kein Server, keine Werbung, kein Tracking — alles bleibt auf dem Gerät. Der Klassenmodus, den nur Schulen nutzen, ist die Ausnahme und wird unten ausführlich beschrieben: er verwendet einen europäischen Server und speichert den Vornamen eines Kindes für die Dauer einer Stunde.",
     "sections": [
       {
         "title": "Diese Website",
@@ -657,6 +657,10 @@
       {
         "title": "Die App",
         "body": "IqraQuest legt kein Konto an und verlangt keines, betreibt keinen Server, zeigt keine Werbung, bindet kein SDK für Werbung oder Analyse ein und verwendet keine Technik zur Wiedererkennung per Fingerabdruck. Die App funktioniert nach der Installation vollständig offline, mit Ausnahme des Kaufvorgangs, der vom App Store oder von Google Play abgewickelt wird."
+      },
+      {
+        "title": "Der Klassenmodus (Schulen)",
+        "body": "Diesen Modus gibt es nur, wenn eine Schule eine Sitzung öffnet; er betrifft weder das Familienspiel noch das Solospiel. Das Kind gibt einen Code und einen Vornamen ein — sonst nichts. Kein Konto, keine E-Mail-Adresse, kein Passwort, keine Gerätekennung. Vorname, Team und Antworten (richtig oder falsch) werden beim Schließen der Sitzung gelöscht, spätestens nach zwei Tagen. Die projizierte Tafel zeigt, wie viele geantwortet haben — nie wer, nie was. Die Schule behält eine Auswertung je Frage, die niemanden nennt; hat die Lehrkraft die Einzelwertung gewählt, werden die darin enthaltenen Vornamen nach 90 Tagen entfernt und die Auswertung selbst nach 24 Monaten gelöscht. Die Lehrkraft wird allein durch die E-Mail-Adresse identifiziert, mit der die Lizenz gekauft wurde, ohne Passwort: die Anmeldung ist ein Link an diese Adresse. Die Daten liegen in der Europäischen Union (Supabase, Region Irland); die Lizenzzahlungen wickelt Stripe ab. Die vollständigen Angaben, Tabelle für Tabelle, sind im Repository des Projekts veröffentlicht."
       },
       {
         "title": "Was gespeichert wird, und wo",

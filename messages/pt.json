@@ -644,7 +644,7 @@
     "metaDescription": "O IqraQuest não recolhe dados pessoais: sem conta, sem servidor, sem publicidade, sem rastreio. Fica tudo no seu dispositivo.",
     "updated": "4 de setembro de 2026",
     "summaryTitle": "Em resumo",
-    "summaryBody": "Nem este site nem a aplicação IqraQuest recolhem dados pessoais. Não existe qualquer conta de utilizador, nenhum servidor, nenhuma publicidade e nenhum rastreio.",
+    "summaryBody": "O jogo em família não recolhe quaisquer dados pessoais: sem conta, sem servidor, sem publicidade, sem rastreio — tudo fica no dispositivo. O modo Turma, reservado às escolas, é a exceção e está descrito em detalhe mais abaixo: usa um servidor europeu e guarda o primeiro nome de um aluno durante a lição.",
     "sections": [
       {
         "title": "Este site",
@@ -657,6 +657,10 @@
       {
         "title": "A aplicação",
         "body": "O IqraQuest não cria nem exige qualquer conta, não opera nenhum servidor, não apresenta publicidade, não integra nenhum SDK publicitário ou de análise e não utiliza qualquer técnica de identificação por impressão digital do dispositivo. A aplicação funciona inteiramente sem ligação à internet depois da instalação, com exceção do processo de compra gerido pela App Store ou pelo Google Play."
+      },
+      {
+        "title": "O modo Turma (escolas)",
+        "body": "Este modo só existe quando uma escola abre uma sessão; não diz respeito nem ao jogo em família nem ao modo solitário. O aluno introduz um código e um primeiro nome: nada mais. Sem conta, sem endereço de e-mail, sem palavra-passe, sem identificador de dispositivo. O nome, a equipa e as respostas (certas ou erradas) são apagados ao fechar a sessão e, o mais tardar, ao fim de dois dias. O quadro projetado mostra quantos alunos responderam, nunca quem nem o quê. A escola guarda um resumo por pergunta que não nomeia ninguém; se o professor escolheu a classificação individual, os nomes nele contidos são removidos ao fim de 90 dias e o resumo é apagado aos 24 meses. O professor é identificado apenas pelo endereço de e-mail que comprou a licença, sem palavra-passe: a entrada é um link enviado para esse endereço. Os dados são alojados na União Europeia (Supabase, região da Irlanda); os pagamentos das licenças são tratados pela Stripe. O detalhe completo, tabela a tabela, está publicado no repositório do projeto."
       },
       {
         "title": "O que é guardado, e onde",
