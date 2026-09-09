@@ -60,6 +60,10 @@ jobs:
           NEXT_PUBLIC_APP_AVAILABLE_ANDROID: ${{ vars.NEXT_PUBLIC_APP_AVAILABLE_ANDROID }}
           NEXT_PUBLIC_GOOGLE_PLAY_URL: ${{ vars.NEXT_PUBLIC_GOOGLE_PLAY_URL }}
           NEXT_PUBLIC_CONTACT_ENDPOINT: ${{ vars.NEXT_PUBLIC_CONTACT_ENDPOINT }}
+          # La console enseignant : même règle que les badges des
+          # magasins, le lien ne s'active que si les deux sont posés.
+          NEXT_PUBLIC_CLASSROOM_AVAILABLE: ${{ vars.NEXT_PUBLIC_CLASSROOM_AVAILABLE }}
+          NEXT_PUBLIC_CLASSROOM_CONSOLE_URL: ${{ vars.NEXT_PUBLIC_CLASSROOM_CONSOLE_URL }}
           NEXT_PUBLIC_SOCIAL_TIKTOK: ${{ vars.NEXT_PUBLIC_SOCIAL_TIKTOK }}
           NEXT_PUBLIC_SOCIAL_INSTAGRAM: ${{ vars.NEXT_PUBLIC_SOCIAL_INSTAGRAM }}
           NEXT_PUBLIC_SOCIAL_YOUTUBE: ${{ vars.NEXT_PUBLIC_SOCIAL_YOUTUBE }}

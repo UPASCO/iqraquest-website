@@ -33,7 +33,7 @@ import {
   StarOrnament,
 } from '@/components/ui/primitives';
 import { FaqList, LegalBody, PageHeader, TextBlock } from './shared';
-import { siteConfig } from '@/config/site.config';
+import { classroom, siteConfig } from '@/config/site.config';
 
 /* ================================================================== */
 /* Home                                                               */
@@ -456,6 +456,7 @@ export function AboutPage() {
  */
 export function SchoolsPage() {
   const t = useTranslations('schoolsPage');
+  const tc = useTranslations('common');
   const steps = t.raw('steps') as { title: string; body: string }[];
   const points = t.raw('privacyPoints') as string[];
   const faq = t.raw('faq') as { question: string; answer: string }[];
@@ -522,12 +523,35 @@ export function SchoolsPage() {
         <div className="container-prose text-center">
           <SectionTitle>{t('licenceTitle')}</SectionTitle>
           <Lede className="mt-4">{t('licenceBody')}</Lede>
-          <div className="mt-8 flex justify-center">
-            <ButtonLink href={siteConfig.classroomConsoleUrl} external>
-              {t('consoleCta')}
-            </ButtonLink>
-          </div>
-          <p className="mt-4 text-sm text-text-secondary">{t('consoleNote')}</p>
+          {/* Same rule as the store badges: a link, or an honest wait —
+              never a button that leads nowhere. */}
+          {classroom.available ? (
+            <>
+              <div className="mt-8 flex justify-center">
+                <ButtonLink href={classroom.url} external>
+                  {t('consoleCta')}
+                </ButtonLink>
+              </div>
+              <p className="mt-4 text-sm text-text-secondary">
+                {t('consoleNote')}
+              </p>
+            </>
+          ) : (
+            <div className="mt-8">
+              <p className="font-display text-lg text-gold">
+                {tc('comingSoon')}
+              </p>
+              <p className="mt-3 text-sm text-text-secondary">
+                {t('consoleWaiting')}
+              </p>
+              <a
+                href={`mailto:${siteConfig.supportEmail}`}
+                className="mt-4 inline-flex min-h-11 items-center text-sm text-gold underline underline-offset-4 hover:text-gold-bright"
+              >
+                {siteConfig.supportEmail}
+              </a>
+            </div>
+          )}
         </div>
       </Section>
 

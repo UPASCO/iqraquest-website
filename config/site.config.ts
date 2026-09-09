@@ -53,6 +53,24 @@ export const stores = {
 export const isAnyStoreLive = stores.ios.available || stores.android.available;
 
 /**
+ * The teacher's console, on its own subdomain.
+ *
+ * Same rule as the store badges, for the same reason: the link only
+ * becomes a link when the flag is on AND the address is set. A page that
+ * offers a school a button to nowhere is worse than one that says
+ * "bientôt" — and the console goes live only once the DNS record, the
+ * Pages domain and the build all exist, which no code here can know.
+ */
+const classroomConsoleUrl =
+  env('NEXT_PUBLIC_CLASSROOM_CONSOLE_URL') ?? 'https://school.iqraquest.org';
+
+export const classroom = {
+  url: classroomConsoleUrl,
+  available:
+    flag('NEXT_PUBLIC_CLASSROOM_AVAILABLE') && Boolean(classroomConsoleUrl),
+} as const;
+
+/**
  * Social profiles.
  *
  * Only platforms with a real, configured URL are rendered — the site
@@ -122,7 +140,7 @@ export const siteConfig = {
    * subdomain. The classroom is bought and run there, never in the
    * mobile app: nothing in a store build links to a payment page.
    */
-  classroomConsoleUrl: 'https://school.iqraquest.org',
+  classroomConsoleUrl,
 
   /** Store-listing facts, kept in sync with the application repository. */
   app: {

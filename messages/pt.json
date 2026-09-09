@@ -515,6 +515,7 @@
     "licenceBody": "A licença compra-se e usa-se na web, a partir da consola do professor. Os alunos entram gratuitamente pela aplicação.",
     "consoleCta": "Abrir a consola do professor",
     "consoleNote": "A entrada é um link enviado para o endereço da escola: não há palavra-passe para memorizar.",
+    "consoleWaiting": "A consola abre assim que o serviço estiver disponível. Escreva-nos para ser avisado e reservar um teste gratuito na sua escola.",
     "faqTitle": "Perguntas das escolas",
     "faq": [
       {
