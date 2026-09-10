@@ -39,7 +39,8 @@
     "privacy": "Confidentialité",
     "terms": "Conditions d'utilisation",
     "intellectualProperty": "Propriété intellectuelle",
-    "schools": "Écoles"
+    "schools": "Écoles",
+    "account": "Mon espace"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "À la fermeture, les prénoms sont effacés : il ne reste qu'un bilan par question.",
       "Une séance oubliée s'efface d'elle-même au bout de deux jours."
     ],
+    "tiersTitle": "Les formules",
+    "tiers": [
+      {
+        "name": "3 salles",
+        "price": "89 € / an",
+        "body": "Trois séances en même temps dans l'établissement. De quoi faire tourner trois classes à la même heure."
+      },
+      {
+        "name": "5 salles",
+        "price": "99 € / an",
+        "body": "Cinq séances simultanées. La formule des écoles qui font jouer un niveau entier le même matin."
+      },
+      {
+        "name": "10 salles",
+        "price": "149 € / an",
+        "body": "Dix séances simultanées. Pour un établissement complet, ou un réseau d'écoles sous la même direction."
+      }
+    ],
+    "tiersNote": "Abonnement annuel, par établissement. Les élèves rejoignent gratuitement, sans compte et sans limite de nombre. L'échéance est repoussée au 31 août lorsqu'elle tomberait en plein été : une licence ne doit pas mourir pendant les vacances.",
     "licenceTitle": "La licence",
     "licenceBody": "La licence s'achète et s'utilise sur le web, depuis la console de l'enseignant. Les élèves, eux, rejoignent gratuitement depuis l'application.",
     "consoleCta": "Ouvrir la console enseignant",
@@ -535,6 +555,34 @@
         "answer": "Chaque carte affiche sa source — un verset, un hadith des deux recueils les plus rigoureux, ou un fait établi de la Sīra — et les points sujets à débat sont écartés. C'est la même banque que le jeu familial."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Espace client",
+    "title": "Mon espace",
+    "metaDescription": "L'espace client IqraQuest : votre abonnement, vos séances passées et les scores de vos classes, au même endroit que la console qui les lance.",
+    "lede": "Votre abonnement, vos séances passées et les notes de vos élèves — au même endroit que la console qui lance les séances.",
+    "signInTitle": "Se connecter",
+    "signInBody": "La console s'ouvre avec l'adresse de votre établissement et votre mot de passe. Vous les recevez avec votre licence.",
+    "cta": "Ouvrir ma console",
+    "insideTitle": "Ce que vous y trouvez",
+    "inside": [
+      {
+        "title": "Votre abonnement",
+        "body": "La formule, le nombre de salles ouvertes sur celles que vous avez payées, et la date d'échéance. Quand elle approche, la console compte les jours."
+      },
+      {
+        "title": "Vos séances passées",
+        "body": "Chaque séance avec sa date, sa leçon, le nombre d'élèves et le pourcentage de bonnes réponses de la classe."
+      },
+      {
+        "title": "Les notes à recopier",
+        "body": "Quand la séance comptait par élève, chacun a sa note sur 20 — calculée sur le nombre de cartes de la séance, prête pour le cahier."
+      }
+    ],
+    "newTitle": "Vous n'avez pas encore d'espace ?",
+    "newBody": "L'espace est créé avec la licence de votre établissement. Écrivez-nous : nous ouvrons votre accès et vous transmettons vos identifiants.",
+    "lostTitle": "Mot de passe perdu",
+    "lostBody": "La console renvoie un lien de connexion à l'adresse de l'établissement, sous « Mot de passe oublié ? »."
   },
   "aboutPage": {
     "eyebrow": "À propos",

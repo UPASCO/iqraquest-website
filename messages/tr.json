@@ -39,7 +39,8 @@
     "privacy": "Gizlilik",
     "terms": "Kullanım koşulları",
     "intellectualProperty": "Fikri mülkiyet",
-    "schools": "Okullar"
+    "schools": "Okullar",
+    "account": "Alanım"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "Oturum kapanınca adlar silinir: yalnızca soru başına bir özet kalır.",
       "Unutulmuş bir oturum iki gün sonra kendiliğinden silinir."
     ],
+    "tiersTitle": "Paketler",
+    "tiers": [
+      {
+        "name": "3 salon",
+        "price": "89 € / yıl",
+        "body": "Okulda aynı anda üç oturum. Aynı saatte üç sınıfa yeter."
+      },
+      {
+        "name": "5 salon",
+        "price": "99 € / yıl",
+        "body": "Beş eşzamanlı oturum. Bir sabahta bütün bir kademeyi oynatan okulların paketi."
+      },
+      {
+        "name": "10 salon",
+        "price": "149 € / yıl",
+        "body": "On eşzamanlı oturum. Tam bir okul ya da aynı yönetim altındaki bir okul ağı için."
+      }
+    ],
+    "tiersNote": "Okul başına yıllık abonelik. Öğrenciler ücretsiz katılır, hesapsız ve sayı sınırı olmadan. Bitiş tarihi yaz ortasına denk gelirse 31 Ağustos’a atılır: bir lisans tatilde sona ermemeli.",
     "licenceTitle": "Lisans",
     "licenceBody": "Lisans web üzerinden, öğretmen konsolundan alınır ve kullanılır. Öğrenciler uygulamadan ücretsiz katılır.",
     "consoleCta": "Öğretmen konsolunu aç",
@@ -535,6 +555,34 @@
         "answer": "Her kart kaynağını gösterir — bir ayet, en sağlam iki derlemeden bir hadis ya da Sîre'nin sabit bir olayı — tartışmalı olan dışarıda bırakılır. Aile oyunuyla aynı havuzdur."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Müşteri alanı",
+    "title": "Alanım",
+    "metaDescription": "IqraQuest okul alanı: aboneliğiniz, geçmiş oturumlarınız ve sınıflarınızın puanları — oturumları başlatan konsolla aynı yerde.",
+    "lede": "Aboneliğiniz, geçmiş oturumlarınız ve öğrencilerinizin notları — oturumu açan konsolla aynı yerde.",
+    "signInTitle": "Giriş yap",
+    "signInBody": "Konsol, okulunuzun adresi ve parolanızla açılır. İkisini de lisansınızla birlikte alırsınız.",
+    "cta": "Konsolumu aç",
+    "insideTitle": "Burada bulacaklarınız",
+    "inside": [
+      {
+        "title": "Aboneliğiniz",
+        "body": "Paket, ödediğiniz salonlardan kaçının açık olduğu ve yenileme tarihi. Tarih yaklaştıkça konsol günleri sayar."
+      },
+      {
+        "title": "Geçmiş oturumlarınız",
+        "body": "Her oturum tarihiyle, dersiyle, kaç öğrencinin katıldığıyla ve sınıfın doğru cevap oranıyla."
+      },
+      {
+        "title": "Deftere geçirilecek notlar",
+        "body": "Oturum öğrenci başına sayıldıysa herkesin 20 üzerinden notu vardır — oturumun kartları üzerinden hesaplanır, deftere hazır."
+      }
+    ],
+    "newTitle": "Henüz alanınız yok mu?",
+    "newBody": "Alan, okulunuzun lisansıyla birlikte oluşturulur. Bize yazın: erişiminizi açar ve bilgilerinizi göndeririz.",
+    "lostTitle": "Kayıp parola",
+    "lostBody": "Konsol, okulun adresine bir giriş bağlantısı gönderir — «Parolanızı mı unuttunuz?» altında."
   },
   "aboutPage": {
     "eyebrow": "Hakkında",

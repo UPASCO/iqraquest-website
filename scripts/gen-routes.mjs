@@ -55,6 +55,12 @@ const PAGES = [
     faqKey: 'faq',
   },
   {
+    path: 'account',
+    component: 'AccountPage',
+    messages: 'accountPage',
+    descKey: 'metaDescription',
+  },
+  {
     path: 'about',
     component: 'AboutPage',
     messages: 'aboutPage',

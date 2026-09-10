@@ -39,7 +39,8 @@
     "privacy": "Privacy",
     "terms": "Terms of use",
     "intellectualProperty": "Intellectual property",
-    "schools": "Schools"
+    "schools": "Schools",
+    "account": "My account"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "When the session closes the names are erased: only a per-question summary remains.",
       "A session left open erases itself after two days."
     ],
+    "tiersTitle": "The plans",
+    "tiers": [
+      {
+        "name": "3 rooms",
+        "price": "€89 / year",
+        "body": "Three sessions at once in the school. Enough for three classes at the same hour."
+      },
+      {
+        "name": "5 rooms",
+        "price": "€99 / year",
+        "body": "Five simultaneous sessions. For schools that play a whole year group in one morning."
+      },
+      {
+        "name": "10 rooms",
+        "price": "€149 / year",
+        "body": "Ten simultaneous sessions. For a full school, or a network under one head."
+      }
+    ],
+    "tiersNote": "A yearly subscription, per school. Pupils join free, with no account and no cap on numbers. A licence that would fall in high summer is pushed to 31 August: it must not expire over the holidays.",
     "licenceTitle": "The licence",
     "licenceBody": "The licence is bought and used on the web, from the teacher's console. Pupils join free of charge from the app.",
     "consoleCta": "Open the teacher console",
@@ -535,6 +555,34 @@
         "answer": "Every card shows its source — a verse, a hadith from the two most rigorous collections, or an established fact of the Sīra — and anything open to debate is left out. It is the same bank as the family game."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Account",
+    "title": "My account",
+    "metaDescription": "The IqraQuest school account: your subscription, your past sessions and your classes' scores, in the same place as the console that runs them.",
+    "lede": "Your subscription, your past sessions and your pupils' marks — in the same place as the console that opens a session.",
+    "signInTitle": "Sign in",
+    "signInBody": "The console opens with your school's address and your password. You receive both with your licence.",
+    "cta": "Open my console",
+    "insideTitle": "What you'll find",
+    "inside": [
+      {
+        "title": "Your subscription",
+        "body": "The plan, how many rooms are open out of those you paid for, and the renewal date. As it draws near, the console counts the days."
+      },
+      {
+        "title": "Your past sessions",
+        "body": "Every session with its date, its lesson, how many pupils took part and how much of it the class got right."
+      },
+      {
+        "title": "Marks to copy across",
+        "body": "When the session counted by pupil, each one has a mark out of 20 — worked out over the cards of that session, ready for the register."
+      }
+    ],
+    "newTitle": "No account yet?",
+    "newBody": "The account comes with your school's licence. Write to us: we open your access and send you your credentials.",
+    "lostTitle": "Lost password",
+    "lostBody": "The console sends a sign-in link back to the school's address, under “Forgotten your password?”."
   },
   "aboutPage": {
     "eyebrow": "About",

@@ -39,7 +39,8 @@
     "privacy": "Privacidad",
     "terms": "Condiciones de uso",
     "intellectualProperty": "Propiedad intelectual",
-    "schools": "Escuelas"
+    "schools": "Escuelas",
+    "account": "Mi espacio"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "Al cerrar la sesión se borran los nombres: solo queda un resumen por pregunta.",
       "Una sesión olvidada se borra sola al cabo de dos días."
     ],
+    "tiersTitle": "Las modalidades",
+    "tiers": [
+      {
+        "name": "3 salas",
+        "price": "89 € / año",
+        "body": "Tres sesiones a la vez en el centro. Suficiente para tres clases a la misma hora."
+      },
+      {
+        "name": "5 salas",
+        "price": "99 € / año",
+        "body": "Cinco sesiones simultáneas. La modalidad de los centros que juegan un curso entero en una mañana."
+      },
+      {
+        "name": "10 salas",
+        "price": "149 € / año",
+        "body": "Diez sesiones simultáneas. Para un centro completo o una red de escuelas bajo una misma dirección."
+      }
+    ],
+    "tiersNote": "Suscripción anual, por centro. Los alumnos se unen gratis, sin cuenta y sin límite de número. Si el vencimiento cayera en pleno verano, se traslada al 31 de agosto: una licencia no debe morir en vacaciones.",
     "licenceTitle": "La licencia",
     "licenceBody": "La licencia se compra y se usa en la web, desde la consola del docente. Los alumnos entran gratis desde la aplicación.",
     "consoleCta": "Abrir la consola del docente",
@@ -535,6 +555,34 @@
         "answer": "Cada carta muestra su fuente —una aleya, un hadiz de las dos colecciones más rigurosas o un hecho establecido de la Sīra— y se descarta todo lo discutible. Es el mismo banco que el juego familiar."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Espacio del cliente",
+    "title": "Mi espacio",
+    "metaDescription": "El espacio escolar de IqraQuest: tu suscripción, tus sesiones anteriores y las notas de tus clases, en el mismo lugar que la consola que las lanza.",
+    "lede": "Tu suscripción, tus sesiones anteriores y las notas de tus alumnos, en el mismo lugar que la consola que abre una sesión.",
+    "signInTitle": "Iniciar sesión",
+    "signInBody": "La consola se abre con la dirección de tu centro y tu contraseña. Recibes ambas con tu licencia.",
+    "cta": "Abrir mi consola",
+    "insideTitle": "Lo que encontrarás",
+    "inside": [
+      {
+        "title": "Tu suscripción",
+        "body": "El plan, cuántas salas están abiertas de las que has pagado y la fecha de renovación. Cuando se acerca, la consola cuenta los días."
+      },
+      {
+        "title": "Tus sesiones anteriores",
+        "body": "Cada sesión con su fecha, su lección, cuántos alumnos participaron y el porcentaje de aciertos de la clase."
+      },
+      {
+        "title": "Notas para pasar",
+        "body": "Cuando la sesión contaba por alumno, cada uno tiene su nota sobre 20 — calculada sobre las cartas de la sesión, lista para el cuaderno."
+      }
+    ],
+    "newTitle": "¿Aún no tienes espacio?",
+    "newBody": "El espacio se crea con la licencia de tu centro. Escríbenos: abrimos tu acceso y te enviamos tus credenciales.",
+    "lostTitle": "Contraseña perdida",
+    "lostBody": "La consola envía un enlace de acceso a la dirección del centro, en «¿Olvidaste tu contraseña?»."
   },
   "aboutPage": {
     "eyebrow": "Acerca de",

@@ -39,7 +39,8 @@
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "intellectualProperty": "Geistiges Eigentum",
-    "schools": "Schulen"
+    "schools": "Schulen",
+    "account": "Mein Bereich"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "Beim Schließen werden die Namen gelöscht: es bleibt nur eine Auswertung je Frage.",
       "Eine vergessene Sitzung löscht sich nach zwei Tagen von selbst."
     ],
+    "tiersTitle": "Die Tarife",
+    "tiers": [
+      {
+        "name": "3 Räume",
+        "price": "89 € / Jahr",
+        "body": "Drei Sitzungen gleichzeitig in der Schule. Genug für drei Klassen zur selben Stunde."
+      },
+      {
+        "name": "5 Räume",
+        "price": "99 € / Jahr",
+        "body": "Fünf gleichzeitige Sitzungen. Für Schulen, die einen ganzen Jahrgang an einem Vormittag spielen lassen."
+      },
+      {
+        "name": "10 Räume",
+        "price": "149 € / Jahr",
+        "body": "Zehn gleichzeitige Sitzungen. Für eine ganze Schule oder ein Netz unter einer Leitung."
+      }
+    ],
+    "tiersNote": "Ein Jahresabo, pro Schule. Schüler machen kostenlos mit, ohne Konto und ohne Obergrenze. Fiele das Ende mitten in den Sommer, wird es auf den 31. August geschoben: eine Lizenz darf nicht in den Ferien auslaufen.",
     "licenceTitle": "Die Lizenz",
     "licenceBody": "Die Lizenz wird im Web gekauft und dort genutzt, über die Konsole der Lehrkraft. Die Schülerinnen und Schüler treten kostenlos aus der App bei.",
     "consoleCta": "Lehrerkonsole öffnen",
@@ -535,6 +555,34 @@
         "answer": "Jede Karte nennt ihre Quelle — einen Vers, einen Hadith aus den beiden strengsten Sammlungen oder eine gesicherte Begebenheit der Sīra — und Strittiges bleibt draußen. Es ist dieselbe Sammlung wie im Familienspiel."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Kundenbereich",
+    "title": "Mein Bereich",
+    "metaDescription": "Der Schulbereich von IqraQuest: dein Abonnement, deine vergangenen Sitzungen und die Ergebnisse deiner Klassen — dort, wo auch die Konsole sie startet.",
+    "lede": "Dein Abonnement, deine vergangenen Sitzungen und die Noten deiner Schüler — dort, wo auch die Konsole eine Sitzung öffnet.",
+    "signInTitle": "Anmelden",
+    "signInBody": "Die Konsole öffnet sich mit der Adresse deiner Schule und deinem Passwort. Beides bekommst du mit deiner Lizenz.",
+    "cta": "Meine Konsole öffnen",
+    "insideTitle": "Was dich erwartet",
+    "inside": [
+      {
+        "title": "Dein Abonnement",
+        "body": "Der Tarif, wie viele der bezahlten Räume gerade offen sind, und das Verlängerungsdatum. Rückt es näher, zählt die Konsole die Tage."
+      },
+      {
+        "title": "Deine vergangenen Sitzungen",
+        "body": "Jede Sitzung mit Datum, Lektion, Zahl der Schüler und dem Anteil richtiger Antworten der Klasse."
+      },
+      {
+        "title": "Noten zum Übertragen",
+        "body": "Zählte die Sitzung nach Schüler, hat jeder seine Note von 20 — über die Karten der Sitzung gerechnet, fertig fürs Heft."
+      }
+    ],
+    "newTitle": "Noch keinen Bereich?",
+    "newBody": "Der Bereich entsteht mit der Lizenz deiner Schule. Schreib uns: wir öffnen deinen Zugang und schicken dir die Zugangsdaten.",
+    "lostTitle": "Passwort verloren",
+    "lostBody": "Die Konsole schickt einen Anmeldelink an die Adresse der Schule, unter „Passwort vergessen?“."
   },
   "aboutPage": {
     "eyebrow": "Über uns",

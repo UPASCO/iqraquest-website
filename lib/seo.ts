@@ -21,6 +21,7 @@ export const routes = [
   { path: 'knowledge', priority: 0.9, changeFrequency: 'monthly' },
   { path: 'how-to-play', priority: 0.9, changeFrequency: 'monthly' },
   { path: 'schools', priority: 0.8, changeFrequency: 'monthly' },
+  { path: 'account', priority: 0.5, changeFrequency: 'monthly' },
   { path: 'about', priority: 0.7, changeFrequency: 'yearly' },
   { path: 'support', priority: 0.7, changeFrequency: 'monthly' },
   { path: 'contact', priority: 0.6, changeFrequency: 'yearly' },

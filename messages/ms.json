@@ -39,7 +39,8 @@
     "privacy": "Privasi",
     "terms": "Terma penggunaan",
     "intellectualProperty": "Harta intelek",
-    "schools": "Sekolah"
+    "schools": "Sekolah",
+    "account": "Ruang saya"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "Apabila sesi ditutup, nama dipadam: tinggal hanya ringkasan bagi setiap soalan.",
       "Sesi yang terlupa dipadam dengan sendirinya selepas dua hari."
     ],
+    "tiersTitle": "Pakej",
+    "tiers": [
+      {
+        "name": "3 bilik",
+        "price": "€89 / tahun",
+        "body": "Tiga sesi serentak di sekolah. Cukup untuk tiga kelas pada waktu yang sama."
+      },
+      {
+        "name": "5 bilik",
+        "price": "€99 / tahun",
+        "body": "Lima sesi serentak. Pakej sekolah yang memainkan satu tingkatan penuh dalam satu pagi."
+      },
+      {
+        "name": "10 bilik",
+        "price": "€149 / tahun",
+        "body": "Sepuluh sesi serentak. Untuk sekolah penuh, atau rangkaian sekolah di bawah satu pentadbiran."
+      }
+    ],
+    "tiersNote": "Langganan tahunan, setiap sekolah. Murid menyertai secara percuma, tanpa akaun dan tanpa had bilangan. Jika tarikh tamat jatuh pada kemuncak musim panas, ia ditolak ke 31 Ogos: lesen tidak sepatutnya mati semasa cuti.",
     "licenceTitle": "Lesen",
     "licenceBody": "Lesen dibeli dan digunakan di web, dari konsol guru. Murid menyertai secara percuma melalui aplikasi.",
     "consoleCta": "Buka konsol guru",
@@ -535,6 +555,34 @@
         "answer": "Setiap kad memaparkan sumbernya — satu ayat, satu hadis daripada dua himpunan paling ketat, atau peristiwa Sīrah yang mantap — dan perkara yang diperdebatkan ditinggalkan. Ia bank yang sama dengan permainan keluarga."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Ruang pelanggan",
+    "title": "Ruang saya",
+    "metaDescription": "Ruang sekolah IqraQuest: langganan anda, sesi lepas dan markah kelas anda — di tempat yang sama dengan konsol yang melancarkannya.",
+    "lede": "Langganan anda, sesi lepas dan markah murid anda — di tempat yang sama dengan konsol yang membuka sesi.",
+    "signInTitle": "Log masuk",
+    "signInBody": "Konsol dibuka dengan alamat sekolah anda dan kata laluan anda. Kedua-duanya anda terima bersama lesen.",
+    "cta": "Buka konsol saya",
+    "insideTitle": "Apa yang anda temui",
+    "inside": [
+      {
+        "title": "Langganan anda",
+        "body": "Pakejnya, berapa bilik dibuka daripada yang anda bayar, dan tarikh pembaharuan. Apabila menghampiri, konsol mengira harinya."
+      },
+      {
+        "title": "Sesi lepas anda",
+        "body": "Setiap sesi dengan tarikh, pelajaran, bilangan murid dan peratusan jawapan betul kelas."
+      },
+      {
+        "title": "Markah untuk disalin",
+        "body": "Apabila sesi dikira setiap murid, masing-masing ada markah daripada 20 — dikira atas kad sesi itu, sedia untuk buku rekod."
+      }
+    ],
+    "newTitle": "Belum ada ruang?",
+    "newBody": "Ruang dicipta bersama lesen sekolah anda. Tulis kepada kami: kami buka akses anda dan hantar butiran log masuk.",
+    "lostTitle": "Kata laluan hilang",
+    "lostBody": "Konsol menghantar pautan log masuk ke alamat sekolah, di bawah «Lupa kata laluan?»."
   },
   "aboutPage": {
     "eyebrow": "Tentang",

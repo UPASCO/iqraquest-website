@@ -64,10 +64,28 @@ export const isAnyStoreLive = stores.ios.available || stores.android.available;
 const classroomConsoleUrl =
   env('NEXT_PUBLIC_CLASSROOM_CONSOLE_URL') ?? 'https://school.iqraquest.org';
 
+/**
+ * Deux disponibilités, pas une.
+ *
+ * Se connecter à la console et acheter en ligne sont deux choses, et
+ * elles ne sont pas arrivées le même jour. Un seul drapeau forçait à
+ * choisir entre cacher un espace client qui fonctionne, et promettre un
+ * achat en ligne qui n'existe pas encore.
+ *
+ * - `available` : la console répond et l'on peut s'y connecter. Vrai par
+ *   défaut depuis que school.iqraquest.org est publié ; la variable
+ *   d'environnement reste là pour la refermer d'un déploiement si le
+ *   service tombe.
+ * - `checkout`  : on peut payer en ligne. Faux tant que les liens de
+ *   paiement n'existent pas — d'ici là une école nous écrit, et c'est
+ *   dit comme tel plutôt que caché derrière un bouton qui échoue.
+ */
 export const classroom = {
   url: classroomConsoleUrl,
   available:
-    flag('NEXT_PUBLIC_CLASSROOM_AVAILABLE') && Boolean(classroomConsoleUrl),
+    env('NEXT_PUBLIC_CLASSROOM_AVAILABLE')?.toLowerCase() !== 'false' &&
+    Boolean(classroomConsoleUrl),
+  checkout: flag('NEXT_PUBLIC_CLASSROOM_CHECKOUT'),
 } as const;
 
 /**

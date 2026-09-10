@@ -10,6 +10,7 @@ const columns = [
       { href: '/game', key: 'game' },
       { href: '/how-to-play', key: 'howToPlay' },
       { href: '/schools', key: 'schools' },
+      { href: '/account', key: 'account' },
       { href: '/about', key: 'about' },
     ],
   },

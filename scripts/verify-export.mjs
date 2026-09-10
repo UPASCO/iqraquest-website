@@ -24,6 +24,7 @@ const ROUTES = [
   'knowledge',
   'how-to-play',
   'schools',
+  'account',
   'about',
   'support',
   'contact',

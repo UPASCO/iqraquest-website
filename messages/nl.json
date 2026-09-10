@@ -39,7 +39,8 @@
     "privacy": "Privacy",
     "terms": "Gebruiksvoorwaarden",
     "intellectualProperty": "Intellectuele eigendom",
-    "schools": "Scholen"
+    "schools": "Scholen",
+    "account": "Mijn ruimte"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "Bij het sluiten worden de namen gewist: alleen een samenvatting per vraag blijft.",
       "Een vergeten sessie wist zichzelf na twee dagen."
     ],
+    "tiersTitle": "De formules",
+    "tiers": [
+      {
+        "name": "3 zalen",
+        "price": "€89 / jaar",
+        "body": "Drie sessies tegelijk in de school. Genoeg voor drie klassen op hetzelfde uur."
+      },
+      {
+        "name": "5 zalen",
+        "price": "€99 / jaar",
+        "body": "Vijf gelijktijdige sessies. Voor scholen die een heel leerjaar op één ochtend laten spelen."
+      },
+      {
+        "name": "10 zalen",
+        "price": "€149 / jaar",
+        "body": "Tien gelijktijdige sessies. Voor een volledige school of een netwerk onder één directie."
+      }
+    ],
+    "tiersNote": "Een jaarabonnement, per school. Leerlingen doen gratis mee, zonder account en zonder maximum. Valt de einddatum midden in de zomer, dan schuift hij naar 31 augustus: een licentie hoort niet in de vakantie af te lopen.",
     "licenceTitle": "De licentie",
     "licenceBody": "De licentie wordt op het web gekocht en gebruikt, vanuit de console van de leerkracht. Leerlingen doen gratis mee vanuit de app.",
     "consoleCta": "Docentenconsole openen",
@@ -535,6 +555,34 @@
         "answer": "Elke kaart toont haar bron — een vers, een hadith uit de twee strengste verzamelingen, of een vaststaand feit uit de Sīra — en wat betwist is, blijft eruit. Het is dezelfde verzameling als in het familiespel."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Klantruimte",
+    "title": "Mijn ruimte",
+    "metaDescription": "De schoolruimte van IqraQuest: je abonnement, je eerdere sessies en de cijfers van je klassen — op dezelfde plek als de console die ze start.",
+    "lede": "Je abonnement, je eerdere sessies en de cijfers van je leerlingen — op dezelfde plek als de console die een sessie opent.",
+    "signInTitle": "Inloggen",
+    "signInBody": "De console opent met het adres van je school en je wachtwoord. Je krijgt beide bij je licentie.",
+    "cta": "Mijn console openen",
+    "insideTitle": "Wat je er vindt",
+    "inside": [
+      {
+        "title": "Je abonnement",
+        "body": "Het pakket, hoeveel zalen open staan van wat je betaalde, en de verlengdatum. Komt die dichtbij, dan telt de console de dagen."
+      },
+      {
+        "title": "Je eerdere sessies",
+        "body": "Elke sessie met datum, les, aantal leerlingen en het percentage goede antwoorden van de klas."
+      },
+      {
+        "title": "Cijfers om over te nemen",
+        "body": "Telde de sessie per leerling, dan heeft ieder zijn cijfer op 20 — berekend over de kaarten van die sessie, klaar voor het schrift."
+      }
+    ],
+    "newTitle": "Nog geen ruimte?",
+    "newBody": "De ruimte ontstaat met de licentie van je school. Schrijf ons: wij openen je toegang en sturen je inloggegevens.",
+    "lostTitle": "Wachtwoord kwijt",
+    "lostBody": "De console stuurt een inloglink naar het adres van de school, onder „Wachtwoord vergeten?”."
   },
   "aboutPage": {
     "eyebrow": "Over IqraQuest",

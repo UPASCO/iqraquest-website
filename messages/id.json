@@ -39,7 +39,8 @@
     "privacy": "Privasi",
     "terms": "Ketentuan penggunaan",
     "intellectualProperty": "Kekayaan intelektual",
-    "schools": "Sekolah"
+    "schools": "Sekolah",
+    "account": "Ruang saya"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "Saat sesi ditutup, nama-nama dihapus: hanya ringkasan per pertanyaan yang tersisa.",
       "Sesi yang terlupakan terhapus sendiri setelah dua hari."
     ],
+    "tiersTitle": "Paket",
+    "tiers": [
+      {
+        "name": "3 ruang",
+        "price": "€89 / tahun",
+        "body": "Tiga sesi sekaligus di sekolah. Cukup untuk tiga kelas pada jam yang sama."
+      },
+      {
+        "name": "5 ruang",
+        "price": "€99 / tahun",
+        "body": "Lima sesi serentak. Paket sekolah yang memainkan satu angkatan dalam satu pagi."
+      },
+      {
+        "name": "10 ruang",
+        "price": "€149 / tahun",
+        "body": "Sepuluh sesi serentak. Untuk satu sekolah penuh, atau jaringan sekolah di bawah satu pimpinan."
+      }
+    ],
+    "tiersNote": "Langganan tahunan, per sekolah. Murid bergabung gratis, tanpa akun dan tanpa batas jumlah. Bila jatuh temponya di puncak musim panas, digeser ke 31 Agustus: lisensi tidak boleh mati saat libur.",
     "licenceTitle": "Lisensi",
     "licenceBody": "Lisensi dibeli dan digunakan di web, dari konsol guru. Murid bergabung gratis lewat aplikasi.",
     "consoleCta": "Buka konsol guru",
@@ -535,6 +555,34 @@
         "answer": "Setiap kartu menampilkan sumbernya — sebuah ayat, sebuah hadis dari dua kumpulan paling ketat, atau peristiwa Sīrah yang mapan — dan hal yang diperdebatkan ditinggalkan. Bank soalnya sama dengan permainan keluarga."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Ruang pelanggan",
+    "title": "Ruang saya",
+    "metaDescription": "Ruang sekolah IqraQuest: langganan Anda, sesi-sesi lampau, dan nilai kelas Anda — di tempat yang sama dengan konsol yang menjalankannya.",
+    "lede": "Langganan Anda, sesi-sesi lampau, dan nilai murid Anda — di tempat yang sama dengan konsol yang membuka sesi.",
+    "signInTitle": "Masuk",
+    "signInBody": "Konsol terbuka dengan alamat sekolah Anda dan kata sandi Anda. Keduanya Anda terima bersama lisensi.",
+    "cta": "Buka konsol saya",
+    "insideTitle": "Yang Anda temukan",
+    "inside": [
+      {
+        "title": "Langganan Anda",
+        "body": "Paketnya, berapa ruang yang terbuka dari yang Anda bayar, dan tanggal perpanjangan. Saat mendekat, konsol menghitung harinya."
+      },
+      {
+        "title": "Sesi-sesi lampau",
+        "body": "Setiap sesi dengan tanggal, pelajaran, jumlah murid, dan persentase jawaban benar kelas."
+      },
+      {
+        "title": "Nilai untuk disalin",
+        "body": "Bila sesi dihitung per murid, masing-masing punya nilai dari 20 — dihitung atas kartu sesi itu, siap untuk buku nilai."
+      }
+    ],
+    "newTitle": "Belum punya ruang?",
+    "newBody": "Ruang dibuat bersama lisensi sekolah Anda. Tulis kepada kami: kami buka akses Anda dan mengirimkan kredensialnya.",
+    "lostTitle": "Kata sandi hilang",
+    "lostBody": "Konsol mengirim tautan masuk ke alamat sekolah, di bawah «Lupa kata sandi?»."
   },
   "aboutPage": {
     "eyebrow": "Tentang",

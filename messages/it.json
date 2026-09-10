@@ -39,7 +39,8 @@
     "privacy": "Privacy",
     "terms": "Condizioni d'uso",
     "intellectualProperty": "Proprietà intellettuale",
-    "schools": "Scuole"
+    "schools": "Scuole",
+    "account": "La mia area"
   },
   "home": {
     "hero": {
@@ -511,6 +512,25 @@
       "Alla chiusura i nomi vengono cancellati: resta solo un riepilogo per domanda.",
       "Una sessione dimenticata si cancella da sola dopo due giorni."
     ],
+    "tiersTitle": "Le formule",
+    "tiers": [
+      {
+        "name": "3 sale",
+        "price": "89 € / anno",
+        "body": "Tre sessioni insieme nell'istituto. Quanto basta per tre classi alla stessa ora."
+      },
+      {
+        "name": "5 sale",
+        "price": "99 € / anno",
+        "body": "Cinque sessioni simultanee. La formula degli istituti che fanno giocare un'intera annata in una mattina."
+      },
+      {
+        "name": "10 sale",
+        "price": "149 € / anno",
+        "body": "Dieci sessioni simultanee. Per un istituto intero o una rete di scuole sotto la stessa direzione."
+      }
+    ],
+    "tiersNote": "Abbonamento annuale, per istituto. Gli alunni partecipano gratis, senza account e senza limite di numero. Se la scadenza cadesse in piena estate, slitta al 31 agosto: una licenza non deve morire in vacanza.",
     "licenceTitle": "La licenza",
     "licenceBody": "La licenza si acquista e si usa sul web, dalla console dell'insegnante. Gli alunni entrano gratuitamente dall'applicazione.",
     "consoleCta": "Apri la console dell'insegnante",
@@ -535,6 +555,34 @@
         "answer": "Ogni carta mostra la sua fonte — un versetto, un hadith delle due raccolte più rigorose o un fatto accertato della Sīra — e ciò che è discusso resta fuori. È lo stesso repertorio del gioco in famiglia."
       }
     ]
+  },
+  "accountPage": {
+    "eyebrow": "Area cliente",
+    "title": "La mia area",
+    "metaDescription": "L'area scuola di IqraQuest: il tuo abbonamento, le sessioni passate e i voti delle tue classi, nello stesso posto della console che le avvia.",
+    "lede": "Il tuo abbonamento, le sessioni passate e i voti dei tuoi alunni — nello stesso posto della console che apre una sessione.",
+    "signInTitle": "Accedi",
+    "signInBody": "La console si apre con l'indirizzo del tuo istituto e la tua password. Li ricevi entrambi con la licenza.",
+    "cta": "Apri la mia console",
+    "insideTitle": "Che cosa ci trovi",
+    "inside": [
+      {
+        "title": "Il tuo abbonamento",
+        "body": "Il piano, quante sale sono aperte fra quelle che hai pagato e la data di rinnovo. Quando si avvicina, la console conta i giorni."
+      },
+      {
+        "title": "Le sessioni passate",
+        "body": "Ogni sessione con la data, la lezione, quanti alunni hanno partecipato e la percentuale di risposte esatte della classe."
+      },
+      {
+        "title": "Voti da riportare",
+        "body": "Quando la sessione contava per alunno, ciascuno ha il suo voto su 20 — calcolato sulle carte della sessione, pronto per il registro."
+      }
+    ],
+    "newTitle": "Non hai ancora un’area?",
+    "newBody": "L'area nasce con la licenza del tuo istituto. Scrivici: apriamo il tuo accesso e ti mandiamo le credenziali.",
+    "lostTitle": "Password smarrita",
+    "lostBody": "La console rimanda un link di accesso all'indirizzo dell'istituto, sotto «Password dimenticata?»."
   },
   "aboutPage": {
     "eyebrow": "Chi siamo",

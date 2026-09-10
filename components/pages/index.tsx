@@ -456,9 +456,14 @@ export function AboutPage() {
  */
 export function SchoolsPage() {
   const t = useTranslations('schoolsPage');
-  const tc = useTranslations('common');
+
   const steps = t.raw('steps') as { title: string; body: string }[];
   const points = t.raw('privacyPoints') as string[];
+  const tiers = t.raw('tiers') as {
+    name: string;
+    price: string;
+    body: string;
+  }[];
   const faq = t.raw('faq') as { question: string; answer: string }[];
 
   return (
@@ -520,33 +525,59 @@ export function SchoolsPage() {
       </Section>
 
       <Section className="py-16 sm:py-20">
+        <div className="container-page">
+          <SectionTitle>{t('tiersTitle')}</SectionTitle>
+          {/* Trois colonnes qui ne diffèrent que par un nombre : le prix
+              et les salles se lisent d'un coup d'œil, ce qu'une école
+              compare avant tout le reste. */}
+          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+            {tiers.map((tier, index) => (
+              <Reveal key={tier.name} delay={index * 80}>
+                <Card className="flex h-full flex-col">
+                  <p className="text-xs uppercase tracking-[0.18em] text-gold">
+                    {tier.name}
+                  </p>
+                  <p className="mt-3 font-display text-3xl text-text-primary">
+                    {tier.price}
+                  </p>
+                  <p className="mt-4 text-base leading-relaxed text-text-secondary">
+                    {tier.body}
+                  </p>
+                </Card>
+              </Reveal>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-sm leading-relaxed text-text-secondary">
+            {t('tiersNote')}
+          </p>
+        </div>
+      </Section>
+
+      <Section tone="raised" className="py-16 sm:py-20">
         <div className="container-prose text-center">
           <SectionTitle>{t('licenceTitle')}</SectionTitle>
           <Lede className="mt-4">{t('licenceBody')}</Lede>
-          {/* Same rule as the store badges: a link, or an honest wait —
-              never a button that leads nowhere. */}
-          {classroom.available ? (
-            <>
-              <div className="mt-8 flex justify-center">
-                <ButtonLink href={classroom.url} external>
-                  {t('consoleCta')}
-                </ButtonLink>
-              </div>
-              <p className="mt-4 text-sm text-text-secondary">
-                {t('consoleNote')}
-              </p>
-            </>
+          {/* Se connecter et acheter sont deux choses. L'espace client
+              existe et s'ouvre ; le paiement en ligne, pas encore — et
+              une école qui veut acheter trouve alors une adresse, pas un
+              bouton qui échoue. */}
+          {classroom.available && (
+            <div className="mt-8 flex justify-center">
+              <ButtonLink href="/account">{t('consoleCta')}</ButtonLink>
+            </div>
+          )}
+          {classroom.checkout ? (
+            <p className="mt-4 text-sm text-text-secondary">
+              {t('consoleNote')}
+            </p>
           ) : (
             <div className="mt-8">
-              <p className="font-display text-lg text-gold">
-                {tc('comingSoon')}
-              </p>
-              <p className="mt-3 text-sm text-text-secondary">
+              <p className="text-sm leading-relaxed text-text-secondary">
                 {t('consoleWaiting')}
               </p>
               <a
                 href={`mailto:${siteConfig.supportEmail}`}
-                className="mt-4 inline-flex min-h-11 items-center text-sm text-gold underline underline-offset-4 hover:text-gold-bright"
+                className="mt-3 inline-flex min-h-11 items-center text-sm text-gold underline underline-offset-4 hover:text-gold-bright"
               >
                 {siteConfig.supportEmail}
               </a>
@@ -558,6 +589,86 @@ export function SchoolsPage() {
       <Section tone="raised" className="py-16 sm:py-20">
         <div className="container-prose">
           <FaqList entries={faq} title={t('faqTitle')} />
+        </div>
+      </Section>
+    </>
+  );
+}
+
+/* ================================================================== */
+/* Account — l'espace de l'école                                      */
+/* ================================================================== */
+
+/**
+ * La porte du client, dans la maison du site.
+ *
+ * La console vit sur son propre sous-domaine — c'est une application, pas
+ * une page — mais une école ne doit pas la découvrir par un lien nu vers
+ * un autre domaine. Cette page-ci porte l'en-tête, le pied et la langue
+ * du site, dit ce qu'on trouve derrière la porte, et l'ouvre.
+ */
+export function AccountPage() {
+  const t = useTranslations('accountPage');
+  const tNav = useTranslations('nav');
+  const inside = t.raw('inside') as { title: string; body: string }[];
+
+  return (
+    <>
+      <PageHeader eyebrow={t('eyebrow')} title={t('title')} lede={t('lede')} />
+
+      <Section className="py-16 sm:py-20">
+        <div className="container-prose text-center">
+          <SectionTitle>{t('signInTitle')}</SectionTitle>
+          <Lede className="mt-4">{t('signInBody')}</Lede>
+          <div className="mt-8 flex justify-center">
+            <ButtonLink href={classroom.url} external>
+              {t('cta')}
+            </ButtonLink>
+          </div>
+          <p className="mt-6 text-sm leading-relaxed text-text-secondary">
+            <span className="text-text-primary">{t('lostTitle')}</span>{' '}
+            {t('lostBody')}
+          </p>
+        </div>
+      </Section>
+
+      <Section tone="raised" className="py-16 sm:py-20">
+        <div className="container-page">
+          <SectionTitle>{t('insideTitle')}</SectionTitle>
+          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+            {inside.map((item, index) => (
+              <Reveal key={item.title} delay={index * 80}>
+                <Card className="h-full">
+                  <h3 className="font-display text-xl text-text-primary">
+                    {item.title}
+                  </h3>
+                  <p className="mt-3 text-base leading-relaxed text-text-secondary">
+                    {item.body}
+                  </p>
+                </Card>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      <Section className="py-16 sm:py-20">
+        <div className="container-prose text-center">
+          <SectionTitle>{t('newTitle')}</SectionTitle>
+          <p className="mt-4 text-base leading-relaxed text-text-secondary">
+            {t('newBody')}
+          </p>
+          <a
+            href={`mailto:${siteConfig.supportEmail}`}
+            className="mt-4 inline-flex min-h-11 items-center text-sm text-gold underline underline-offset-4 hover:text-gold-bright"
+          >
+            {siteConfig.supportEmail}
+          </a>
+          <div className="mt-8 flex justify-center">
+            <ButtonLink href="/schools" variant="secondary">
+              {tNav('schools')}
+            </ButtonLink>
+          </div>
         </div>
       </Section>
     </>
