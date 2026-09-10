@@ -562,15 +562,18 @@ export function SchoolsPage() {
               une école qui veut acheter trouve alors une adresse, pas un
               bouton qui échoue. */}
           {classroom.available && (
-            <div className="mt-8 flex justify-center">
-              <ButtonLink href="/account">{t('consoleCta')}</ButtonLink>
-            </div>
+            <>
+              <div className="mt-8 flex justify-center">
+                <ButtonLink href="/account">{t('consoleCta')}</ButtonLink>
+              </div>
+              {/* Comment on entre : cela vaut dès que la console répond,
+                  et pas seulement le jour où l'on pourra payer ici. */}
+              <p className="mt-4 text-sm text-text-secondary">
+                {t('consoleNote')}
+              </p>
+            </>
           )}
-          {classroom.checkout ? (
-            <p className="mt-4 text-sm text-text-secondary">
-              {t('consoleNote')}
-            </p>
-          ) : (
+          {!classroom.checkout && (
             <div className="mt-8">
               <p className="text-sm leading-relaxed text-text-secondary">
                 {t('consoleWaiting')}

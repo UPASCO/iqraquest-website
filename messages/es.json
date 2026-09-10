@@ -534,8 +534,8 @@
     "licenceTitle": "La licencia",
     "licenceBody": "La licencia se compra y se usa en la web, desde la consola del docente. Los alumnos entran gratis desde la aplicación.",
     "consoleCta": "Abrir la consola del docente",
-    "consoleNote": "El acceso es un enlace enviado a la dirección del centro: no hay ninguna contraseña que recordar.",
-    "consoleWaiting": "La consola abrirá en cuanto el servicio esté en línea. Escríbenos para avisarte y reservar una prueba gratuita en tu centro.",
+    "consoleNote": "El acceso se hace con la dirección del centro y una contraseña, enviada con la licencia.",
+    "consoleWaiting": "El pago en línea abrirá pronto. Mientras tanto, escríbenos: abrimos tu espacio, te enviamos tus credenciales y reservamos una prueba gratuita en tu centro.",
     "faqTitle": "Preguntas de los centros",
     "faq": [
       {

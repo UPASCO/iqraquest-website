@@ -534,8 +534,8 @@
     "licenceTitle": "La licence",
     "licenceBody": "La licence s'achète et s'utilise sur le web, depuis la console de l'enseignant. Les élèves, eux, rejoignent gratuitement depuis l'application.",
     "consoleCta": "Ouvrir la console enseignant",
-    "consoleNote": "La connexion se fait par un lien envoyé à l'adresse de l'établissement : il n'y a aucun mot de passe à retenir.",
-    "consoleWaiting": "La console ouvre dès que le service est en ligne. Écrivez-nous pour être prévenu et pour réserver un essai gratuit dans votre établissement.",
+    "consoleNote": "La connexion se fait avec l'adresse de l'établissement et un mot de passe, transmis avec la licence.",
+    "consoleWaiting": "Le paiement en ligne ouvre bientôt. D'ici là, écrivez-nous : nous ouvrons votre espace, transmettons vos identifiants et réservons un essai gratuit dans votre établissement.",
     "faqTitle": "Questions d'école",
     "faq": [
       {

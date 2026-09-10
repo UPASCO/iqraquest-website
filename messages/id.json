@@ -534,8 +534,8 @@
     "licenceTitle": "Lisensi",
     "licenceBody": "Lisensi dibeli dan digunakan di web, dari konsol guru. Murid bergabung gratis lewat aplikasi.",
     "consoleCta": "Buka konsol guru",
-    "consoleNote": "Masuk cukup lewat tautan yang dikirim ke alamat sekolah: tidak ada kata sandi yang perlu diingat.",
-    "consoleWaiting": "Konsol dibuka begitu layanan tersedia. Tulis kepada kami agar diberi tahu, dan untuk memesan uji coba gratis di sekolah Anda.",
+    "consoleNote": "Masuk dilakukan dengan alamat sekolah dan kata sandi, yang dikirim bersama lisensi.",
+    "consoleWaiting": "Pembayaran daring segera dibuka. Sementara itu, tulis kepada kami: kami buka ruang Anda, kirim kredensial, dan siapkan uji coba gratis di sekolah Anda.",
     "faqTitle": "Pertanyaan dari sekolah",
     "faq": [
       {

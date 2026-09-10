@@ -534,8 +534,8 @@
     "licenceTitle": "Lisans",
     "licenceBody": "Lisans web üzerinden, öğretmen konsolundan alınır ve kullanılır. Öğrenciler uygulamadan ücretsiz katılır.",
     "consoleCta": "Öğretmen konsolunu aç",
-    "consoleNote": "Giriş, okulun adresine gönderilen bir bağlantıdır: akılda tutulacak parola yoktur.",
-    "consoleWaiting": "Konsol, hizmet yayına girer girmez açılır. Haber vermemiz ve okulunuz için ücretsiz deneme ayırmamız için bize yazın.",
+    "consoleNote": "Giriş, okulun adresi ve lisansla birlikte verilen bir parola ile yapılır.",
+    "consoleWaiting": "Çevrimiçi ödeme yakında açılıyor. O zamana kadar bize yazın: alanınızı açar, bilgilerinizi gönderir ve okulunuzda ücretsiz bir deneme ayarlarız.",
     "faqTitle": "Okulların sorduğu sorular",
     "faq": [
       {
