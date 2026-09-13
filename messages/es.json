@@ -549,7 +549,8 @@
         "question": "¿Las preguntas están documentadas?",
         "answer": "Cada carta muestra su fuente —una aleya, un hadiz de las dos colecciones más rigurosas o un hecho establecido de la Sīra— y se descarta todo lo discutible. Es el mismo banco que el juego familiar."
       }
-    ]
+    ],
+    "subscribeCta": "Elegir IqraQuest École"
   },
   "accountPage": {
     "eyebrow": "Espacio del cliente",
@@ -577,7 +578,8 @@
     "newTitle": "¿Aún no tienes cuenta?",
     "newBody": "Créala en un minuto desde la consola: gratis, sin tarjeta, con cinco partidas incluidas. La suscripción viene después, si la quieres.",
     "lostTitle": "Contraseña perdida",
-    "lostBody": "La consola envía un enlace de acceso a la dirección del centro, en «¿Olvidaste tu contraseña?»."
+    "lostBody": "La consola envía un enlace de acceso a la dirección del centro, en «¿Olvidaste tu contraseña?».",
+    "createCta": "Crear una cuenta gratis"
   },
   "aboutPage": {
     "eyebrow": "Acerca de",

@@ -26,6 +26,7 @@ import {
   Link,
   ButtonLink,
   Card,
+  cx,
   Eyebrow,
   Lede,
   Section,
@@ -466,131 +467,152 @@ export function SchoolsPage() {
   }[];
   const faq = t.raw('faq') as { question: string; answer: string }[];
 
+  /* Le bouton de chaque formule. La découverte ouvre la console sur
+     « Créer un compte » ; l'offre École mène à l'espace client — ou,
+     tant que le paiement en ligne n'est pas ouvert, à une adresse à qui
+     écrire, plutôt qu'à un bouton qui échoue. */
+  const ctas = [
+    classroom.available ? (
+      <ButtonLink href={classroom.signupUrl} external className="w-full">
+        {t('consoleCta')}
+      </ButtonLink>
+    ) : null,
+    classroom.checkout ? (
+      <ButtonLink href="/account" variant="secondary" className="w-full">
+        {t('subscribeCta')}
+      </ButtonLink>
+    ) : (
+      <ButtonLink
+        href={`mailto:${siteConfig.supportEmail}`}
+        external
+        variant="secondary"
+        className="w-full"
+      >
+        {siteConfig.supportEmail}
+      </ButtonLink>
+    ),
+  ];
+
   return (
     <>
-      <PageHeader eyebrow={t('eyebrow')} title={t('title')} lede={t('lede')} />
+      {/* Tout ce qu'une école décide tient sur le premier écran : les
+          deux formules, leurs boutons, et le déroulé d'une séance en
+          trois lignes. Rien à faire défiler pour agir. */}
+      <section className="relative overflow-hidden border-b border-gold/10 bg-surface">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 motif-lattice opacity-50"
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-x-0 top-0 h-64 glow-warm"
+        />
+        <div className="container-page relative flex min-h-[calc(100svh-var(--header-h))] flex-col justify-center py-10 sm:py-12">
+          <div className="mx-auto max-w-3xl text-center">
+            <Eyebrow>{t('eyebrow')}</Eyebrow>
+            <SectionTitle
+              as="h1"
+              className="text-[clamp(2.1rem,5.5vw,3.6rem)] leading-[1.05] [text-wrap:balance]"
+            >
+              {t('title')}
+            </SectionTitle>
+            <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-text-secondary">
+              {t('lede')}
+            </p>
+          </div>
 
-      <Section className="py-16 sm:py-20">
-        <div className="container-page">
-          <SectionTitle>{t('stepsTitle')}</SectionTitle>
-          <ol className="mt-10 grid gap-6 lg:grid-cols-3">
+          <div className="mx-auto mt-8 grid w-full max-w-4xl gap-4 sm:grid-cols-2">
+            {tiers.map((tier, index) => (
+              <Card
+                key={tier.name}
+                className={cx(
+                  'flex flex-col',
+                  index === 1 && 'border-gold/45 bg-surface-raised',
+                )}
+              >
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold">
+                  {tier.name}
+                </p>
+                <p className="mt-2 font-display text-3xl text-text-primary">
+                  {tier.price}
+                </p>
+                <p className="mt-3 flex-1 text-base leading-relaxed text-text-secondary">
+                  {tier.body}
+                </p>
+                {ctas[index] && <div className="mt-5">{ctas[index]}</div>}
+              </Card>
+            ))}
+          </div>
+          <p className="mx-auto mt-4 max-w-3xl text-center text-sm leading-relaxed text-text-muted">
+            {classroom.checkout ? t('tiersNote') : t('consoleWaiting')}
+          </p>
+
+          {/* The numbering is information, not decoration: a session
+              really does go in this order. */}
+          <ol className="mx-auto mt-8 grid w-full max-w-4xl gap-4 sm:grid-cols-3">
             {steps.map((step, index) => (
-              <li key={step.title}>
-                <Reveal delay={index * 80}>
-                  <Card className="h-full">
-                    {/* The numbering is information, not decoration: a
-                        session really does go in this order. */}
-                    <p className="font-display text-3xl text-gold">
-                      {index + 1}
-                    </p>
-                    <h3 className="mt-3 font-display text-xl text-text-primary">
-                      {step.title}
-                    </h3>
-                    <p className="mt-3 text-base leading-relaxed text-text-secondary">
-                      {step.body}
-                    </p>
-                  </Card>
-                </Reveal>
+              <li key={step.title} className="flex items-start gap-3">
+                <span className="font-display text-2xl leading-none text-gold">
+                  {index + 1}
+                </span>
+                <span className="text-sm leading-snug">
+                  <span className="block font-semibold text-text-primary">
+                    {step.title}
+                  </span>
+                </span>
               </li>
             ))}
           </ol>
         </div>
+      </section>
+
+      <Section tone="raised" className="py-14 sm:py-16">
+        <div className="container-page grid gap-8 lg:grid-cols-[1fr_1fr]">
+          <div>
+            <Eyebrow>{t('privacyTitle')}</Eyebrow>
+            <p className="text-lg leading-relaxed text-text-secondary">
+              {t('privacyBody')}
+            </p>
+            <StarOrnament className="mt-6" />
+          </div>
+          <ul className="space-y-3">
+            {points.map((point) => (
+              <li
+                key={point}
+                className="flex gap-3 text-base leading-relaxed text-text-secondary"
+              >
+                <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </Section>
 
-      <Section tone="raised" className="py-16 sm:py-20">
-        <div className="container-page grid gap-10 lg:grid-cols-[1fr_1fr]">
-          <Reveal>
-            <div>
-              <Eyebrow>{t('privacyTitle')}</Eyebrow>
-              <p className="mt-4 text-lg leading-relaxed text-text-secondary">
-                {t('privacyBody')}
-              </p>
-              <StarOrnament className="mt-8" />
-            </div>
-          </Reveal>
-          <Reveal delay={80}>
-            <ul className="space-y-4">
-              {points.map((point) => (
-                <li
-                  key={point}
-                  className="flex gap-3 text-base leading-relaxed text-text-secondary"
-                >
-                  <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                  <span>{point}</span>
+      <Section className="py-14 sm:py-16">
+        <div className="container-page grid gap-8 lg:grid-cols-[1fr_1fr]">
+          <div>
+            <SectionTitle className="text-2xl sm:text-3xl">
+              {t('stepsTitle')}
+            </SectionTitle>
+            <ol className="mt-6 space-y-5">
+              {steps.map((step, index) => (
+                <li key={step.title} className="flex gap-4">
+                  <span className="font-display text-2xl leading-none text-gold">
+                    {index + 1}
+                  </span>
+                  <div>
+                    <h3 className="font-display text-lg text-text-primary">
+                      {step.title}
+                    </h3>
+                    <p className="mt-1 text-sm leading-relaxed text-text-secondary">
+                      {step.body}
+                    </p>
+                  </div>
                 </li>
               ))}
-            </ul>
-          </Reveal>
-        </div>
-      </Section>
-
-      <Section className="py-16 sm:py-20">
-        <div className="container-page">
-          <SectionTitle>{t('tiersTitle')}</SectionTitle>
-          {/* Trois colonnes qui ne diffèrent que par un nombre : le prix
-              et les salles se lisent d'un coup d'œil, ce qu'une école
-              compare avant tout le reste. */}
-          <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {tiers.map((tier, index) => (
-              <Reveal key={tier.name} delay={index * 80}>
-                <Card className="flex h-full flex-col">
-                  <p className="text-xs uppercase tracking-[0.18em] text-gold">
-                    {tier.name}
-                  </p>
-                  <p className="mt-3 font-display text-3xl text-text-primary">
-                    {tier.price}
-                  </p>
-                  <p className="mt-4 text-base leading-relaxed text-text-secondary">
-                    {tier.body}
-                  </p>
-                </Card>
-              </Reveal>
-            ))}
+            </ol>
           </div>
-          <p className="mt-8 text-center text-sm leading-relaxed text-text-secondary">
-            {t('tiersNote')}
-          </p>
-        </div>
-      </Section>
-
-      <Section tone="raised" className="py-16 sm:py-20">
-        <div className="container-prose text-center">
-          <SectionTitle>{t('licenceTitle')}</SectionTitle>
-          <Lede className="mt-4">{t('licenceBody')}</Lede>
-          {/* Se connecter et acheter sont deux choses. L'espace client
-              existe et s'ouvre ; le paiement en ligne, pas encore — et
-              une école qui veut acheter trouve alors une adresse, pas un
-              bouton qui échoue. */}
-          {classroom.available && (
-            <>
-              <div className="mt-8 flex justify-center">
-                <ButtonLink href="/account">{t('consoleCta')}</ButtonLink>
-              </div>
-              {/* Comment on entre : cela vaut dès que la console répond,
-                  et pas seulement le jour où l'on pourra payer ici. */}
-              <p className="mt-4 text-sm text-text-secondary">
-                {t('consoleNote')}
-              </p>
-            </>
-          )}
-          {!classroom.checkout && (
-            <div className="mt-8">
-              <p className="text-sm leading-relaxed text-text-secondary">
-                {t('consoleWaiting')}
-              </p>
-              <a
-                href={`mailto:${siteConfig.supportEmail}`}
-                className="mt-3 inline-flex min-h-11 items-center text-sm text-gold underline underline-offset-4 hover:text-gold-bright"
-              >
-                {siteConfig.supportEmail}
-              </a>
-            </div>
-          )}
-        </div>
-      </Section>
-
-      <Section tone="raised" className="py-16 sm:py-20">
-        <div className="container-prose">
           <FaqList entries={faq} title={t('faqTitle')} />
         </div>
       </Section>
@@ -608,7 +630,8 @@ export function SchoolsPage() {
  * La console vit sur son propre sous-domaine — c'est une application, pas
  * une page — mais une école ne doit pas la découvrir par un lien nu vers
  * un autre domaine. Cette page-ci porte l'en-tête, le pied et la langue
- * du site, dit ce qu'on trouve derrière la porte, et l'ouvre.
+ * du site, dit ce qu'on trouve derrière la porte, et l'ouvre — sur un
+ * seul écran, les deux boutons sous les yeux.
  */
 export function AccountPage() {
   const t = useTranslations('accountPage');
@@ -616,65 +639,77 @@ export function AccountPage() {
   const inside = t.raw('inside') as { title: string; body: string }[];
 
   return (
-    <>
-      <PageHeader eyebrow={t('eyebrow')} title={t('title')} lede={t('lede')} />
-
-      <Section className="py-16 sm:py-20">
-        <div className="container-prose text-center">
-          <SectionTitle>{t('signInTitle')}</SectionTitle>
-          <Lede className="mt-4">{t('signInBody')}</Lede>
-          <div className="mt-8 flex justify-center">
-            <ButtonLink href={classroom.url} external>
-              {t('cta')}
-            </ButtonLink>
-          </div>
-          <p className="mt-6 text-sm leading-relaxed text-text-secondary">
-            <span className="text-text-primary">{t('lostTitle')}</span>{' '}
-            {t('lostBody')}
-          </p>
-        </div>
-      </Section>
-
-      <Section tone="raised" className="py-16 sm:py-20">
-        <div className="container-page">
-          <SectionTitle>{t('insideTitle')}</SectionTitle>
-          <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {inside.map((item, index) => (
-              <Reveal key={item.title} delay={index * 80}>
-                <Card className="h-full">
-                  <h3 className="font-display text-xl text-text-primary">
-                    {item.title}
-                  </h3>
-                  <p className="mt-3 text-base leading-relaxed text-text-secondary">
-                    {item.body}
-                  </p>
-                </Card>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </Section>
-
-      <Section className="py-16 sm:py-20">
-        <div className="container-prose text-center">
-          <SectionTitle>{t('newTitle')}</SectionTitle>
-          <p className="mt-4 text-base leading-relaxed text-text-secondary">
-            {t('newBody')}
-          </p>
-          <a
-            href={`mailto:${siteConfig.supportEmail}`}
-            className="mt-4 inline-flex min-h-11 items-center text-sm text-gold underline underline-offset-4 hover:text-gold-bright"
+    <section className="relative overflow-hidden bg-surface">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 motif-lattice opacity-50"
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 h-64 glow-warm"
+      />
+      <div className="container-page relative grid min-h-[calc(100svh-var(--header-h))] items-center gap-10 py-10 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
+        <div>
+          <Eyebrow>{t('eyebrow')}</Eyebrow>
+          <SectionTitle
+            as="h1"
+            className="text-[clamp(2.1rem,5.5vw,3.6rem)] leading-[1.05]"
           >
-            {siteConfig.supportEmail}
-          </a>
-          <div className="mt-8 flex justify-center">
-            <ButtonLink href="/schools" variant="secondary">
-              {tNav('schools')}
+            {t('title')}
+          </SectionTitle>
+          <Lede className="text-xl">{t('lede')}</Lede>
+          {classroom.available ? (
+            <>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <ButtonLink href={classroom.url} external>
+                  {t('cta')}
+                </ButtonLink>
+                <ButtonLink href={classroom.signupUrl} external variant="secondary">
+                  {t('createCta')}
+                </ButtonLink>
+              </div>
+              <p className="mt-5 max-w-prose text-sm leading-relaxed text-text-secondary">
+                {t('signInBody')} {t('newBody')}
+              </p>
+              <p className="mt-2 max-w-prose text-sm leading-relaxed text-text-muted">
+                <span className="text-text-secondary">{t('lostTitle')}</span>{' '}
+                {t('lostBody')}
+              </p>
+            </>
+          ) : (
+            <a
+              href={`mailto:${siteConfig.supportEmail}`}
+              className="mt-8 inline-flex min-h-11 items-center text-sm text-gold underline underline-offset-4 hover:text-gold-bright"
+            >
+              {siteConfig.supportEmail}
+            </a>
+          )}
+        </div>
+
+        <Card className="p-7">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold">
+            {t('insideTitle')}
+          </p>
+          <ul className="mt-2 divide-y divide-gold/10">
+            {inside.map((item) => (
+              <li key={item.title} className="py-4">
+                <h2 className="font-display text-lg text-text-primary">
+                  {item.title}
+                </h2>
+                <p className="mt-1 text-sm leading-relaxed text-text-secondary">
+                  {item.body}
+                </p>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-2">
+            <ButtonLink href="/schools" variant="ghost" className="px-0">
+              {tNav('schools')} →
             </ButtonLink>
           </div>
-        </div>
-      </Section>
-    </>
+        </Card>
+      </div>
+    </section>
   );
 }
 

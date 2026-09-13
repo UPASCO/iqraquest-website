@@ -549,7 +549,8 @@
         "question": "Sind die Fragen belegt?",
         "answer": "Jede Karte nennt ihre Quelle — einen Vers, einen Hadith aus den beiden strengsten Sammlungen oder eine gesicherte Begebenheit der Sīra — und Strittiges bleibt draußen. Es ist dieselbe Sammlung wie im Familienspiel."
       }
-    ]
+    ],
+    "subscribeCta": "IqraQuest École wählen"
   },
   "accountPage": {
     "eyebrow": "Kundenbereich",
@@ -577,7 +578,8 @@
     "newTitle": "Noch kein Konto?",
     "newBody": "Erstelle es in einer Minute in der Konsole: kostenlos, ohne Karte, mit fünf Spielen. Das Abo kommt erst danach, wenn du willst.",
     "lostTitle": "Passwort verloren",
-    "lostBody": "Die Konsole schickt einen Anmeldelink an die Adresse der Schule, unter „Passwort vergessen?“."
+    "lostBody": "Die Konsole schickt einen Anmeldelink an die Adresse der Schule, unter „Passwort vergessen?“.",
+    "createCta": "Kostenloses Konto erstellen"
   },
   "aboutPage": {
     "eyebrow": "Über uns",

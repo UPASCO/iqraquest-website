@@ -549,7 +549,8 @@
         "question": "As perguntas têm fonte?",
         "answer": "Cada carta mostra a sua fonte — um versículo, um hadith das duas coletâneas mais rigorosas ou um facto estabelecido da Sīra — e tudo o que é discutível fica de fora. É o mesmo banco do jogo em família."
       }
-    ]
+    ],
+    "subscribeCta": "Escolher IqraQuest École"
   },
   "accountPage": {
     "eyebrow": "Área do cliente",
@@ -577,7 +578,8 @@
     "newTitle": "Ainda não tem conta?",
     "newBody": "Crie-a num minuto a partir da consola: grátis, sem cartão, com cinco partidas incluídas. A subscrição só vem depois, se quiser.",
     "lostTitle": "Palavra-passe perdida",
-    "lostBody": "A consola envia um link de acesso para o endereço da escola, em «Esqueceu-se da palavra-passe?»."
+    "lostBody": "A consola envia um link de acesso para o endereço da escola, em «Esqueceu-se da palavra-passe?».",
+    "createCta": "Criar uma conta grátis"
   },
   "aboutPage": {
     "eyebrow": "Sobre",

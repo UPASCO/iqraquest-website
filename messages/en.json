@@ -549,7 +549,8 @@
         "question": "Are the questions sourced?",
         "answer": "Every card shows its source — a verse, a hadith from the two most rigorous collections, or an established fact of the Sīra — and anything open to debate is left out. It is the same bank as the family game."
       }
-    ]
+    ],
+    "subscribeCta": "Choose IqraQuest École"
   },
   "accountPage": {
     "eyebrow": "Account",
@@ -577,7 +578,8 @@
     "newTitle": "No account yet?",
     "newBody": "Create one in a minute from the console: free, no card, with five games included. The subscription only comes afterwards, if you want it.",
     "lostTitle": "Lost password",
-    "lostBody": "The console sends a sign-in link back to the school's address, under “Forgotten your password?”."
+    "lostBody": "The console sends a sign-in link back to the school's address, under “Forgotten your password?”.",
+    "createCta": "Create a free account"
   },
   "aboutPage": {
     "eyebrow": "About",

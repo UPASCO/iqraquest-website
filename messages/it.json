@@ -549,7 +549,8 @@
         "question": "Le domande sono documentate?",
         "answer": "Ogni carta mostra la sua fonte — un versetto, un hadith delle due raccolte più rigorose o un fatto accertato della Sīra — e ciò che è discusso resta fuori. È lo stesso repertorio del gioco in famiglia."
       }
-    ]
+    ],
+    "subscribeCta": "Scegli IqraQuest École"
   },
   "accountPage": {
     "eyebrow": "Area cliente",
@@ -577,7 +578,8 @@
     "newTitle": "Non hai ancora un account?",
     "newBody": "Crealo in un minuto dalla console: gratis, senza carta, con cinque partite incluse. L'abbonamento viene dopo, se lo vuoi.",
     "lostTitle": "Password smarrita",
-    "lostBody": "La console rimanda un link di accesso all'indirizzo dell'istituto, sotto «Password dimenticata?»."
+    "lostBody": "La console rimanda un link di accesso all'indirizzo dell'istituto, sotto «Password dimenticata?».",
+    "createCta": "Crea un account gratuito"
   },
   "aboutPage": {
     "eyebrow": "Chi siamo",

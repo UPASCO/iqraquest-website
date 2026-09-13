@@ -549,7 +549,8 @@
         "question": "Zijn de vragen onderbouwd?",
         "answer": "Elke kaart toont haar bron — een vers, een hadith uit de twee strengste verzamelingen, of een vaststaand feit uit de Sīra — en wat betwist is, blijft eruit. Het is dezelfde verzameling als in het familiespel."
       }
-    ]
+    ],
+    "subscribeCta": "Kies IqraQuest École"
   },
   "accountPage": {
     "eyebrow": "Klantruimte",
@@ -577,7 +578,8 @@
     "newTitle": "Nog geen account?",
     "newBody": "Maak het in een minuut aan vanuit de console: gratis, zonder kaart, met vijf spellen. Het abonnement komt pas daarna, als je wilt.",
     "lostTitle": "Wachtwoord kwijt",
-    "lostBody": "De console stuurt een inloglink naar het adres van de school, onder „Wachtwoord vergeten?”."
+    "lostBody": "De console stuurt een inloglink naar het adres van de school, onder „Wachtwoord vergeten?”.",
+    "createCta": "Maak een gratis account"
   },
   "aboutPage": {
     "eyebrow": "Over IqraQuest",

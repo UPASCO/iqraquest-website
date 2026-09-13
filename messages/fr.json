@@ -549,7 +549,8 @@
         "question": "Les questions sont-elles sourcées ?",
         "answer": "Chaque carte affiche sa source — un verset, un hadith des deux recueils les plus rigoureux, ou un fait établi de la Sīra — et les points sujets à débat sont écartés. C'est la même banque que le jeu familial."
       }
-    ]
+    ],
+    "subscribeCta": "Choisir IqraQuest École"
   },
   "accountPage": {
     "eyebrow": "Espace client",
@@ -577,7 +578,8 @@
     "newTitle": "Vous n'avez pas encore de compte ?",
     "newBody": "Créez-le en une minute depuis la console : gratuit, sans carte bancaire, avec cinq parties offertes. L'abonnement ne vient qu'après, si vous le souhaitez.",
     "lostTitle": "Mot de passe perdu",
-    "lostBody": "La console renvoie un lien de connexion à l'adresse de l'établissement, sous « Mot de passe oublié ? »."
+    "lostBody": "La console renvoie un lien de connexion à l'adresse de l'établissement, sous « Mot de passe oublié ? ».",
+    "createCta": "Créer un compte gratuit"
   },
   "aboutPage": {
     "eyebrow": "À propos",

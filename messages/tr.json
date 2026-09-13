@@ -549,7 +549,8 @@
         "question": "Sorular kaynaklı mı?",
         "answer": "Her kart kaynağını gösterir — bir ayet, en sağlam iki derlemeden bir hadis ya da Sîre'nin sabit bir olayı — tartışmalı olan dışarıda bırakılır. Aile oyunuyla aynı havuzdur."
       }
-    ]
+    ],
+    "subscribeCta": "IqraQuest École'ü seç"
   },
   "accountPage": {
     "eyebrow": "Müşteri alanı",
@@ -577,7 +578,8 @@
     "newTitle": "Henüz hesabınız yok mu?",
     "newBody": "Konsoldan bir dakikada oluşturun: ücretsiz, kartsız, beş oyun dahil. Abonelik isterseniz sonra gelir.",
     "lostTitle": "Kayıp parola",
-    "lostBody": "Konsol, okulun adresine bir giriş bağlantısı gönderir — «Parolanızı mı unuttunuz?» altında."
+    "lostBody": "Konsol, okulun adresine bir giriş bağlantısı gönderir — «Parolanızı mı unuttunuz?» altında.",
+    "createCta": "Ücretsiz hesap oluştur"
   },
   "aboutPage": {
     "eyebrow": "Hakkında",

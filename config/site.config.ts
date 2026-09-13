@@ -82,6 +82,8 @@ const classroomConsoleUrl =
  */
 export const classroom = {
   url: classroomConsoleUrl,
+  /** La console, ouverte directement sur « Créer un compte ». */
+  signupUrl: `${classroomConsoleUrl.replace(/\/$/, '')}/?signup=1#/teacher`,
   available:
     env('NEXT_PUBLIC_CLASSROOM_AVAILABLE')?.toLowerCase() !== 'false' &&
     Boolean(classroomConsoleUrl),

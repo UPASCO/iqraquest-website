@@ -549,7 +549,8 @@
         "question": "Adakah soalan bersumber?",
         "answer": "Setiap kad memaparkan sumbernya — satu ayat, satu hadis daripada dua himpunan paling ketat, atau peristiwa Sīrah yang mantap — dan perkara yang diperdebatkan ditinggalkan. Ia bank yang sama dengan permainan keluarga."
       }
-    ]
+    ],
+    "subscribeCta": "Pilih IqraQuest École"
   },
   "accountPage": {
     "eyebrow": "Ruang pelanggan",
@@ -577,7 +578,8 @@
     "newTitle": "Belum ada akaun?",
     "newBody": "Cipta dalam seminit dari konsol: percuma, tanpa kad, dengan lima permainan. Langganan hanya datang selepas itu, jika anda mahu.",
     "lostTitle": "Kata laluan hilang",
-    "lostBody": "Konsol menghantar pautan log masuk ke alamat sekolah, di bawah «Lupa kata laluan?»."
+    "lostBody": "Konsol menghantar pautan log masuk ke alamat sekolah, di bawah «Lupa kata laluan?».",
+    "createCta": "Cipta akaun percuma"
   },
   "aboutPage": {
     "eyebrow": "Tentang",
