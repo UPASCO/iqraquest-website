@@ -515,27 +515,22 @@
     "tiersTitle": "Les formules",
     "tiers": [
       {
-        "name": "3 salles",
+        "name": "Offre découverte",
+        "price": "Gratuit",
+        "body": "Compte gratuit, sans carte bancaire. Cinq parties offertes pour essayer le mode École avec une vraie classe."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "89 € / an",
-        "body": "Trois séances en même temps dans l'établissement. De quoi faire tourner trois classes à la même heure."
-      },
-      {
-        "name": "5 salles",
-        "price": "99 € / an",
-        "body": "Cinq séances simultanées. La formule des écoles qui font jouer un niveau entier le même matin."
-      },
-      {
-        "name": "10 salles",
-        "price": "149 € / an",
-        "body": "Dix séances simultanées. Pour un établissement complet, ou un réseau d'écoles sous la même direction."
+        "body": "Parties illimitées pendant un an, jusqu'à deux sessions de jeu simultanées, accès complet au mode École."
       }
     ],
-    "tiersNote": "Abonnement annuel, par établissement. Les élèves rejoignent gratuitement, sans compte et sans limite de nombre. L'échéance est repoussée au 31 août lorsqu'elle tomberait en plein été : une licence ne doit pas mourir pendant les vacances.",
+    "tiersNote": "Abonnement annuel, par établissement, renouvelé chaque année tant qu'il n'est pas résilié — la résiliation se fait en un clic et l'accès reste ouvert jusqu'à l'échéance. Les élèves rejoignent gratuitement, sans compte et sans limite de nombre.",
     "licenceTitle": "La licence",
-    "licenceBody": "La licence s'achète et s'utilise sur le web, depuis la console de l'enseignant. Les élèves, eux, rejoignent gratuitement depuis l'application.",
-    "consoleCta": "Ouvrir la console enseignant",
-    "consoleNote": "La connexion se fait avec l'adresse de l'établissement et un mot de passe, transmis avec la licence.",
-    "consoleWaiting": "Le paiement en ligne ouvre bientôt. D'ici là, écrivez-nous : nous ouvrons votre espace, transmettons vos identifiants et réservons un essai gratuit dans votre établissement.",
+    "licenceBody": "Le compte se crée en une minute et donne cinq parties. Quand elles sont utilisées, l'abonnement s'active depuis votre espace, et la licence s'applique immédiatement.",
+    "consoleCta": "Commencer gratuitement",
+    "consoleNote": "Adresse e-mail et mot de passe, choisis à l'inscription. Aucune carte bancaire n'est demandée pour commencer.",
+    "consoleWaiting": "Le paiement en ligne ouvre bientôt. D'ici là, les cinq parties offertes sont disponibles dès l'inscription, et une école qui les a utilisées nous écrit : nous activons sa licence le jour même.",
     "faqTitle": "Questions d'école",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "L'espace client IqraQuest : votre abonnement, vos séances passées et les scores de vos classes, au même endroit que la console qui les lance.",
     "lede": "Votre abonnement, vos séances passées et les notes de vos élèves — au même endroit que la console qui lance les séances.",
     "signInTitle": "Se connecter",
-    "signInBody": "La console s'ouvre avec l'adresse de votre établissement et votre mot de passe. Vous les recevez avec votre licence.",
+    "signInBody": "La console s'ouvre avec votre adresse e-mail et le mot de passe choisi à l'inscription.",
     "cta": "Ouvrir ma console",
     "insideTitle": "Ce que vous y trouvez",
     "inside": [
@@ -579,8 +574,8 @@
         "body": "Quand la séance comptait par élève, chacun a sa note sur 20 — calculée sur le nombre de cartes de la séance, prête pour le cahier."
       }
     ],
-    "newTitle": "Vous n'avez pas encore d'espace ?",
-    "newBody": "L'espace est créé avec la licence de votre établissement. Écrivez-nous : nous ouvrons votre accès et vous transmettons vos identifiants.",
+    "newTitle": "Vous n'avez pas encore de compte ?",
+    "newBody": "Créez-le en une minute depuis la console : gratuit, sans carte bancaire, avec cinq parties offertes. L'abonnement ne vient qu'après, si vous le souhaitez.",
     "lostTitle": "Mot de passe perdu",
     "lostBody": "La console renvoie un lien de connexion à l'adresse de l'établissement, sous « Mot de passe oublié ? »."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "Le mode Classe (écoles)",
-        "body": "Ce mode ne s'active que si un établissement ouvre une séance ; il ne concerne ni le jeu en famille ni le joueur solo. L'élève entre un code et un prénom : rien d'autre. Aucun compte, aucune adresse e-mail, aucun mot de passe, aucun identifiant d'appareil. Le prénom, l'équipe et les réponses (justes ou fausses) sont effacés à la fermeture de la séance, et au plus tard au bout de deux jours. Le tableau projeté affiche combien d'élèves ont répondu, jamais qui ni quoi. L'établissement conserve un bilan par question, qui ne nomme personne ; si l'enseignant a choisi le classement individuel, les prénoms qu'il contient sont retirés au bout de 90 jours et le bilan lui-même est effacé à 24 mois. L'enseignant, lui, est identifié par la seule adresse e-mail ayant acheté la licence, sans mot de passe : la connexion se fait par un lien envoyé à cette adresse. Les données sont hébergées dans l'Union européenne (Supabase, région Irlande) ; le paiement des licences est traité par Stripe. Le détail complet, table par table, est publié dans le dépôt du projet."
+        "body": "Ce mode ne s'active que si un établissement ouvre une séance ; il ne concerne ni le jeu en famille ni le joueur solo. L'élève entre un code et un prénom : rien d'autre. Aucun compte, aucune adresse e-mail, aucun mot de passe, aucun identifiant d'appareil. Le prénom, l'équipe et les réponses (justes ou fausses) sont effacés à la fermeture de la séance, et au plus tard au bout de deux jours. Le tableau projeté affiche combien d'élèves ont répondu, jamais qui ni quoi. L'établissement conserve un bilan par question, qui ne nomme personne ; si l'enseignant a choisi le classement individuel, les prénoms qu'il contient sont retirés au bout de 90 jours et le bilan lui-même est effacé à 24 mois. L'enseignant ou l'établissement, lui, dispose d'un compte : une adresse e-mail et un mot de passe, gérés par Supabase Auth, avec éventuellement un nom et un nom d'établissement. Ce compte porte la licence — le nombre de parties offertes utilisées, l'abonnement et son échéance — et un identifiant client Stripe. IqraQuest ne voit ni ne conserve aucune donnée bancaire : le paiement et les factures sont chez Stripe. Le compte se supprime depuis la console ; profil, licence, séances et bilans sont alors effacés, et seules les factures restent chez Stripe, qui a l'obligation légale de les conserver. Les données sont hébergées dans l'Union européenne (Supabase, région Irlande) ; le paiement des licences est traité par Stripe. Le détail complet, table par table, est publié dans le dépôt du projet."
       },
       {
         "title": "Ce qui est stocké, et où",

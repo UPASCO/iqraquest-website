@@ -515,27 +515,22 @@
     "tiersTitle": "The plans",
     "tiers": [
       {
-        "name": "3 rooms",
+        "name": "Discovery offer",
+        "price": "Free",
+        "body": "Free account, no card. Five games to try the School mode with a real class."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "€89 / year",
-        "body": "Three sessions at once in the school. Enough for three classes at the same hour."
-      },
-      {
-        "name": "5 rooms",
-        "price": "€99 / year",
-        "body": "Five simultaneous sessions. For schools that play a whole year group in one morning."
-      },
-      {
-        "name": "10 rooms",
-        "price": "€149 / year",
-        "body": "Ten simultaneous sessions. For a full school, or a network under one head."
+        "body": "Unlimited games for a year, up to two simultaneous game sessions, full access to the School mode."
       }
     ],
-    "tiersNote": "A yearly subscription, per school. Pupils join free, with no account and no cap on numbers. A licence that would fall in high summer is pushed to 31 August: it must not expire over the holidays.",
+    "tiersNote": "A yearly subscription, per school, renewed each year until cancelled — cancelling takes one click and access stays open until the end date. Pupils join free, with no account and no cap on numbers.",
     "licenceTitle": "The licence",
-    "licenceBody": "The licence is bought and used on the web, from the teacher's console. Pupils join free of charge from the app.",
-    "consoleCta": "Open the teacher console",
-    "consoleNote": "You sign in with the school's address and a password, sent to you with the licence.",
-    "consoleWaiting": "Online payment opens shortly. Until then, write to us: we open your account, send your credentials and set up a free trial in your school.",
+    "licenceBody": "The account takes a minute to create and gives five games. Once they are used, the subscription starts from your account and the licence applies at once.",
+    "consoleCta": "Start for free",
+    "consoleNote": "E-mail address and password, chosen when you sign up. No card is asked for to start.",
+    "consoleWaiting": "Online payment opens shortly. Until then, the five free games are available as soon as you sign up, and a school that has used them writes to us: we activate its licence the same day.",
     "faqTitle": "Questions schools ask",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "The IqraQuest school account: your subscription, your past sessions and your classes' scores, in the same place as the console that runs them.",
     "lede": "Your subscription, your past sessions and your pupils' marks — in the same place as the console that opens a session.",
     "signInTitle": "Sign in",
-    "signInBody": "The console opens with your school's address and your password. You receive both with your licence.",
+    "signInBody": "The console opens with your e-mail address and the password you chose when signing up.",
     "cta": "Open my console",
     "insideTitle": "What you'll find",
     "inside": [
@@ -580,7 +575,7 @@
       }
     ],
     "newTitle": "No account yet?",
-    "newBody": "The account comes with your school's licence. Write to us: we open your access and send you your credentials.",
+    "newBody": "Create one in a minute from the console: free, no card, with five games included. The subscription only comes afterwards, if you want it.",
     "lostTitle": "Lost password",
     "lostBody": "The console sends a sign-in link back to the school's address, under “Forgotten your password?”."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "The classroom mode (schools)",
-        "body": "This mode exists only when a school opens a session; it concerns neither the family game nor solo play. A pupil enters a code and a first name: nothing else. No account, no email address, no password, no device identifier. The first name, the team and the answers (right or wrong) are erased when the session closes, and after two days at the latest. The projected board shows how many pupils have answered — never who, never what. The school keeps a per-question summary, which names nobody; if the teacher chose the individual ranking, the first names it holds are stripped after 90 days and the summary itself is deleted at 24 months. The teacher is identified by the single email address that bought the licence, with no password: signing in is a link sent to that address. The data is hosted in the European Union (Supabase, Ireland region); licence payments are handled by Stripe. The full detail, table by table, is published in the project's repository."
+        "body": "This mode exists only when a school opens a session; it concerns neither the family game nor solo play. A pupil enters a code and a first name: nothing else. No account, no email address, no password, no device identifier. The first name, the team and the answers (right or wrong) are erased when the session closes, and after two days at the latest. The projected board shows how many pupils have answered — never who, never what. The school keeps a per-question summary, which names nobody; if the teacher chose the individual ranking, the first names it holds are stripped after 90 days and the summary itself is deleted at 24 months. The teacher or the school, for their part, has an account: an e-mail address and a password, managed by Supabase Auth, optionally with a name and a school name. That account carries the licence — free games used, subscription and its end date — and a Stripe customer id. IqraQuest never sees or keeps any bank details: payment and invoices live with Stripe. The account can be deleted from the console; profile, licence, sessions and reports are then erased, and only the invoices remain with Stripe, which is legally required to keep them. The data is hosted in the European Union (Supabase, Ireland region); licence payments are handled by Stripe. The full detail, table by table, is published in the project's repository."
       },
       {
         "title": "What is stored, and where",

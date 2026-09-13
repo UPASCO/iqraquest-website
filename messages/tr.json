@@ -515,27 +515,22 @@
     "tiersTitle": "Paketler",
     "tiers": [
       {
-        "name": "3 salon",
+        "name": "Keşif teklifi",
+        "price": "Ücretsiz",
+        "body": "Ücretsiz hesap, kart gerekmez. Okul modunu gerçek bir sınıfla denemek için beş oyun."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "89 € / yıl",
-        "body": "Okulda aynı anda üç oturum. Aynı saatte üç sınıfa yeter."
-      },
-      {
-        "name": "5 salon",
-        "price": "99 € / yıl",
-        "body": "Beş eşzamanlı oturum. Bir sabahta bütün bir kademeyi oynatan okulların paketi."
-      },
-      {
-        "name": "10 salon",
-        "price": "149 € / yıl",
-        "body": "On eşzamanlı oturum. Tam bir okul ya da aynı yönetim altındaki bir okul ağı için."
+        "body": "Bir yıl boyunca sınırsız oyun, aynı anda iki oyun oturumuna kadar, Okul moduna tam erişim."
       }
     ],
-    "tiersNote": "Okul başına yıllık abonelik. Öğrenciler ücretsiz katılır, hesapsız ve sayı sınırı olmadan. Bitiş tarihi yaz ortasına denk gelirse 31 Ağustos’a atılır: bir lisans tatilde sona ermemeli.",
+    "tiersNote": "Okul başına yıllık abonelik; iptal edilmedikçe her yıl yenilenir — iptal tek tıkla yapılır ve erişim dönem sonuna kadar açık kalır. Öğrenciler ücretsiz katılır, hesapsız ve sayı sınırı olmadan.",
     "licenceTitle": "Lisans",
-    "licenceBody": "Lisans web üzerinden, öğretmen konsolundan alınır ve kullanılır. Öğrenciler uygulamadan ücretsiz katılır.",
-    "consoleCta": "Öğretmen konsolunu aç",
-    "consoleNote": "Giriş, okulun adresi ve lisansla birlikte verilen bir parola ile yapılır.",
-    "consoleWaiting": "Çevrimiçi ödeme yakında açılıyor. O zamana kadar bize yazın: alanınızı açar, bilgilerinizi gönderir ve okulunuzda ücretsiz bir deneme ayarlarız.",
+    "licenceBody": "Hesap bir dakikada oluşturulur ve beş oyun verir. Bunlar kullanıldığında abonelik alanınızdan başlar ve lisans hemen uygulanır.",
+    "consoleCta": "Ücretsiz başla",
+    "consoleNote": "Kayıt sırasında seçilen e-posta adresi ve parola. Başlamak için kart istenmez.",
+    "consoleWaiting": "Çevrimiçi ödeme yakında açılıyor. O zamana kadar beş ücretsiz oyun kayıtla birlikte kullanılabilir; bunları kullanan okul bize yazar, lisansını aynı gün etkinleştiririz.",
     "faqTitle": "Okulların sorduğu sorular",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "IqraQuest okul alanı: aboneliğiniz, geçmiş oturumlarınız ve sınıflarınızın puanları — oturumları başlatan konsolla aynı yerde.",
     "lede": "Aboneliğiniz, geçmiş oturumlarınız ve öğrencilerinizin notları — oturumu açan konsolla aynı yerde.",
     "signInTitle": "Giriş yap",
-    "signInBody": "Konsol, okulunuzun adresi ve parolanızla açılır. İkisini de lisansınızla birlikte alırsınız.",
+    "signInBody": "Konsol, e-posta adresiniz ve kayıtta seçtiğiniz parola ile açılır.",
     "cta": "Konsolumu aç",
     "insideTitle": "Burada bulacaklarınız",
     "inside": [
@@ -579,8 +574,8 @@
         "body": "Oturum öğrenci başına sayıldıysa herkesin 20 üzerinden notu vardır — oturumun kartları üzerinden hesaplanır, deftere hazır."
       }
     ],
-    "newTitle": "Henüz alanınız yok mu?",
-    "newBody": "Alan, okulunuzun lisansıyla birlikte oluşturulur. Bize yazın: erişiminizi açar ve bilgilerinizi göndeririz.",
+    "newTitle": "Henüz hesabınız yok mu?",
+    "newBody": "Konsoldan bir dakikada oluşturun: ücretsiz, kartsız, beş oyun dahil. Abonelik isterseniz sonra gelir.",
     "lostTitle": "Kayıp parola",
     "lostBody": "Konsol, okulun adresine bir giriş bağlantısı gönderir — «Parolanızı mı unuttunuz?» altında."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "Sınıf modu (okullar)",
-        "body": "Bu mod yalnızca bir okul oturum açtığında vardır; ne aile oyununu ne de tek başına oynamayı ilgilendirir. Öğrenci bir kod ve bir ad girer: başka hiçbir şey. Hesap yok, e-posta adresi yok, parola yok, cihaz kimliği yok. Ad, takım ve yanıtlar (doğru ya da yanlış) oturum kapanınca, en geç iki gün içinde silinir. Yansıtılan tahta kaç öğrencinin yanıtladığını gösterir; kimin ve neyi asla. Okul, kimseyi adlandırmayan soru başına bir özet saklar; öğretmen bireysel sıralamayı seçtiyse, içindeki adlar 90 gün sonra kaldırılır ve özetin kendisi 24 ayda silinir. Öğretmen yalnızca lisansı satın alan e-posta adresiyle tanınır, parolasız: giriş, o adrese gönderilen bir bağlantıdır. Veriler Avrupa Birliği'nde barındırılır (Supabase, İrlanda bölgesi); lisans ödemelerini Stripe yürütür. Tablo tablo tüm ayrıntı, projenin deposunda yayımlanmıştır."
+        "body": "Bu mod yalnızca bir okul oturum açtığında vardır; ne aile oyununu ne de tek başına oynamayı ilgilendirir. Öğrenci bir kod ve bir ad girer: başka hiçbir şey. Hesap yok, e-posta adresi yok, parola yok, cihaz kimliği yok. Ad, takım ve yanıtlar (doğru ya da yanlış) oturum kapanınca, en geç iki gün içinde silinir. Yansıtılan tahta kaç öğrencinin yanıtladığını gösterir; kimin ve neyi asla. Okul, kimseyi adlandırmayan soru başına bir özet saklar; öğretmen bireysel sıralamayı seçtiyse, içindeki adlar 90 gün sonra kaldırılır ve özetin kendisi 24 ayda silinir. Öğretmen ya da kurumun ise bir hesabı vardır: Supabase Auth tarafından yönetilen bir e-posta adresi ve parola, isteğe bağlı ad ve kurum adı. Bu hesap lisansı — kullanılan ücretsiz oyunlar, abonelik ve bitiş tarihi — ve bir Stripe müşteri kimliği taşır. IqraQuest hiçbir banka verisini görmez ya da saklamaz: ödeme ve faturalar Stripe’tadır. Hesap konsoldan silinebilir; profil, lisans, oturumlar ve raporlar silinir, yalnızca yasal olarak saklamakla yükümlü Stripe’taki faturalar kalır. Veriler Avrupa Birliği'nde barındırılır (Supabase, İrlanda bölgesi); lisans ödemelerini Stripe yürütür. Tablo tablo tüm ayrıntı, projenin deposunda yayımlanmıştır."
       },
       {
         "title": "Neyin, nerede saklandığı",

@@ -515,27 +515,22 @@
     "tiersTitle": "Pakej",
     "tiers": [
       {
-        "name": "3 bilik",
+        "name": "Tawaran perkenalan",
+        "price": "Percuma",
+        "body": "Akaun percuma, tanpa kad. Lima permainan untuk mencuba mod Sekolah dengan kelas sebenar."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "€89 / tahun",
-        "body": "Tiga sesi serentak di sekolah. Cukup untuk tiga kelas pada waktu yang sama."
-      },
-      {
-        "name": "5 bilik",
-        "price": "€99 / tahun",
-        "body": "Lima sesi serentak. Pakej sekolah yang memainkan satu tingkatan penuh dalam satu pagi."
-      },
-      {
-        "name": "10 bilik",
-        "price": "€149 / tahun",
-        "body": "Sepuluh sesi serentak. Untuk sekolah penuh, atau rangkaian sekolah di bawah satu pentadbiran."
+        "body": "Permainan tanpa had selama setahun, sehingga dua sesi permainan serentak, akses penuh ke mod Sekolah."
       }
     ],
-    "tiersNote": "Langganan tahunan, setiap sekolah. Murid menyertai secara percuma, tanpa akaun dan tanpa had bilangan. Jika tarikh tamat jatuh pada kemuncak musim panas, ia ditolak ke 31 Ogos: lesen tidak sepatutnya mati semasa cuti.",
+    "tiersNote": "Langganan tahunan setiap sekolah, diperbaharui setiap tahun selagi tidak dibatalkan — pembatalan satu klik dan akses kekal terbuka sehingga hujung tempoh. Murid menyertai secara percuma, tanpa akaun dan tanpa had bilangan.",
     "licenceTitle": "Lesen",
-    "licenceBody": "Lesen dibeli dan digunakan di web, dari konsol guru. Murid menyertai secara percuma melalui aplikasi.",
-    "consoleCta": "Buka konsol guru",
-    "consoleNote": "Log masuk dilakukan dengan alamat sekolah dan kata laluan, yang dihantar bersama lesen.",
-    "consoleWaiting": "Pembayaran dalam talian akan dibuka tidak lama lagi. Sementara itu, tulis kepada kami: kami buka ruang anda, hantar butiran log masuk dan aturkan percubaan percuma di sekolah anda.",
+    "licenceBody": "Akaun dicipta dalam seminit dan memberi lima permainan. Apabila habis digunakan, langganan bermula dari ruang anda dan lesen terpakai serta-merta.",
+    "consoleCta": "Mula secara percuma",
+    "consoleNote": "Alamat e-mel dan kata laluan, dipilih semasa mendaftar. Tiada kad diminta untuk bermula.",
+    "consoleWaiting": "Pembayaran dalam talian akan dibuka tidak lama lagi. Sementara itu, lima permainan percuma tersedia sebaik mendaftar, dan sekolah yang telah menggunakannya menulis kepada kami: kami aktifkan lesennya pada hari yang sama.",
     "faqTitle": "Soalan daripada sekolah",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "Ruang sekolah IqraQuest: langganan anda, sesi lepas dan markah kelas anda — di tempat yang sama dengan konsol yang melancarkannya.",
     "lede": "Langganan anda, sesi lepas dan markah murid anda — di tempat yang sama dengan konsol yang membuka sesi.",
     "signInTitle": "Log masuk",
-    "signInBody": "Konsol dibuka dengan alamat sekolah anda dan kata laluan anda. Kedua-duanya anda terima bersama lesen.",
+    "signInBody": "Konsol dibuka dengan alamat e-mel anda dan kata laluan yang dipilih semasa mendaftar.",
     "cta": "Buka konsol saya",
     "insideTitle": "Apa yang anda temui",
     "inside": [
@@ -579,8 +574,8 @@
         "body": "Apabila sesi dikira setiap murid, masing-masing ada markah daripada 20 — dikira atas kad sesi itu, sedia untuk buku rekod."
       }
     ],
-    "newTitle": "Belum ada ruang?",
-    "newBody": "Ruang dicipta bersama lesen sekolah anda. Tulis kepada kami: kami buka akses anda dan hantar butiran log masuk.",
+    "newTitle": "Belum ada akaun?",
+    "newBody": "Cipta dalam seminit dari konsol: percuma, tanpa kad, dengan lima permainan. Langganan hanya datang selepas itu, jika anda mahu.",
     "lostTitle": "Kata laluan hilang",
     "lostBody": "Konsol menghantar pautan log masuk ke alamat sekolah, di bawah «Lupa kata laluan?»."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "Mod Kelas (sekolah)",
-        "body": "Mod ini hanya wujud apabila sebuah sekolah membuka sesi; ia tidak melibatkan permainan keluarga mahupun permainan seorang diri. Murid memasukkan satu kod dan satu nama: tiada yang lain. Tiada akaun, tiada alamat e-mel, tiada kata laluan, tiada pengenalan peranti. Nama, pasukan dan jawapan (betul atau salah) dipadam apabila sesi ditutup, dan selewat-lewatnya selepas dua hari. Papan yang dipancarkan menunjukkan berapa ramai murid telah menjawab — bukan siapa, bukan apa. Sekolah menyimpan ringkasan bagi setiap soalan yang tidak menamakan sesiapa; jika guru memilih kedudukan individu, nama di dalamnya dibuang selepas 90 hari dan ringkasan itu sendiri dipadam pada 24 bulan. Guru dikenali hanya melalui alamat e-mel yang membeli lesen, tanpa kata laluan: log masuk ialah pautan yang dihantar ke alamat itu. Data dihoskan di Kesatuan Eropah (Supabase, wilayah Ireland); pembayaran lesen dikendalikan oleh Stripe. Butiran penuh, jadual demi jadual, diterbitkan dalam repositori projek."
+        "body": "Mod ini hanya wujud apabila sebuah sekolah membuka sesi; ia tidak melibatkan permainan keluarga mahupun permainan seorang diri. Murid memasukkan satu kod dan satu nama: tiada yang lain. Tiada akaun, tiada alamat e-mel, tiada kata laluan, tiada pengenalan peranti. Nama, pasukan dan jawapan (betul atau salah) dipadam apabila sesi ditutup, dan selewat-lewatnya selepas dua hari. Papan yang dipancarkan menunjukkan berapa ramai murid telah menjawab — bukan siapa, bukan apa. Sekolah menyimpan ringkasan bagi setiap soalan yang tidak menamakan sesiapa; jika guru memilih kedudukan individu, nama di dalamnya dibuang selepas 90 hari dan ringkasan itu sendiri dipadam pada 24 bulan. Guru atau sekolah pula mempunyai akaun: alamat e-mel dan kata laluan yang diuruskan Supabase Auth, dengan nama dan nama sekolah pilihan. Akaun ini membawa lesen — permainan percuma yang digunakan, langganan dan tarikh tamatnya — serta id pelanggan Stripe. IqraQuest tidak melihat atau menyimpan sebarang data bank: pembayaran dan invois berada di Stripe. Akaun boleh dipadam dari konsol; profil, lesen, sesi dan laporan dipadam, dan hanya invois kekal di Stripe, yang wajib menyimpannya di sisi undang-undang. Data dihoskan di Kesatuan Eropah (Supabase, wilayah Ireland); pembayaran lesen dikendalikan oleh Stripe. Butiran penuh, jadual demi jadual, diterbitkan dalam repositori projek."
       },
       {
         "title": "Apa yang disimpan, dan di mana",

@@ -515,27 +515,22 @@
     "tiersTitle": "De formules",
     "tiers": [
       {
-        "name": "3 zalen",
+        "name": "Kennismakingsaanbod",
+        "price": "Gratis",
+        "body": "Gratis account, zonder kaart. Vijf spellen om de Schoolmodus met een echte klas te proberen."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "€89 / jaar",
-        "body": "Drie sessies tegelijk in de school. Genoeg voor drie klassen op hetzelfde uur."
-      },
-      {
-        "name": "5 zalen",
-        "price": "€99 / jaar",
-        "body": "Vijf gelijktijdige sessies. Voor scholen die een heel leerjaar op één ochtend laten spelen."
-      },
-      {
-        "name": "10 zalen",
-        "price": "€149 / jaar",
-        "body": "Tien gelijktijdige sessies. Voor een volledige school of een netwerk onder één directie."
+        "body": "Onbeperkt spellen gedurende een jaar, tot twee gelijktijdige spelsessies, volledige toegang tot de Schoolmodus."
       }
     ],
-    "tiersNote": "Een jaarabonnement, per school. Leerlingen doen gratis mee, zonder account en zonder maximum. Valt de einddatum midden in de zomer, dan schuift hij naar 31 augustus: een licentie hoort niet in de vakantie af te lopen.",
+    "tiersNote": "Jaarabonnement per school, elk jaar verlengd zolang het niet is opgezegd — opzeggen is één klik en de toegang blijft open tot het einde van de periode. Leerlingen doen gratis mee, zonder account en zonder maximum.",
     "licenceTitle": "De licentie",
-    "licenceBody": "De licentie wordt op het web gekocht en gebruikt, vanuit de console van de leerkracht. Leerlingen doen gratis mee vanuit de app.",
-    "consoleCta": "Docentenconsole openen",
-    "consoleNote": "Inloggen gaat met het adres van de school en een wachtwoord, dat je met de licentie krijgt.",
-    "consoleWaiting": "Online betalen opent binnenkort. Schrijf ons tot die tijd: wij openen je ruimte, sturen je inloggegevens en zetten een gratis proef op je school klaar.",
+    "licenceBody": "Het account is in een minuut aangemaakt en geeft vijf spellen. Zijn die gebruikt, dan start het abonnement vanuit je ruimte en geldt de licentie meteen.",
+    "consoleCta": "Gratis beginnen",
+    "consoleNote": "E-mailadres en wachtwoord, gekozen bij registratie. Er wordt geen kaart gevraagd om te beginnen.",
+    "consoleWaiting": "Online betalen opent binnenkort. Tot die tijd zijn de vijf gratis spellen beschikbaar zodra je je registreert, en een school die ze heeft gebruikt schrijft ons: wij activeren de licentie dezelfde dag.",
     "faqTitle": "Vragen van scholen",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "De schoolruimte van IqraQuest: je abonnement, je eerdere sessies en de cijfers van je klassen — op dezelfde plek als de console die ze start.",
     "lede": "Je abonnement, je eerdere sessies en de cijfers van je leerlingen — op dezelfde plek als de console die een sessie opent.",
     "signInTitle": "Inloggen",
-    "signInBody": "De console opent met het adres van je school en je wachtwoord. Je krijgt beide bij je licentie.",
+    "signInBody": "De console opent met je e-mailadres en het wachtwoord dat je bij registratie koos.",
     "cta": "Mijn console openen",
     "insideTitle": "Wat je er vindt",
     "inside": [
@@ -579,8 +574,8 @@
         "body": "Telde de sessie per leerling, dan heeft ieder zijn cijfer op 20 — berekend over de kaarten van die sessie, klaar voor het schrift."
       }
     ],
-    "newTitle": "Nog geen ruimte?",
-    "newBody": "De ruimte ontstaat met de licentie van je school. Schrijf ons: wij openen je toegang en sturen je inloggegevens.",
+    "newTitle": "Nog geen account?",
+    "newBody": "Maak het in een minuut aan vanuit de console: gratis, zonder kaart, met vijf spellen. Het abonnement komt pas daarna, als je wilt.",
     "lostTitle": "Wachtwoord kwijt",
     "lostBody": "De console stuurt een inloglink naar het adres van de school, onder „Wachtwoord vergeten?”."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "De klasmodus (scholen)",
-        "body": "Deze modus bestaat alleen wanneer een school een sessie opent; hij raakt noch het familiespel noch het solospel. De leerling voert een code en een voornaam in: verder niets. Geen account, geen e-mailadres, geen wachtwoord, geen apparaat-identificatie. De voornaam, het team en de antwoorden (goed of fout) worden gewist bij het sluiten van de sessie, en uiterlijk na twee dagen. Het geprojecteerde bord toont hoeveel leerlingen geantwoord hebben — nooit wie, nooit wat. De school bewaart een samenvatting per vraag die niemand noemt; koos de leerkracht het individuele klassement, dan worden de voornamen daarin na 90 dagen verwijderd en wordt de samenvatting zelf na 24 maanden gewist. De leerkracht wordt uitsluitend herkend aan het e-mailadres waarmee de licentie is gekocht, zonder wachtwoord: aanmelden gaat via een link naar dat adres. De gegevens staan in de Europese Unie (Supabase, regio Ierland); licentiebetalingen verlopen via Stripe. Het volledige detail, tabel voor tabel, is gepubliceerd in de repository van het project."
+        "body": "Deze modus bestaat alleen wanneer een school een sessie opent; hij raakt noch het familiespel noch het solospel. De leerling voert een code en een voornaam in: verder niets. Geen account, geen e-mailadres, geen wachtwoord, geen apparaat-identificatie. De voornaam, het team en de antwoorden (goed of fout) worden gewist bij het sluiten van de sessie, en uiterlijk na twee dagen. Het geprojecteerde bord toont hoeveel leerlingen geantwoord hebben — nooit wie, nooit wat. De school bewaart een samenvatting per vraag die niemand noemt; koos de leerkracht het individuele klassement, dan worden de voornamen daarin na 90 dagen verwijderd en wordt de samenvatting zelf na 24 maanden gewist. De leerkracht of school heeft een account: een e-mailadres en wachtwoord, beheerd door Supabase Auth, met optioneel een naam en schoolnaam. Dat account draagt de licentie — gebruikte gratis spellen, abonnement en einddatum — en een Stripe-klant-id. IqraQuest ziet of bewaart geen bankgegevens: betaling en facturen staan bij Stripe. Het account is te verwijderen vanuit de console; profiel, licentie, sessies en rapporten worden dan gewist, en alleen de facturen blijven bij Stripe, dat ze wettelijk moet bewaren. De gegevens staan in de Europese Unie (Supabase, regio Ierland); licentiebetalingen verlopen via Stripe. Het volledige detail, tabel voor tabel, is gepubliceerd in de repository van het project."
       },
       {
         "title": "Wat er wordt opgeslagen, en waar",

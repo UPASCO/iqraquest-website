@@ -515,27 +515,22 @@
     "tiersTitle": "As modalidades",
     "tiers": [
       {
-        "name": "3 salas",
+        "name": "Oferta de descoberta",
+        "price": "Grátis",
+        "body": "Conta gratuita, sem cartão. Cinco partidas para experimentar o modo Escola com uma turma real."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "89 € / ano",
-        "body": "Três sessões ao mesmo tempo na escola. O suficiente para três turmas à mesma hora."
-      },
-      {
-        "name": "5 salas",
-        "price": "99 € / ano",
-        "body": "Cinco sessões em simultâneo. A modalidade das escolas que jogam um ano inteiro numa manhã."
-      },
-      {
-        "name": "10 salas",
-        "price": "149 € / ano",
-        "body": "Dez sessões em simultâneo. Para uma escola completa ou uma rede sob a mesma direção."
+        "body": "Partidas ilimitadas durante um ano, até duas sessões de jogo em simultâneo, acesso completo ao modo Escola."
       }
     ],
-    "tiersNote": "Subscrição anual, por escola. Os alunos entram gratuitamente, sem conta e sem limite de número. Se o vencimento caísse em pleno verão, passa para 31 de agosto: uma licença não deve morrer nas férias.",
+    "tiersNote": "Subscrição anual, por escola, renovada todos os anos enquanto não for cancelada — cancelar é um clique e o acesso continua aberto até ao fim do período. Os alunos entram gratuitamente, sem conta e sem limite de número.",
     "licenceTitle": "A licença",
-    "licenceBody": "A licença compra-se e usa-se na web, a partir da consola do professor. Os alunos entram gratuitamente pela aplicação.",
-    "consoleCta": "Abrir a consola do professor",
-    "consoleNote": "O acesso faz-se com o endereço da escola e uma palavra-passe, enviada com a licença.",
-    "consoleWaiting": "O pagamento online abre em breve. Até lá, escreva-nos: abrimos a sua área, enviamos as credenciais e reservamos um teste gratuito na sua escola.",
+    "licenceBody": "A conta cria-se num minuto e dá cinco partidas. Quando são usadas, a subscrição ativa-se a partir da sua área e a licença aplica-se de imediato.",
+    "consoleCta": "Começar gratuitamente",
+    "consoleNote": "Endereço de e-mail e palavra-passe, escolhidos ao registar-se. Nenhum cartão é pedido para começar.",
+    "consoleWaiting": "O pagamento online abre em breve. Até lá, as cinco partidas grátis ficam disponíveis logo após o registo, e uma escola que as tenha usado escreve-nos: ativamos a licença no próprio dia.",
     "faqTitle": "Perguntas das escolas",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "A área escolar da IqraQuest: a sua subscrição, as suas sessões anteriores e as notas das suas turmas, no mesmo sítio que a consola que as lança.",
     "lede": "A sua subscrição, as suas sessões anteriores e as notas dos seus alunos — no mesmo sítio que a consola que abre uma sessão.",
     "signInTitle": "Entrar",
-    "signInBody": "A consola abre com o endereço da sua escola e a sua palavra-passe. Recebe ambos com a sua licença.",
+    "signInBody": "A consola abre com o seu e-mail e a palavra-passe escolhida no registo.",
     "cta": "Abrir a minha consola",
     "insideTitle": "O que vai encontrar",
     "inside": [
@@ -579,8 +574,8 @@
         "body": "Quando a sessão contava por aluno, cada um tem a sua nota em 20 — calculada sobre as cartas da sessão, pronta para o caderno."
       }
     ],
-    "newTitle": "Ainda não tem área?",
-    "newBody": "A área é criada com a licença da sua escola. Escreva-nos: abrimos o seu acesso e enviamos-lhe as credenciais.",
+    "newTitle": "Ainda não tem conta?",
+    "newBody": "Crie-a num minuto a partir da consola: grátis, sem cartão, com cinco partidas incluídas. A subscrição só vem depois, se quiser.",
     "lostTitle": "Palavra-passe perdida",
     "lostBody": "A consola envia um link de acesso para o endereço da escola, em «Esqueceu-se da palavra-passe?»."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "O modo Turma (escolas)",
-        "body": "Este modo só existe quando uma escola abre uma sessão; não diz respeito nem ao jogo em família nem ao modo solitário. O aluno introduz um código e um primeiro nome: nada mais. Sem conta, sem endereço de e-mail, sem palavra-passe, sem identificador de dispositivo. O nome, a equipa e as respostas (certas ou erradas) são apagados ao fechar a sessão e, o mais tardar, ao fim de dois dias. O quadro projetado mostra quantos alunos responderam, nunca quem nem o quê. A escola guarda um resumo por pergunta que não nomeia ninguém; se o professor escolheu a classificação individual, os nomes nele contidos são removidos ao fim de 90 dias e o resumo é apagado aos 24 meses. O professor é identificado apenas pelo endereço de e-mail que comprou a licença, sem palavra-passe: a entrada é um link enviado para esse endereço. Os dados são alojados na União Europeia (Supabase, região da Irlanda); os pagamentos das licenças são tratados pela Stripe. O detalhe completo, tabela a tabela, está publicado no repositório do projeto."
+        "body": "Este modo só existe quando uma escola abre uma sessão; não diz respeito nem ao jogo em família nem ao modo solitário. O aluno introduz um código e um primeiro nome: nada mais. Sem conta, sem endereço de e-mail, sem palavra-passe, sem identificador de dispositivo. O nome, a equipa e as respostas (certas ou erradas) são apagados ao fechar a sessão e, o mais tardar, ao fim de dois dias. O quadro projetado mostra quantos alunos responderam, nunca quem nem o quê. A escola guarda um resumo por pergunta que não nomeia ninguém; se o professor escolheu a classificação individual, os nomes nele contidos são removidos ao fim de 90 dias e o resumo é apagado aos 24 meses. O professor ou a escola, por sua vez, tem uma conta: um e-mail e uma palavra-passe, geridos pelo Supabase Auth, com nome e nome de escola opcionais. Essa conta transporta a licença — partidas grátis usadas, subscrição e o seu fim — e um identificador de cliente Stripe. A IqraQuest não vê nem guarda dados bancários: o pagamento e as faturas estão na Stripe. A conta apaga-se a partir da consola; perfil, licença, sessões e relatórios são eliminados, e só as faturas ficam na Stripe, obrigada por lei a conservá-las. Os dados são alojados na União Europeia (Supabase, região da Irlanda); os pagamentos das licenças são tratados pela Stripe. O detalhe completo, tabela a tabela, está publicado no repositório do projeto."
       },
       {
         "title": "O que é guardado, e onde",

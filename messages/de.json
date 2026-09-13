@@ -515,27 +515,22 @@
     "tiersTitle": "Die Tarife",
     "tiers": [
       {
-        "name": "3 Räume",
+        "name": "Kennenlern-Angebot",
+        "price": "Kostenlos",
+        "body": "Kostenloses Konto, ohne Karte. Fünf Spiele, um den Schulmodus mit einer echten Klasse zu testen."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "89 € / Jahr",
-        "body": "Drei Sitzungen gleichzeitig in der Schule. Genug für drei Klassen zur selben Stunde."
-      },
-      {
-        "name": "5 Räume",
-        "price": "99 € / Jahr",
-        "body": "Fünf gleichzeitige Sitzungen. Für Schulen, die einen ganzen Jahrgang an einem Vormittag spielen lassen."
-      },
-      {
-        "name": "10 Räume",
-        "price": "149 € / Jahr",
-        "body": "Zehn gleichzeitige Sitzungen. Für eine ganze Schule oder ein Netz unter einer Leitung."
+        "body": "Unbegrenzt Spiele für ein Jahr, bis zu zwei gleichzeitige Spielsitzungen, voller Zugang zum Schulmodus."
       }
     ],
-    "tiersNote": "Ein Jahresabo, pro Schule. Schüler machen kostenlos mit, ohne Konto und ohne Obergrenze. Fiele das Ende mitten in den Sommer, wird es auf den 31. August geschoben: eine Lizenz darf nicht in den Ferien auslaufen.",
+    "tiersNote": "Jahresabo pro Schule, jedes Jahr verlängert, solange es nicht gekündigt wird — Kündigen ist ein Klick, der Zugang bleibt bis zum Ende der Laufzeit offen. Schüler machen kostenlos mit, ohne Konto und ohne Obergrenze.",
     "licenceTitle": "Die Lizenz",
-    "licenceBody": "Die Lizenz wird im Web gekauft und dort genutzt, über die Konsole der Lehrkraft. Die Schülerinnen und Schüler treten kostenlos aus der App bei.",
-    "consoleCta": "Lehrerkonsole öffnen",
-    "consoleNote": "Die Anmeldung läuft über die Adresse der Schule und ein Passwort, das mit der Lizenz kommt.",
-    "consoleWaiting": "Die Online-Zahlung öffnet bald. Bis dahin schreib uns: wir richten deinen Bereich ein, schicken die Zugangsdaten und reservieren einen kostenlosen Test an deiner Schule.",
+    "licenceBody": "Das Konto ist in einer Minute erstellt und gibt fünf Spiele. Sind sie verbraucht, startet das Abo aus deinem Bereich und die Lizenz gilt sofort.",
+    "consoleCta": "Kostenlos starten",
+    "consoleNote": "E-Mail-Adresse und Passwort, bei der Registrierung gewählt. Zum Start wird keine Karte verlangt.",
+    "consoleWaiting": "Die Online-Zahlung öffnet bald. Bis dahin stehen die fünf Gratisspiele ab der Registrierung bereit, und eine Schule, die sie genutzt hat, schreibt uns: wir schalten die Lizenz noch am selben Tag frei.",
     "faqTitle": "Fragen aus Schulen",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "Der Schulbereich von IqraQuest: dein Abonnement, deine vergangenen Sitzungen und die Ergebnisse deiner Klassen — dort, wo auch die Konsole sie startet.",
     "lede": "Dein Abonnement, deine vergangenen Sitzungen und die Noten deiner Schüler — dort, wo auch die Konsole eine Sitzung öffnet.",
     "signInTitle": "Anmelden",
-    "signInBody": "Die Konsole öffnet sich mit der Adresse deiner Schule und deinem Passwort. Beides bekommst du mit deiner Lizenz.",
+    "signInBody": "Die Konsole öffnet sich mit deiner E-Mail-Adresse und dem bei der Registrierung gewählten Passwort.",
     "cta": "Meine Konsole öffnen",
     "insideTitle": "Was dich erwartet",
     "inside": [
@@ -579,8 +574,8 @@
         "body": "Zählte die Sitzung nach Schüler, hat jeder seine Note von 20 — über die Karten der Sitzung gerechnet, fertig fürs Heft."
       }
     ],
-    "newTitle": "Noch keinen Bereich?",
-    "newBody": "Der Bereich entsteht mit der Lizenz deiner Schule. Schreib uns: wir öffnen deinen Zugang und schicken dir die Zugangsdaten.",
+    "newTitle": "Noch kein Konto?",
+    "newBody": "Erstelle es in einer Minute in der Konsole: kostenlos, ohne Karte, mit fünf Spielen. Das Abo kommt erst danach, wenn du willst.",
     "lostTitle": "Passwort verloren",
     "lostBody": "Die Konsole schickt einen Anmeldelink an die Adresse der Schule, unter „Passwort vergessen?“."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "Der Klassenmodus (Schulen)",
-        "body": "Diesen Modus gibt es nur, wenn eine Schule eine Sitzung öffnet; er betrifft weder das Familienspiel noch das Solospiel. Das Kind gibt einen Code und einen Vornamen ein — sonst nichts. Kein Konto, keine E-Mail-Adresse, kein Passwort, keine Gerätekennung. Vorname, Team und Antworten (richtig oder falsch) werden beim Schließen der Sitzung gelöscht, spätestens nach zwei Tagen. Die projizierte Tafel zeigt, wie viele geantwortet haben — nie wer, nie was. Die Schule behält eine Auswertung je Frage, die niemanden nennt; hat die Lehrkraft die Einzelwertung gewählt, werden die darin enthaltenen Vornamen nach 90 Tagen entfernt und die Auswertung selbst nach 24 Monaten gelöscht. Die Lehrkraft wird allein durch die E-Mail-Adresse identifiziert, mit der die Lizenz gekauft wurde, ohne Passwort: die Anmeldung ist ein Link an diese Adresse. Die Daten liegen in der Europäischen Union (Supabase, Region Irland); die Lizenzzahlungen wickelt Stripe ab. Die vollständigen Angaben, Tabelle für Tabelle, sind im Repository des Projekts veröffentlicht."
+        "body": "Diesen Modus gibt es nur, wenn eine Schule eine Sitzung öffnet; er betrifft weder das Familienspiel noch das Solospiel. Das Kind gibt einen Code und einen Vornamen ein — sonst nichts. Kein Konto, keine E-Mail-Adresse, kein Passwort, keine Gerätekennung. Vorname, Team und Antworten (richtig oder falsch) werden beim Schließen der Sitzung gelöscht, spätestens nach zwei Tagen. Die projizierte Tafel zeigt, wie viele geantwortet haben — nie wer, nie was. Die Schule behält eine Auswertung je Frage, die niemanden nennt; hat die Lehrkraft die Einzelwertung gewählt, werden die darin enthaltenen Vornamen nach 90 Tagen entfernt und die Auswertung selbst nach 24 Monaten gelöscht. Lehrkraft oder Schule haben ihrerseits ein Konto: E-Mail-Adresse und Passwort, verwaltet von Supabase Auth, optional mit Name und Schulname. Dieses Konto trägt die Lizenz — genutzte Gratisspiele, Abonnement und Enddatum — und eine Stripe-Kundenkennung. IqraQuest sieht und speichert keine Bankdaten: Zahlung und Rechnungen liegen bei Stripe. Das Konto lässt sich aus der Konsole löschen; Profil, Lizenz, Sitzungen und Berichte werden dann entfernt, nur die Rechnungen bleiben bei Stripe, das sie gesetzlich aufbewahren muss. Die Daten liegen in der Europäischen Union (Supabase, Region Irland); die Lizenzzahlungen wickelt Stripe ab. Die vollständigen Angaben, Tabelle für Tabelle, sind im Repository des Projekts veröffentlicht."
       },
       {
         "title": "Was gespeichert wird, und wo",

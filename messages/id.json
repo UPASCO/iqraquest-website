@@ -515,27 +515,22 @@
     "tiersTitle": "Paket",
     "tiers": [
       {
-        "name": "3 ruang",
+        "name": "Paket perkenalan",
+        "price": "Gratis",
+        "body": "Akun gratis, tanpa kartu. Lima permainan untuk mencoba mode Sekolah dengan kelas sungguhan."
+      },
+      {
+        "name": "IqraQuest École",
         "price": "€89 / tahun",
-        "body": "Tiga sesi sekaligus di sekolah. Cukup untuk tiga kelas pada jam yang sama."
-      },
-      {
-        "name": "5 ruang",
-        "price": "€99 / tahun",
-        "body": "Lima sesi serentak. Paket sekolah yang memainkan satu angkatan dalam satu pagi."
-      },
-      {
-        "name": "10 ruang",
-        "price": "€149 / tahun",
-        "body": "Sepuluh sesi serentak. Untuk satu sekolah penuh, atau jaringan sekolah di bawah satu pimpinan."
+        "body": "Permainan tanpa batas selama setahun, hingga dua sesi permainan serentak, akses penuh ke mode Sekolah."
       }
     ],
-    "tiersNote": "Langganan tahunan, per sekolah. Murid bergabung gratis, tanpa akun dan tanpa batas jumlah. Bila jatuh temponya di puncak musim panas, digeser ke 31 Agustus: lisensi tidak boleh mati saat libur.",
+    "tiersNote": "Langganan tahunan per sekolah, diperpanjang setiap tahun selama tidak dibatalkan — pembatalan satu klik dan akses tetap terbuka hingga akhir periode. Murid bergabung gratis, tanpa akun dan tanpa batas jumlah.",
     "licenceTitle": "Lisensi",
-    "licenceBody": "Lisensi dibeli dan digunakan di web, dari konsol guru. Murid bergabung gratis lewat aplikasi.",
-    "consoleCta": "Buka konsol guru",
-    "consoleNote": "Masuk dilakukan dengan alamat sekolah dan kata sandi, yang dikirim bersama lisensi.",
-    "consoleWaiting": "Pembayaran daring segera dibuka. Sementara itu, tulis kepada kami: kami buka ruang Anda, kirim kredensial, dan siapkan uji coba gratis di sekolah Anda.",
+    "licenceBody": "Akun dibuat dalam satu menit dan memberi lima permainan. Setelah terpakai, langganan dimulai dari ruang Anda dan lisensi langsung berlaku.",
+    "consoleCta": "Mulai gratis",
+    "consoleNote": "Alamat email dan kata sandi, dipilih saat mendaftar. Tidak ada kartu yang diminta untuk memulai.",
+    "consoleWaiting": "Pembayaran daring segera dibuka. Sementara itu, lima permainan gratis tersedia begitu mendaftar, dan sekolah yang telah memakainya menulis kepada kami: lisensinya kami aktifkan hari itu juga.",
     "faqTitle": "Pertanyaan dari sekolah",
     "faq": [
       {
@@ -562,7 +557,7 @@
     "metaDescription": "Ruang sekolah IqraQuest: langganan Anda, sesi-sesi lampau, dan nilai kelas Anda — di tempat yang sama dengan konsol yang menjalankannya.",
     "lede": "Langganan Anda, sesi-sesi lampau, dan nilai murid Anda — di tempat yang sama dengan konsol yang membuka sesi.",
     "signInTitle": "Masuk",
-    "signInBody": "Konsol terbuka dengan alamat sekolah Anda dan kata sandi Anda. Keduanya Anda terima bersama lisensi.",
+    "signInBody": "Konsol terbuka dengan alamat email Anda dan kata sandi yang dipilih saat mendaftar.",
     "cta": "Buka konsol saya",
     "insideTitle": "Yang Anda temukan",
     "inside": [
@@ -579,8 +574,8 @@
         "body": "Bila sesi dihitung per murid, masing-masing punya nilai dari 20 — dihitung atas kartu sesi itu, siap untuk buku nilai."
       }
     ],
-    "newTitle": "Belum punya ruang?",
-    "newBody": "Ruang dibuat bersama lisensi sekolah Anda. Tulis kepada kami: kami buka akses Anda dan mengirimkan kredensialnya.",
+    "newTitle": "Belum punya akun?",
+    "newBody": "Buat dalam satu menit dari konsol: gratis, tanpa kartu, dengan lima permainan. Langganan baru datang setelahnya, jika Anda mau.",
     "lostTitle": "Kata sandi hilang",
     "lostBody": "Konsol mengirim tautan masuk ke alamat sekolah, di bawah «Lupa kata sandi?»."
   },
@@ -709,7 +704,7 @@
       },
       {
         "title": "Mode Kelas (sekolah)",
-        "body": "Mode ini hanya ada ketika sebuah sekolah membuka sesi; tidak menyangkut permainan keluarga maupun permainan sendiri. Murid memasukkan sebuah kode dan sebuah nama depan: tidak ada yang lain. Tanpa akun, tanpa alamat email, tanpa kata sandi, tanpa identitas perangkat. Nama, tim, dan jawaban (benar atau salah) dihapus saat sesi ditutup, dan paling lambat setelah dua hari. Papan yang ditayangkan menampilkan berapa murid yang sudah menjawab — bukan siapa, bukan apa. Sekolah menyimpan ringkasan per pertanyaan yang tidak menyebut nama siapa pun; bila guru memilih peringkat individu, nama-nama di dalamnya dihapus setelah 90 hari dan ringkasannya sendiri dihapus pada 24 bulan. Guru dikenali hanya lewat alamat email yang membeli lisensi, tanpa kata sandi: masuk cukup lewat tautan yang dikirim ke alamat itu. Data ditempatkan di Uni Eropa (Supabase, wilayah Irlandia); pembayaran lisensi ditangani Stripe. Rinciannya lengkap, tabel demi tabel, diterbitkan di repositori proyek."
+        "body": "Mode ini hanya ada ketika sebuah sekolah membuka sesi; tidak menyangkut permainan keluarga maupun permainan sendiri. Murid memasukkan sebuah kode dan sebuah nama depan: tidak ada yang lain. Tanpa akun, tanpa alamat email, tanpa kata sandi, tanpa identitas perangkat. Nama, tim, dan jawaban (benar atau salah) dihapus saat sesi ditutup, dan paling lambat setelah dua hari. Papan yang ditayangkan menampilkan berapa murid yang sudah menjawab — bukan siapa, bukan apa. Sekolah menyimpan ringkasan per pertanyaan yang tidak menyebut nama siapa pun; bila guru memilih peringkat individu, nama-nama di dalamnya dihapus setelah 90 hari dan ringkasannya sendiri dihapus pada 24 bulan. Guru atau sekolah, di sisi lain, memiliki akun: alamat email dan kata sandi yang dikelola Supabase Auth, dengan nama dan nama sekolah opsional. Akun ini membawa lisensi — permainan gratis yang terpakai, langganan dan tanggal berakhirnya — serta id pelanggan Stripe. IqraQuest tidak pernah melihat atau menyimpan data bank: pembayaran dan faktur ada di Stripe. Akun dapat dihapus dari konsol; profil, lisensi, sesi, dan laporan lalu dihapus, dan hanya faktur yang tetap di Stripe, yang wajib menyimpannya secara hukum. Data ditempatkan di Uni Eropa (Supabase, wilayah Irlandia); pembayaran lisensi ditangani Stripe. Rinciannya lengkap, tabel demi tabel, diterbitkan di repositori proyek."
       },
       {
         "title": "Apa yang disimpan, dan di mana",
