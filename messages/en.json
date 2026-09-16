@@ -38,9 +38,7 @@
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms of use",
-    "intellectualProperty": "Intellectual property",
-    "schools": "Schools",
-    "account": "My account"
+    "intellectualProperty": "Intellectual property"
   },
   "home": {
     "hero": {
@@ -484,103 +482,6 @@
       }
     ]
   },
-  "schoolsPage": {
-    "eyebrow": "Schools and associations",
-    "title": "IqraQuest in the classroom",
-    "metaDescription": "IqraQuest's classroom mode: a session on the projector, pupils answering from their own device with a code — no account, no email address.",
-    "lede": "One question on the board, the whole class answering at once, and horses that move forward on every right answer. No account, no email, and nothing left behind when the bell rings.",
-    "stepsTitle": "A session, in three moments",
-    "steps": [
-      {
-        "title": "The teacher opens the session",
-        "body": "From the web console: a lesson, a level, the length you want. A six-character code appears on the board, with a QR code beside it."
-      },
-      {
-        "title": "The pupils join",
-        "body": "They scan or type the code, enter a first name, and that is all. No account, no address, no password. A phone, a tablet or a classroom computer will do."
-      },
-      {
-        "title": "The class plays together",
-        "body": "Everyone gets the same card at the same moment, each in their own language, with the answers in a different order on every screen. The teacher reveals when they decide to: the source appears, and the horses move."
-      }
-    ],
-    "privacyTitle": "What the class does not leave behind",
-    "privacyBody": "A pupil is never an account. What they give — a first name — lives as long as the lesson and goes with it.",
-    "privacyPoints": [
-      "No account, no email address, no device identifier.",
-      "The board shows how many pupils have answered — never who, never what.",
-      "When the session closes the names are erased: only a per-question summary remains.",
-      "A session left open erases itself after two days."
-    ],
-    "tiersTitle": "The plans",
-    "tiers": [
-      {
-        "name": "Discovery offer",
-        "price": "Free",
-        "body": "Free account, no card. Five games to try the School mode with a real class."
-      },
-      {
-        "name": "IqraQuest École",
-        "price": "€89 / year",
-        "body": "Unlimited games for a year, up to two simultaneous game sessions, full access to the School mode."
-      }
-    ],
-    "tiersNote": "A yearly subscription, per school, renewed each year until cancelled — cancelling takes one click and access stays open until the end date. Pupils join free, with no account and no cap on numbers.",
-    "licenceTitle": "The licence",
-    "licenceBody": "The account takes a minute to create and gives five games. Once they are used, the subscription starts from your account and the licence applies at once.",
-    "consoleCta": "Start for free",
-    "consoleNote": "E-mail address and password, chosen when you sign up. No card is asked for to start.",
-    "consoleWaiting": "Online payment opens shortly. Until then, the five free games are available as soon as you sign up, and a school that has used them writes to us: we activate its licence the same day.",
-    "faqTitle": "Questions schools ask",
-    "faq": [
-      {
-        "question": "Does anything need installing?",
-        "answer": "For pupils: the IqraQuest app, or simply a browser — the same screen works on a school Chromebook or tablet. For the teacher: nothing, the console is a web page."
-      },
-      {
-        "question": "How many pupils per session?",
-        "answer": "Up to sixty in one room. A Classroom licence runs one room at a time; a School licence runs as many as the school has paid for."
-      },
-      {
-        "question": "What does the school keep afterwards?",
-        "answer": "A per-question summary: how many pupils answered, how many were right. Enough to know what to go over again, without ever naming a child. An individual ranking exists only if the teacher asked for one for that session."
-      },
-      {
-        "question": "Are the questions sourced?",
-        "answer": "Every card shows its source — a verse, a hadith from the two most rigorous collections, or an established fact of the Sīra — and anything open to debate is left out. It is the same bank as the family game."
-      }
-    ],
-    "subscribeCta": "Choose IqraQuest École"
-  },
-  "accountPage": {
-    "eyebrow": "Account",
-    "title": "My account",
-    "metaDescription": "The IqraQuest school account: your subscription, your past sessions and your classes' scores, in the same place as the console that runs them.",
-    "lede": "Your subscription, your past sessions and your pupils' marks — in the same place as the console that opens a session.",
-    "signInTitle": "Sign in",
-    "signInBody": "The console opens with your e-mail address and the password you chose when signing up.",
-    "cta": "Open my console",
-    "insideTitle": "What you'll find",
-    "inside": [
-      {
-        "title": "Your subscription",
-        "body": "The plan, how many rooms are open out of those you paid for, and the renewal date. As it draws near, the console counts the days."
-      },
-      {
-        "title": "Your past sessions",
-        "body": "Every session with its date, its lesson, how many pupils took part and how much of it the class got right."
-      },
-      {
-        "title": "Marks to copy across",
-        "body": "When the session counted by pupil, each one has a mark out of 20 — worked out over the cards of that session, ready for the register."
-      }
-    ],
-    "newTitle": "No account yet?",
-    "newBody": "Create one in a minute from the console: free, no card, with five games included. The subscription only comes afterwards, if you want it.",
-    "lostTitle": "Lost password",
-    "lostBody": "The console sends a sign-in link back to the school's address, under “Forgotten your password?”.",
-    "createCta": "Create a free account"
-  },
   "aboutPage": {
     "eyebrow": "About",
     "title": "Why IqraQuest exists",
@@ -690,7 +591,7 @@
     "metaDescription": "IqraQuest collects no personal data: no account, no server, no advertising, no tracking. Everything stays on your device.",
     "updated": "4 September 2026",
     "summaryTitle": "In short",
-    "summaryBody": "The family game collects no personal data: no account, no server, no advertising, no tracking — everything stays on the device. The classroom mode, used only by schools, is the exception and is described in full below: it uses a European server and keeps a pupil's first name for the length of a lesson.",
+    "summaryBody": "Neither this site nor the IqraQuest app collects personal data. There is no user account, no server, no advertising and no tracking.",
     "sections": [
       {
         "title": "This website",
@@ -703,10 +604,6 @@
       {
         "title": "The app",
         "body": "IqraQuest neither creates nor requires an account, runs no server, displays no advertising, includes no advertising or analytics SDK and uses no fingerprinting technique. The app works entirely offline once installed, apart from the purchase flow handled by the App Store or Google Play."
-      },
-      {
-        "title": "The classroom mode (schools)",
-        "body": "This mode exists only when a school opens a session; it concerns neither the family game nor solo play. A pupil enters a code and a first name: nothing else. No account, no email address, no password, no device identifier. The first name, the team and the answers (right or wrong) are erased when the session closes, and after two days at the latest. The projected board shows how many pupils have answered — never who, never what. The school keeps a per-question summary, which names nobody; if the teacher chose the individual ranking, the first names it holds are stripped after 90 days and the summary itself is deleted at 24 months. The teacher or the school, for their part, has an account: an e-mail address and a password, managed by Supabase Auth, optionally with a name and a school name. That account carries the licence — free games used, subscription and its end date — and a Stripe customer id. IqraQuest never sees or keeps any bank details: payment and invoices live with Stripe. The account can be deleted from the console; profile, licence, sessions and reports are then erased, and only the invoices remain with Stripe, which is legally required to keep them. The data is hosted in the European Union (Supabase, Ireland region); licence payments are handled by Stripe. The full detail, table by table, is published in the project's repository."
       },
       {
         "title": "What is stored, and where",

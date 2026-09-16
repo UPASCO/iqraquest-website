@@ -38,9 +38,7 @@
     "contact": "Hubungi",
     "privacy": "Privasi",
     "terms": "Terma penggunaan",
-    "intellectualProperty": "Harta intelek",
-    "schools": "Sekolah",
-    "account": "Ruang saya"
+    "intellectualProperty": "Harta intelek"
   },
   "home": {
     "hero": {
@@ -484,103 +482,6 @@
       }
     ]
   },
-  "schoolsPage": {
-    "eyebrow": "Sekolah dan persatuan",
-    "title": "IqraQuest di dalam kelas",
-    "metaDescription": "Mod Kelas IqraQuest: satu sesi dipancarkan pada papan, murid menjawab dari peranti masing-masing dengan satu kod — tanpa akaun, tanpa alamat e-mel.",
-    "lede": "Satu soalan pada papan, seluruh kelas menjawab serentak, dan kuda yang melangkah setiap kali jawapan betul. Tanpa akaun, tanpa e-mel, dan tiada apa-apa yang tinggal selepas loceng.",
-    "stepsTitle": "Satu sesi, tiga langkah",
-    "steps": [
-      {
-        "title": "Guru membuka sesi",
-        "body": "Dari konsol web: satu pelajaran, satu tahap, panjang yang dikehendaki. Kod enam aksara muncul pada papan, berserta kod QR."
-      },
-      {
-        "title": "Murid menyertai",
-        "body": "Mereka mengimbas atau menaip kod, memasukkan nama, dan itu sahaja. Tanpa akaun, tanpa alamat, tanpa kata laluan. Sebuah telefon, tablet atau komputer kelas sudah memadai."
-      },
-      {
-        "title": "Kelas bermain bersama",
-        "body": "Semua menerima kad yang sama pada saat yang sama, masing-masing dalam bahasanya, dengan jawapan dalam susunan berbeza pada setiap skrin. Guru mendedahkan jawapan bila dia mahu: sumbernya terpapar, dan kuda pun melangkah."
-      }
-    ],
-    "privacyTitle": "Apa yang kelas ini tidak tinggalkan",
-    "privacyBody": "Seorang murid tidak pernah menjadi akaun. Apa yang diberinya — sebuah nama — hidup selama pelajaran dan pergi bersamanya.",
-    "privacyPoints": [
-      "Tiada akaun, tiada alamat e-mel, tiada pengenalan peranti.",
-      "Papan menunjukkan berapa ramai telah menjawab — bukan siapa, bukan apa.",
-      "Apabila sesi ditutup, nama dipadam: tinggal hanya ringkasan bagi setiap soalan.",
-      "Sesi yang terlupa dipadam dengan sendirinya selepas dua hari."
-    ],
-    "tiersTitle": "Pakej",
-    "tiers": [
-      {
-        "name": "Tawaran perkenalan",
-        "price": "Percuma",
-        "body": "Akaun percuma, tanpa kad. Lima permainan untuk mencuba mod Sekolah dengan kelas sebenar."
-      },
-      {
-        "name": "IqraQuest École",
-        "price": "€89 / tahun",
-        "body": "Permainan tanpa had selama setahun, sehingga dua sesi permainan serentak, akses penuh ke mod Sekolah."
-      }
-    ],
-    "tiersNote": "Langganan tahunan setiap sekolah, diperbaharui setiap tahun selagi tidak dibatalkan — pembatalan satu klik dan akses kekal terbuka sehingga hujung tempoh. Murid menyertai secara percuma, tanpa akaun dan tanpa had bilangan.",
-    "licenceTitle": "Lesen",
-    "licenceBody": "Akaun dicipta dalam seminit dan memberi lima permainan. Apabila habis digunakan, langganan bermula dari ruang anda dan lesen terpakai serta-merta.",
-    "consoleCta": "Mula secara percuma",
-    "consoleNote": "Alamat e-mel dan kata laluan, dipilih semasa mendaftar. Tiada kad diminta untuk bermula.",
-    "consoleWaiting": "Pembayaran dalam talian akan dibuka tidak lama lagi. Sementara itu, lima permainan percuma tersedia sebaik mendaftar, dan sekolah yang telah menggunakannya menulis kepada kami: kami aktifkan lesennya pada hari yang sama.",
-    "faqTitle": "Soalan daripada sekolah",
-    "faq": [
-      {
-        "question": "Perlukah memasang apa-apa?",
-        "answer": "Untuk murid: aplikasi IqraQuest, atau sekadar pelayar — skrin yang sama berfungsi pada Chromebook atau tablet sekolah. Untuk guru: tiada, konsolnya sebuah halaman web."
-      },
-      {
-        "question": "Berapa ramai murid setiap sesi?",
-        "answer": "Sehingga enam puluh dalam satu bilik. Lesen Kelas menjalankan satu bilik pada satu masa; lesen Sekolah sebanyak yang dibayar oleh sekolah."
-      },
-      {
-        "question": "Apa yang sekolah simpan selepas itu?",
-        "answer": "Ringkasan bagi setiap soalan: berapa yang menjawab, berapa yang betul. Cukup untuk tahu apa yang perlu diterangkan semula, tanpa sekali pun menamakan seorang kanak-kanak. Kedudukan individu hanya wujud jika guru memintanya untuk sesi itu."
-      },
-      {
-        "question": "Adakah soalan bersumber?",
-        "answer": "Setiap kad memaparkan sumbernya — satu ayat, satu hadis daripada dua himpunan paling ketat, atau peristiwa Sīrah yang mantap — dan perkara yang diperdebatkan ditinggalkan. Ia bank yang sama dengan permainan keluarga."
-      }
-    ],
-    "subscribeCta": "Pilih IqraQuest École"
-  },
-  "accountPage": {
-    "eyebrow": "Ruang pelanggan",
-    "title": "Ruang saya",
-    "metaDescription": "Ruang sekolah IqraQuest: langganan anda, sesi lepas dan markah kelas anda — di tempat yang sama dengan konsol yang melancarkannya.",
-    "lede": "Langganan anda, sesi lepas dan markah murid anda — di tempat yang sama dengan konsol yang membuka sesi.",
-    "signInTitle": "Log masuk",
-    "signInBody": "Konsol dibuka dengan alamat e-mel anda dan kata laluan yang dipilih semasa mendaftar.",
-    "cta": "Buka konsol saya",
-    "insideTitle": "Apa yang anda temui",
-    "inside": [
-      {
-        "title": "Langganan anda",
-        "body": "Pakejnya, berapa bilik dibuka daripada yang anda bayar, dan tarikh pembaharuan. Apabila menghampiri, konsol mengira harinya."
-      },
-      {
-        "title": "Sesi lepas anda",
-        "body": "Setiap sesi dengan tarikh, pelajaran, bilangan murid dan peratusan jawapan betul kelas."
-      },
-      {
-        "title": "Markah untuk disalin",
-        "body": "Apabila sesi dikira setiap murid, masing-masing ada markah daripada 20 — dikira atas kad sesi itu, sedia untuk buku rekod."
-      }
-    ],
-    "newTitle": "Belum ada akaun?",
-    "newBody": "Cipta dalam seminit dari konsol: percuma, tanpa kad, dengan lima permainan. Langganan hanya datang selepas itu, jika anda mahu.",
-    "lostTitle": "Kata laluan hilang",
-    "lostBody": "Konsol menghantar pautan log masuk ke alamat sekolah, di bawah «Lupa kata laluan?».",
-    "createCta": "Cipta akaun percuma"
-  },
   "aboutPage": {
     "eyebrow": "Tentang",
     "title": "Mengapa IqraQuest wujud",
@@ -690,7 +591,7 @@
     "metaDescription": "IqraQuest tidak mengumpul sebarang data peribadi: tiada akaun, tiada pelayan, tiada iklan, tiada penjejakan. Semuanya kekal pada peranti anda.",
     "updated": "4 September 2026",
     "summaryTitle": "Ringkasnya",
-    "summaryBody": "Permainan keluarga tidak mengumpul sebarang data peribadi: tiada akaun, tiada pelayan, tiada iklan, tiada penjejakan — semuanya kekal pada peranti. Mod Kelas, yang digunakan oleh sekolah sahaja, ialah pengecualiannya dan diterangkan sepenuhnya di bawah: ia menggunakan pelayan Eropah dan menyimpan nama seorang murid selama satu pelajaran.",
+    "summaryBody": "Laman ini mahupun aplikasi IqraQuest tidak mengumpul data peribadi. Tiada akaun pengguna, tiada pelayan, tiada iklan dan tiada penjejakan.",
     "sections": [
       {
         "title": "Laman web ini",
@@ -703,10 +604,6 @@
       {
         "title": "Aplikasi",
         "body": "IqraQuest tidak mencipta mahupun menuntut akaun, tidak mengendalikan sebarang pelayan, tidak memaparkan sebarang iklan, tidak menyertakan sebarang SDK pengiklanan atau analitis dan tidak menggunakan sebarang teknik pengenalpastian melalui cap jari peranti. Aplikasi ini berfungsi sepenuhnya di luar talian selepas pemasangan, kecuali proses pembelian yang dikendalikan oleh App Store atau Google Play."
-      },
-      {
-        "title": "Mod Kelas (sekolah)",
-        "body": "Mod ini hanya wujud apabila sebuah sekolah membuka sesi; ia tidak melibatkan permainan keluarga mahupun permainan seorang diri. Murid memasukkan satu kod dan satu nama: tiada yang lain. Tiada akaun, tiada alamat e-mel, tiada kata laluan, tiada pengenalan peranti. Nama, pasukan dan jawapan (betul atau salah) dipadam apabila sesi ditutup, dan selewat-lewatnya selepas dua hari. Papan yang dipancarkan menunjukkan berapa ramai murid telah menjawab — bukan siapa, bukan apa. Sekolah menyimpan ringkasan bagi setiap soalan yang tidak menamakan sesiapa; jika guru memilih kedudukan individu, nama di dalamnya dibuang selepas 90 hari dan ringkasan itu sendiri dipadam pada 24 bulan. Guru atau sekolah pula mempunyai akaun: alamat e-mel dan kata laluan yang diuruskan Supabase Auth, dengan nama dan nama sekolah pilihan. Akaun ini membawa lesen — permainan percuma yang digunakan, langganan dan tarikh tamatnya — serta id pelanggan Stripe. IqraQuest tidak melihat atau menyimpan sebarang data bank: pembayaran dan invois berada di Stripe. Akaun boleh dipadam dari konsol; profil, lesen, sesi dan laporan dipadam, dan hanya invois kekal di Stripe, yang wajib menyimpannya di sisi undang-undang. Data dihoskan di Kesatuan Eropah (Supabase, wilayah Ireland); pembayaran lesen dikendalikan oleh Stripe. Butiran penuh, jadual demi jadual, diterbitkan dalam repositori projek."
       },
       {
         "title": "Apa yang disimpan, dan di mana",

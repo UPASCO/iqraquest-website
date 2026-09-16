@@ -53,44 +53,6 @@ export const stores = {
 export const isAnyStoreLive = stores.ios.available || stores.android.available;
 
 /**
- * The teacher's console, on its own subdomain.
- *
- * Same rule as the store badges, for the same reason: the link only
- * becomes a link when the flag is on AND the address is set. A page that
- * offers a school a button to nowhere is worse than one that says
- * "bientôt" — and the console goes live only once the DNS record, the
- * Pages domain and the build all exist, which no code here can know.
- */
-const classroomConsoleUrl =
-  env('NEXT_PUBLIC_CLASSROOM_CONSOLE_URL') ?? 'https://school.iqraquest.org';
-
-/**
- * Deux disponibilités, pas une.
- *
- * Se connecter à la console et acheter en ligne sont deux choses, et
- * elles ne sont pas arrivées le même jour. Un seul drapeau forçait à
- * choisir entre cacher un espace client qui fonctionne, et promettre un
- * achat en ligne qui n'existe pas encore.
- *
- * - `available` : la console répond et l'on peut s'y connecter. Vrai par
- *   défaut depuis que school.iqraquest.org est publié ; la variable
- *   d'environnement reste là pour la refermer d'un déploiement si le
- *   service tombe.
- * - `checkout`  : on peut payer en ligne. Faux tant que les liens de
- *   paiement n'existent pas — d'ici là une école nous écrit, et c'est
- *   dit comme tel plutôt que caché derrière un bouton qui échoue.
- */
-export const classroom = {
-  url: classroomConsoleUrl,
-  /** La console, ouverte directement sur « Créer un compte ». */
-  signupUrl: `${classroomConsoleUrl.replace(/\/$/, '')}/?signup=1#/teacher`,
-  available:
-    env('NEXT_PUBLIC_CLASSROOM_AVAILABLE')?.toLowerCase() !== 'false' &&
-    Boolean(classroomConsoleUrl),
-  checkout: flag('NEXT_PUBLIC_CLASSROOM_CHECKOUT'),
-} as const;
-
-/**
  * Social profiles.
  *
  * Only platforms with a real, configured URL are rendered — the site
@@ -155,12 +117,6 @@ export const siteConfig = {
   stores,
   socialLinks,
 
-  /**
-   * The teacher's console and the projected board, on their own
-   * subdomain. The classroom is bought and run there, never in the
-   * mobile app: nothing in a store build links to a payment page.
-   */
-  classroomConsoleUrl,
 
   /** Store-listing facts, kept in sync with the application repository. */
   app: {
